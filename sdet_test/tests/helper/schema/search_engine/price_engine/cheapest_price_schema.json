@@ -1,0 +1,13 @@
+{
+  "getValidResponseCheapestPrice": {
+    "type": "object",
+    "required": [
+      "price"
+    ],
+    "properties": {
+      "price": {
+        "type": "integer"
+      }
+    }
+  }
+}

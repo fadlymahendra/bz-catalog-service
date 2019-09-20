@@ -1,0 +1,450 @@
+{
+  "validReqSkuWithProdGroup": {
+    "product_group_id": 2,
+    "products": [{
+      "variants": [{
+        "attribute_id": 1,
+        "attribute_code": "phone_color",
+        "attribute_code_label": "Warna",
+        "attribute_value_name": "White",
+        "attribute_value_id": 11
+      }, {
+        "attribute_id": 2,
+        "attribute_code": "phone_storage",
+        "attribute_code_label": "Kapasitas",
+        "attribute_value_name": "128GB",
+        "attribute_value_id": 371
+      }],
+      "variant_value": {
+        "phone_color": 11,
+        "phone_storage": 371
+      },
+      "sku_vendor": "APIPHFRMM0CH4",
+      "tier_min_qty_1": "1",
+      "tier_min_qty_2": "20",
+      "tier_min_qty_3": "50",
+      "tier_cogs_price_1": "10000000",
+      "tier_cogs_price_2": "9800000",
+      "tier_cogs_price_3": "9700000",
+      "stock": "20",
+      "primary_image": "https://catalogproducts-staging.s3.ap-southeast-1.amazonaws.com/2018/05/product_1526017201.png",
+      "additional_image": [],
+      "warehouse_id": 9,
+      "location_label": "Jawa Barat",
+      "reference_link": [],
+      "warranty_option": "no_warranty",
+      "warranty_period": "",
+      "warranty_limit": "",
+      "is_indent": 0,
+      "indent_period": "",
+      "indent_limit": "",
+      "is_decimal" : 0,
+      "down_payment_type": 0,
+      "down_payment_value" : 0,
+      "warranty_coverage": ""
+    }]
+  },
+  "validReqSkuWithOnlyQtyTier1PriceTier1": {
+    "product_group_id": "2",
+    "products": [{
+      "variants": [{
+        "attribute_id": 1,
+        "attribute_code": "phone_color",
+        "attribute_code_label": "Warna",
+        "attribute_value_name": "Gold",
+        "attribute_value_id": 385
+      }, {
+        "attribute_id": 2,
+        "attribute_code": "phone_storage",
+        "attribute_code_label": "Kapasitas",
+        "attribute_value_name": "128GB",
+        "attribute_value_id": 371
+      }],
+      "variant_value": {
+        "phone_color": 385,
+        "phone_storage": 371
+      },
+      "sku_vendor": "APIPHFRMM0CH4GLD",
+      "tier_min_qty_1": "1",
+      "tier_cogs_price_1": "10000000",
+      "stock": "20",
+      "primary_image": "https://catalogproducts-staging.s3.ap-southeast-1.amazonaws.com/2018/05/product_1526017201.png",
+      "additional_image": [],
+      "warehouse_id": 9,
+      "location_label": "Jawa Barat",
+      "reference_link": [],
+      "warranty_option": "no_warranty",
+      "warranty_period": "",
+      "warranty_limit": "",
+      "is_indent": 0,
+      "indent_period": "",
+      "indent_limit": "",
+      "down_payment_type": 0,
+      "down_payment_value": 0,
+      "is_decimal": 0,
+      "warranty_coverage": ""
+    }]
+  },
+  "validReqSkuWithDecimal": {
+    "product_group_id": "3",
+    "products": [{
+      "variants": [{
+        "attribute_id": 1,
+        "attribute_code": "phone_color",
+        "attribute_code_label": "Warna",
+        "attribute_value_name": "White",
+        "attribute_value_id": 11
+      }, {
+        "attribute_id": 2,
+        "attribute_code": "phone_storage",
+        "attribute_code_label": "Kapasitas",
+        "attribute_value_name": "128GB",
+        "attribute_value_id": 371
+      }],
+      "variant_value": {
+        "phone_color": 11,
+        "phone_storage": 371
+      },
+      "sku_vendor": "DECLAB87426",
+      "tier_min_qty_1": "1",
+      "tier_min_qty_2": "20",
+      "tier_min_qty_3": "50",
+      "tier_cogs_price_1": "10000000",
+      "tier_cogs_price_2": "9800000",
+      "tier_cogs_price_3": "9700000",
+      "stock": "20",
+      "primary_image": "https://catalogproducts-staging.s3.ap-southeast-1.amazonaws.com/2018/05/product_1526017201.png",
+      "additional_image": [],
+      "warehouse_id": 9,
+      "location_label": "Jawa Barat",
+      "reference_link": [],
+      "warranty_option": "no_warranty",
+      "warranty_period": "",
+      "warranty_limit": "",
+      "is_indent": 0,
+      "indent_period": "",
+      "indent_limit": "",
+      "down_payment_type": 0,
+      "down_payment_value": 0,
+      "is_decimal": 1,
+      "warranty_coverage": ""
+    }]
+  },
+  "validReqSkuWithIndent": {
+    "product_group_id": "113",
+    "products": [{
+      "variants": [{
+        "attribute_id": 1,
+        "attribute_code": "phone_color",
+        "attribute_code_label": "Warna",
+        "attribute_value_name": "Black",
+        "attribute_value_id": 11
+      }, {
+        "attribute_id": 2,
+        "attribute_code": "phone_storage",
+        "attribute_code_label": "Kapasitas",
+        "attribute_value_name": "64GB",
+        "attribute_value_id": 371
+      }],
+      "variant_value": {
+        "phone_color": 11,
+        "phone_storage": 371
+      },
+      "sku_vendor": "LABIND9872",
+      "tier_min_qty_1": "1",
+      "tier_min_qty_2": "20",
+      "tier_min_qty_3": "50",
+      "tier_cogs_price_1": "10000000",
+      "tier_cogs_price_2": "9800000",
+      "tier_cogs_price_3": "9700000",
+      "stock": 0,
+      "primary_image": "https://catalogproducts-staging.s3.ap-southeast-1.amazonaws.com/2018/05/product_1526017201.png",
+      "additional_image": [],
+      "warehouse_id": 9,
+      "location_label": "Jawa Barat",
+      "reference_link": [],
+      "warranty_option": "no_warranty",
+      "warranty_period": "",
+      "warranty_limit": "",
+      "is_indent": 1,
+      "indent_period": "day",
+      "indent_limit": "10",
+      "down_payment_type": 0,
+      "down_payment_value": 0,
+      "is_decimal": 0,
+      "warranty_coverage": ""
+    }]
+  },
+  "validReqSkuWithDP": {
+    "product_group_id": "417",
+    "products": [{
+      "variants": [{
+        "attribute_id": 1,
+        "attribute_code": "phone_color",
+        "attribute_code_label": "Warna",
+        "attribute_value_name": "Black",
+        "attribute_value_id": 11
+      }, {
+        "attribute_id": 2,
+        "attribute_code": "phone_storage",
+        "attribute_code_label": "Kapasitas",
+        "attribute_value_name": "64GB",
+        "attribute_value_id": 371
+      }],
+      "variant_value": {
+        "phone_color": 11,
+        "phone_storage": 371
+      },
+      "sku_vendor": "LABDP76872",
+      "tier_min_qty_1": "1",
+      "tier_min_qty_2": "20",
+      "tier_min_qty_3": "50",
+      "tier_cogs_price_1": "10000000",
+      "tier_cogs_price_2": "9800000",
+      "tier_cogs_price_3": "9700000",
+      "stock": 0,
+      "primary_image": "https://catalogproducts-staging.s3.ap-southeast-1.amazonaws.com/2018/05/product_1526017201.png",
+      "additional_image": [],
+      "warehouse_id": 9,
+      "location_label": "Jawa Barat",
+      "reference_link": [],
+      "warranty_option": "no_warranty",
+      "warranty_period": "",
+      "warranty_limit": "",
+      "is_indent": 1,
+      "indent_period": "day",
+      "indent_limit": "10",
+      "down_payment_type": 1,
+      "down_payment_value": 30,
+      "is_decimal": 0,
+      "warranty_coverage": ""
+    }]
+  },
+  "nonactiveDecimal": {
+    "product_group_id": "212",
+    "products": [{
+      "variants": [{
+        "attribute_id": 1,
+        "attribute_code": "phone_color",
+        "attribute_code_label": "Warna",
+        "attribute_value_name": "White",
+        "attribute_value_id": 11
+      }, {
+        "attribute_id": 2,
+        "attribute_code": "phone_storage",
+        "attribute_code_label": "Kapasitas",
+        "attribute_value_name": "128GB",
+        "attribute_value_id": 371
+      }],
+      "variant_value": {
+        "phone_color": 11,
+        "phone_storage": 371
+      },
+      "sku_vendor": "NODECLAB811657",
+      "tier_min_qty_1": "1",
+      "tier_min_qty_2": "20",
+      "tier_min_qty_3": "50",
+      "tier_cogs_price_1": "10000000",
+      "tier_cogs_price_2": "9800000",
+      "tier_cogs_price_3": "9700000",
+      "stock": "20",
+      "primary_image": "https://catalogproducts-staging.s3.ap-southeast-1.amazonaws.com/2018/05/product_1526017201.png",
+      "additional_image": [],
+      "warehouse_id": 9,
+      "location_label": "Jawa Barat",
+      "reference_link": [],
+      "warranty_option": "no_warranty",
+      "warranty_period": "",
+      "warranty_limit": "",
+      "is_indent": 0,
+      "indent_period": "",
+      "indent_limit": "",
+      "down_payment_type": 0,
+      "down_payment_value": 0,
+      "is_decimal": 0,
+      "warranty_coverage": ""
+    }]
+  },
+  "nonActiveIndent": {
+    "product_group_id": "432",
+    "products": [{
+      "variants": [{
+        "attribute_id": 1,
+        "attribute_code": "phone_color",
+        "attribute_code_label": "Warna",
+        "attribute_value_name": "White",
+        "attribute_value_id": 11
+      }, {
+        "attribute_id": 2,
+        "attribute_code": "phone_storage",
+        "attribute_code_label": "Kapasitas",
+        "attribute_value_name": "128GB",
+        "attribute_value_id": 371
+      }],
+      "variant_value": {
+        "phone_color": 11,
+        "phone_storage": 371
+      },
+      "sku_vendor": "NOINDLAB874676",
+      "tier_min_qty_1": "1",
+      "tier_min_qty_2": "20",
+      "tier_min_qty_3": "50",
+      "tier_cogs_price_1": "10000000",
+      "tier_cogs_price_2": "9800000",
+      "tier_cogs_price_3": "9700000",
+      "stock": "20",
+      "primary_image": "https://catalogproducts-staging.s3.ap-southeast-1.amazonaws.com/2018/05/product_1526017201.png",
+      "additional_image": [],
+      "warehouse_id": 9,
+      "location_label": "Jawa Barat",
+      "reference_link": [],
+      "warranty_option": "no_warranty",
+      "warranty_period": "",
+      "warranty_limit": "",
+      "is_indent": 0,
+      "indent_period": "",
+      "indent_limit": "",
+      "down_payment_type": 0,
+      "down_payment_value": 0,
+      "is_decimal": 0,
+      "warranty_coverage": ""
+    }]
+  },
+  "nonactiveDP": {
+    "product_group_id": "224",
+    "products": [{
+      "variants": [{
+        "attribute_id": 1,
+        "attribute_code": "phone_color",
+        "attribute_code_label": "Warna",
+        "attribute_value_name": "White",
+        "attribute_value_id": 11
+      }, {
+        "attribute_id": 2,
+        "attribute_code": "phone_storage",
+        "attribute_code_label": "Kapasitas",
+        "attribute_value_name": "128GB",
+        "attribute_value_id": 371
+      }],
+      "variant_value": {
+        "phone_color": 11,
+        "phone_storage": 371
+      },
+      "sku_vendor": "NODPLAB84325",
+      "tier_min_qty_1": "1",
+      "tier_min_qty_2": "20",
+      "tier_min_qty_3": "50",
+      "tier_cogs_price_1": "10000000",
+      "tier_cogs_price_2": "9800000",
+      "tier_cogs_price_3": "9700000",
+      "stock": 0,
+      "primary_image": "https://catalogproducts-staging.s3.ap-southeast-1.amazonaws.com/2018/05/product_1526017201.png",
+      "additional_image": [],
+      "warehouse_id": 9,
+      "location_label": "Jawa Barat",
+      "reference_link": [],
+      "warranty_option": "no_warranty",
+      "warranty_period": "",
+      "warranty_limit": "",
+      "is_indent": 1,
+      "indent_period": "day",
+      "indent_limit": "40",
+      "down_payment_type": 0,
+      "down_payment_value": 0,
+      "is_decimal": 0,
+      "warranty_coverage": ""
+    }]
+  },
+  "nonactiveIndentAndNonactiveDP": {
+    "product_group_id": "22",
+    "products": [{
+      "variants": [{
+        "attribute_id": 1,
+        "attribute_code": "phone_color",
+        "attribute_code_label": "Warna",
+        "attribute_value_name": "White",
+        "attribute_value_id": 11
+      }, {
+        "attribute_id": 2,
+        "attribute_code": "phone_storage",
+        "attribute_code_label": "Kapasitas",
+        "attribute_value_name": "128GB",
+        "attribute_value_id": 371
+      }],
+      "variant_value": {
+        "phone_color": 11,
+        "phone_storage": 371
+      },
+      "sku_vendor": "NODPINDLAB762537",
+      "tier_min_qty_1": "1",
+      "tier_min_qty_2": "20",
+      "tier_min_qty_3": "50",
+      "tier_cogs_price_1": "10000000",
+      "tier_cogs_price_2": "9800000",
+      "tier_cogs_price_3": "9700000",
+      "stock": "20",
+      "primary_image": "https://catalogproducts-staging.s3.ap-southeast-1.amazonaws.com/2018/05/product_1526017201.png",
+      "additional_image": [],
+      "warehouse_id": 9,
+      "location_label": "Jawa Barat",
+      "reference_link": [],
+      "warranty_option": "no_warranty",
+      "warranty_period": "",
+      "warranty_limit": "",
+      "is_indent": 0,
+      "indent_period": "",
+      "indent_limit": "",
+      "is_decimal": 0,
+      "down_payment_type": 0,
+      "down_payment_value": 0,
+      "warranty_coverage": ""
+    }]
+  },
+
+  "activeDPNonactiveIndent": {
+    "product_group_id": "36",
+    "products": [{
+      "variants": [{
+        "attribute_id": 1,
+        "attribute_code": "phone_color",
+        "attribute_code_label": "Warna",
+        "attribute_value_name": "White",
+        "attribute_value_id": 11
+      }, {
+        "attribute_id": 2,
+        "attribute_code": "phone_storage",
+        "attribute_code_label": "Kapasitas",
+        "attribute_value_name": "128GB",
+        "attribute_value_id": 371
+      }],
+      "variant_value": {
+        "phone_color": 11,
+        "phone_storage": 371
+      },
+      "sku_vendor": "NOINDYESDPLAB87392",
+      "tier_min_qty_1": "1",
+      "tier_min_qty_2": "20",
+      "tier_min_qty_3": "50",
+      "tier_cogs_price_1": "10000000",
+      "tier_cogs_price_2": "9800000",
+      "tier_cogs_price_3": "9700000",
+      "stock": "20",
+      "primary_image": "https://catalogproducts-staging.s3.ap-southeast-1.amazonaws.com/2018/05/product_1526017201.png",
+      "additional_image": [],
+      "warehouse_id": 9,
+      "location_label": "Jawa Barat",
+      "reference_link": [],
+      "warranty_option": "no_warranty",
+      "warranty_period": "",
+      "warranty_limit": "",
+      "is_indent": 0,
+      "indent_period": "",
+      "indent_limit": "",
+      "down_payment_type": 1,
+      "down_payment_value": 30,
+      "is_decimal": 0,
+      "warranty_coverage": ""
+    }]
+  },
+  "errorMessageQtyTierOrPriceNotValid": "Tier Qty or Price Not Valid"
+}

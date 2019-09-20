@@ -1,0 +1,25 @@
+{
+  "dataPathBeras": {
+    "sku_number": "IFB7IAA5HU",
+    "category_id": "11444",
+    "brand_id": "1551"
+  },
+  "dataPathIphone": {
+    "sku_number": "KGRO0NF1BJ",
+    "category_id": "7019",
+    "brand_id": "81"
+  },
+  "dataPathMacbook": {
+    "sku_number": "NRKC0PC5DW",
+    "category_id": "5554",
+    "brand_id": "81"
+  },
+  "dataInvalidCategoryPathIphone": {
+    "sku_number": "KGRO0NF1BJ",
+    "category_id": "99997019",
+    "brand_id": "81"
+  },
+  "token": {
+    "invalid": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImlraS5xci50b3AxQHlvcG1haWwuY29tIiwiZmlyc3RfbmFtZSI6InJpZmtpIFFSIFRPUDEiLCJsYXN0X25hbWUiOm51bGwsInNjb3BlIjoib3JnYW5pemF0aW9uIiwicHVuY2hvdXQiOnsiaXNfcHVuY2hvdXQiOmZhbHNlLCJpc191c2VyX3B1bmNob3V0IjpmYWxzZSwic2FsZXNfYWRtaW5faWQiOjAsImRhdGEiOnt9fSwiY3VzdG9tZXIiOnsib3JnYW5pemF0aW9uX25hbWUiOiJQVCBOdWdyYWhhIFFSIFRPUDEiLCJvcmdhbml6YXRpb25faWQiOjI2LCJwZXJzb25faWQiOjY5LCJzdXBlcmFkbWluIjo2OSwicm9sZXMiOlt7InJvbGVfaWQiOjEsIm5hbWUiOiJTdXBlciBBZG1pbiJ9LHsicm9sZV9pZCI6MTAsIm5hbWUiOiJSZXF1ZXN0b3IifSx7InJvbGVfaWQiOjksIm5hbWUiOiJHcm91cCBBZG1pbiJ9XSwiaXNfdmVuZG9yIjowLCJzZXR1cCI6NSwic3RhdHVzIjozLCJoYXNfYWdyZWVtZW50IjoxLCJjaGFubmVsX3R5cGUiOiJRUiIsInRvcF9kYXlzIjo3fSwiYWRkb25zIjpbeyJwcmVmaXgiOiJncm91cC1tYW5hZ2VtZW50IiwibmFtZSI6Ik1hbmFqZW1lbiBHcnVwIiwidXVpZCI6ImNlYWE1MjAwLWU3MDktMTFlNy1hZDNiLTI5MDVjOGEwYTA5MyJ9LHsicHJlZml4IjoiYXBwcm92YWwtbWFuYWdlbWVudCIsIm5hbWUiOiJBbHVyIFBlcnNldHVqdWFuIiwidXVpZCI6IjIyMTIwZDIwLWU3MTQtMTFlNy1hM2JjLWRiZGM4Y2I0ZDBhOCJ9LHsicHJlZml4IjoiY29udHJhY3QtbWFuYWdlbWVudCIsIm5hbWUiOiJNYW5hamVtZW4gS29udHJhayIsInV1aWQiOiIifV0sImdyb3VwcyI6Ikg0c0lBQUFBQUFBQUF6MktPUXFBTUJCRnJ5Sy9UbU1sNUFvMjlzRmlNS01JV1RRenNSSHZiaG90MytKdTdCNjJId3c4cjFTRHdtcXBiSkFvTWl4R1NwcExOMVVoaFVIaHM3STA4MjNrNDU1K09JNlNMMjV4cFNCTkxLUVU4aWF3Ym43bUY5eG0wRWx0QUFBQSIsInZlcnNpb24iOiIyLjAiLCJpYXQiOjE1MzYyMTQwNTYsImV4cCI6MTUzNjIyMTI1Nn0.s75MJFHI4XmV6sDBEMlL7PLQp2f9BWkVCi1Ij"
+  }
+}

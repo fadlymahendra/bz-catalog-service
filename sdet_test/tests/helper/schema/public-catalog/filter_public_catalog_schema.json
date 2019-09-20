@@ -1,0 +1,930 @@
+{
+  "postValidFilterPublicCatalog": {
+    "type": "object",
+    "required": [
+      "results"
+    ],
+    "properties": {
+      "results": {
+        "$id": "#/properties/results",
+        "type": "array",
+        "items": {
+          "$id": "#/properties/results/items",
+          "type": "object",
+          "required": [],
+          "properties": {
+            "hits": {
+              "$id": "#/properties/results/items/properties/hits",
+              "type": "array",
+              "items": {
+                "$id": "#/properties/results/items/properties/hits/items",
+                "type": "object",
+                "required": [
+                  "sku",
+                  "name",
+                  "url_key",
+                  "specifications",
+                  "primary_image",
+                  "total_offer"
+                ],
+                "properties": {
+                  "type": {
+                    "$id": "#/properties/results/items/properties/hits/items/properties/type",
+                    "type": "string",
+                    "pattern": "^(.*)$"
+                  },
+                  "sku": {
+                    "$id": "#/properties/results/items/properties/hits/items/properties/sku",
+                    "type": "string",
+                    "pattern": "^(.*)$"
+                  },
+                  "name": {
+                    "$id": "#/properties/results/items/properties/hits/items/properties/name",
+                    "type": "string",
+                    "pattern": "^(.*)$"
+                  },
+                  "url_key": {
+                    "$id": "#/properties/results/items/properties/hits/items/properties/url_key",
+                    "type": "string",
+                    "pattern": "^(.*)$"
+                  },
+                  "product_group": {
+                    "$id": "#/properties/results/items/properties/hits/items/properties/product_group",
+                    "type": "object",
+                    "required": [
+                      "id",
+                      "name",
+                      "url_key"
+                    ],
+                    "properties": {
+                      "id": {
+                        "$id": "#/properties/results/items/properties/hits/items/properties/product_group/properties/id",
+                        "type": "integer"
+                      },
+                      "name": {
+                        "$id": "#/properties/results/items/properties/hits/items/properties/product_group/properties/name",
+                        "type": "string",
+                        "pattern": "^(.*)$"
+                      },
+                      "url_key": {
+                        "$id": "#/properties/results/items/properties/hits/items/properties/product_group/properties/url_key",
+                        "type": "string",
+                        "pattern": "^(.*)$"
+                      }
+                    }
+                  },
+                  "product_variant": {
+                    "$id": "#/properties/results/items/properties/hits/items/properties/product_variant",
+                    "type": "object",
+                    "required": [
+                      "id",
+                      "sku",
+                      "long_name",
+                      "url_key"
+                    ],
+                    "properties": {
+                      "id": {
+                        "$id": "#/properties/results/items/properties/hits/items/properties/product_variant/properties/id",
+                        "type": "integer"
+                      },
+                      "sku": {
+                        "$id": "#/properties/results/items/properties/hits/items/properties/product_variant/properties/sku",
+                        "type": "string",
+                        "pattern": "^(.*)$"
+                      },
+                      "long_name": {
+                        "$id": "#/properties/results/items/properties/hits/items/properties/product_variant/properties/long_name",
+                        "type": "string",
+                        "pattern": "^(.*)$"
+                      },
+                      "url_key": {
+                        "$id": "#/properties/results/items/properties/hits/items/properties/product_variant/properties/url_key",
+                        "type": "string",
+                        "pattern": "^(.*)$"
+                      }
+                    }
+                  },
+                  "product_vendors": {
+                    "$id": "#/properties/results/items/properties/hits/items/properties/product_vendors",
+                    "type": "array",
+                    "items": {
+                      "$id": "#/properties/results/items/properties/hits/items/properties/product_vendors/items",
+                      "type": "object",
+                      "required": [
+                        "id",
+                        "vendor_id",
+                        "vendor_name",
+                        "vendor_logo",
+                        "warehouse_id",
+                        "warehouse_geograph",
+                        "tier_min_qty_1",
+                        "tier_min_qty_2",
+                        "tier_min_qty_3",
+                        "tier_cogs_price_1",
+                        "tier_cogs_price_2",
+                        "tier_cogs_price_3",
+                        "stock_available",
+                        "currency",
+                        "customer_id",
+                        "is_indent",
+                        "created_at",
+                        "is_active",
+                        "timestamp"
+                      ],
+                      "properties": {
+                        "id": {
+                          "$id": "#/properties/results/items/properties/hits/items/properties/product_vendors/items/properties/id",
+                          "type": "integer"
+                        },
+                        "vendor_id": {
+                          "$id": "#/properties/results/items/properties/hits/items/properties/product_vendors/items/properties/vendor_id",
+                          "type": "integer"
+                        },
+                        "vendor_name": {
+                          "$id": "#/properties/results/items/properties/hits/items/properties/product_vendors/items/properties/vendor_name",
+                          "type": "string",
+                          "pattern": "^(.*)$"
+                        },
+                        "vendor_logo": {
+                          "$id": "#/properties/results/items/properties/hits/items/properties/product_vendors/items/properties/vendor_logo",
+                          "type": "string",
+                          "pattern": "^(.*)$"
+                        },
+                        "warehouse_id": {
+                          "$id": "#/properties/results/items/properties/hits/items/properties/product_vendors/items/properties/warehouse_id",
+                          "type": "integer"
+                        },
+                        "warehouse_geograph": {
+                          "$id": "#/properties/results/items/properties/hits/items/properties/product_vendors/items/properties/warehouse_geograph",
+                          "type": "object",
+                          "required": [
+                            "province",
+                            "city",
+                            "district",
+                            "village",
+                            "zipcode",
+                            "geotag"
+                          ],
+                          "properties": {
+                            "province": {
+                              "$id": "#/properties/results/items/properties/hits/items/properties/product_vendors/items/properties/warehouse_geograph/properties/province",
+                              "type": "string",
+                              "pattern": "^(.*)$"
+                            },
+                            "city": {
+                              "$id": "#/properties/results/items/properties/hits/items/properties/product_vendors/items/properties/warehouse_geograph/properties/city",
+                              "type": "string",
+                              "pattern": "^(.*)$"
+                            },
+                            "district": {
+                              "$id": "#/properties/results/items/properties/hits/items/properties/product_vendors/items/properties/warehouse_geograph/properties/district",
+                              "type": "string",
+                              "pattern": "^(.*)$"
+                            },
+                            "village": {
+                              "$id": "#/properties/results/items/properties/hits/items/properties/product_vendors/items/properties/warehouse_geograph/properties/village",
+                              "type": "string",
+                              "pattern": "^(.*)$"
+                            },
+                            "zipcode": {
+                              "$id": "#/properties/results/items/properties/hits/items/properties/product_vendors/items/properties/warehouse_geograph/properties/zipcode",
+                              "type": "string",
+                              "pattern": "^(.*)$"
+                            },
+                            "geotag": {
+                              "$id": "#/properties/results/items/properties/hits/items/properties/product_vendors/items/properties/warehouse_geograph/properties/geotag",
+                              "type": "string",
+                              "pattern": "^(.*)$"
+                            }
+                          }
+                        },
+                        "tier_min_qty_1": {
+                          "$id": "#/properties/results/items/properties/hits/items/properties/product_vendors/items/properties/tier_min_qty_1",
+                          "type": "integer"
+                        },
+                        "tier_min_qty_2": {
+                          "$id": "#/properties/results/items/properties/hits/items/properties/product_vendors/items/properties/tier_min_qty_2",
+                          "type": ["integer", "null"]
+                        },
+                        "tier_min_qty_3": {
+                          "$id": "#/properties/results/items/properties/hits/items/properties/product_vendors/items/properties/tier_min_qty_3",
+                          "type": ["integer", "null"]
+                        },
+                        "tier_cogs_price_1": {
+                          "$id": "#/properties/results/items/properties/hits/items/properties/product_vendors/items/properties/tier_cogs_price_1",
+                          "type": "integer"
+                        },
+                        "tier_cogs_price_2": {
+                          "$id": "#/properties/results/items/properties/hits/items/properties/product_vendors/items/properties/tier_cogs_price_2",
+                          "type": ["integer", "null"]
+                        },
+                        "tier_cogs_price_3": {
+                          "$id": "#/properties/results/items/properties/hits/items/properties/product_vendors/items/properties/tier_cogs_price_3",
+                          "type": ["integer", "null"]
+                        },
+                        "stock_available": {
+                          "$id": "#/properties/results/items/properties/hits/items/properties/product_vendors/items/properties/stock_available",
+                          "type": "integer"
+                        },
+                        "currency": {
+                          "$id": "#/properties/results/items/properties/hits/items/properties/product_vendors/items/properties/currency",
+                          "type": "string",
+                          "pattern": "^(.*)$"
+                        },
+                        "customer_id": {
+                          "$id": "#/properties/results/items/properties/hits/items/properties/product_vendors/items/properties/customer_id",
+                          "type": "integer"
+                        },
+                        "is_indent": {
+                          "$id": "#/properties/results/items/properties/hits/items/properties/product_vendors/items/properties/is_indent",
+                          "type": "integer"
+                        },
+                        "created_at": {
+                          "$id": "#/properties/results/items/properties/hits/items/properties/product_vendors/items/properties/created_at",
+                          "type": "string",
+                          "pattern": "^(.*)$"
+                        },
+                        "is_active": {
+                          "$id": "#/properties/results/items/properties/hits/items/properties/product_vendors/items/properties/is_active",
+                          "type": "integer"
+                        },
+                        "timestamp": {
+                          "$id": "#/properties/results/items/properties/hits/items/properties/product_vendors/items/properties/timestamp",
+                          "type": "integer"
+                        }
+                      }
+                    }
+                  },
+                  "brand": {
+                    "$id": "#/properties/results/items/properties/hits/items/properties/brand",
+                    "type": "object",
+                    "required": [
+                      "id",
+                      "name",
+                      "url_key"
+                    ],
+                    "properties": {
+                      "id": {
+                        "$id": "#/properties/results/items/properties/hits/items/properties/brand/properties/id",
+                        "type": "integer"
+                      },
+                      "name": {
+                        "$id": "#/properties/results/items/properties/hits/items/properties/brand/properties/name",
+                        "type": "string",
+                        "pattern": "^(.*)$"
+                      },
+                      "url_key": {
+                        "$id": "#/properties/results/items/properties/hits/items/properties/brand/properties/url_key",
+                        "type": "string",
+                        "pattern": "^(.*)$"
+                      }
+                    }
+                  },
+                  "categories": {
+                    "$id": "#/properties/results/items/properties/hits/items/properties/categories",
+                    "type": "object",
+                    "required": [
+                      "lvl0",
+                      "lvl1",
+                      "lvl2",
+                      "lvl3"
+                    ],
+                    "properties": {
+                      "lvl0": {
+                        "$id": "#/properties/results/items/properties/hits/items/properties/categories/properties/lvl0",
+                        "type": "string",
+                        "pattern": "^(.*)$"
+                      },
+                      "lvl1": {
+                        "$id": "#/properties/results/items/properties/hits/items/properties/categories/properties/lvl1",
+                        "type": "string",
+                        "pattern": "^(.*)$"
+                      },
+                      "lvl2": {
+                        "$id": "#/properties/results/items/properties/hits/items/properties/categories/properties/lvl2",
+                        "type": "string",
+                        "pattern": "^(.*)$"
+                      },
+                      "lvl3": {
+                        "$id": "#/properties/results/items/properties/hits/items/properties/categories/properties/lvl3",
+                        "type": "string",
+                        "pattern": "^(.*)$"
+                      }
+                    }
+                  },
+                  "hierarchical_categories": {
+                    "$id": "#/properties/results/items/properties/hits/items/properties/hierarchical_categories",
+                    "type": "object",
+                    "required": [
+                      "c0",
+                      "c1",
+                      "c2",
+                      "c3"
+                    ],
+                    "properties": {
+                      "c0": {
+                        "$id": "#/properties/results/items/properties/hits/items/properties/hierarchical_categories/properties/c0",
+                        "type": "object",
+                        "required": [
+                          "id",
+                          "name",
+                          "url_key"
+                        ],
+                        "properties": {
+                          "id": {
+                            "$id": "#/properties/results/items/properties/hits/items/properties/hierarchical_categories/properties/c0/properties/id",
+                            "type": "integer"
+                          },
+                          "name": {
+                            "$id": "#/properties/results/items/properties/hits/items/properties/hierarchical_categories/properties/c0/properties/name",
+                            "type": "string",
+                            "pattern": "^(.*)$"
+                          },
+                          "url_key": {
+                            "$id": "#/properties/results/items/properties/hits/items/properties/hierarchical_categories/properties/c0/properties/url_key",
+                            "type": "string",
+                            "pattern": "^(.*)$"
+                          }
+                        }
+                      },
+                      "c1": {
+                        "$id": "#/properties/results/items/properties/hits/items/properties/hierarchical_categories/properties/c1",
+                        "type": "object",
+                        "required": [
+                          "id",
+                          "name",
+                          "url_key"
+                        ],
+                        "properties": {
+                          "id": {
+                            "$id": "#/properties/results/items/properties/hits/items/properties/hierarchical_categories/properties/c1/properties/id",
+                            "type": "integer"
+                          },
+                          "name": {
+                            "$id": "#/properties/results/items/properties/hits/items/properties/hierarchical_categories/properties/c1/properties/name",
+                            "type": "string",
+                            "pattern": "^(.*)$"
+                          },
+                          "url_key": {
+                            "$id": "#/properties/results/items/properties/hits/items/properties/hierarchical_categories/properties/c1/properties/url_key",
+                            "type": "string",
+                            "pattern": "^(.*)$"
+                          }
+                        }
+                      },
+                      "c2": {
+                        "$id": "#/properties/results/items/properties/hits/items/properties/hierarchical_categories/properties/c2",
+                        "type": "object",
+                        "required": [
+                          "id",
+                          "name",
+                          "url_key"
+                        ],
+                        "properties": {
+                          "id": {
+                            "$id": "#/properties/results/items/properties/hits/items/properties/hierarchical_categories/properties/c2/properties/id",
+                            "type": "integer"
+                          },
+                          "name": {
+                            "$id": "#/properties/results/items/properties/hits/items/properties/hierarchical_categories/properties/c2/properties/name",
+                            "type": "string",
+                            "pattern": "^(.*)$"
+                          },
+                          "url_key": {
+                            "$id": "#/properties/results/items/properties/hits/items/properties/hierarchical_categories/properties/c2/properties/url_key",
+                            "type": "string",
+                            "pattern": "^(.*)$"
+                          }
+                        }
+                      },
+                      "c3": {
+                        "$id": "#/properties/results/items/properties/hits/items/properties/hierarchical_categories/properties/c3",
+                        "type": "object",
+                        "required": [
+                          "id",
+                          "name",
+                          "url_key"
+                        ],
+                        "properties": {
+                          "id": {
+                            "$id": "#/properties/results/items/properties/hits/items/properties/hierarchical_categories/properties/c3/properties/id",
+                            "type": "integer"
+                          },
+                          "name": {
+                            "$id": "#/properties/results/items/properties/hits/items/properties/hierarchical_categories/properties/c3/properties/name",
+                            "type": "string",
+                            "pattern": "^(.*)$"
+                          },
+                          "url_key": {
+                            "$id": "#/properties/results/items/properties/hits/items/properties/hierarchical_categories/properties/c3/properties/url_key",
+                            "type": "string",
+                            "pattern": "^(.*)$"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "specifications": {
+                    "$id": "#/properties/results/items/properties/hits/items/properties/specifications",
+                    "type": "array"
+                  },
+                  "matrix_attributes": {
+                    "$id": "#/properties/results/items/properties/hits/items/properties/matrix_attributes",
+                    "type": "object"
+                  },
+                  "primary_image": {
+                    "$id": "#/properties/results/items/properties/hits/items/properties/primary_image",
+                    "type": "string",
+                    "pattern": "^(.*)$"
+                  },
+                  "additional_image": {
+                    "$id": "#/properties/results/items/properties/hits/items/properties/additional_image",
+                    "type": "array",
+                    "items": {
+                      "$id": "#/properties/results/items/properties/hits/items/properties/additional_image/items",
+                      "type": "string",
+                      "pattern": "^(.*)$"
+                    }
+                  },
+                  "stock_available": {
+                    "$id": "#/properties/results/items/properties/hits/items/properties/stock_available",
+                    "type": "integer"
+                  },
+                  "total_offer": {
+                    "$id": "#/properties/results/items/properties/hits/items/properties/total_offer",
+                    "type": "integer"
+                  },
+                  "start_from": {
+                    "$id": "#/properties/results/items/properties/hits/items/properties/start_from",
+                    "type": "integer"
+                  },
+                  "created_at": {
+                    "$id": "#/properties/results/items/properties/hits/items/properties/created_at",
+                    "type": "string",
+                    "pattern": "^(.*)$"
+                  },
+                  "reindex_at": {
+                    "$id": "#/properties/results/items/properties/hits/items/properties/reindex_at",
+                    "type": "string",
+                    "pattern": "^(.*)$"
+                  },
+                  "timestamp": {
+                    "$id": "#/properties/results/items/properties/hits/items/properties/timestamp",
+                    "type": "integer"
+                  },
+                  "objectID": {
+                    "$id": "#/properties/results/items/properties/hits/items/properties/objectID",
+                    "type": "string",
+                    "pattern": "^(.*)$"
+                  },
+                  "_highlightResult": {
+                    "$id": "#/properties/results/items/properties/hits/items/properties/_highlightResult",
+                    "type": "object",
+                    "required": [
+                      "sku",
+                      "name",
+                      "hierarchical_categories"
+                    ],
+                    "properties": {
+                      "sku": {
+                        "$id": "#/properties/results/items/properties/hits/items/properties/_highlightResult/properties/sku",
+                        "type": "object",
+                        "required": [
+                          "value",
+                          "matchLevel",
+                          "matchedWords"
+                        ],
+                        "properties": {
+                          "value": {
+                            "$id": "#/properties/results/items/properties/hits/items/properties/_highlightResult/properties/sku/properties/value",
+                            "type": "string",
+                            "pattern": "^(.*)$"
+                          },
+                          "matchLevel": {
+                            "$id": "#/properties/results/items/properties/hits/items/properties/_highlightResult/properties/sku/properties/matchLevel",
+                            "type": "string",
+                            "pattern": "^(.*)$"
+                          },
+                          "matchedWords": {
+                            "$id": "#/properties/results/items/properties/hits/items/properties/_highlightResult/properties/sku/properties/matchedWords",
+                            "type": "array"
+                          }
+                        }
+                      },
+                      "name": {
+                        "$id": "#/properties/results/items/properties/hits/items/properties/_highlightResult/properties/name",
+                        "type": "object",
+                        "required": [
+                          "value",
+                          "matchLevel",
+                          "matchedWords"
+                        ],
+                        "properties": {
+                          "value": {
+                            "$id": "#/properties/results/items/properties/hits/items/properties/_highlightResult/properties/name/properties/value",
+                            "type": "string",
+                            "pattern": "^(.*)$"
+                          },
+                          "matchLevel": {
+                            "$id": "#/properties/results/items/properties/hits/items/properties/_highlightResult/properties/name/properties/matchLevel",
+                            "type": "string",
+                            "pattern": "^(.*)$"
+                          },
+                          "fullyHighlighted": {
+                            "$id": "#/properties/results/items/properties/hits/items/properties/_highlightResult/properties/name/properties/fullyHighlighted",
+                            "type": "boolean"
+                          },
+                          "matchedWords": {
+                            "$id": "#/properties/results/items/properties/hits/items/properties/_highlightResult/properties/name/properties/matchedWords",
+                            "type": "array",
+                            "items": {
+                              "$id": "#/properties/results/items/properties/hits/items/properties/_highlightResult/properties/name/properties/matchedWords/items",
+                              "type": "string",
+                              "pattern": "^(.*)$"
+                            }
+                          }
+                        }
+                      },
+                      "hierarchical_categories": {
+                        "$id": "#/properties/results/items/properties/hits/items/properties/_highlightResult/properties/hierarchical_categories",
+                        "type": "object",
+                        "required": [
+                          "c0",
+                          "c1",
+                          "c2",
+                          "c3"
+                        ],
+                        "properties": {
+                          "c0": {
+                            "$id": "#/properties/results/items/properties/hits/items/properties/_highlightResult/properties/hierarchical_categories/properties/c0",
+                            "type": "object",
+                            "required": [
+                              "name"
+                            ],
+                            "properties": {
+                              "name": {
+                                "$id": "#/properties/results/items/properties/hits/items/properties/_highlightResult/properties/hierarchical_categories/properties/c0/properties/name",
+                                "type": "object",
+                                "required": [
+                                  "value",
+                                  "matchLevel",
+                                  "matchedWords"
+                                ],
+                                "properties": {
+                                  "value": {
+                                    "$id": "#/properties/results/items/properties/hits/items/properties/_highlightResult/properties/hierarchical_categories/properties/c0/properties/name/properties/value",
+                                    "type": "string",
+                                    "pattern": "^(.*)$"
+                                  },
+                                  "matchLevel": {
+                                    "$id": "#/properties/results/items/properties/hits/items/properties/_highlightResult/properties/hierarchical_categories/properties/c0/properties/name/properties/matchLevel",
+                                    "type": "string",
+                                    "pattern": "^(.*)$"
+                                  },
+                                  "matchedWords": {
+                                    "$id": "#/properties/results/items/properties/hits/items/properties/_highlightResult/properties/hierarchical_categories/properties/c0/properties/name/properties/matchedWords",
+                                    "type": "array"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "c1": {
+                            "$id": "#/properties/results/items/properties/hits/items/properties/_highlightResult/properties/hierarchical_categories/properties/c1",
+                            "type": "object",
+                            "required": [
+                              "name"
+                            ],
+                            "properties": {
+                              "name": {
+                                "$id": "#/properties/results/items/properties/hits/items/properties/_highlightResult/properties/hierarchical_categories/properties/c1/properties/name",
+                                "type": "object",
+                                "required": [
+                                  "value",
+                                  "matchLevel",
+                                  "matchedWords"
+                                ],
+                                "properties": {
+                                  "value": {
+                                    "$id": "#/properties/results/items/properties/hits/items/properties/_highlightResult/properties/hierarchical_categories/properties/c1/properties/name/properties/value",
+                                    "type": "string",
+                                    "pattern": "^(.*)$"
+                                  },
+                                  "matchLevel": {
+                                    "$id": "#/properties/results/items/properties/hits/items/properties/_highlightResult/properties/hierarchical_categories/properties/c1/properties/name/properties/matchLevel",
+                                    "type": "string",
+                                    "pattern": "^(.*)$"
+                                  },
+                                  "matchedWords": {
+                                    "$id": "#/properties/results/items/properties/hits/items/properties/_highlightResult/properties/hierarchical_categories/properties/c1/properties/name/properties/matchedWords",
+                                    "type": "array"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "c2": {
+                            "$id": "#/properties/results/items/properties/hits/items/properties/_highlightResult/properties/hierarchical_categories/properties/c2",
+                            "type": "object",
+                            "required": [
+                              "name"
+                            ],
+                            "properties": {
+                              "name": {
+                                "$id": "#/properties/results/items/properties/hits/items/properties/_highlightResult/properties/hierarchical_categories/properties/c2/properties/name",
+                                "type": "object",
+                                "required": [
+                                  "value",
+                                  "matchLevel",
+                                  "matchedWords"
+                                ],
+                                "properties": {
+                                  "value": {
+                                    "$id": "#/properties/results/items/properties/hits/items/properties/_highlightResult/properties/hierarchical_categories/properties/c2/properties/name/properties/value",
+                                    "type": "string",
+                                    "pattern": "^(.*)$"
+                                  },
+                                  "matchLevel": {
+                                    "$id": "#/properties/results/items/properties/hits/items/properties/_highlightResult/properties/hierarchical_categories/properties/c2/properties/name/properties/matchLevel",
+                                    "type": "string",
+                                    "pattern": "^(.*)$"
+                                  },
+                                  "matchedWords": {
+                                    "$id": "#/properties/results/items/properties/hits/items/properties/_highlightResult/properties/hierarchical_categories/properties/c2/properties/name/properties/matchedWords",
+                                    "type": "array"
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "c3": {
+                            "$id": "#/properties/results/items/properties/hits/items/properties/_highlightResult/properties/hierarchical_categories/properties/c3",
+                            "type": "object",
+                            "required": [
+                              "name"
+                            ],
+                            "properties": {
+                              "name": {
+                                "$id": "#/properties/results/items/properties/hits/items/properties/_highlightResult/properties/hierarchical_categories/properties/c3/properties/name",
+                                "type": "object",
+                                "required": [
+                                  "value",
+                                  "matchLevel",
+                                  "matchedWords"
+                                ],
+                                "properties": {
+                                  "value": {
+                                    "$id": "#/properties/results/items/properties/hits/items/properties/_highlightResult/properties/hierarchical_categories/properties/c3/properties/name/properties/value",
+                                    "type": "string",
+                                    "pattern": "^(.*)$"
+                                  },
+                                  "matchLevel": {
+                                    "$id": "#/properties/results/items/properties/hits/items/properties/_highlightResult/properties/hierarchical_categories/properties/c3/properties/name/properties/matchLevel",
+                                    "type": "string",
+                                    "pattern": "^(.*)$"
+                                  },
+                                  "matchedWords": {
+                                    "$id": "#/properties/results/items/properties/hits/items/properties/_highlightResult/properties/hierarchical_categories/properties/c3/properties/name/properties/matchedWords",
+                                    "type": "array"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "nbHits": {
+              "$id": "#/properties/results/items/properties/nbHits",
+              "type": "integer"
+            },
+            "page": {
+              "$id": "#/properties/results/items/properties/page",
+              "type": "integer"
+            },
+            "nbPages": {
+              "$id": "#/properties/results/items/properties/nbPages",
+              "type": "integer"
+            },
+            "hitsPerPage": {
+              "$id": "#/properties/results/items/properties/hitsPerPage",
+              "type": "integer"
+            },
+            "processingTimeMS": {
+              "$id": "#/properties/results/items/properties/processingTimeMS",
+              "type": "integer"
+            },
+            "facets": {
+              "$id": "#/properties/results/items/properties/facets",
+              "type": "object",
+              "required": [],
+              "properties": {
+                "brand.name": {
+                  "$id": "#/properties/results/items/properties/facets/properties/brand.name",
+                  "type": "object",
+                  "required": [],
+                  "properties": {
+                    "Samsung": {
+                      "$id": "#/properties/results/items/properties/facets/properties/brand.name/properties/Samsung",
+                      "type": "integer"
+                    },
+                    "Xiaomi": {
+                      "$id": "#/properties/results/items/properties/facets/properties/brand.name/properties/Xiaomi",
+                      "type": "integer"
+                    }
+                  }
+                },
+                "start_from": {
+                  "$id": "#/properties/results/items/properties/facets/properties/start_from",
+                  "type": "object",
+                  "required": [
+                    "23722"
+                  ],
+                  "properties": {
+                    "23722": {
+                      "$id": "#/properties/results/items/properties/facets/properties/start_from/properties/23722",
+                      "type": "integer"
+                    }
+                  }
+                },
+                "categories.lvl0": {
+                  "$id": "#/properties/results/items/properties/facets/properties/categories.lvl0",
+                  "type": "object",
+                  "required": [],
+                  "properties": {
+                    "IT & Teknologi": {
+                      "$id": "#/properties/results/items/properties/facets/properties/categories.lvl0/properties/IT & Teknologi",
+                      "type": "integer"
+                    }
+                  }
+                },
+                "product_vendors.vendor_name": {
+                  "$id": "#/properties/results/items/properties/facets/properties/product_vendors.vendor_name",
+                  "type": "object",
+                  "required": [],
+                  "properties": {
+                    "CV Tata Vendor QR": {
+                      "$id": "#/properties/results/items/properties/facets/properties/product_vendors.vendor_name/properties/CV Tata Vendor QR",
+                      "type": "integer"
+                    },
+                    "PT Bizzy Commerce Indonesia": {
+                      "$id": "#/properties/results/items/properties/facets/properties/product_vendors.vendor_name/properties/PT Bizzy Commerce Indonesia",
+                      "type": "integer"
+                    },
+                    "PT Dhony Vendor NON PKP Tbk": {
+                      "$id": "#/properties/results/items/properties/facets/properties/product_vendors.vendor_name/properties/PT Dhony Vendor NON PKP Tbk",
+                      "type": "integer"
+                    },
+                    "PT Dhony Vendor PKP Tbk": {
+                      "$id": "#/properties/results/items/properties/facets/properties/product_vendors.vendor_name/properties/PT Dhony Vendor PKP Tbk",
+                      "type": "integer"
+                    },
+                    "PT Kreo Insturment PKP Tbk": {
+                      "$id": "#/properties/results/items/properties/facets/properties/product_vendors.vendor_name/properties/PT Kreo Insturment PKP Tbk",
+                      "type": "integer"
+                    },
+                    "PT Najib PKP Aman Sentosa Abadi  Tbk": {
+                      "$id": "#/properties/results/items/properties/facets/properties/product_vendors.vendor_name/properties/PT Najib PKP Aman Sentosa Abadi  Tbk",
+                      "type": "integer"
+                    },
+                    "PT Nugraha": {
+                      "$id": "#/properties/results/items/properties/facets/properties/product_vendors.vendor_name/properties/PT Nugraha",
+                      "type": "integer"
+                    },
+                    "PT Pendor Kena Pajak": {
+                      "$id": "#/properties/results/items/properties/facets/properties/product_vendors.vendor_name/properties/PT Pendor Kena Pajak",
+                      "type": "integer"
+                    },
+                    "PT TOTO TOP": {
+                      "$id": "#/properties/results/items/properties/facets/properties/product_vendors.vendor_name/properties/PT TOTO TOP",
+                      "type": "integer"
+                    },
+                    "PT Tata Vendor MP (Persero) Tbk": {
+                      "$id": "#/properties/results/items/properties/facets/properties/product_vendors.vendor_name/properties/PT Tata Vendor MP (Persero) Tbk",
+                      "type": "integer"
+                    },
+                    "PT Tif PKP Tbk": {
+                      "$id": "#/properties/results/items/properties/facets/properties/product_vendors.vendor_name/properties/PT Tif PKP Tbk",
+                      "type": "integer"
+                    },
+                    "PT Vendor Non PKP (Persero) Tbk": {
+                      "$id": "#/properties/results/items/properties/facets/properties/product_vendors.vendor_name/properties/PT Vendor Non PKP (Persero) Tbk",
+                      "type": "integer"
+                    },
+                    "PT kreo Instrument Non PKP Tbk": {
+                      "$id": "#/properties/results/items/properties/facets/properties/product_vendors.vendor_name/properties/PT kreo Instrument Non PKP Tbk",
+                      "type": "integer"
+                    },
+                    "undefined": {
+                      "$id": "#/properties/results/items/properties/facets/properties/product_vendors.vendor_name/properties/undefined",
+                      "type": "integer"
+                    },
+                    "PT Andry Tbk": {
+                      "$id": "#/properties/results/items/properties/facets/properties/product_vendors.vendor_name/properties/PT Andry Tbk",
+                      "type": "integer"
+                    }
+                  }
+                },
+                "product_vendors.warehouse_geograph.province": {
+                  "$id": "#/properties/results/items/properties/facets/properties/product_vendors.warehouse_geograph.province",
+                  "type": "object",
+                  "required": [],
+                  "properties": {
+                    "Banten": {
+                      "$id": "#/properties/results/items/properties/facets/properties/product_vendors.warehouse_geograph.province/properties/Banten",
+                      "type": "integer"
+                    },
+                    "Jakarta": {
+                      "$id": "#/properties/results/items/properties/facets/properties/product_vendors.warehouse_geograph.province/properties/Jakarta",
+                      "type": "integer"
+                    },
+                    "Jawa Barat": {
+                      "$id": "#/properties/results/items/properties/facets/properties/product_vendors.warehouse_geograph.province/properties/Jawa Barat",
+                      "type": "integer"
+                    },
+                    "Jawa Tengah": {
+                      "$id": "#/properties/results/items/properties/facets/properties/product_vendors.warehouse_geograph.province/properties/Jawa Tengah",
+                      "type": "integer"
+                    },
+                    "Yogyakarta": {
+                      "$id": "#/properties/results/items/properties/facets/properties/product_vendors.warehouse_geograph.province/properties/Yogyakarta",
+                      "type": "integer"
+                    },
+                    "undefined": {
+                      "$id": "#/properties/results/items/properties/facets/properties/product_vendors.warehouse_geograph.province/properties/undefined",
+                      "type": "integer"
+                    }
+                  }
+                }
+              }
+            },
+            "facets_stats": {
+              "$id": "#/properties/results/items/properties/facets_stats",
+              "type": "object",
+              "required": [
+                "start_from"
+              ],
+              "properties": {
+                "start_from": {
+                  "$id": "#/properties/results/items/properties/facets_stats/properties/start_from",
+                  "type": "object",
+                  "required": [
+                    "min",
+                    "max",
+                    "avg",
+                    "sum"
+                  ],
+                  "properties": {
+                    "min": {
+                      "$id": "#/properties/results/items/properties/facets_stats/properties/start_from/properties/min",
+                      "type": "number"
+                    },
+                    "max": {
+                      "$id": "#/properties/results/items/properties/facets_stats/properties/start_from/properties/max",
+                      "type": "number"
+                    },
+                    "avg": {
+                      "$id": "#/properties/results/items/properties/facets_stats/properties/start_from/properties/avg",
+                      "type": "number"
+                    },
+                    "sum": {
+                      "$id": "#/properties/results/items/properties/facets_stats/properties/start_from/properties/sum",
+                      "type": "number"
+                    }
+                  }
+                }
+              }
+            },
+            "exhaustiveFacetsCount": {
+              "$id": "#/properties/results/items/properties/exhaustiveFacetsCount",
+              "type": "boolean"
+            },
+            "exhaustiveNbHits": {
+              "$id": "#/properties/results/items/properties/exhaustiveNbHits",
+              "type": "boolean"
+            },
+            "query": {
+              "$id": "#/properties/results/items/properties/query",
+              "type": "string",
+              "pattern": "^(.*)$"
+            },
+            "params": {
+              "$id": "#/properties/results/items/properties/params",
+              "type": "string",
+              "pattern": "^(.*)$"
+            },
+            "index": {
+              "$id": "#/properties/results/items/properties/index",
+              "type": "string",
+              "pattern": "^(.*)$"
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "validGetBrandDetail": {
+    "type": "object",
+    "required": [ "data" ],
+    "properties": {
+      "data": {
+        "type": "object",
+        "required": [ "id", "name", "status" ],
+        "properties": {
+          "id": {
+            "type": "number"
+          },
+          "name": {
+            "type": "string"
+          },
+          "image_url": {
+            "type": ["string", "null"]
+          },
+          "description": {
+            "type": ["string", "null"]
+          },
+          "status": {
+            "type": "number"
+          },
+          "total_sku": {
+            "type": "number"
+          }
+        }
+      }
+    }
+  },
+  "successPostResponse": {
+    "type": "object",
+    "required": [],
+    "properties": {
+      "data": {
+        "type": "object",
+        "required": [ "id", "name", "status" ],
+        "properties": {
+          "id": {
+            "type": "number"
+          },
+          "name": {
+            "type": "string"
+          },
+          "status": {
+            "type": "number"
+          }
+        }
+      }
+    }
+  },
+  "successGetBrandListResponse": {
+    "type": "object",
+    "required": [ "data", "meta" ],
+    "properties": {
+      "data": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": [ "id", "name"],
+          "properties": {
+            "id": {
+              "type": "number"
+            },
+            "name": {
+              "type": "string"
+            },
+            "logo": {
+              "type": [ "string", "null" ]
+            },
+            "total_sku": {
+              "type": "number"
+            },
+            "is_active": {
+              "type": "number"
+            }
+          }
+        }
+      },
+      "meta": {
+        "type": "object",
+        "required": [ "page", "limit", "total_data", "total_page" ],
+        "properties": {
+          "page": {
+            "type": "number"
+          },
+          "limit": {
+            "type": "number"
+          },
+          "total_data": {
+            "type": "number"
+          },
+          "total_page": {
+            "type": "number"
+          }
+        }
+      }
+    }
+  },
+  "successPutBrandNameResponse": {
+    "type": "object",
+    "required": [ "data" ],
+    "properties": {
+      "data": {
+        "type": "object",
+        "required": [ "id", "name", "status" ],
+        "properties": {
+          "id": {
+            "type": "number"
+          },
+          "name": {
+            "type": "string"
+          },
+          "image_url": {
+            "type": ["string", "null"]
+          },
+          "description": {
+            "type": ["string", "null"]
+          },
+          "status": {
+            "type": "number"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "successCreateBrand": {
+    "name": "Kali milk mocha"
+  },
+  "successGetBrandDetail": {
+    "brandId": 1373,
+    "brandName": "Samsung"
+  },
+  "successSearchBrand": {
+    "search": "ac",
+    "page": 1,
+    "limit": 20
+  },
+  "successUpdateBrandName": {
+    "brandIdForUpdate": 371,
+    "updateBody": {
+      "name": "Decolgen Mocha"
+    }
+  },
+  "invalidBrandId": -1,
+  "failedDuplicateBrand": "Brand Already Exist"
+}

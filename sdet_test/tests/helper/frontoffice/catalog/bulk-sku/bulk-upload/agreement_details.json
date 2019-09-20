@@ -1,0 +1,44 @@
+{
+  "successGetPriceRulesItemWithDefault": {
+    "sku_detail": {
+      "sku": "2C74OM9HT2"
+    },
+    "min_tier_1": 5,
+    "max_tier_1": 99999999,
+    "fixed_price_tier_1": 11000,
+    "min_tier_2": null,
+    "max_tier_2": null,
+    "fixed_price_tier_2": null,
+    "min_tier_3": null,
+    "max_tier_3": null,
+    "fixed_price_tier_3": null
+  },
+  "successGetContractUpdateSingleTier": {
+    "sku_detail": {
+      "sku": "2C74OM9HT2"
+    },
+    "min_tier_1": 5,
+    "max_tier_1": 99999999,
+    "fixed_price_tier_1": 69000,
+    "min_tier_2": null,
+    "max_tier_2": null,
+    "fixed_price_tier_2": null,
+    "min_tier_3": null,
+    "max_tier_3": null,
+    "fixed_price_tier_3": null
+  },
+  "successGetContractRestore": {
+    "sku_detail": {
+      "sku": "2C74OM9HT2"
+    },
+    "min_tier_1": 1,
+    "max_tier_1": 99999999,
+    "fixed_price_tier_1": 10000,
+    "min_tier_2": null,
+    "max_tier_2": null,
+    "fixed_price_tier_2": null,
+    "min_tier_3": null,
+    "max_tier_3": null,
+    "fixed_price_tier_3": null
+  }
+}

@@ -1,0 +1,847 @@
+{
+  "agreementCustomerDjqrToBizzy": {
+    "price_rule": [
+      {
+        "contract_id": 35,
+        "contract_type_id": 1,
+        "price_rule_id": 3,
+        "price_rule_items": [
+          {
+            "id": 3,
+            "sku_number": "KGRO0NF1BJ",
+            "category_id": 7019,
+            "brand_id": 81,
+            "base_margin": 0,
+            "indent_price": 0,
+            "price_rule_id": 3,
+            "price_rule_item_type_id": 1,
+            "priority": 1,
+            "min_tier_1": 1,
+            "max_tier_1": 1000,
+            "base_price_tier_1": 11999000,
+            "tier_discount_1": 5,
+            "tier_discount_1_type": "PERCENTAGE",
+            "indent_price_tier_1": 0,
+            "is_fixed_price_tier_1": false,
+            "fixed_price_tier_1": 0,
+            "is_allowed_to_override_srp_tier_1": false,
+            "min_tier_2": 0,
+            "max_tier_2": 0,
+            "base_price_tier_2": 0,
+            "tier_discount_2": 0,
+            "tier_discount_2_type": "NONE",
+            "indent_price_tier_2": 0,
+            "is_fixed_price_tier_2": true,
+            "fixed_price_tier_2": 0,
+            "is_allowed_to_override_srp_tier_2": false,
+            "min_tier_3": 0,
+            "max_tier_3": 0,
+            "base_price_tier_3": 0,
+            "tier_discount_3": 0,
+            "tier_discount_3_type": "NONE",
+            "indent_price_tier_3": 0,
+            "is_fixed_price_tier_3": true,
+            "fixed_price_tier_3": 0,
+            "is_allowed_to_override_srp_tier_3": false,
+            "max_qty": 0,
+            "start_date": null,
+            "end_date": null,
+            "status": null,
+            "shipping_hub": [
+                {
+                  "id": 2,
+                  "hub": 2
+                }
+            ],
+            "shipping_geograph": [
+                {
+                  "id": 4,
+                  "geograph": 20809,
+                  "type": "QR"
+                }
+            ],
+            "sku_detail": {
+              "sku": "KGRO0NF1BJ",
+              "name": "Apple iPhone 7 - White - 64GB",
+              "primary_image": "https://catalogproducts-staging.s3.ap-southeast-1.amazonaws.com/2018/06/product_1528268921.png"
+            }
+          }
+        ]
+      }
+  ],
+  "top_rule": [
+      {
+        "contract_id": 33,
+        "contract_type_id": 2,
+        "top_rule_id": 11,
+        "top_days": 7,
+        "max_plafond_transaction": 1
+      }
+  ],
+  "rebate_rule": [
+      {
+        "contract_id": 34,
+        "contract_type_id": 3,
+        "rebate_rule_id": 11,
+        "percentage": 1
+      }
+  ],
+  "shipping_rule": [
+    {
+      "contract_id": 36,
+      "contract_type_id": 4,
+      "shipping_rule_id": 11,
+      "shipping_payment_type": {
+        "id": 1,
+        "name": "franco"
+      },
+      "shipping_geograph": [
+        {
+          "id": 4,
+          "geograph": 20809,
+          "type": "QR",
+          "price_rule_item": {
+            "id": 3,
+            "sku_number": "KGRO0NF1BJ",
+            "category_id": 7019,
+            "brand_id": 81,
+            "base_margin": 0,
+            "indent_price": 0,
+            "price_rule_id": 3,
+            "price_rule_item_type_id": 1,
+            "priority": 1,
+            "min_tier_1": 1,
+            "max_tier_1": 1000,
+            "base_price_tier_1": 11999000,
+            "tier_discount_1": 5,
+            "tier_discount_1_type": "PERCENTAGE",
+            "indent_price_tier_1": 0,
+            "is_fixed_price_tier_1": false,
+            "fixed_price_tier_1": 0,
+            "is_allowed_to_override_srp_tier_1": false,
+            "min_tier_2": 0,
+            "max_tier_2": 0,
+            "base_price_tier_2": 0,
+            "tier_discount_2": 0,
+            "tier_discount_2_type": "NONE",
+            "indent_price_tier_2": 0,
+            "is_fixed_price_tier_2": true,
+            "fixed_price_tier_2": 0,
+            "is_allowed_to_override_srp_tier_2": false,
+            "min_tier_3": 0,
+            "max_tier_3": 0,
+            "base_price_tier_3": 0,
+            "tier_discount_3": 0,
+            "tier_discount_3_type": "NONE",
+            "indent_price_tier_3": 0,
+            "is_fixed_price_tier_3": true,
+            "fixed_price_tier_3": 0,
+            "is_allowed_to_override_srp_tier_3": false,
+            "max_qty": 0,
+            "start_date": null,
+            "end_date": null,
+            "status": null,
+            "shipping_hub": [],
+            "shipping_geograph": []
+          },
+          "geograph_detail": {
+            "id": 20809,
+            "province": "Sumatera Utara",
+            "city": "Medan",
+            "district": "Medan Area",
+            "village": "Sei Rengas II",
+            "zipcode": "20214",
+            "geotag": "1006116552",
+            "jnecitycode": "MES10025"
+          }
+        }
+      ],
+      "shipping_hub": [
+        {
+          "id": 2,
+          "hub": 2,
+          "price_rule_item": {
+            "id": 3,
+            "sku_number": "KGRO0NF1BJ",
+            "category_id": 7019,
+            "brand_id": 81,
+            "base_margin": 0,
+            "indent_price": 0,
+            "price_rule_id": 3,
+            "price_rule_item_type_id": 1,
+            "priority": 1,
+            "min_tier_1": 1,
+            "max_tier_1": 1000,
+            "base_price_tier_1": 11999000,
+            "tier_discount_1": 5,
+            "tier_discount_1_type": "PERCENTAGE",
+            "indent_price_tier_1": 0,
+            "is_fixed_price_tier_1": false,
+            "fixed_price_tier_1": 0,
+            "is_allowed_to_override_srp_tier_1": false,
+            "min_tier_2": 0,
+            "max_tier_2": 0,
+            "base_price_tier_2": 0,
+            "tier_discount_2": 0,
+            "tier_discount_2_type": "NONE",
+            "indent_price_tier_2": 0,
+            "is_fixed_price_tier_2": true,
+            "fixed_price_tier_2": 0,
+            "is_allowed_to_override_srp_tier_2": false,
+            "min_tier_3": 0,
+            "max_tier_3": 0,
+            "base_price_tier_3": 0,
+            "tier_discount_3": 0,
+            "tier_discount_3_type": "NONE",
+            "indent_price_tier_3": 0,
+            "is_fixed_price_tier_3": true,
+            "fixed_price_tier_3": 0,
+            "is_allowed_to_override_srp_tier_3": false,
+            "max_qty": 0,
+            "start_date": null,
+            "end_date": null,
+            "status": null,
+            "shipping_hub": [],
+            "shipping_geograph": []
+          }
+        }
+      ]
+    }
+  ]
+  },
+  "agreementCustomerLocoToBizzy":{
+    "price_rule": [
+      {
+        "contract_id": 114,
+        "contract_type_id": 1,
+        "price_rule_id": 17,
+        "price_rule_items": [
+          {
+            "id": 38,
+            "sku_number": "KGRO0NF1BJ",
+            "category_id": 7019,
+            "brand_id": 81,
+            "base_margin": 0,
+            "indent_price": 0,
+            "price_rule_id": 17,
+            "price_rule_item_type_id": 1,
+            "priority": 1,
+            "min_tier_1": 1,
+            "max_tier_1": 5,
+            "base_price_tier_1": 10100000,
+            "tier_discount_1": 100000,
+            "tier_discount_1_type": "PRICE",
+            "indent_price_tier_1": 0,
+            "is_fixed_price_tier_1": false,
+            "fixed_price_tier_1": 0,
+            "is_allowed_to_override_srp_tier_1": false,
+            "min_tier_2": 6,
+            "max_tier_2": 10,
+            "base_price_tier_2": 10000000,
+            "tier_discount_2": 200000,
+            "tier_discount_2_type": "PRICE",
+            "indent_price_tier_2": 0,
+            "is_fixed_price_tier_2": false,
+            "fixed_price_tier_2": 0,
+            "is_allowed_to_override_srp_tier_2": false,
+            "min_tier_3": 11,
+            "max_tier_3": 0,
+            "base_price_tier_3": 9900000,
+            "tier_discount_3": 300000,
+            "tier_discount_3_type": "PRICE",
+            "indent_price_tier_3": 0,
+            "is_fixed_price_tier_3": false,
+            "fixed_price_tier_3": 0,
+            "is_allowed_to_override_srp_tier_3": false,
+            "max_qty": 0,
+            "start_date": null,
+            "end_date": null,
+            "status": null,
+            "shipping_hub": [],
+            "shipping_geograph": [],
+            "sku_detail": {
+                "sku": "KGRO0NF1BJ",
+                "name": "Apple iPhone 7 - White - 64GB",
+                "primary_image": "https://catalogproducts-staging.s3.ap-southeast-1.amazonaws.com/2018/06/product_1528268921.png"
+            }
+          }
+        ]
+      }
+  ],
+  "top_rule": [
+      {
+        "contract_id": 112,
+        "contract_type_id": 2,
+        "top_rule_id": 33,
+        "top_days": 7,
+        "max_plafond_transaction": 1
+      }
+  ],
+  "rebate_rule": [
+      {
+        "contract_id": 113,
+        "contract_type_id": 3,
+        "rebate_rule_id": 33,
+        "percentage": 1
+      }
+  ],
+  "shipping_rule": [
+      {
+        "contract_id": 115,
+        "contract_type_id": 4,
+        "shipping_rule_id": 32,
+        "shipping_payment_type": {
+            "id": 2,
+            "name": "loco"
+        },
+        "shipping_geograph": [],
+        "shipping_hub": []
+      }
+  ]
+  },
+  "agreementVendor22ToBizzy": {
+    "price_rule": [],
+    "top_rule": [
+      {
+        "contract_id": 0,
+        "contract_type_id": 0,
+        "top_rule_id": 0,
+        "top_days": 0,
+        "max_plafond_transaction": 1000
+      }
+    ],
+    "rebate_rule": [],
+    "shipping_rule": []
+  },
+  "agreementVendor33ToBizzy": {
+    "price_rule": [],
+    "top_rule": [
+      {
+        "contract_id": 0,
+        "contract_type_id": 0,
+        "top_rule_id": 0,
+        "top_days": 14,
+        "max_plafond_transaction": 1000
+      }
+    ],
+    "rebate_rule": [],
+    "shipping_rule": []
+  },
+  "basicMargin": {
+    "category_mobiles": "0",
+    "category_seed_of_residues": "0"
+  },
+  "agreementCustomerMpTopToVendor22": {
+    "price_rule": [
+      {
+        "contract_id": 28,
+        "contract_type_id": 1,
+        "price_rule_id": 2,
+        "price_rule_items": [
+          {
+            "id": 2,
+            "sku_number": "KGRO0NF1BJ",
+            "category_id": 7019,
+            "brand_id": 81,
+            "base_margin": "0.00",
+            "indent_price": "0.00",
+            "price_rule_id": 2,
+            "price_rule_item_type_id": 1,
+            "priority": 1,
+            "min_tier_1": 5,
+            "max_tier_1": 15,
+            "base_price_tier_1": "10000000.00",
+            "tier_discount_1": "25.00",
+            "tier_discount_1_type": "PERCENTAGE",
+            "indent_price_tier_1": "0.00",
+            "is_fixed_price_tier_1": false,
+            "fixed_price_tier_1": "0.00",
+            "is_allowed_to_override_srp_tier_1": false,
+            "min_tier_2": 16,
+            "max_tier_2": 20,
+            "base_price_tier_2": "9900000.00",
+            "tier_discount_2": "0.00",
+            "tier_discount_2_type": "NONE",
+            "indent_price_tier_2": "0.00",
+            "is_fixed_price_tier_2": true,
+            "fixed_price_tier_2": "0.00",
+            "is_allowed_to_override_srp_tier_2": false,
+            "min_tier_3": 21,
+            "max_tier_3": 99999999,
+            "base_price_tier_3": "9800000.00",
+            "tier_discount_3": "0.00",
+            "tier_discount_3_type": "NONE",
+            "indent_price_tier_3": "0.00",
+            "is_fixed_price_tier_3": true,
+            "fixed_price_tier_3": "0.00",
+            "is_allowed_to_override_srp_tier_3": false,
+            "max_qty": 0,
+            "start_date": "2018-07-31T08:16:29.000Z",
+            "end_date": "2020-07-31T08:16:29.000Z",
+            "status": "ACTIVE",
+            "shipping_hub": [],
+            "shipping_geograph": [
+              {
+                "id": 2,
+                "geograph": 1372,
+                "type": "VENDOR"
+              },
+              {
+                "id": 3,
+                "geograph": 20809,
+                "type": "CUSTOMER"
+              }
+            ],
+            "sku_detail": {
+              "sku": "KGRO0NF1BJ",
+              "name": "Apple iPhone 7 - White - 64GB",
+              "primary_image": "https://catalogproducts-staging.s3.ap-southeast-1.amazonaws.com/2018/06/product_1528268921.png"
+            }
+          }
+        ]
+      }
+    ],
+    "top_rule": [
+      {
+        "contract_id": 26,
+        "contract_type_id": 2,
+        "top_rule_id": 9,
+        "top_days": 21,
+        "max_plafond_transaction": 1
+      }
+    ],
+    "rebate_rule": [
+      {
+        "contract_id": 27,
+        "contract_type_id": 3,
+        "rebate_rule_id": 9,
+        "percentage": 1
+      }
+    ],
+    "shipping_rule": [
+      {
+        "contract_id": 29,
+        "contract_type_id": 4,
+        "shipping_rule_id": 9,
+        "shipping_payment_type": {
+          "id": 1,
+          "name": "franco"
+        },
+        "shipping_geograph": [
+          {
+            "id": 2,
+            "geograph": 1372,
+            "type": "VENDOR",
+            "price_rule_item": {
+              "id": 2,
+              "sku_number": "KGRO0NF1BJ",
+              "category_id": 7019,
+              "brand_id": 81,
+              "base_margin": "0.00",
+              "indent_price": "0.00",
+              "price_rule_id": 2,
+              "price_rule_item_type_id": 1,
+              "priority": 1,
+              "min_tier_1": 1,
+              "max_tier_1": 1,
+              "base_price_tier_1": "10000000.00",
+              "tier_discount_1": "25.00",
+              "tier_discount_1_type": "PERCENTAGE",
+              "indent_price_tier_1": "0.00",
+              "is_fixed_price_tier_1": false,
+              "fixed_price_tier_1": "0.00",
+              "is_allowed_to_override_srp_tier_1": false,
+              "min_tier_2": 2,
+              "max_tier_2": 2,
+              "base_price_tier_2": "9900000.00",
+              "tier_discount_2": "0.00",
+              "tier_discount_2_type": "NONE",
+              "indent_price_tier_2": "0.00",
+              "is_fixed_price_tier_2": true,
+              "fixed_price_tier_2": "0.00",
+              "is_allowed_to_override_srp_tier_2": false,
+              "min_tier_3": 3,
+              "max_tier_3": 99999999,
+              "base_price_tier_3": "9800000.00",
+              "tier_discount_3": "0.00",
+              "tier_discount_3_type": "NONE",
+              "indent_price_tier_3": "0.00",
+              "is_fixed_price_tier_3": true,
+              "fixed_price_tier_3": "0.00",
+              "is_allowed_to_override_srp_tier_3": false,
+              "max_qty": 0,
+              "start_date": "2018-07-31T08:16:29.000Z",
+              "end_date": "2020-07-31T08:16:29.000Z",
+              "status": "ACTIVE",
+              "shipping_hub": [],
+              "shipping_geograph": []
+            },
+            "geograph_detail": {
+              "id": 1372,
+              "province": "Sumatera Selatan",
+              "city": "Palembang",
+              "district": "Plaju",
+              "village": "Plaju Ilir",
+              "zipcode": "30268",
+              "geotag": "1006132372",
+              "jnecitycode": "PLM10001"
+            }
+          },
+          {
+            "id": 3,
+            "geograph": 20809,
+            "type": "CUSTOMER",
+            "price_rule_item": {
+              "id": 2,
+              "sku_number": "KGRO0NF1BJ",
+              "category_id": 7019,
+              "brand_id": 81,
+              "base_margin": "0.00",
+              "indent_price": "0.00",
+              "price_rule_id": 2,
+              "price_rule_item_type_id": 1,
+              "priority": 1,
+              "min_tier_1": 1,
+              "max_tier_1": 1,
+              "base_price_tier_1": "10000000.00",
+              "tier_discount_1": "25.00",
+              "tier_discount_1_type": "PERCENTAGE",
+              "indent_price_tier_1": "0.00",
+              "is_fixed_price_tier_1": false,
+              "fixed_price_tier_1": "0.00",
+              "is_allowed_to_override_srp_tier_1": false,
+              "min_tier_2": 2,
+              "max_tier_2": 2,
+              "base_price_tier_2": "9900000.00",
+              "tier_discount_2": "0.00",
+              "tier_discount_2_type": "NONE",
+              "indent_price_tier_2": "0.00",
+              "is_fixed_price_tier_2": true,
+              "fixed_price_tier_2": "0.00",
+              "is_allowed_to_override_srp_tier_2": false,
+              "min_tier_3": 3,
+              "max_tier_3": 99999999,
+              "base_price_tier_3": "9800000.00",
+              "tier_discount_3": "0.00",
+              "tier_discount_3_type": "NONE",
+              "indent_price_tier_3": "0.00",
+              "is_fixed_price_tier_3": true,
+              "fixed_price_tier_3": "0.00",
+              "is_allowed_to_override_srp_tier_3": false,
+              "max_qty": 0,
+              "start_date": "2018-07-31T08:16:29.000Z",
+              "end_date": "2020-07-31T08:16:29.000Z",
+              "status": "ACTIVE",
+              "shipping_hub": [],
+              "shipping_geograph": []
+            },
+            "geograph_detail": {
+              "id": 20809,
+              "province": "Sumatera Utara",
+              "city": "Medan",
+              "district": "Medan Area",
+              "village": "Sei Rengas II",
+              "zipcode": "20214",
+              "geotag": "1006116552",
+              "jnecitycode": "MES10025"
+            }
+          }
+        ],
+        "shipping_hub": []
+      }
+    ]
+  },
+  "agreementCustomerMpTopToVendor22AfterUpdate": {
+    "price_rule": [
+      {
+        "contract_id": 28,
+        "contract_type_id": 1,
+        "price_rule_id": 2,
+        "price_rule_items": [
+          {
+            "id": 2,
+            "sku_number": "KGRO0NF1BJ",
+            "category_id": 7019,
+            "brand_id": 81,
+            "base_margin": "0.00",
+            "indent_price": "0.00",
+            "price_rule_id": 2,
+            "price_rule_item_type_id": 1,
+            "priority": 1,
+            "min_tier_1": 5,
+            "max_tier_1": 15,
+            "base_price_tier_1": "10000000.00",
+            "tier_discount_1": "25.00",
+            "tier_discount_1_type": "PERCENTAGE",
+            "indent_price_tier_1": "0.00",
+            "is_fixed_price_tier_1": false,
+            "fixed_price_tier_1": "0.00",
+            "is_allowed_to_override_srp_tier_1": false,
+            "min_tier_2": 16,
+            "max_tier_2": 20,
+            "base_price_tier_2": "9900000.00",
+            "tier_discount_2": "0.00",
+            "tier_discount_2_type": "NONE",
+            "indent_price_tier_2": "0.00",
+            "is_fixed_price_tier_2": true,
+            "fixed_price_tier_2": "0.00",
+            "is_allowed_to_override_srp_tier_2": false,
+            "min_tier_3": 21,
+            "max_tier_3": 99999999,
+            "base_price_tier_3": "18000001.00",
+            "tier_discount_3": "0.00",
+            "tier_discount_3_type": "NONE",
+            "indent_price_tier_3": "0.00",
+            "is_fixed_price_tier_3": true,
+            "fixed_price_tier_3": "0.00",
+            "is_allowed_to_override_srp_tier_3": false,
+            "max_qty": 0,
+            "start_date": "2018-07-31T08:16:29.000Z",
+            "end_date": "2020-07-31T08:16:29.000Z",
+            "status": "ACTIVE",
+            "shipping_hub": [],
+            "shipping_geograph": [
+              {
+                "id": 2,
+                "geograph": 1372,
+                "type": "VENDOR"
+              },
+              {
+                "id": 3,
+                "geograph": 20809,
+                "type": "CUSTOMER"
+              }
+            ],
+            "sku_detail": {
+              "sku": "KGRO0NF1BJ",
+              "name": "Apple iPhone 7 - White - 64GB",
+              "primary_image": "https://catalogproducts-staging.s3.ap-southeast-1.amazonaws.com/2018/06/product_1528268921.png"
+            }
+          }
+        ]
+      }
+    ],
+    "top_rule": [
+      {
+        "contract_id": 26,
+        "contract_type_id": 2,
+        "top_rule_id": 9,
+        "top_days": 21,
+        "max_plafond_transaction": 1
+      }
+    ],
+    "rebate_rule": [
+      {
+        "contract_id": 27,
+        "contract_type_id": 3,
+        "rebate_rule_id": 9,
+        "percentage": 1
+      }
+    ],
+    "shipping_rule": [
+      {
+        "contract_id": 29,
+        "contract_type_id": 4,
+        "shipping_rule_id": 9,
+        "shipping_payment_type": {
+          "id": 1,
+          "name": "franco"
+        },
+        "shipping_geograph": [
+          {
+            "id": 2,
+            "geograph": 1372,
+            "type": "VENDOR",
+            "price_rule_item": {
+              "id": 2,
+              "sku_number": "KGRO0NF1BJ",
+              "category_id": 7019,
+              "brand_id": 81,
+              "base_margin": "0.00",
+              "indent_price": "0.00",
+              "price_rule_id": 2,
+              "price_rule_item_type_id": 1,
+              "priority": 1,
+              "min_tier_1": 5,
+              "max_tier_1": 15,
+              "base_price_tier_1": "20000001.00",
+              "tier_discount_1": "25.00",
+              "tier_discount_1_type": "PERCENTAGE",
+              "indent_price_tier_1": "0.00",
+              "is_fixed_price_tier_1": false,
+              "fixed_price_tier_1": "0.00",
+              "is_allowed_to_override_srp_tier_1": false,
+              "min_tier_2": 16,
+              "max_tier_2": 20,
+              "base_price_tier_2": "19000001.00",
+              "tier_discount_2": "0.00",
+              "tier_discount_2_type": "NONE",
+              "indent_price_tier_2": "0.00",
+              "is_fixed_price_tier_2": true,
+              "fixed_price_tier_2": "0.00",
+              "is_allowed_to_override_srp_tier_2": false,
+              "min_tier_3": 21,
+              "max_tier_3": 99999999,
+              "base_price_tier_3": "18000001.00",
+              "tier_discount_3": "0.00",
+              "tier_discount_3_type": "NONE",
+              "indent_price_tier_3": "0.00",
+              "is_fixed_price_tier_3": true,
+              "fixed_price_tier_3": "0.00",
+              "is_allowed_to_override_srp_tier_3": false,
+              "max_qty": 0,
+              "start_date": "2018-07-31T08:16:29.000Z",
+              "end_date": "2020-07-31T08:16:29.000Z",
+              "status": "ACTIVE",
+              "shipping_hub": [],
+              "shipping_geograph": []
+            },
+            "geograph_detail": {
+              "id": 1372,
+              "province": "Sumatera Selatan",
+              "city": "Palembang",
+              "district": "Plaju",
+              "village": "Plaju Ilir",
+              "zipcode": "30268",
+              "geotag": "1006132372",
+              "jnecitycode": "PLM10001"
+            }
+          },
+          {
+            "id": 3,
+            "geograph": 20809,
+            "type": "CUSTOMER",
+            "price_rule_item": {
+              "id": 2,
+              "sku_number": "KGRO0NF1BJ",
+              "category_id": 7019,
+              "brand_id": 81,
+              "base_margin": "0.00",
+              "indent_price": "0.00",
+              "price_rule_id": 2,
+              "price_rule_item_type_id": 1,
+              "priority": 1,
+              "min_tier_1": 5,
+              "max_tier_1": 15,
+              "base_price_tier_1": "20000001.00",
+              "tier_discount_1": "25.00",
+              "tier_discount_1_type": "PERCENTAGE",
+              "indent_price_tier_1": "0.00",
+              "is_fixed_price_tier_1": false,
+              "fixed_price_tier_1": "0.00",
+              "is_allowed_to_override_srp_tier_1": false,
+              "min_tier_2": 16,
+              "max_tier_2": 20,
+              "base_price_tier_2": "19000001.00",
+              "tier_discount_2": "0.00",
+              "tier_discount_2_type": "NONE",
+              "indent_price_tier_2": "0.00",
+              "is_fixed_price_tier_2": true,
+              "fixed_price_tier_2": "0.00",
+              "is_allowed_to_override_srp_tier_2": false,
+              "min_tier_3": 21,
+              "max_tier_3": 99999999,
+              "base_price_tier_3": "18000001.00",
+              "tier_discount_3": "0.00",
+              "tier_discount_3_type": "NONE",
+              "indent_price_tier_3": "0.00",
+              "is_fixed_price_tier_3": true,
+              "fixed_price_tier_3": "0.00",
+              "is_allowed_to_override_srp_tier_3": false,
+              "max_qty": 0,
+              "start_date": "2018-07-31T08:16:29.000Z",
+              "end_date": "2020-07-31T08:16:29.000Z",
+              "status": "ACTIVE",
+              "shipping_hub": [],
+              "shipping_geograph": []
+            },
+            "geograph_detail": {
+              "id": 20809,
+              "province": "Sumatera Utara",
+              "city": "Medan",
+              "district": "Medan Area",
+              "village": "Sei Rengas II",
+              "zipcode": "20214",
+              "geotag": "1006116552",
+              "jnecitycode": "MES10025"
+            }
+          }
+        ],
+        "shipping_hub": []
+      }
+    ]
+  },
+  "agrrementCustomerMpLocoToVendor22": {
+    "price_rule": [
+      {
+        "contract_id": 4187,
+        "contract_type_id": 1,
+        "price_rule_id": 1052,
+        "price_rule_items": [
+          {
+            "id": 4874,
+            "sku_number": "NRKC0PC5DW",
+            "category_id": 5554,
+            "brand_id": 81,
+            "base_margin": "0.00",
+            "indent_price": "0.00",
+            "price_rule_id": 1052,
+            "price_rule_item_type_id": 1,
+            "priority": 1,
+            "min_tier_1": 1,
+            "max_tier_1": 99999999,
+            "base_price_tier_1": "28759851.00",
+            "tier_discount_1": "9999.00",
+            "tier_discount_1_type": "PRICE",
+            "indent_price_tier_1": "0.00",
+            "is_fixed_price_tier_1": false,
+            "fixed_price_tier_1": "0.00",
+            "is_allowed_to_override_srp_tier_1": false,
+            "min_tier_2": 0,
+            "max_tier_2": 0,
+            "base_price_tier_2": "0.00",
+            "tier_discount_2": "0.00",
+            "tier_discount_2_type": "NONE",
+            "indent_price_tier_2": "0.00",
+            "is_fixed_price_tier_2": true,
+            "fixed_price_tier_2": "0.00",
+            "is_allowed_to_override_srp_tier_2": false,
+            "min_tier_3": 0,
+            "max_tier_3": 0,
+            "base_price_tier_3": "0.00",
+            "tier_discount_3": "0.00",
+            "tier_discount_3_type": "NONE",
+            "indent_price_tier_3": "0.00",
+            "is_fixed_price_tier_3": true,
+            "fixed_price_tier_3": "0.00",
+            "is_allowed_to_override_srp_tier_3": false,
+            "max_qty": 1000,
+            "start_date": "2018-01-01T00:00:00.000Z",
+            "end_date": "2020-12-31T00:00:00.000Z",
+            "status": "INACTIVE",
+            "shipping_hub": [],
+            "shipping_geograph": []
+          }
+        ]
+      }
+    ],
+    "top_rule": [
+      {
+        "contract_id": 4185,
+        "contract_type_id": 2,
+        "top_rule_id": 1018,
+        "top_days": 21,
+        "max_plafond_transaction": 1
+      }
+    ],
+    "rebate_rule": [
+      {
+        "contract_id": 4186,
+        "contract_type_id": 3,
+        "rebate_rule_id": 1018,
+        "percentage": 6
+      }
+    ],
+    "shipping_rule": []
+  }
+}

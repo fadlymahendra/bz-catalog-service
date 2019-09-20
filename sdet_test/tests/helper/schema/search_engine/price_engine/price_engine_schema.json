@@ -1,0 +1,390 @@
+{
+  "fullTierDataSingleTierShipping": {
+    "type": "array",
+    "items": {
+      "type": "object",
+      "required": [
+        "id",
+        "sku",
+        "type",
+        "tier_data",
+        "cid",
+        "top_days",
+        "is_contract_price",
+        "is_franco",
+        "shipping",
+        "channel_type",
+        "is_contract",
+        "vendor_id"
+      ],
+      "properties": {
+        "id": {
+          "type": "number"
+        },
+        "sku": {
+          "type": "string",
+          "pattern": "^(.*)$"
+        },
+        "type": {
+          "type": "null"
+        },
+        "tier_data": {
+          "type": "object",
+          "required": [
+            "tier_min_qty_1",
+            "tier_price_1"
+          ],
+          "properties": {
+            "tier_min_qty_1": {
+              "type": "number"
+            },
+            "tier_price_1": {
+              "type": "number"
+            },
+            "tier_min_qty_2": {
+              "type": "number"
+            },
+            "tier_price_2": {
+              "type": "number"
+            },
+            "tier_min_qty_3": {
+              "type": "number"
+            },
+            "tier_price_3": {
+              "type": "number"
+            }
+          }
+        },
+        "cid": {
+          "type": "string",
+          "pattern": "^(.*)$"
+        },
+        "top_days": {
+          "type": "number"
+        },
+        "is_contract_price": {
+          "type": "boolean"
+        },
+        "is_franco": {
+          "type": "number"
+        },
+        "shipping": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "tier_data",
+              "to",
+              "from"
+            ],
+            "properties": {
+              "tier_data": {
+                "type": "object",
+                "required": [
+                  "tier_min_qty_1",
+                  "tier_price_1"
+                ],
+                "properties": {
+                  "tier_min_qty_1": {
+                    "type": "number"
+                  },
+                  "tier_price_1": {
+                    "type": "number"
+                  }
+                }
+              },
+              "to": {
+                "type": "number"
+              },
+              "from": {
+                "type": "number"
+              }
+            }
+          }
+        },
+        "channel_type": {
+          "type": "string",
+          "pattern": "^(.*)$"
+        },
+        "is_contract": {
+          "type": "number"
+        },
+        "vendor_id": {
+          "type": "string",
+          "pattern": "^(.*)$"
+        }
+      }
+    }
+  },
+  "fullTierDataLoco": {
+    "type": "array", 
+    "items": {
+      "$id": "#/items", 
+      "type": "object", 
+      "required": [
+        "id", 
+        "sku", 
+        "type", 
+        "tier_data", 
+        "cid", 
+        "top_days", 
+        "is_contract_price", 
+        "is_franco", 
+        "shipping", 
+        "channel_type", 
+        "is_contract", 
+        "vendor_id"
+      ], 
+      "properties": {
+        "id": {
+          "type": "number"
+        }, 
+        "sku": {
+          "type": "string", 
+          "pattern": "^(.*)$"
+        }, 
+        "type": {
+          "type": "string", 
+          "pattern": "^(.*)$"
+        }, 
+        "tier_data": {
+          "type": "object", 
+          "required": [
+            "tier_min_qty_1", 
+            "tier_price_1", 
+            "tier_min_qty_2", 
+            "tier_price_2", 
+            "tier_min_qty_3", 
+            "tier_price_3"
+          ], 
+          "properties": {
+            "tier_min_qty_1": {
+              "type": "number"
+            }, 
+            "tier_price_1": {
+              "type": "number"
+            }, 
+            "tier_min_qty_2": {
+              "type": "number"
+            }, 
+            "tier_price_2": {
+              "type": "number"
+            }, 
+            "tier_min_qty_3": {
+              "type": "number"
+            }, 
+            "tier_price_3": { 
+              "type": "number"
+            }
+          }
+        }, 
+        "cid": {
+          "type": "string", 
+          "pattern": "^(.*)$"
+        }, 
+        "top_days": {
+          "type": "number"
+        }, 
+        "is_contract_price": {
+          "type": "boolean"
+        }, 
+        "is_franco": {
+          "type": "number"
+        }, 
+        "shipping": {
+          "type": "array"
+        }, 
+        "channel_type": {
+          "type": "string", 
+          "pattern": "^(.*)$"
+        }, 
+        "is_contract": {
+          "type": "number"
+        }, 
+        "vendor_id": {
+          "type": "string", 
+          "pattern": "^(.*)$"
+        }
+      }
+    }
+  },
+  "singleTierDataLoco": {
+    "type": "array", 
+    "items": {
+      "type": "object", 
+      "required": [
+        "id", 
+        "sku", 
+        "type", 
+        "tier_data", 
+        "cid", 
+        "top_days", 
+        "is_contract_price", 
+        "is_franco", 
+        "shipping", 
+        "channel_type", 
+        "is_contract", 
+        "vendor_id"
+      ], 
+      "properties": {
+        "id": {
+          "type": "number"
+        }, 
+        "sku": {
+          "type": "string", 
+          "pattern": "^(.*)$"
+        }, 
+        "type": {
+          "type": ["null", "string"]
+        }, 
+        "tier_data": {
+          "type": "object", 
+          "required": [
+            "tier_min_qty_1", 
+            "tier_price_1"
+          ], 
+          "properties": {
+            "tier_min_qty_1": {
+              "type": "number"
+            }, 
+            "tier_price_1": {
+              "type": "number"
+            }
+          }
+        }, 
+        "cid": {
+          "type": "string", 
+          "pattern": "^(.*)$"
+        }, 
+        "top_days": {
+          "type": "number"
+        }, 
+        "is_contract_price": {
+          "type": "boolean"
+        }, 
+        "is_franco": {
+          "type": "number"
+        }, 
+        "shipping": {
+          "type": "array"
+        }, 
+        "channel_type": {
+          "type": "string", 
+          "pattern": "^(.*)$"
+        }, 
+        "is_contract": {
+          "type": "number"
+        }, 
+        "vendor_id": {
+          "type": "string", 
+          "pattern": "^(.*)$"
+        }
+      }
+    }
+  },
+  "singleTierDataSingleTierShipping": {
+    "type": "array", 
+    "items": {
+      "type": "object", 
+      "required": [
+        "id", 
+        "sku", 
+        "type", 
+        "tier_data", 
+        "cid", 
+        "top_days", 
+        "is_contract_price", 
+        "is_franco", 
+        "shipping", 
+        "channel_type", 
+        "is_contract", 
+        "vendor_id"
+      ], 
+      "properties": {
+        "id": {
+          "type": "number"
+        }, 
+        "sku": {
+          "type": "string", 
+          "pattern": "^(.*)$"
+        }, 
+        "type": {
+          "type": "null"
+        }, 
+        "tier_data": {
+          "type": "object", 
+          "required": [
+            "tier_min_qty_1", 
+            "tier_price_1"
+          ], 
+          "properties": {
+            "tier_min_qty_1": {
+              "type": "number"
+            }, 
+            "tier_price_1": {
+              "type": "number"
+            }
+          }
+        }, 
+        "cid": {
+          "type": "string", 
+          "pattern": "^(.*)$"
+        }, 
+        "top_days": {
+          "type": "number"
+        }, 
+        "is_contract_price": {
+          "type": "boolean"
+        }, 
+        "is_franco": {
+          "type": "number"
+        }, 
+        "shipping": {
+          "type": "array", 
+          "items": {
+            "type": "object", 
+            "required": [
+              "tier_data", 
+              "to", 
+              "from"
+            ], 
+            "properties": {
+              "tier_data": {
+                "type": "object", 
+                "required": [
+                  "tier_min_qty_1", 
+                  "tier_price_1"
+                ], 
+                "properties": {
+                  "tier_min_qty_1": {
+                    "type": "number"
+                  }, 
+                  "tier_price_1": {
+                    "type": "number"
+                  }
+                }
+              }, 
+              "to": {
+                "type": "number"
+              }, 
+              "from": {
+                "type": "number"
+              }
+            }
+          }
+        }, 
+        "channel_type": {
+          "type": "string", 
+          "pattern": "^(.*)$"
+        }, 
+        "is_contract": {
+          "type": "number"
+        }, 
+        "vendor_id": {
+          "type": "string", 
+          "pattern": "^(.*)$"
+        }
+      }
+    }
+  }
+}

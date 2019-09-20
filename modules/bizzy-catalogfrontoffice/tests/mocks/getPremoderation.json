@@ -1,0 +1,14 @@
+{
+    "path": {
+        "id": "3"
+    },
+	"query": {
+		"search": "",
+		"c0": "",
+		"brand": "",
+		"status": "revision_inprogress,revision_complete,need_revision",
+		"sort": "created_at_asc",
+		"page": 1,
+		"limit": 20
+	}
+}

@@ -1,0 +1,8 @@
+{
+    "vendor_id": 2,
+    "items": [
+    { "sku_name": "Iphone 13", "product_desc": "Touchscreen feature", "qty": 6.2, "unit_price": 500000, "uom": "Box" }
+    ,
+    { "sku_name": "Iphone 14", "product_desc": "Touchscreen feature", "qty": 6.2, "unit_price": 500000, "uom": "Box" }
+    ]
+}

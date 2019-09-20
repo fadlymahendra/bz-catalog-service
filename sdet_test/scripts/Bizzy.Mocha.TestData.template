@@ -1,0 +1,24 @@
+{
+  "READ ME": "Modify this data pattern here with your api request spec. DELETE THIS LINE after finished",
+  "READ ME 2": "tips: use the same name with test title for your data. 1 test for 1 data. DELETE THIS LINE after finished",
+  "successPostWithValidBody": {
+    "name": "some name",
+    "status": "some status",
+    "item": ["item 1", "item 2", "item 3"]
+  },
+  "successGetData": {
+    "search": "",
+    "sort_by": "",
+    "sort": "",
+    "team_id": 0,
+    "page": 1,
+    "limit": 100
+  },
+  "successPutData": {
+    "name": "some new name",
+    "status": "some new status"
+  },
+  "successDeleteData": {
+    "Id": "some Id"
+  }
+}

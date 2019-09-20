@@ -1,0 +1,11 @@
+.DS_Store
+.nyc_output/
+build/
+node_modules/
+dev_node_modules/
+*.env
+coverage/
+catalog-service.iml
+\.idea/
+reports/
+*.vscode/*

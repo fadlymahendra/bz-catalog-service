@@ -1,0 +1,38 @@
+{
+  "validProductStockScheme": {
+    "type": "array",
+    "required": [ "data" ],
+    "properties": {
+      "data": {
+        "type": "object",
+        "required": [ "id", "sku", "long_name", "primary_image", "stock_available", "sku_vendor", "product_group", "uom" ],
+        "properties": {
+          "id": {
+            "type": "Number"
+          },
+          "sku": {
+            "type": "String"
+          },
+          "long_name": {
+            "type": "String"
+          },
+          "primary_image": {
+            "type": "String"
+          },
+          "stock_available": {
+            "type": "Number"
+          },
+          "sku_vendor": {
+            "type": "String"
+          },
+          "product_group": {
+            "type": "object"
+          },
+          "uom": {
+            "type": "object"
+          }
+        }
+      }
+    }
+  }
+}

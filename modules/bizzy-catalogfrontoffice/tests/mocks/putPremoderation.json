@@ -1,0 +1,165 @@
+{
+    "path": {
+        "id": "3",
+        "pid": "b7f98d9b-ced2-4adb-bdd6-629fd9db814b"
+    },
+    "body": {
+        "type" : "existing",
+        "product_group_id": "2",  
+        "payload": {
+            "name" : "Apple iPhone 7", 
+            "category_id" : 0, 
+            "category" : {
+                "c0" : 0, 
+                "c1" : 0, 
+                "c2" : 0, 
+                "c3" : 0
+            }, 
+            "brand_id" : 81, 
+            "brand_status" : "clear", 
+            "brand_name" : "", 
+            "brand_image" : "http://google.com", 
+            "uom_id" : 1, 
+            "stocking_uom_id" : 4, 
+            "quantity_stocking_uom" : 1, 
+            "manufacturing_number" : "AP89232423434", 
+            "package_weight" : "180", 
+            "package_length" : "19", 
+            "package_height" : "10", 
+            "package_width" : "5", 
+            "package_content" : "iPhone X features a new all-screen design. Face ID, which makes your face your password. And the most powerful and smartest chip ever in a smartphone.", 
+            "barcode" : "924234324", 
+            "description" : "Visi Apple sejak awal adalah menciptakan iPhone yang sepenuhnya berisi layar. Yang begitu menghanyutkan sehingga tak ada lagi batasan antara perangkat dan pengalaman. Dan begitu cerdas sehingga dapat merespons dengan sekali sentuh, atau bahkan sekali pandang. Dengan iPhone X, visi ini menjadi kenyataan. Selamat datang, masa depan.Di iPhone X, layarnya adalah perangkatnya. Layar Super Retina 5,8 inci yang baru sempurna dalam genggaman dan memukau pandangan. Layar dirancang dengan teknik dan teknologi baru untuk mengikuti lekukan desain dengan presisi, bahkan ke sudut-sudut melengkung yang begitu elegan. Desain yang sepenuhnya baru. Kaca terkuat yang pernah ada di ponsel pintar, baik depan maupun belakang. Baja tahan karat sekelas peralatan bedah. Pengisian daya nirkabel. Tahan air dan debu. Gerakan Intuitif, semua gerakan yang sudah tidak asing lagi membuat navigasi terasa natural dan intuitif. Tanpa menekan tombol, tapi cukup dengan sekali usap saja Anda akan kembali ke layar Home, dari mana pun. Kamera Ganda 12 MP. Seni fotografi jadi lebih sederhana dengan dukungan prosesor A11 Bionic. Chip yang paling andal dan cerdas di ponsel pintar, dengan mesin neural yang mampu menangani hingga 600 miliar operasi per detik. Empat core efisiensi di CPU yang baru lebih cepat hingga 70 persen dibandingkan Fusion A10.", 
+            "variant_count" : "2", 
+            "variant_matrix" : [
+                "phone_color", 
+                "phone_storage"
+            ], 
+            "specification_status" : "completed",
+            "specifications" : [
+                {
+                    "attribute_id" : 3, 
+                    "attribute_code" : "phone_os", 
+                    "attribute_code_label" : "Sistem Operasi", 
+                    "attribute_type" : "dropdown", 
+                    "attribute_value_id" : 5, 
+                    "attribute_value_label" : "iOS", 
+                    "attribute_status" : "clear"
+                }, 
+                {
+                    "attribute_id" : 4, 
+                    "attribute_code" : "phone_display", 
+                    "attribute_code_label" : "Layar", 
+                    "attribute_type" : "textinput", 
+                    "attribute_textinput" : "Super AMOLED capacitive touchscreen, 16M colors", 
+                    "attribute_status" : "clear"
+                }
+            ], 
+            "products" : [
+                {
+                    "index" : "j2394p", 
+                    "variants" : [
+                        {
+                            "attribute_id" : 1, 
+                            "attribute_code" : "phone_color", 
+                            "attribute_code_label" : "Warna", 
+                            "attribute_value_name" : "Pink", 
+                            "attribute_value_id" : 0, 
+                            "attribute_status" : "new"
+                        }, 
+                        {
+                            "attribute_id" : 2, 
+                            "attribute_code" : "phone_storage", 
+                            "attribute_code_label" : "Kapasitas", 
+                            "attribute_value_name" : "32GB", 
+                            "attribute_value_id" : 3, 
+                            "attribute_status" : "clear"
+                        }
+                    ], 
+                    "variant_value" : {
+                        "phone_color" : "1", 
+                        "phone_storage" : "3"
+                    }, 
+                    "sku_vendor" : "X1123231", 
+                    "tier_min_qty_1" : "10", 
+                    "tier_min_qty_2" : "20", 
+                    "tier_min_qty_3" : "30", 
+                    "tier_cogs_price_1" : "20000000", 
+                    "tier_cogs_price_2" : "19000000", 
+                    "tier_cogs_price_3" : "18000000",
+                    "stock" : 15, 
+                    "primary_image" : "https://catalogproducts-staging.s3.ap-southeast-1.amazonaws.com/2017/12/product_1514446297.jpg", 
+                    "additional_image" : [
+    
+                    ], 
+                    "warehouse_id" : 1, 
+                    "location_label" : "Jakarta selatan", 
+                    "reference_link" : [
+                        "https://en.wikipedia.org/wiki/IPhone_X"
+                    ], 
+                    "warranty_option" : "international", 
+                    "warranty_period" : "week", 
+                    "warranty_limit" : 1, 
+                    "warranty_coverage" : "",
+                    "is_indent" : 0, 
+                    "indent_period" : "", 
+                    "indent_limit" : 0, 
+                    "variant_status" : "pending",
+                    "is_contract": 1
+                }, 
+                {
+                    "index" : "8m4024", 
+                    "variants" : [
+                        {
+                            "attribute_id" : 1, 
+                            "attribute_code" : "phone_color", 
+                            "attribute_code_label" : "Warna", 
+                            "attribute_value_name" : "Silver", 
+                            "attribute_value_id" : 1, 
+                            "attribute_status" : "clear"
+                        }, 
+                        {
+                            "attribute_id" : 2, 
+                            "attribute_code" : "phone_storage", 
+                            "attribute_code_label" : "Kapasitas", 
+                            "attribute_value_name" : "64GB", 
+                            "attribute_value_id" : 4, 
+                            "attribute_status" : "new"
+                        }
+                    ], 
+                    "variant_value" : {
+                        "phone_color" : "1", 
+                        "phone_storage" : "4"
+                    }, 
+                    "sku_vendor" : "X112322", 
+                    "tier_min_qty_1" : "10", 
+                    "tier_min_qty_2" : "20", 
+                    "tier_min_qty_3" : "30", 
+                    "tier_cogs_price_1" : "20000000", 
+                    "tier_cogs_price_2" : "19000000", 
+                    "tier_cogs_price_3" : "18000000",
+                    "stock" : 10, 
+                    "primary_image" : "https://catalogproducts-staging.s3.ap-southeast-1.amazonaws.com/2017/12/product_1514446306.jpg", 
+                    "additional_image" : [
+    
+                    ], 
+                    "warehouse_id" : 1, 
+                    "location_label" : "Jakarta selatan", 
+                    "reference_link" : [
+                        "https://en.wikipedia.org/wiki/IPhone_X"
+                    ], 
+                    "warranty_option" : "international", 
+                    "warranty_period" : "week", 
+                    "warranty_limit" : 1, 
+                    "warranty_coverage" : "",
+                    "is_indent" : 0, 
+                    "indent_period" : "", 
+                    "indent_limit" : 0, 
+                    "variant_status" : "pending",
+                    "is_contract": 0
+                }
+            ]
+        }
+        
+    }
+}

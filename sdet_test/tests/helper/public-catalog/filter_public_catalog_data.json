@@ -1,0 +1,1463 @@
+{
+  "params": {
+    "successPostPublicCatalogLimitEven": {
+      "page": 0,
+      "limit": 2
+    },
+    "successPostPublicCatalogLimitOdd": {
+      "page": 0,
+      "limit": 3
+    },
+    "successPostPublicCatalogSearchCategoryName": {
+      "page": 0,
+      "limit": 3,
+      "q": "Samsung"
+    },
+    "successPostPublicCatalogInvalidSearchCategoryName": {
+      "page": 0,
+      "limit": 3,
+      "q": "abcdef"
+    },
+    "successPostPublicCatalogCategoryNameAndSearchProductNameAndMultipleBrand": {
+      "page": 0,
+      "limit": 3,
+      "q": "Note"
+    },
+    "successPostPublicCatalogSearchSKU": {
+      "page": 0,
+      "limit": 3,
+      "q": "456787D508"
+    }
+  },
+  "body": {
+    "successPostPublicCatalogFilterC0": {
+      "filters":["categories.lvl1%3AIT%20%26%20Teknologi%20%3E%20Perangkat%20komunikasi%20dan%20aksesoris"],
+      "search":["categories.lvl1%3AIT%20%26%20Teknologi%20%3E%20Perangkat%20komunikasi%20dan%20aksesoris"]
+    },
+    "successPostPublicCatalogSearchCategoryName": {
+      "filters":["categories.lvl1%3AIT%20%26%20Teknologi%20%3E%20Perangkat%20komunikasi%20dan%20aksesoris"],
+      "search":["categories.lvl1%3AIT%20%26%20Teknologi%20%3E%20Perangkat%20komunikasi%20dan%20aksesoris",["brand.name%3ASamsung"]]
+    },
+    "successPostPublicCatalogC0Decoration": {
+      "filters":["categories.lvl0%3ADekorasi%20dan%20Elektronik%20Rumah%20Tangga"],
+      "search":["categories.lvl0%3ADekorasi%20dan%20Elektronik%20Rumah%20Tangga"]
+    },
+    "successPostPublicCatalogC0Electronic": {
+      "filters":["categories.lvl0%3AElektronik%20Industri"],
+      "search":["categories.lvl0%3AElektronik%20Industri"]
+    },
+    "successPostPublicCatalogC0Furniture": {
+      "filters":["categories.lvl0%3AFurnitur%20dan%20Perabotan"],
+      "search":["categories.lvl0%3AFurnitur%20dan%20Perabotan"]
+    },
+    "successPostPublicCatalogC0Gift": {
+      "filters":["categories.lvl0%3AHadiah%2C%20Barang%20Promosi%2C%20dan%20Jasa%20Profesional"],
+      "search":["categories.lvl0%3AHadiah%2C%20Barang%20Promosi%2C%20dan%20Jasa%20Profesional"]
+    },
+    "successPostPublicCatalogC0IT": {
+      "filters":["categories.lvl0%3AIT%20%26%20Teknologi"],
+      "search":["categories.lvl0%3AIT%20%26%20Teknologi"]
+    },
+    "successPostPublicCatalogC0Transportation": {
+      "filters":["categories.lvl0%3AJasa%20Transportasi%2C%20Kargo%20dan%20Industri"],
+      "search":["categories.lvl0%3AJasa%20Transportasi%2C%20Kargo%20dan%20Industri"]
+    },
+    "successPostPublicCatalogC0MRO": {
+      "filters":["categories.lvl0%3AMRO%20(Maintenace%2C%20Repair%2C%20%26%20Overhaul)"],
+      "search":["categories.lvl0%3AMRO%20(Maintenace%2C%20Repair%2C%20%26%20Overhaul)"]
+    },
+    "successPostPublicCatalogC0Otomotif": {
+      "filters":["categories.lvl0%3AOtomotif%20dan%20Transportasi"],
+      "search":["categories.lvl0%3AOtomotif%20dan%20Transportasi"]
+    },
+    "successPostPublicCatalogC0Pantry": {
+      "filters":["categories.lvl0%3APantry%2C%20Kebersihan%20dan%20Kesehatan"],
+      "search":["categories.lvl0%3APantry%2C%20Kebersihan%20dan%20Kesehatan"]
+    },
+    "successPostPublicCatalogC0EquipmentHotel": {
+      "filters":["categories.lvl0%3APeralatan%20Hotel%2C%20Restoran%20%26%20Kafe"],
+      "search":["categories.lvl0%3APeralatan%20Hotel%2C%20Restoran%20%26%20Kafe"]
+    },
+    "successPostPublicCatalogC0Camera": {
+      "filters":["categories.lvl0%3APercetakan%2C%20Kamera%20dan%20Audio-Visual"],
+      "search":["categories.lvl0%3APercetakan%2C%20Kamera%20dan%20Audio-Visual"]
+    },
+    "successPostPublicCatalogC0Office": {
+      "filters":["categories.lvl0%3APerlengkapan%20Kantor"],
+      "search":["categories.lvl0%3APerlengkapan%20Kantor"]
+    },
+    "successPostPublicCatalogC0Agriculture": {
+      "filters":["categories.lvl0%3APertanian%20dan%20perkebunan"],
+      "search":["categories.lvl0%3APertanian%20dan%20perkebunan"]
+    },
+    "successPostPublicCatalogC0Surveillance": {
+      "filters":["categories.lvl0%3ASistem%20Pengawasan%20dan%20Keamanan"],
+      "search":["categories.lvl0%3ASistem%20Pengawasan%20dan%20Keamanan"]
+    },
+    "successPostPublicCatalogC0DecorationandBrand": {
+      "filters":["categories.lvl0%3ADekorasi%20dan%20Elektronik%20Rumah%20Tangga"],
+      "search":[["categories.lvl0%3ADekorasi%20dan%20Elektronik%20Rumah%20Tangga"], ["brand.name%3ASanken"]]
+    },
+    "successPostPublicCatalogC0ElectronicandBrand": {
+      "filters":["categories.lvl0%3AElektronik%20Industri"],
+      "search":[["categories.lvl0%3AElektronik%20Industri"], ["brand.name%3ABroco"]]
+    },
+    "successPostPublicCatalogC0FurnitureandBrand": {
+      "filters":["categories.lvl0%3AFurnitur%20dan%20Perabotan"],
+      "search":[["categories.lvl0%3AFurnitur%20dan%20Perabotan"], ["brand.name%3AModera"]]
+    },
+    "successPostPublicCatalogC0GiftandBrand": {
+      "filters":["categories.lvl0%3AHadiah%2C%20Barang%20Promosi%2C%20dan%20Jasa%20Profesional"],
+      "search":[["categories.lvl0%3AHadiah%2C%20Barang%20Promosi%2C%20dan%20Jasa%20Profesional"], ["brand.name%3ALifebuoy"]]
+    },
+    "successPostPublicCatalogC0ITandBrand": {
+      "filters":["categories.lvl0%3AIT%20%26%20Teknologi"],
+      "search":[["categories.lvl0%3AIT%20%26%20Teknologi"], ["brand.name%3AHP"]]
+    },
+    "successPostPublicCatalogC0TransportationandBrand": {
+      "filters":["categories.lvl0%3AJasa%20Transportasi%2C%20Kargo%20dan%20Industri"],
+      "search":["categories.lvl0%3AJasa%20Transportasi%2C%20Kargo%20dan%20Industri"]
+    },
+    "successPostPublicCatalogC0MROandBrand": {
+      "filters":["categories.lvl0%3AMRO%20(Maintenace%2C%20Repair%2C%20%26%20Overhaul)"],
+      "search":[["categories.lvl0%3AMRO%20(Maintenace%2C%20Repair%2C%20%26%20Overhaul)"], ["brand.name%3AKrisbow"]]
+    },
+    "successPostPublicCatalogC0OtomotifandBrand": {
+      "filters":["categories.lvl0%3AOtomotif%20dan%20Transportasi"],
+      "search":[["categories.lvl0%3AOtomotif%20dan%20Transportasi"], ["brand.name%3ADunlop"]]
+    },
+    "successPostPublicCatalogC0PantryandBrand": {
+      "filters":["categories.lvl0%3APantry%2C%20Kebersihan%20dan%20Kesehatan"],
+      "search":[["categories.lvl0%3APantry%2C%20Kebersihan%20dan%20Kesehatan"], ["brand.name%3AStella"]]
+    },
+    "successPostPublicCatalogC0EquipmentHotelandBrand": {
+      "filters":["categories.lvl0%3APeralatan%20Hotel%2C%20Restoran%20%26%20Kafe"],
+      "search":[["categories.lvl0%3APeralatan%20Hotel%2C%20Restoran%20%26%20Kafe"], ["brand.name%3AIndomie"]]
+    },
+    "successPostPublicCatalogC0CameraandBrand": {
+      "filters":["categories.lvl0%3APercetakan%2C%20Kamera%20dan%20Audio-Visual"],
+      "search":[["categories.lvl0%3APercetakan%2C%20Kamera%20dan%20Audio-Visual"], ["brand.name%3ACanon"]]
+    },
+    "successPostPublicCatalogC0OfficeandBrand": {
+      "filters":["categories.lvl0%3APerlengkapan%20Kantor"],
+      "search":[["categories.lvl0%3APerlengkapan%20Kantor"], ["brand.name%3AJoyko"]]
+    },
+    "successPostPublicCatalogC0AgricultureandBrand": {
+      "filters":["categories.lvl0%3APertanian%20dan%20perkebunan"],
+      "search":[["categories.lvl0%3APertanian%20dan%20perkebunan"], ["brand.name%3ACap Gajah"]]
+    },
+    "successPostPublicCatalogC0SurveillanceandBrand": {
+      "filters":["categories.lvl0%3ASistem%20Pengawasan%20dan%20Keamanan"],
+      "search":[["categories.lvl0%3ASistem%20Pengawasan%20dan%20Keamanan"], ["brand.name%3ALOCKWOOD"]]
+    },
+    "successPostPublicCatalogC1fromC0Decoration": {
+      "filters":["categories.lvl1%3ADekorasi%20dan%20Elektronik%20Rumah%20Tangga%20%3E%20Elektronik%20rumah%20tangga"],
+      "search":["categories.lvl1%3ADekorasi%20dan%20Elektronik%20Rumah%20Tangga%20%3E%20Elektronik%20rumah%20tangga"]
+    },
+    "successPostPublicCatalogC1fromC0Electronic": {
+      "filters":["categories.lvl1%3AElektronik%20Industri%20%3E%20Alat%20pengatur%20kawat%20listrik%2C%20aksesoris%20dan%20persediaan"],
+      "search":["categories.lvl1%3AElektronik%20Industri%20%3E%20Alat%20pengatur%20kawat%20listrik%2C%20aksesoris%20dan%20persediaan"]
+    },
+    "successPostPublicCatalogC1fromC0Furniture": {
+      "filters":["categories.lvl1%3AFurnitur%20dan%20Perabotan%20%3E%20Furnitur%20dan%20perlengkapan%20kelas%2C%20instruksional%20dan%20kelembagaan"],
+      "search":["categories.lvl1%3AFurnitur%20dan%20Perabotan%20%3E%20Furnitur%20dan%20perlengkapan%20kelas%2C%20instruksional%20dan%20kelembagaan"]
+    },
+    "successPostPublicCatalogC1fromC0Gift": {
+      "filters":["categories.lvl1%3AHadiah%2C%20Barang%20Promosi%2C%20dan%20Jasa%20Profesional%20%3E%20Mainan%20%26%20permainan"],
+      "search":["categories.lvl1%3AHadiah%2C%20Barang%20Promosi%2C%20dan%20Jasa%20Profesional%20%3E%20Mainan%20%26%20permainan"]
+    },
+    "successPostPublicCatalogC1fromC0IT": {
+      "filters":["categories.lvl1%3AIT%20%26%20Teknologi%20%3E%20Perangkat%20komunikasi%20dan%20aksesoris"],
+      "search":["categories.lvl1%3AIT%20%26%20Teknologi%20%3E%20Perangkat%20komunikasi%20dan%20aksesoris"]
+    },
+    "successPostPublicCatalogC1fromC0Transportation": {
+      "filters":["categories.lvl1%3AJasa%20Transportasi%2C%20Kargo%20dan%20Industri%20%3E%20Transportasi%20kargo%20dan%20surat"],
+      "search":["categories.lvl1%3AJasa%20Transportasi%2C%20Kargo%20dan%20Industri%20%3E%20Transportasi%20kargo%20dan%20surat"]
+    },
+    "successPostPublicCatalogC1fromC0MRO": {
+      "filters":["categories.lvl1%3AMRO%20(Maintenace%2C%20Repair%2C%20%26%20Overhaul)%20%3E%20Beton%2C%20semen%20dan%20plester"],
+      "search":["categories.lvl1%3AMRO%20(Maintenace%2C%20Repair%2C%20%26%20Overhaul)%20%3E%20Beton%2C%20semen%20dan%20plester"]
+    },
+    "successPostPublicCatalogC1fromC0Otomotif": {
+      "filters":["categories.lvl1%3AOtomotif%20dan%20Transportasi%20%3E%20Peralatan%20layanan%20transportasi"],
+      "search":["categories.lvl1%3AOtomotif%20dan%20Transportasi%20%3E%20Peralatan%20layanan%20transportasi"]
+    },
+    "successPostPublicCatalogC1fromC0Pantry": {
+      "filters":["categories.lvl1%3APantry%2C%20Kebersihan%20dan%20Kesehatan%20%3E%20Obat%20sistem%20pencernaan"],
+      "search":["categories.lvl1%3APantry%2C%20Kebersihan%20dan%20Kesehatan%20%3E%20Obat%20sistem%20pencernaan"]
+    },
+    "successPostPublicCatalogC1fromC0EquipmentHotel": {
+      "filters":["categories.lvl1%3APeralatan%20Hotel%2C%20Restoran%20%26%20Kafe%20%3E%20Peralatan%20layanan%20makanan"],
+      "search":["categories.lvl1%3APeralatan%20Hotel%2C%20Restoran%20%26%20Kafe%20%3E%20Peralatan%20layanan%20makanan"]
+    },
+    "successPostPublicCatalogC1fromC0Camera": {
+      "filters":["categories.lvl1%3APercetakan%2C%20Kamera%20dan%20Audio-Visual%20%3E%20Peralatan%20fotografi%20atau%20pembuatan%20film%20atau%20video"],
+      "search":["categories.lvl1%3APercetakan%2C%20Kamera%20dan%20Audio-Visual%20%3E%20Peralatan%20fotografi%20atau%20pembuatan%20film%20atau%20video"]
+    },
+    "successPostPublicCatalogC1fromC0Office": {
+      "filters":["categories.lvl1%3APerlengkapan%20Kantor%20%3E%20Produk%20kertas"],
+      "search":["categories.lvl1%3APerlengkapan%20Kantor%20%3E%20Produk%20kertas"]
+    },
+    "successPostPublicCatalogC1fromC0Agriculture": {
+      "filters":["categories.lvl1%3APertanian%20dan%20perkebunan%20%3E%20Mesin%20dan%20peralatan%20Pertanian%2C%20kehutanan%20dan%20lanskap"],
+      "search":["categories.lvl1%3APertanian%20dan%20perkebunan%20%3E%20Mesin%20dan%20peralatan%20Pertanian%2C%20kehutanan%20dan%20lanskap"]
+    },
+    "successPostPublicCatalogC1fromC0Surveillance": {
+      "filters":["categories.lvl1%3ASistem%20Pengawasan%20dan%20Keamanan%20%3E%20Deteksi%20%26%20Pengawasan%20Keamanan"],
+      "search":["categories.lvl1%3ASistem%20Pengawasan%20dan%20Keamanan%20%3E%20Deteksi%20%26%20Pengawasan%20Keamanan"]
+    },
+    "successPostPublicCatalogC1fromC0DecorationandBrand": {
+      "filters":["categories.lvl1%3ADekorasi%20dan%20Elektronik%20Rumah%20Tangga%20%3E%20Elektronik%20rumah%20tangga"],
+      "search":[["categories.lvl1%3ADekorasi%20dan%20Elektronik%20Rumah%20Tangga%20%3E%20Elektronik%20rumah%20tangga"], ["brand.name%3APhilips"]]
+    },
+    "successPostPublicCatalogC1fromC0ElectronicandBrand": {
+      "filters":["categories.lvl1%3AElektronik%20Industri%20%3E%20Alat%20pengatur%20kawat%20listrik%2C%20aksesoris%20dan%20persediaan"],
+      "search":[["categories.lvl1%3AElektronik%20Industri%20%3E%20Alat%20pengatur%20kawat%20listrik%2C%20aksesoris%20dan%20persediaan"], ["brand.name%3AWESTPEX"]]
+    },
+    "successPostPublicCatalogC1fromC0FurnitureandBrand": {
+      "filters":["categories.lvl1%3AFurnitur%20dan%20Perabotan%20%3E%20Furnitur%20dan%20perlengkapan%20kelas%2C%20instruksional%20dan%20kelembagaan"],
+      "search":[["categories.lvl1%3AFurnitur%20dan%20Perabotan%20%3E%20Furnitur%20dan%20perlengkapan%20kelas%2C%20instruksional%20dan%20kelembagaan"], ["brand.name%3AYOKOHAMA"]]
+    },
+    "successPostPublicCatalogC1fromC0GiftandBrand": {
+      "filters":["categories.lvl1%3AHadiah%2C%20Barang%20Promosi%2C%20dan%20Jasa%20Profesional%20%3E%20Mainan%20%26%20permainan"],
+      "search":[["categories.lvl1%3AHadiah%2C%20Barang%20Promosi%2C%20dan%20Jasa%20Profesional%20%3E%20Mainan%20%26%20permainan"], ["brand.name%3ALogitech"]]
+    },
+    "successPostPublicCatalogC1fromC0ITandBrand": {
+      "filters":["categories.lvl1%3AIT%20%26%20Teknologi%20%3E%20Perangkat%20komunikasi%20dan%20aksesoris"],
+      "search":[["categories.lvl1%3AIT%20%26%20Teknologi%20%3E%20Perangkat%20komunikasi%20dan%20aksesoris"], ["brand.name%3AAsus"]]
+    },
+    "successPostPublicCatalogC1fromC0TransportationandBrand": {
+      "filters":["categories.lvl1%3AJasa%20Transportasi%2C%20Kargo%20dan%20Industri%20%3E%20Transportasi%20kargo%20dan%20surat"],
+      "search":["categories.lvl1%3AJasa%20Transportasi%2C%20Kargo%20dan%20Industri%20%3E%20Transportasi%20kargo%20dan%20surat"]
+    },
+    "successPostPublicCatalogC1fromC0MROandBrand": {
+      "filters":["categories.lvl1%3AMRO%20(Maintenace%2C%20Repair%2C%20%26%20Overhaul)%20%3E%20Beton%2C%20semen%20dan%20plester"],
+      "search":[["categories.lvl1%3AMRO%20(Maintenace%2C%20Repair%2C%20%26%20Overhaul)%20%3E%20Beton%2C%20semen%20dan%20plester"], ["brand.name%3AAM"]]
+    },
+    "successPostPublicCatalogC1fromC0OtomotifandBrand": {
+      "filters":["categories.lvl1%3AOtomotif%20dan%20Transportasi%20%3E%20Peralatan%20layanan%20transportasi"],
+      "search":[["categories.lvl1%3AOtomotif%20dan%20Transportasi%20%3E%20Peralatan%20layanan%20transportasi"], ["brand.name%3ALAUNCH"]]
+    },
+    "successPostPublicCatalogC1fromC0PantryandBrand": {
+      "filters":["categories.lvl1%3APantry%2C%20Kebersihan%20dan%20Kesehatan%20%3E%20Obat%20sistem%20pencernaan"],
+      "search":[["categories.lvl1%3APantry%2C%20Kebersihan%20dan%20Kesehatan%20%3E%20Obat%20sistem%20pencernaan"], ["brand.name%3APromag"]]
+    },
+    "successPostPublicCatalogC1fromC0EquipmentHotelandBrand": {
+      "filters":["categories.lvl1%3APeralatan%20Hotel%2C%20Restoran%20%26%20Kafe%20%3E%20Peralatan%20layanan%20makanan"],
+      "search":[["categories.lvl1%3APeralatan%20Hotel%2C%20Restoran%20%26%20Kafe%20%3E%20Peralatan%20layanan%20makanan"], ["brand.name%3AYong Ma"]]
+    },
+    "successPostPublicCatalogC1fromC0CameraandBrand": {
+      "filters":["categories.lvl1%3APercetakan%2C%20Kamera%20dan%20Audio-Visual%20%3E%20Peralatan%20fotografi%20atau%20pembuatan%20film%20atau%20video"],
+      "search":[["categories.lvl1%3APercetakan%2C%20Kamera%20dan%20Audio-Visual%20%3E%20Peralatan%20fotografi%20atau%20pembuatan%20film%20atau%20video"], ["brand.name%3ACanon"]]
+    },
+    "successPostPublicCatalogC1fromC0OfficeandBrand": {
+      "filters":["categories.lvl1%3APerlengkapan%20Kantor%20%3E%20Produk%20kertas"],
+      "search":[["categories.lvl1%3APerlengkapan%20Kantor%20%3E%20Produk%20kertas"], ["brand.name%3AJoyko"]]
+    },
+    "successPostPublicCatalogC1fromC0AgricultureandBrand": {
+      "filters":["categories.lvl1%3APertanian%20dan%20perkebunan%20%3E%20Mesin%20dan%20peralatan%20Pertanian%2C%20kehutanan%20dan%20lanskap"],
+      "search":[["categories.lvl1%3APertanian%20dan%20perkebunan%20%3E%20Mesin%20dan%20peralatan%20Pertanian%2C%20kehutanan%20dan%20lanskap"], ["brand.name%3ASellery"]]
+    },
+    "successPostPublicCatalogC1fromC0SurveillanceandBrand": {
+      "filters":["categories.lvl1%3ASistem%20Pengawasan%20dan%20Keamanan%20%3E%20Deteksi%20%26%20Pengawasan%20Keamanan"],
+      "search":[["categories.lvl1%3ASistem%20Pengawasan%20dan%20Keamanan%20%3E%20Deteksi%20%26%20Pengawasan%20Keamanan"], ["brand.name%3AHAMPTON"]]
+    },
+    "successPostPublicCatalogCategoryNameAndSearchProductNameAndMultipleBrand": {
+      "filters":["categories.lvl0%3AIT%20%26%20Teknologi"],
+      "search":[["categories.lvl0%3AIT%20%26%20Teknologi"], ["brand.name%3ASamsung", "brand.name%3AXiaomi"]]
+    },
+    "successPostPublicCatalogWithOneBrand": {
+      "filters": [],
+      "search":["brand.name%3ASamsung"]
+    },
+    "successPostPublicCatalogWithMulitipleBrand": {
+      "filters": [],
+      "search":[["brand.name%3ASamsung", "brand.name%3AXiaomi"]]    
+    },
+    "successPostPublicCatalogInvalidFilterCategoryName": {
+      "filters":["abc"],
+      "search":[]
+    },
+    "successPostPublicCatalogInvalidFilterBrand": {
+      "filters": [],
+      "search":["abc"]
+    }
+  },
+  "response": {
+    "successPostPublicCatalogSearchCategoryName": [
+      {
+        "sku": "456787D508",
+        "name": "SAMSUNG Galaxy S Note V N9208",
+        "total_offer": 14
+      },
+      {
+        "sku": "E417EE17E6",
+        "name": "SAMSUNG Galaxy S7 Edge G935",
+        "total_offer": 13
+      },
+      {
+        "sku": "4236AC81C3",
+        "name": "SAMSUNG Galaxy Note 5",
+        "total_offer": 14
+      }
+    ],
+    "successPostPublicCatalogC0Decoration": [
+      {
+        "sku": "088479C2EE",
+        "name": "SANKEN DVD Player SDD-1090M",
+        "total_offer": 13
+      },
+      {
+        "sku": "EF2E7A55F2",
+        "name": "SANKEN DVD Player Karaoke SDD-X100",
+        "total_offer": 13
+      },
+      {
+        "sku": "4FCC28E39C",
+        "name": "HAVIT Headset [HV-H2068D]",
+        "total_offer": 13
+      }
+    ],
+    "successPostPublicCatalogC0Electronic": [
+      {
+        "sku": "EC2AD27777",
+        "name": "BROCO Plano Stop Kontak Pengaman Pearl White E15455",
+        "total_offer": 13
+      },
+      {
+        "sku": "82281793D8",
+        "name": "BROCO 6a MCB C",
+        "total_offer": 13
+      },
+      {
+        "sku": "11CF611B03",
+        "name": "BROCO 515411 Stop Kontak Pengaman",
+        "total_offer": 13
+      }
+    ],
+    "successPostPublicCatalogC0Furniture": [
+      {
+        "sku": "343582970C",
+        "name": "DATASCRIP T0 Desk/Folding + Castor [T0/18060]",
+        "total_offer": 14
+      },
+      {
+        "sku": "7FEE57574E",
+        "name": "MODERA Desk Include Pencil Tray Without Pedestal EOD 1575",
+        "total_offer": 14
+      },
+      {
+        "sku": "EE6433F282",
+        "name": "MODERA Desk Include Pencil Tray Without Pedestal SOD 7515",
+        "total_offer": 14
+      }
+    ],
+    "successPostPublicCatalogC0Gift": [
+      {
+        "sku": "8301B03D28",
+        "name": "AUTAN Lotion Nyamuk Soft & Scented Sachet 50 ml Isi 3 Pcs",
+        "total_offer": 13
+      },
+      {
+        "sku": "8251E6B7DC",
+        "name": "CARL Paper Cutter A3 DC-330N",
+        "total_offer": 14
+      },
+      {
+        "sku": "129543DE29",
+        "name": "TANCHO Hair Dye 6 gr Pak Isi 12 Pcs",
+        "total_offer": 13
+      }
+    ],
+    "successPostPublicCatalogC0IT": [
+      {
+        "sku": "B660952468",
+        "name": "HP 12p Gig-T PoE+/12p SFP v2 zl Module J9637A",
+        "total_offer": 13
+      },
+      {
+        "sku": "65C645C084",
+        "name": "HP Single Radio 517 802.11ac WW Unified Walljack J9842A",
+        "total_offer": 13
+      },
+      {
+        "sku": "3BF5472C55",
+        "name": "HP Color Laserjet CP5225dn CE712A HP 3 year Warranty UQ",
+        "total_offer": 14
+      }
+    ],
+    "successPostPublicCatalogC0MRO": [
+      {
+        "sku": "EE81E8DCEE",
+        "name": "SANKEN Air Conditioner Low Watt 1/2 PK EL-10R4D/L",
+        "total_offer": 13
+      },
+      {
+        "sku": "238E64A8E7",
+        "name": "AMERICAN STANDARD Will Wall Mounted Dual Flow Tap A F082M032",
+        "total_offer": 13
+      },
+      {
+        "sku": "5C4F49E819",
+        "name": "AMERICAN STANDARD Concept SH Lava Faucet F068C002",
+        "total_offer": 13
+      }
+    ],
+    "successPostPublicCatalogC0Otomotif": [
+      {
+        "sku": "BBD8D51706",
+        "name": "PHILIPS Hi-fi System BTD2180",
+        "total_offer": 13
+      },
+      {
+        "sku": "F3490165FA",
+        "name": "DUNLOP PCR Textile Hi-Max",
+        "total_offer": 13
+      },
+      {
+        "sku": "6FC84ADA00",
+        "name": "DUNLOP 4-Wheels Drive TG30",
+        "total_offer": 13
+      }
+    ],
+    "successPostPublicCatalogC0Pantry": [
+      {
+        "sku": "9FF5B4715E",
+        "name": "SO KLIN Liquid Softergent Pouch 800 ml Box Isi 6 Pcs",
+        "total_offer": 13
+      },
+      {
+        "sku": "964B470676",
+        "name": "STELLA Aerosol Odour Pure & Fresh 400ml Dus Isi 12 pcs",
+        "total_offer": 14
+      },
+      {
+        "sku": "29C9FEC76A",
+        "name": "FEMINAX Isi 4 Tablet",
+        "total_offer": 14
+      }
+    ],
+    "successPostPublicCatalogC0EquipmentHotel": [
+      {
+        "sku": "E07BAB773F",
+        "name": "SANKEN Bottom Loading HWD-C505",
+        "total_offer": 13
+      },
+      {
+        "sku": "348B59AA83",
+        "name": "SANKEN Water Dispenser Portable [HWE-62] - Pink",
+        "total_offer": 13
+      },
+      {
+        "sku": "2DAB0CDC6A",
+        "name": "TAMARIN Zak 135 Gram Isi 20 Pcs",
+        "total_offer": 13
+      }
+    ],
+    "successPostPublicCatalogC0Camera": [
+      {
+        "sku": "B927173947",
+        "name": "PANASONIC Projector PT-DZ21K",
+        "total_offer": 14
+      },
+      {
+        "sku": "DE951F70C0",
+        "name": "PANASONIC Fixed Focus Lens ET-DLE055",
+        "total_offer": 14
+      },
+      {
+        "sku": "49ABC8108F",
+        "name": "PANASONIC Lumix Digital Mirrorless Camera GF9 [DC-GF9] Kit 12-32mm f/3.5-5.6",
+        "total_offer": 14
+      }
+    ],
+    "successPostPublicCatalogC0Office": [
+      {
+        "sku": "EA5BAC1FAD",
+        "name": "MDM Amplop Coklat A3 Isi 100 Lembar",
+        "total_offer": 14
+      },
+      {
+        "sku": "2D4CFB201F",
+        "name": "SINAR DUNIA Copy Paper A4 80 gr Dus isi 5 Rim",
+        "total_offer": 13
+      },
+      {
+        "sku": "BF7C77C937",
+        "name": "Bantex Insert Ring Binder 8523-07 Folio 2D 25mm",
+        "total_offer": 14
+      }
+    ],
+    "successPostPublicCatalogC0Agriculture": [
+      {
+        "sku": "Y46NTLDALS",
+        "name": "NARAYA Kwaci 100 gr",
+        "total_offer": 13
+      },
+      {
+        "sku": "B79CEAB2CB",
+        "name": "BAGUS Kapur Ajaib Box Isi 12 Pak W-3343",
+        "total_offer": 13
+      },
+      {
+        "sku": "B8VAU1TZG6",
+        "name": "REBO Kuaci Super Bunga Matahari Original 150 gr",
+        "total_offer": 13
+      }
+    ],
+    "successPostPublicCatalogC0Surveillance": [
+      {
+        "sku": "253C308E55",
+        "name": "COUGAR Sepatu Boot [1916] – Cokelat",
+        "total_offer": 13
+      },
+      {
+        "sku": "34753FC930",
+        "name": "D-LINK D-ViewCam Plus DCS-250-VMS-032-LIC",
+        "total_offer": 14
+      },
+      {
+        "sku": "CC69CD3F30",
+        "name": "KRISBOW Apollo Safety Shoes 37/4 KW1000481",
+        "total_offer": 14
+      }
+    ],
+    "successPostPublicCatalogC0DecorationandBrand": {
+      "hits": [
+        {
+          "sku": "088479C2EE",
+          "name": "SANKEN DVD Player SDD-1090M",
+          "total_offer": 13
+        },
+        {
+          "sku": "EF2E7A55F2",
+          "name": "SANKEN DVD Player Karaoke SDD-X100",
+          "total_offer": 13
+        },
+        {
+          "sku": "BA744FE829",
+          "name": "SANKEN Diamond Glass Door Kulkas 2 Pintu 250 L SK-G255-BK",
+          "total_offer": 13
+        }
+      ],
+      "facets": {
+        "brand.name": {
+          "Sanken": 38
+        },
+        "categories.lvl0": {
+          "Dekorasi dan Elektronik Rumah Tangga": 38
+        }
+      }
+    },
+    "successPostPublicCatalogC0ElectronicandBrand": {
+      "hits": [
+        {
+          "sku": "EC2AD27777",
+          "name": "BROCO Plano Stop Kontak Pengaman Pearl White E15455",
+          "total_offer": 13
+        },
+        {
+          "sku": "82281793D8",
+          "name": "BROCO 6a MCB C",
+          "total_offer": 13
+        },
+        {
+          "sku": "11CF611B03",
+          "name": "BROCO 515411 Stop Kontak Pengaman",
+          "total_offer": 13
+        }
+      ],
+      "facets": {
+        "brand.name": {
+          "Broco": 79
+        },
+        "categories.lvl0": {
+          "Elektronik Industri": 79
+        }
+      }
+    },
+    "successPostPublicCatalogC0FurnitureandBrand": {
+      "hits": [
+        {
+          "sku": "7FEE57574E",
+          "name": "MODERA Desk Include Pencil Tray Without Pedestal EOD 1575",
+          "total_offer": 14
+        },
+        {
+          "sku": "EE6433F282",
+          "name": "MODERA Desk Include Pencil Tray Without Pedestal SOD 7515",
+          "total_offer": 14
+        },
+        {
+          "sku": "2B11AEE042",
+          "name": "MODERA Desk Include Pencil Tray Without Pedestal BOD 7516",
+          "total_offer": 14
+        }
+      ],
+      "facets": {
+        "brand.name": {
+          "Modera": 39
+        },
+        "categories.lvl0": {
+          "Furnitur dan Perabotan": 39
+        }
+      }
+    },
+    "successPostPublicCatalogC0GiftandBrand": {
+      "hits":[
+        {
+          "sku": "1K4WA251FE",
+          "name": "LIFEBUOY Soap TS Lemon Fresh 60 gr x 4 pcs",
+          "total_offer": 13
+        },
+        {
+          "sku": "T84GKFOT8S",
+          "name": "LIFEBUOY Sabun Mandi Batang White Mild Care 60 gr x 4 pcs",
+          "total_offer": 13
+        },
+        {
+          "sku": "D5E5NAMPVD",
+          "name": "LIFEBUOY Shampoo Strong and Shiny Botol 70 ml",
+          "total_offer": 13
+        }
+      ],
+      "facets": {
+        "brand.name": {
+          "Lifebuoy": 148
+        },
+        "categories.lvl0": {
+          "Hadiah, Barang Promosi, dan Jasa Profesional": 148
+        }
+      }
+    },
+    "successPostPublicCatalogC0ITandBrand": {
+      "hits": [
+        {
+          "sku": "B660952468",
+          "name": "HP 12p Gig-T PoE+/12p SFP v2 zl Module J9637A",
+          "total_offer": 13
+        },
+        {
+          "sku": "65C645C084",
+          "name": "HP Single Radio 517 802.11ac WW Unified Walljack J9842A",
+          "total_offer": 13
+        },
+        {
+          "sku": "3BF5472C55",
+          "name": "HP Color Laserjet CP5225dn CE712A HP 3 year Warranty UQ",
+          "total_offer": 14
+        }
+      ],
+      "facets": {
+        "brand.name": {
+          "HP": 681
+        },
+        "categories.lvl0": {
+          "IT & Teknologi": 681
+        }
+      }
+    },
+    "successPostPublicCatalogC0MROandBrand": {
+      "hits": [
+        {
+          "sku": "4D0F174B64",
+          "name": "KRISBOW F Clamp 120X450 mm",
+          "total_offer": 14
+        },
+        {
+          "sku": "24C29E274A",
+          "name": "KRISBOW F Clamp 80X160 mm",
+          "total_offer": 14
+        },
+        {
+          "sku": "A8E7D0E9E0",
+          "name": "KRISBOW Dead Blow Ha mmer 2.00Lbs",
+          "total_offer": 14
+        }
+      ],
+      "facets": {
+        "brand.name": {
+          "Krisbow": 5800
+        },
+        "categories.lvl0": {
+          "MRO (Maintenace, Repair, & Overhaul)": 5800
+        }
+      }
+    },
+    "successPostPublicCatalogC0OtomotifandBrand": {
+      "hits": [
+        {
+          "sku": "F3490165FA",
+          "name": "DUNLOP PCR Textile Hi-Max",
+          "total_offer": 13
+        },
+        {
+          "sku": "6FC84ADA00",
+          "name": "DUNLOP 4-Wheels Drive TG30",
+          "total_offer": 13
+        },
+        {
+          "sku": "9B52796B17",
+          "name": "DUNLOP Veuro VE302",
+          "total_offer": 13
+        }
+      ],
+      "facets": {
+        "brand.name": {
+          "Dunlop": 163
+        },
+        "categories.lvl0": {
+          "Otomotif dan Transportasi": 163
+        }
+      }
+    },
+    "successPostPublicCatalogC0PantryandBrand": {
+      "hits": [
+        {
+          "sku": "964B470676",
+          "name": "STELLA Aerosol Odour Pure & Fresh 400ml Dus Isi 12 pcs",
+          "total_offer": 14
+        },
+        {
+          "sku": "FE80FD36F7",
+          "name": "STELLA Aerosol Jasmine 400ml Dus Isi 12 pcs",
+          "total_offer": 14
+        },
+        {
+          "sku": "3SGYF9LH0P",
+          "name": "STELLA Mini Duo Blue Ocean Refill 40 ml",
+          "total_offer": 13
+        }
+      ],
+      "facets": {
+        "brand.name": {
+          "Stella": 206
+        },
+        "categories.lvl0": {
+          "Pantry, Kebersihan dan Kesehatan": 206
+        }
+      }
+    },
+    "successPostPublicCatalogC0EquipmentHotelandBrand": {
+      "hits": [
+        {
+          "sku": "0MEKEJ5WUR",
+          "name": "INDOMIE Soto Spesial 40 Pcs/Carton",
+          "total_offer": 13
+        },
+        {
+          "sku": "NY10IZ2AQW",
+          "name": "INDOMIE Soto Mie 40 Pcs/Carton",
+          "total_offer": 13
+        },
+        {
+          "sku": "UZHDUS5VNG",
+          "name": "INDOMIE Real Meat Telor Balado Box 110 Gram",
+          "total_offer": 13
+        }
+      ],
+      "facets": {
+        "brand.name": {
+          "Indomie": 93
+        },
+        "categories.lvl0": {
+          "Peralatan Hotel, Restoran & Kafe": 93
+        }
+      }
+    },
+    "successPostPublicCatalogC0CameraandBrand": {
+      "hits": [
+        {
+          "sku": "98B17931DE",
+          "name": "CANON EOS M10 Kit 1 15-45mm f/3.5-6.3 IS STM",
+          "total_offer": 14
+        },
+        {
+          "sku": "E0EC6D49C6",
+          "name": "Canon EOS M6 Body Only",
+          "total_offer": 14
+        },
+        {
+          "sku": "B85B7F7FA9",
+          "name": "CANON EOS M10",
+          "total_offer": 14
+        }
+      ],
+      "facets": {
+        "brand.name": {
+          "Canon": 98
+        },
+        "categories.lvl0": {
+          "Percetakan, Kamera dan Audio-Visual": 98
+        }
+      }
+    },
+    "successPostPublicCatalogC0OfficeandBrand": {
+      "hits": [
+        {
+          "sku": "25D8316F7F",
+          "name": "JOYKO Isi Staples [No.10] Pak Isi 20",
+          "total_offer": 15
+        },
+        {
+          "sku": "04355E2947",
+          "name": "JOYKO Math Set MS-87",
+          "total_offer": 13
+        },
+        {
+          "sku": "F3024E25F0",
+          "name": "JOYKO Binder Clip No.105 CD",
+          "total_offer": 13
+        }
+      ],
+      "facets": {
+        "brand.name": {
+          "Joyko": 215
+        },
+        "categories.lvl0": {
+          "Perlengkapan Kantor": 215
+        }
+      }
+    },
+    "successPostPublicCatalogC0AgricultureandBrand": {
+      "hits": [
+        {
+          "sku": "IY9V0VVCDV",
+          "name": "CAP GAJAH Lem Lalat Stick 4 Pack",
+          "total_offer": 13
+        },
+        {
+          "sku": "SJMAJRSGPY",
+          "name": "CAP GAJAH Lem Tube 100 gr",
+          "total_offer": 13
+        },
+        {
+          "sku": "SMV82VUJ71",
+          "name": "CAP GAJAH Lem Lalat Kertas Gajah 6 Buah Pack Isi 144 Pcs",
+          "total_offer": 14
+        }
+      ],
+      "facets": {
+        "brand.name": {
+          "Cap Gajah": 9
+        },
+        "categories.lvl0": {
+          "Pertanian dan perkebunan": 9
+        }
+      }
+    },
+    "successPostPublicCatalogC0SurveillanceandBrand": {
+      "hits": [
+        {
+          "sku": "EF6EAF89D6",
+          "name": "LOCKWOOD Handylock [110/20/111/2DP] Isi 2 pcs",
+          "total_offer": 13
+        },
+        {
+          "sku": "2D9F3A5294",
+          "name": "LOCKWOOD Laminated Padlock [119/50/129N/DP]",
+          "total_offer": 13
+        },
+        {
+          "sku": "2A18E96F75",
+          "name": "LOCKWOOD Padlock [120/50/163/DP]",
+          "total_offer": 13
+        }
+      ],
+      "facets": {
+        "brand.name": {
+          "LOCKWOOD": 25
+        },
+        "categories.lvl0": {
+          "Sistem Pengawasan dan Keamanan": 25
+        }
+      }
+    },
+    "successPostPublicCatalogC1fromC0Decoration": [
+      {
+        "sku": "088479C2EE",
+        "name": "SANKEN DVD Player SDD-1090M",
+        "total_offer": 13
+      },
+      {
+        "sku": "EF2E7A55F2",
+        "name": "SANKEN DVD Player Karaoke SDD-X100",
+        "total_offer": 13
+      },
+      {
+        "sku": "4FCC28E39C",
+        "name": "HAVIT Headset [HV-H2068D]",
+        "total_offer": 13
+      }
+    ],
+    "successPostPublicCatalogC1fromC0Electronic": [
+      {
+        "sku": "YGUHCTJOW0",
+        "name": "PHILIPS PC-OP L1000 [AC160Z]",
+        "total_offer": 14
+      },
+      {
+        "sku": "Y8N2JHHBDH",
+        "name": "PHILIPS TR-U L1000 AC160Z",
+        "total_offer": 14
+      },
+      {
+        "sku": "81R52HM6SK",
+        "name": "PHILIPS TR-V L1000 AC160Z",
+        "total_offer": 14
+      }
+    ],
+    "successPostPublicCatalogC1fromC0Furniture": [
+      {
+        "sku": "L536A6TV42",
+        "name": "Kursi Api Berkobar",
+        "total_offer": 3
+      },
+      {
+        "sku": "UKHY5T2FI3",
+        "name": "Sajadah Quba Turkey Ukuran 110 x 70 cm",
+        "total_offer": 14
+      },
+      {
+        "sku": "A9863Q2L4H",
+        "name": "KRISBOW Flat File 10 Inch / 250 mm Bastard",
+        "total_offer": 14
+      }
+    ],
+    "successPostPublicCatalogC1fromC0Gift": [
+      {
+        "sku": "1DBB6E6F8B",
+        "name": "PLAYSTATION 4 Game Pro Evolution Soccer 2016",
+        "total_offer": 13
+      },
+      {
+        "sku": "95CE7EE836",
+        "name": "LOGITECH G27 Racing Wheel Refresh",
+        "total_offer": 14
+      },
+      {
+        "sku": "C2L2PBDB9H",
+        "name": "SHINPO Plastic Pengki Yushu SIP 826",
+        "total_offer": 13
+      }
+    ],
+    "successPostPublicCatalogC1fromC0IT": [
+      {
+        "sku": "2BF0A6F5C6",
+        "name": "ASUS ZenPad C 7 inch Z170CG",
+        "total_offer": 14
+      },
+      {
+        "sku": "DE648427B0",
+        "name": "ASUS ZenPad C 7 inch Z170CG",
+        "total_offer": 14
+      },
+      {
+        "sku": "456787D508",
+        "name": "SAMSUNG Galaxy S Note V N9208",
+        "total_offer": 14
+      }
+    ],
+    "successPostPublicCatalogC1fromC0MRO": [
+      {
+        "sku": "9QUJ5A8038",
+        "name": "SIKA Semen Grout 215 Isi 25 kg",
+        "total_offer": 14
+      },
+      {
+        "sku": "4LA0U1HCC7",
+        "name": "SIKA Skimcoat Semen 25 Kg - Abu-Abu",
+        "total_offer": 13
+      },
+      {
+        "sku": "25RNU0Q2KB",
+        "name": "SIKA Concrete Repair Mortar 5 Kg",
+        "total_offer": 13
+      }
+    ],
+    "successPostPublicCatalogC1fromC0Otomotif": [
+      {
+        "sku": "3ZS7PET2EE",
+        "name": "LAUNCH Wheel Balancer KWB-1280 307040145",
+        "total_offer": 14
+      },
+      {
+        "sku": "IGKIIKX8A0",
+        "name": "LAUNCH Wheel Aligment Machine 3D X712S",
+        "total_offer": 14
+      },
+      {
+        "sku": "BBO2C0XBYZ",
+        "name": "LAUNCH Wheel Aligment 3D X-712 302010405",
+        "total_offer": 14
+      }
+    ],
+    "successPostPublicCatalogC1fromC0Pantry": [
+      {
+        "sku": "14T45RNHCS",
+        "name": "NEOENTROSTOP Pack Isi 2 strip 12 Tablet",
+        "total_offer": 13
+      },
+      {
+        "sku": "RRBFK9JN3T",
+        "name": "PROMAG Gazero 10 ml Isi 6 Pcs",
+        "total_offer": 13
+      },
+      {
+        "sku": "77DD17XZQ7",
+        "name": "PROMAG 12 Tablet / Strip",
+        "total_offer": 13
+      }
+    ],
+    "successPostPublicCatalogC1fromC0EquipmentHotel": [
+      {
+        "sku": "E07BAB773F",
+        "name": "SANKEN Bottom Loading HWD-C505",
+        "total_offer": 13
+      },
+      {
+        "sku": "348B59AA83",
+        "name": "SANKEN Water Dispenser Portable [HWE-62] - Pink",
+        "total_offer": 13
+      },
+      {
+        "sku": "71A0549E1A",
+        "name": "SANKEN Water Dispenser Portable [HWE-67IC] - Hijau",
+        "total_offer": 13
+      }
+    ],
+    "successPostPublicCatalogC1fromC0Camera": [
+      {
+        "sku": "DE951F70C0",
+        "name": "PANASONIC Fixed Focus Lens ET-DLE055",
+        "total_offer": 14
+      },
+      {
+        "sku": "49ABC8108F",
+        "name": "PANASONIC Lumix Digital Mirrorless Camera GF9 [DC-GF9] Kit 12-32mm f/3.5-5.6",
+        "total_offer": 14
+      },
+      {
+        "sku": "4A8628820B",
+        "name": "SONY Mirrorless Digital Camera Alpha A7S II Body",
+        "total_offer": 14
+      }
+    ],
+    "successPostPublicCatalogC1fromC0Office": [
+      {
+        "sku": "2D4CFB201F",
+        "name": "SINAR DUNIA Copy Paper A4 80 gr Dus isi 5 Rim",
+        "total_offer": 13
+      },
+      {
+        "sku": "888F558F4B",
+        "name": "PRIMAFORM Continuous Form 9.5 X 12 Inch Bagi 2",
+        "total_offer": 14
+      },
+      {
+        "sku": "09D478F0E1",
+        "name": "ULS FORM Continuous Form 9.5 X 13 Inch Bagi 2",
+        "total_offer": 14
+      }
+    ],
+    "successPostPublicCatalogC1fromC0Agriculture": [
+      {
+        "sku": "AMN50OEX0X",
+        "name": "KRISBOW Cultivator Diesel 6HP Complete Set [10125329]",
+        "total_offer": 14
+      },
+      {
+        "sku": "IXL2BX7Q4V",
+        "name": "KRISBOW Cultivator Gasoline 4.5HP GX160 [10125328]",
+        "total_offer": 14
+      },
+      {
+        "sku": "XDEA93R9JR",
+        "name": "KRISBOW  Grass Trimmer 25 cm 300W 220V",
+        "total_offer": 14
+      }
+    ],
+    "successPostPublicCatalogC1fromC0Surveillance": [
+      {
+        "sku": "34753FC930",
+        "name": "D-LINK D-ViewCam Plus DCS-250-VMS-032-LIC",
+        "total_offer": 14
+      },
+      {
+        "sku": "9EAB4EF592",
+        "name": "D-LINK Network Camera HD Mini Bullet DCS-7000L",
+        "total_offer": 14
+      },
+      {
+        "sku": "983B3194A5",
+        "name": "D-LINK D-ViewCam Enterprise DCS-230",
+        "total_offer": 14
+      }
+    ],
+    "successPostPublicCatalogC1fromC0DecorationandBrand": {
+      "hits": [
+        {
+          "sku": "DB7201EF2A",
+          "name": "PHILIPS Headphone SHL 3060",
+          "total_offer": 14
+        },
+        {
+          "sku": "8DBFE0DE83",
+          "name": "PHILIPS Headphone SHL 3060",
+          "total_offer": 14
+        },
+        {
+          "sku": "6DB7EDAC3E",
+          "name": "PHILIPS Headphone SHL 3060",
+          "total_offer": 14
+        }
+      ],
+      "facets": {
+        "brand.name": {
+          "Philips": 78
+        }
+      }
+    },
+    "successPostPublicCatalogC1fromC0ElectronicandBrand": {
+      "hits": [
+        {
+          "sku": "49871471F6",
+          "name": "WESTPEX Pipa Conduit 20 mm - Yellow",
+          "total_offer": 13
+        },
+        {
+          "sku": "A4B617379F",
+          "name": "WESTPEX Pipa Conduit 20 mm - White",
+          "total_offer": 13
+        },
+        {
+          "sku": "FD62E0A491",
+          "name": "WESTPEX Pipa Conduit 20 mm - Orange",
+          "total_offer": 13
+        }
+      ],
+      "facets": {
+        "brand.name": {
+          "WESTPEX": 7
+        }
+      }
+    },
+    "successPostPublicCatalogC1fromC0FurnitureandBrand": {
+      "hits": [
+        {
+          "sku": "QKG7PN9S7B",
+          "name": "YOKOHAMA Flat File Halus 12 Inch",
+          "total_offer": 13
+        },
+        {
+          "sku": "IND05JVGQR",
+          "name": "YOKOHAMA Flat File Kasar 10 Inch",
+          "total_offer": 13
+        },
+        {
+          "sku": "YEOR8Z5ZDR",
+          "name": "YOKOHAMA Flat FIle Kasar 4 Inch",
+          "total_offer": 13
+        }
+      ],
+      "facets": {
+        "brand.name": {
+          "YOKOHAMA": 5
+        }
+      }
+    },
+    "successPostPublicCatalogC1fromC0GiftandBrand": {
+      "hits":[
+        {
+          "sku": "95CE7EE836",
+          "name": "LOGITECH G27 Racing Wheel Refresh",
+          "total_offer": 14
+        },
+        {
+          "sku": "3243C342B9",
+          "name": "LOGITECH Drving Force Shifter",
+          "total_offer": 14
+        },
+        {
+          "sku": "5DDFFD154E",
+          "name": "LOGITECH G29 Driving Force Wheel for Playstation 4",
+          "total_offer": 14
+        }
+      ],
+      "facets": {
+        "brand.name": {
+          "Logitech": 8
+        }
+      }
+    },
+    "successPostPublicCatalogC1fromC0ITandBrand": {
+      "hits": [
+        {
+          "sku": "2BF0A6F5C6",
+          "name": "ASUS ZenPad C 7 inch Z170CG",
+          "total_offer": 14
+        },
+        {
+          "sku": "DE648427B0",
+          "name": "ASUS ZenPad C 7 inch Z170CG",
+          "total_offer": 14
+        },
+        {
+          "sku": "A603E67930",
+          "name": "ASUS ZenFone Go ZC451TG",
+          "total_offer": 14
+        }
+      ],
+      "facets": {
+        "brand.name": {
+          "Asus": 90
+        }
+      }
+    },
+    "successPostPublicCatalogC1fromC0MROandBrand": {
+      "hits": [
+        {
+          "sku": "V2434XYNJQ",
+          "name": "AM 1lt Liquid 1,5kg Powder [100 WP]",
+          "total_offer": 13
+        },
+        {
+          "sku": "K4XCEWGIXG",
+          "name": "AM 10lt Liquid+15kg Powder [100 WP]",
+          "total_offer": 13
+        },
+        {
+          "sku": "MP900VLIDJ",
+          "name": "AM 5kg Liquid 20kg Powder [122 WP]",
+          "total_offer": 13
+        }
+      ],
+      "facets": {
+        "brand.name": {
+          "AM": 99
+        }
+      }
+    },
+    "successPostPublicCatalogC1fromC0OtomotifandBrand": {
+      "hits": [
+        {
+          "sku": "3ZS7PET2EE",
+          "name": "LAUNCH Wheel Balancer KWB-1280 307040145",
+          "total_offer": 14
+        },
+        {
+          "sku": "IGKIIKX8A0",
+          "name": "LAUNCH Wheel Aligment Machine 3D X712S",
+          "total_offer": 14
+        },
+        {
+          "sku": "BBO2C0XBYZ",
+          "name": "LAUNCH Wheel Aligment 3D X-712 302010405",
+          "total_offer": 14
+        }
+      ],
+      "facets": {
+        "brand.name": {
+          "LAUNCH": 22
+        }
+      }
+    },
+    "successPostPublicCatalogC1fromC0PantryandBrand": {
+      "hits": [
+        {
+          "sku": "RRBFK9JN3T",
+          "name": "PROMAG Gazero 10 ml Isi 6 Pcs",
+          "total_offer": 13
+        },
+        {
+          "sku": "77DD17XZQ7",
+          "name": "PROMAG 12 Tablet / Strip",
+          "total_offer": 13
+        },
+        {
+          "sku": "6PA8A70M7E",
+          "name": "PROMAG Cair 6 Sachet x 7 ml Isi 72 (Box)",
+          "total_offer": 13
+        }
+      ],
+      "facets": {
+        "brand.name": {
+          "Promag": 7
+        }
+      }
+    },
+    "successPostPublicCatalogC1fromC0EquipmentHotelandBrand": {
+      "hits": [
+        {
+          "sku": "2CD02641AA",
+          "name": "YONG MA Magic Com Wing Series YMC 109",
+          "total_offer": 13
+        },
+        {
+          "sku": "62F8BD1B47",
+          "name": "YONG MA Magic Com Wing Series YMC 105",
+          "total_offer": 13
+        },
+        {
+          "sku": "BC891950A9",
+          "name": "YONG MA Magic Com YMC 207",
+          "total_offer": 13
+        }
+      ],
+      "facets": {
+        "brand.name": {
+          "Yong Ma": 26
+        }
+      }
+    },
+    "successPostPublicCatalogC1fromC0CameraandBrand": {
+      "hits": [
+        {
+          "sku": "98B17931DE",
+          "name": "CANON EOS M10 Kit 1 15-45mm f/3.5-6.3 IS STM",
+          "total_offer": 14
+        },
+        {
+          "sku": "E0EC6D49C6",
+          "name": "Canon EOS M6 Body Only",
+          "total_offer": 14
+        },
+        {
+          "sku": "B85B7F7FA9",
+          "name": "CANON EOS M10",
+          "total_offer": 14
+        }
+      ],
+      "facets": {
+        "brand.name": {
+          "Canon": 98
+        }
+      }
+    },
+    "successPostPublicCatalogC1fromC0OfficeandBrand": {
+      "hits": [
+        {
+          "sku": "C4F4CB27B3",
+          "name": "JOYKO Label LB-2RL",
+          "total_offer": 14
+        },
+        {
+          "sku": "76CF149764",
+          "name": "JOYKO Label LB-2RL Isi 10 Roll",
+          "total_offer": 13
+        },
+        {
+          "sku": "08E9753C1B",
+          "name": "JOYKO Label LB-P2LN Isi 10 Roll",
+          "total_offer": 13
+        }
+      ],
+      "facets": {
+        "brand.name": {
+          "Joyko": 3
+        }
+      }
+    },
+    "successPostPublicCatalogC1fromC0AgricultureandBrand": {
+      "hits": [
+        {
+          "sku": "YHKY9LLNLY",
+          "name": "SELLERY Plastic Butterfly Sprinkler 1/2 Inch [60-515]",
+          "total_offer": 13
+        },
+        {
+          "sku": "55B5515B57",
+          "name": "SELLERY Plastic Sprayer 1.5L [60-484]",
+          "total_offer": 13
+        },
+        {
+          "sku": "89C95673EB",
+          "name": "SELLERY Plastic Sprayer 1L [60-483]",
+          "total_offer": 13
+        }
+      ],
+      "facets": {
+        "brand.name": {
+          "Sellery": 4
+        }
+      }
+    },
+    "successPostPublicCatalogC1fromC0SurveillanceandBrand": {
+      "hits": [
+        {
+          "sku": "34932C6E42",
+          "name": "HAMPTON Zialo Lhr Sn+Np Satin Nickel Plated L 2237 40mm",
+          "total_offer": 13
+        },
+        {
+          "sku": "014ABD6AF9",
+          "name": "HAMPTON Stainless Casement 24\"",
+          "total_offer": 13
+        },
+        {
+          "sku": "21ADA6A245",
+          "name": "HAMPTON Lockset 40 mm Satin Nickel - Gold Plated [LHPALA406]",
+          "total_offer": 13
+        }
+      ],
+      "facets": {
+        "brand.name": {
+          "HAMPTON": 145
+        }
+      }
+    },
+    "successPostPublicCatalogWithOneBrand": {
+      "facets": {
+        "brand.name": {
+            "Samsung": 114
+        },
+        "categories.lvl0": {
+          "IT & Teknologi": 76,
+          "Percetakan, Kamera dan Audio-Visual": 23,
+          "Dekorasi dan Elektronik Rumah Tangga": 11,
+          "Elektronik Industri": 2,
+          "Hadiah, Barang Promosi, dan Jasa Profesional": 1,
+          "Pantry, Kebersihan dan Kesehatan": 1
+        }
+      }
+    },
+    "successPostPublicCatalogWithMulitipleBrand": {
+      "facets": {
+        "brand.name": {
+          "Samsung": 114,
+          "Xiaomi": 26
+        },
+        "categories.lvl0": {
+          "IT & Teknologi": 96,
+          "Percetakan, Kamera dan Audio-Visual": 25,
+          "Dekorasi dan Elektronik Rumah Tangga": 12,
+          "Elektronik Industri": 2,
+          "MRO (Maintenace, Repair, & Overhaul)": 2,
+          "Pantry, Kebersihan dan Kesehatan": 2,
+          "Hadiah, Barang Promosi, dan Jasa Profesional": 1
+        }
+      }
+    },
+    "successPostPublicCatalogCategoryNameAndSearchProductNameAndMultipleBrand": {
+      "facets": {
+        "brand.name": {
+            "Samsung": 7,
+            "Xiaomi": 6
+        },
+        "categories.lvl0": {
+            "IT & Teknologi": 13
+        }
+      }
+    },
+    "successPostPublicCatalogSearchSKU": {
+      "hits": [
+        {
+          "sku": "456787D508",
+          "name": "SAMSUNG Galaxy S Note V N9208",
+          "total_offer": 14
+        }
+      ]
+    }
+  },
+  "invalidKey": "a"
+}

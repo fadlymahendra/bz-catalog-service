@@ -1,0 +1,14 @@
+{
+  "validAssigneeAndProduct": {
+    "assign" : {
+      "id" : 73,
+      "email" : "fatkhurozaq.budi@bizzy.co.id",
+      "name" : "Fathkhurozaq Budi Setiawan",
+      "type" : "employee"
+    },
+    "products": [
+      "MSKU4PREMODASSIGNTEST1",
+      "MSKU4PREMODASSIGNTEST2"
+    ]
+  }
+}

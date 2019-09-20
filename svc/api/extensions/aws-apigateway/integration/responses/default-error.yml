@@ -1,0 +1,7 @@
+application/json: |-
+  #set ($error = $util.parseJson($input.path('$.errorMessage')))
+  {
+      "code": "$error.code",
+      "message": "$error.detail",
+      "stackTrace": $input.path('$.stackTrace')
+  }

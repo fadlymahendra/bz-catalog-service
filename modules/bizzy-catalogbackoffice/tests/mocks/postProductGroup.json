@@ -1,0 +1,35 @@
+{
+	"body": {
+		"name": "Apple Iphone 9",
+		"category_id":"561",
+		"brand_id":"80",
+		"uom_id":"1",
+		"stocking_uom_id":"1",
+		"quantity_stocking_uom":"1",
+		"manufacturing_number":"XXXXX",
+		"package_weight":"800",
+		"package_length":"100.00",
+		"package_width":"200.00",
+		"package_height":"300.00",
+		"package_content":"lorem ipsum content",
+		"barcode":"",
+		"description":"lorem ipsum description",
+		"primary_image":"https://cf.shopee.co.id/file/0eb2207f2d47ad314ab353f783cf2b01",
+		"status":"1",
+		"visibility":"1",
+		"specifications":[
+			{
+				"type": "dropdown",
+				"attribute_code_id":"3",
+				"attribute_value_id":"5",
+				"text_input":""
+			},
+			{
+				"type": "textinput",
+				"attribute_code_id":"4",
+				"attribute_value_id":"",
+				"text_input":"Dapat box saja"
+			}		
+		]
+	}
+}

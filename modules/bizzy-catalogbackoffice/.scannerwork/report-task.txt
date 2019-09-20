@@ -1,0 +1,6 @@
+projectKey=bizzy-catalogbackoffice-
+serverUrl=http://52.76.48.239:9007
+serverVersion=6.7.0.33306
+dashboardUrl=http://52.76.48.239:9007/dashboard/index/bizzy-catalogbackoffice-
+ceTaskId=AWDKRiKzIjuE9pJmHI5q
+ceTaskUrl=http://52.76.48.239:9007/api/ce/task?id=AWDKRiKzIjuE9pJmHI5q

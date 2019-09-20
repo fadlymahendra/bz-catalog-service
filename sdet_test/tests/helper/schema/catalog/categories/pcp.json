@@ -1,0 +1,406 @@
+{
+  "getValidResponsePcpList": {
+    "type": "array", 
+    "items": {
+      "type": "object", 
+      "required": [
+        "id", 
+        "name", 
+        "url_key", 
+        "child"
+      ], 
+      "properties": {
+        "id": {
+          "type": "integer"
+        }, 
+        "name": {
+          "type": "string", 
+          "pattern": "^(.*)$"
+        }, 
+        "url_key": {
+          "type": "string", 
+          "pattern": "^(.*)$"
+        }, 
+        "child": {
+          "type": "array", 
+          "items": {
+            "type": "object", 
+            "required": [
+              "id", 
+              "name", 
+              "url_key"
+            ], 
+            "properties": {
+              "id": {
+                "type": "integer"
+              }, 
+              "name": {
+                "type": "string", 
+                "pattern": "^(.*)$"
+              }, 
+              "url_key": {
+                "type": "string", 
+                "pattern": "^(.*)$"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "getValidResponsePcpDetailsC0": {
+    "type": "object", 
+    "required": [
+      "data", 
+      "others"
+    ], 
+    "properties": {
+      "data": {
+        "type": "object", 
+        "required": [
+          "id", 
+          "name", 
+          "url_key", 
+          "parent"
+        ], 
+        "properties": {
+          "id": {
+            "type": "integer"
+          }, 
+          "name": {
+            "type": "string", 
+            "pattern": "^(.*)$"
+          }, 
+          "url_key": {
+            "type": "string", 
+            "pattern": "^(.*)$"
+          }, 
+          "parent": {
+            "type": "null"
+          }
+        }
+      }, 
+      "others": {
+        "type": "array"
+      }
+    }
+  },
+  "getValidResponsePcpDetailsC1": {
+    "type": "object", 
+    "required": [
+      "data", 
+      "others"
+    ], 
+    "properties": {
+      "data": {
+        "type": "object", 
+        "required": [
+          "id", 
+          "name", 
+          "url_key", 
+          "parent"
+        ], 
+        "properties": {
+          "id": {
+            "type": "integer"
+          }, 
+          "name": {
+            "type": "string", 
+            "pattern": "^(.*)$"
+          }, 
+          "url_key": {
+            "type": "string", 
+            "pattern": "^(.*)$"
+          }, 
+          "parent": {
+            "type": "object", 
+            "required": [
+              "C0"
+            ], 
+            "properties": {
+              "C0": {
+                "type": "object", 
+                "required": [
+                  "id", 
+                  "name", 
+                  "url_key"
+                ], 
+                "properties": {
+                  "id": {
+                    "type": "integer"
+                  }, 
+                  "name": {
+                    "type": "string", 
+                    "pattern": "^(.*)$"
+                  }, 
+                  "url_key": {
+                    "type": "string", 
+                    "pattern": "^(.*)$"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }, 
+      "others": {
+        "type": "array", 
+        "items": {
+          "type": "object", 
+          "required": [
+            "id", 
+            "name", 
+            "url_key"
+          ], 
+          "properties": {
+            "id": {
+              "type": "integer"
+            }, 
+            "name": {
+              "type": "string", 
+              "pattern": "^(.*)$"
+            }, 
+            "url_key": {
+              "type": "string", 
+              "pattern": "^(.*)$"
+            }
+          }
+        }
+      }
+    }
+  },
+  "getValidResponsePcpDetailsC2": {
+    "type": "object", 
+    "required": [
+      "data", 
+      "others"
+    ], 
+    "properties": {
+      "data": {
+        "type": "object", 
+        "required": [
+          "id", 
+          "name", 
+          "url_key", 
+          "parent"
+        ], 
+        "properties": {
+          "id": {
+            "type": "integer"
+          }, 
+          "name": {
+            "type": "string", 
+            "pattern": "^(.*)$"
+          }, 
+          "url_key": {
+            "type": "string", 
+            "pattern": "^(.*)$"
+          }, 
+          "parent": {
+            "type": "object", 
+            "required": [
+              "C1", 
+              "C0"
+            ], 
+            "properties": {
+              "C1": {
+                "type": "object", 
+                "required": [
+                  "id", 
+                  "name", 
+                  "url_key"
+                ], 
+                "properties": {
+                  "id": {
+                    "type": "integer"
+                  }, 
+                  "name": { 
+                    "type": "string", 
+                    "pattern": "^(.*)$"
+                  }, 
+                  "url_key": {
+                    "type": "string", 
+                    "pattern": "^(.*)$"
+                  }
+                }
+              }, 
+              "C0": {
+                "type": "object", 
+                "required": [
+                  "id", 
+                  "name", 
+                  "url_key"
+                ], 
+                "properties": {
+                  "id": { 
+                    "type": "integer"
+                  }, 
+                  "name": {
+                    "type": "string", 
+                    "pattern": "^(.*)$"
+                  }, 
+                  "url_key": {
+                    "type": "string", 
+                    "pattern": "^(.*)$"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }, 
+      "others": {
+        "type": "array", 
+        "items": { 
+          "type": "object", 
+          "required": [
+            "id", 
+            "name", 
+            "url_key"
+          ], 
+          "properties": {
+            "id": {
+              "type": "integer"
+            }, 
+            "name": {
+              "type": "string", 
+              "pattern": "^(.*)$"
+            }, 
+            "url_key": {
+              "type": "string", 
+              "pattern": "^(.*)$"
+            }
+          }
+        }
+      }
+    }
+  },
+  "getValidResponsePcpDetailsC3":{
+    "type": "object", 
+    "required": [
+      "data", 
+      "others"
+    ], 
+    "properties": {
+      "data": {
+        "type": "object", 
+        "required": [
+          "id", 
+          "name", 
+          "url_key", 
+          "parent"
+        ], 
+        "properties": {
+          "id": {
+            "type": "integer"
+          }, 
+          "name": {
+            "type": "string", 
+            "pattern": "^(.*)$"
+          }, 
+          "url_key": {
+            "type": "string", 
+            "pattern": "^(.*)$"
+          }, 
+          "parent": { 
+            "type": "object", 
+            "required": [
+              "C2", 
+              "C1", 
+              "C0"
+            ], 
+            "properties": {
+              "C2": {
+                "type": "object", 
+                "required": [
+                  "id", 
+                  "name", 
+                  "url_key"
+                ], 
+                "properties": {
+                  "id": {
+                    "type": "integer"
+                  }, 
+                  "name": {
+                    "type": "string", 
+                    "pattern": "^(.*)$"
+                  }, 
+                  "url_key": {
+                    "type": "string", 
+                    "pattern": "^(.*)$"
+                  }
+                }
+              }, 
+              "C1": {
+                "type": "object", 
+                "required": [
+                  "id", 
+                  "name", 
+                  "url_key"
+                ], 
+                "properties": {
+                  "id": {
+                    "type": "integer"
+                  }, 
+                  "name": {
+                    "type": "string", 
+                    "pattern": "^(.*)$"
+                  }, 
+                  "url_key": {
+                    "type": "string", 
+                    "pattern": "^(.*)$"
+                  }
+                }
+              }, 
+              "C0": {
+                "type": "object", 
+                "required": [
+                  "id", 
+                  "name", 
+                  "url_key"
+                ], 
+                "properties": {
+                  "id": {
+                    "type": "integer"
+                  }, 
+                  "name": {
+                    "type": "string", 
+                    "pattern": "^(.*)$"
+                  }, 
+                  "url_key": {
+                    "type": "string", 
+                    "pattern": "^(.*)$"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }, 
+      "others": {
+        "type": "array", 
+        "items": {
+          "type": "object", 
+          "required": [
+            "id", 
+            "name", 
+            "url_key"
+          ], 
+          "properties": {
+            "id": {
+              "type": "integer"
+            }, 
+            "name": { 
+              "type": "string", 
+              "pattern": "^(.*)$"
+            }, 
+            "url_key": {
+              "type": "string", 
+              "pattern": "^(.*)$"
+            }
+          }
+        }
+      }
+    }
+  }
+}

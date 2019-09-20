@@ -1,0 +1,18 @@
+{
+    "path": {
+        "id": "1514450425982"
+    },
+    "body": {
+        "status": "revision_inprogress",
+        "reject_reasons": {
+            "product_data": "Nama Produk Tidak Sesuai Image",
+            "sku_list": "Data SKU Produk tidak okeh",
+            "product_specification": "Spesifikasi banyak yang tertukar",
+            "description": "Deskripsi kurang lengkap",
+            "product_details": "Berat Produk Tidak Sesuai",
+            "package_dimension": "Dimensi tidak masuk akal",
+            "warranty": "harap masukkan warranty",
+            "totally_reject": ""
+        }
+    }
+}

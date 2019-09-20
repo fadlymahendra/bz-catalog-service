@@ -1,0 +1,87 @@
+get:
+  produces:
+    - application/json
+  description: Brand data listing
+  responses:
+    $ref: '../../responses.yml'
+  x-amazon-apigateway-integration:
+    responses:
+      $ref: '../../../extensions/aws-apigateway/integration/responses/default.yml'
+    requestTemplates:
+      application/json: |-
+        {
+          "action": "getCategories",
+          "context": {
+            #set ($user = $util.parseJson($util.base64Decode($input.params().header.get('x-bizzy-user'))))
+            "user": {
+              #foreach($userField in $user.keySet())
+              "$userField": "$user.get($userField)" #if($foreach.hasNext),#end
+              #end
+            },
+            "encodedUser": "$input.params().header.get('x-bizzy-user')",
+            "token": "$input.params().header.get('Authorization')"
+          },
+          "data": {
+            "body": null,
+            "path": null,
+            "query": {
+              #foreach($param in $input.params().querystring.keySet())
+              "$param": "$util.escapeJavaScript($input.params().querystring.get($param))" #if($foreach.hasNext),#end
+              #end
+            },
+            "multipart": null
+          }
+        }
+    uri: >-
+      arn:aws:apigateway:ap-southeast-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-southeast-1:159880201964:function:bizzy-catalogbackoffice:${stageVariables.LAMBDA_ALIAS}/invocations
+    credentials: 'arn:aws:iam::159880201964:role/lambda_VPC'
+    passthroughBehavior: when_no_templates
+    httpMethod: POST
+    contentHandling: CONVERT_TO_TEXT
+    type: aws
+post:
+  produces:
+    - application/json
+  consumes:
+    - application/json
+  parameters:
+    - in: body
+      name: body param
+      required: true
+      schema:
+        $ref: '../../../definitions/empty.yml'
+  responses:
+    $ref: '../../responses.yml'
+  x-amazon-apigateway-integration:
+    responses:
+      $ref: '../../../extensions/aws-apigateway/integration/responses/default_post.yml'
+    requestTemplates:
+      application/json: |-
+        {
+          "action": "postCategories",
+          "context": {
+            "method": "$context.httpMethod",
+            "requestorIp": "$context.identity.sourceIp",
+            "userAgent": "$context.identity.userAgent",
+            "resourcePath": "$context.resourcePath",
+            "deploymentStage": "$context.stage",
+            "headers": {
+              #foreach($param in $input.params().header.keySet())
+              "$param": "$util.escapeJavaScript($input.params().header.get($param))" #if($foreach.hasNext),#end
+              #end
+            }
+          },
+          "data": {
+            "body": $input.json('$'),
+            "path": null,
+            "query": null,
+            "multipart": null
+          }
+        }
+    uri: >-
+      arn:aws:apigateway:ap-southeast-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-southeast-1:159880201964:function:bizzy-catalogbackoffice:${stageVariables.LAMBDA_ALIAS}/invocations
+    credentials: 'arn:aws:iam::159880201964:role/lambda_VPC'
+    passthroughBehavior: when_no_templates
+    httpMethod: POST
+    contentHandling: CONVERT_TO_TEXT
+    type: aws

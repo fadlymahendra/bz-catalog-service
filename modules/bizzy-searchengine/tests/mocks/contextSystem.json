@@ -1,0 +1,26 @@
+{
+    "user": {
+      "scope": "organization",
+      "punchout": {
+        "is_punchout": false,
+        "is_user_punchout": false,
+        "sales_admin_id": 0,
+        "data": {}
+      },
+      "system_data": {
+        "organization_id": 308,
+        "language": "PCI",
+        "purchasing_system": "SRM",
+        "sales_admin_id": 852,
+        "client_vendor_id": "12345aa",
+        "order_setting": {
+          "contract": 0,
+          "shipping_cost": 0,
+          "mapping": 1,
+          "ppn": 0
+        }
+      },
+      "iat": 1536557757,
+      "exp": 1536564957
+    }
+  }

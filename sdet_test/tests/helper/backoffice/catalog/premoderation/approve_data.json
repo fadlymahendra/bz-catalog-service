@@ -1,0 +1,22 @@
+{
+  "validSkuIdForApproval": "PREMOD4APPROVE",
+  "validSkuIdForApprovalIndentDecimal": "PREMOD4APPROVEINDENTDECIMAL",
+  "invalidSkuIdForApproval": "invalidSkuIdForApproval",
+  "validSkuIdForApprovalWOUNSPSC": "SKU4APPROVEWOUNSPSC",
+  "validApprovalRequestBody": {
+    "product_group_id": "833"
+  },
+  "validApprovalRequestBodyIndentDecimal": {
+    "product_group_id": "936"
+  },
+  "validApprovalWOUNSPSCRequestBody": {
+    "product_group_id": "29732"
+  },
+  "isIndentValue" : "0",
+  "isDecimalValue" : "0",
+  "downPaymentTypeValue" : "0",
+  "downPaymentValue" : "0",
+  "vendorId" : "31",
+  "productGroupId" : "833",
+  "productGroupIdIndentDecimal": "936"
+}

@@ -1,0 +1,13 @@
+{
+    "putResponseValidSchema" : {
+        "data" : {
+          "type" : "object",
+          "properties" : {
+            "id" : "number",
+            "name" : "string"
+            },
+            "additionalProperties": false 
+            },
+        "message" : "string"        
+        }
+}

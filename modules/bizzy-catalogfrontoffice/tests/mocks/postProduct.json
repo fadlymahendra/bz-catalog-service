@@ -1,0 +1,61 @@
+{
+    "path": {
+        "id": "3"
+    },
+    "body": {
+        "product_group_id": "2",
+        "products": [
+            {
+                "variants": [
+                    {
+                        "attribute_id":1,
+                        "attribute_code":"phone_color",
+                        "attribute_code_label": "Warna",
+                        "attribute_value_name":"Silver",
+                        "attribute_value_id": 1
+                    },
+                    {
+                        "attribute_id":2,
+                        "attribute_code":"phone_storage",
+                        "attribute_code_label": "Kapasitas",
+                        "attribute_value_name":"164GB",
+                        "attribute_value_id":10
+                    }
+                ],
+                "variant_value": {
+                    "phone_color":"2",
+                    "phone_storage":"10"
+                },
+                "sku_vendor": "X1111",
+                "tier_min_qty_1": "5",
+                "tier_min_qty_2": "10",
+                "tier_min_qty_3": "15",
+                "tier_cogs_price_1": "1500000",
+                "tier_cogs_price_2": "1450000",
+                "tier_cogs_price_3": "1400000",
+                "stock": 0,
+                "primary_image": "http://localhost/testing/testing_images.jpg",
+                "additional_image": [
+                    "http://localhost/testing/testing_image.jpg",
+                    "http://localhost/testing/testing_image.jpg"
+                ],
+                "warehouse_id": 999,
+                "location_label": "Jakarta",
+                "reference_link": [
+                    "google.com",
+                    "amazon.com"
+                ],
+                "warranty_option": "official_warranty",
+                "warranty_period": "month",
+                "warranty_limit": 1,
+                "warranty_coverage": "Box",
+                "is_indent": 0,
+                "indent_period": "",
+                "indent_limit": "",
+                "is_decimal": 1,
+                "down_payment_type": 0,
+                "down_payment_value": 0
+            }
+        ]
+    }
+}

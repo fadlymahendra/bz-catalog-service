@@ -1,0 +1,74 @@
+{
+  "getValidResponseUpdateStock": {
+    "type": "object", 
+    "required": [
+      "data", 
+      "message"
+    ], 
+    "properties": {
+      "data": {
+        "type": "object", 
+        "required": [
+          "id", 
+          "stock_available", 
+          "vendor_id", 
+          "warehouse_id"
+        ], 
+        "properties": {
+          "id": {
+            "type": "integer"
+          }, 
+          "stock_available": {
+            "type": "string"
+          }, 
+          "vendor_id": {
+            "type": "integer"
+          }, 
+          "warehouse_id": {
+            "type": "integer"
+          }
+        }
+      }, 
+      "message": {
+        "type": "string", 
+        "pattern": "^(.*)$"
+      }
+    }
+  },
+  "getValidResponseUpdateStatus": {
+    "type": "object", 
+    "required": [
+      "data", 
+      "message"
+    ], 
+    "properties": {
+      "data": {
+        "type": "object", 
+        "required": [
+          "id", 
+          "is_active", 
+          "vendor_id", 
+          "warehouse_id"
+        ], 
+        "properties": {
+          "id": {
+            "type": "integer"
+          }, 
+          "is_active": {
+            "type": "integer"
+          }, 
+          "vendor_id": {
+            "type": "integer"
+          }, 
+          "warehouse_id": {
+            "type": "integer"
+          }
+        }
+      }, 
+      "message": {
+        "type": "string", 
+        "pattern": "^(.*)$"
+      }
+    }
+  }
+}

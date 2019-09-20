@@ -1,0 +1,183 @@
+{
+    "validParam" : {
+        "sku":"75312DCDBD",
+        "variant_id":11756,
+        "product_group_id":8484, 
+        "to": 11649
+    },
+    "validParamWithSLA" : {
+        "sku":"B205FD2CB1",
+        "variant_id":944,
+        "product_group_id":894, 
+        "to": 14963
+    },
+    "invalidParamWithSLA" : {
+        "sku":"B205FD2CB1",
+        "variant_id":944,
+        "product_group_id":-894, 
+        "to": 14963
+    },
+    "validParamWithInden" : {
+        "sku":"B205FD2CB1",
+        "variant_id":9899038,
+        "product_group_id":88711, 
+        "to": 14963
+    },
+    "productDetailContract" : {
+        "expiry_date": "2023-12-31T00:00:00.000Z",
+        "from_franco": false,
+        "id": 944,
+        "is_contract_price": true,
+        "sku": "B205FD2CB1",
+        "sla": 14
+    },
+    "vendorIdContract" : 68,
+    "productDetail" : {
+        "id": 1632527,
+        "vendor_id": 96,
+        "vendor_name": "PT Bizzy Commerce Indonesia ",
+        "vendor_trademark": "Bizzy Commerce Indonesia",
+        "vendor_pkp": 1,
+        "vendor_logo": "",
+        "warehouse_id": 28,
+        "warehouse_name": "PT. Jakberry Indonesia ",
+        "warehouse_hub_id": 1,
+        "warehouse_hub_shipper": [],
+        "warehouse_hub": {
+            "id": 1,
+            "name": "PT. Jakberry Indonesia ",
+            "address": "Intirub Business Park Warehouse Phase 1 Ground Floor Kav 47-48, Jalan Cililitan Besar No.454, RT.7/RW.11, Kebon Pala, Makasar, Jakarta Timur 13570",
+            "phone": "-",
+            "geograph": {
+                "id": 16036,
+                "province": "Jakarta",
+                "city": "Jakarta Selatan",
+                "district": "Pancoran",
+                "village": "Cikoko",
+                "zipcode": "12770",
+                "geotag": "1006115120",
+                "jnecitycode": "CGK10205"
+            }
+        },
+        "stock_available": 9999.99,
+        "currency": "IDR",
+        "price": {
+            "id": 11756,
+            "sku": "75312DCDBD",
+            "tier_data": {
+                "tier_min_qty_1": 1,
+                "tier_price_1": 24800,
+                "tier_min_qty_2": 24,
+                "tier_price_2": 24153,
+                "tier_min_qty_3": 60,
+                "tier_price_3": 23722
+            },
+            "cid": "72f0ed223c48f5443a4c7868099fe80c19c191ae04e91ecd2cf0fc51ef8e598f010d0d2ec4f6887033def119756249d06a6b8e6fc403e06bb0ce4e80b7a6bfb46ac60c9c40026601fc5e1fef056070e70b22ef4cfdd58e8485ba950e3610e03674657b3807741fc8e76958567a3b87f9",
+            "top_days": 30,
+            "is_contract_price": false,
+            "from_franco": false,
+            "channel_type": "MP",
+            "vendor_id": "96"
+        },
+        "warehouse_geograph": {
+            "id": 16036,
+            "province": "Jakarta",
+            "city": "Jakarta Selatan",
+            "district": "Pancoran",
+            "village": "Cikoko",
+            "zipcode": "12770",
+            "geotag": "1006115120",
+            "jnecitycode": "CGK10205"
+        },
+        "vendor_joined_at": "2018-07-30T23:02:51.000Z",
+        "sku_vendor": "SKUVEN-0-9611756",
+        "warranty_option": "distributor",
+        "warranty_period": "week",
+        "warranty_limit": 2,
+        "warranty_coverage": "LCD"
+    },
+    "respProductDetailOtherVendorLocation" : {
+        "warehouse_id": 28,
+        "warehouse_name": "PT. Jakberry Indonesia ",
+        "warehouse_hub_id": 1,
+        "warehouse_hub_shipper": [],
+        "warehouse_hub": {
+            "id": 1,
+            "name": "PT. Jakberry Indonesia ",
+            "address": "Intirub Business Park Warehouse Phase 1 Ground Floor Kav 47-48, Jalan Cililitan Besar No.454, RT.7/RW.11, Kebon Pala, Makasar, Jakarta Timur 13570",
+            "phone": "-",
+            "geograph": {
+                "id": 16036,
+                "province": "Jakarta",
+                "city": "Jakarta Selatan",
+                "district": "Pancoran",
+                "village": "Cikoko",
+                "zipcode": "12770",
+                "geotag": "1006115120",
+                "jnecitycode": "CGK10205"
+            }
+        },
+        "warehouse_geograph": {
+            "id": 16036,
+            "province": "Jakarta",
+            "city": "Jakarta Selatan",
+            "district": "Pancoran",
+            "village": "Cikoko",
+            "zipcode": "12770",
+            "geotag": "1006115120",
+            "jnecitycode": "CGK10205"
+        }
+    },
+    "productDetailInden":
+    {
+        "id": 97979891,
+       "uuid": "6fed7dfc-e3e8-11e8-b92b-06b0976369e4",
+       "vendor_id": 91,
+       "vendor_name": "PT Ildav Makmur Sentosa ",
+       "vendor_trademark": "Ildav Makmur Sentosa",
+       "vendor_pkp": 1,
+       "vendor_logo": "",
+       "warehouse_id": 27,
+       "warehouse_name": "Gudang Bandung",
+       "stock_available": "0.00",
+       "currency": "IDR",
+       "sku_vendor": "LAGH434234",
+       "indent_period": "week",
+       "indent_limit": 14,
+       "is_indent": 1,
+       "down_payment_type": 1,
+       "down_payment_value": 30,
+       "is_decimal": 1
+    },
+    "bodyUpdateDisableSku": {
+        "is_active": 0
+    },
+    "bodyUpdateEnableSku": {
+        "is_active": 1
+    },
+    "bodyUpdateStockSTEELSekrup": {
+        "stock_available":"0"
+    },
+    "bodyRestoreStockSTEELSekrup": {
+    "stock_available":"100"
+    },
+    "bodyProductDetailVendorSTEELSekrup": {
+        "sku": "EBACCEB5BA",
+        "variant_id":43293,
+        "product_group_id":24236, 
+        "to": 11649
+    },
+    "bodyProductDetailVendorIncorrectVariant": {
+        "sku": "EBACCEB5BA",
+        "variant_id":0,
+        "product_group_id":24236, 
+        "to": 11649
+    },
+    "productForDisable": {
+        "sku_number": "EBACCEB5BA",
+        "product_id": 814584
+    },
+    "tokenData": {
+        "incorrect": "abcd"
+    }
+}

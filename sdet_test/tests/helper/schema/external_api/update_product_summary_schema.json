@@ -1,0 +1,168 @@
+{
+  "responseValidSchema": {
+    "type": "object",
+    "required": [
+      "vendor_id",
+      "products"
+    ],
+    "properties": {
+      "vendor_id": {
+        "type": "number"
+      },
+      "products": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": [
+            "status",
+            "message"
+          ],
+          "properties": {
+            "status": {
+              "type": "string",
+              "enum": ["OK"]
+            },
+            "message": {
+              "type": "string",
+              "enum": ["UPDATE_SUCCESS"]
+            },
+            "product_sku": {
+              "type": ["string", "null"]
+            },
+            "vendor_sku": {
+              "type": ["string", "null"]
+            },
+            "manufacturing_no": {
+              "type": ["string", "null"]
+            },
+            "updated_timestamp": {
+              "type": "number"
+            },
+            "stock": {
+              "type": ["number", "null"]
+            },
+            "wholesales": {
+              "type": "array",
+              "items": {
+                "type": ["object", "null"],
+                "required": [
+                  "tier",
+                  "min",
+                  "unit_price"
+                ],
+                "properties": {
+                  "tier": {
+                    "type": "number",
+                    "enum": [1, 2, 3]
+                  },
+                  "min": {
+                    "type": "number"
+                  },
+                  "unit_price": {
+                    "type": "number"
+                  }
+                }
+              }
+            },
+            "product_status": {
+              "type": ["number", "null"]
+            }
+          }
+        }
+      }
+    }
+  },
+  "responseFullyReject": {
+    "type": "object",
+    "required": [
+      "code",
+      "message"
+    ],
+    "properties": {
+      "code": {
+        "$id": "#/properties/code",
+        "type": "string",
+        "enum": ["BadRequest", "UnprocessableEntity", "Forbidden", "BAD_REQUEST"]
+      },
+      "message": {
+        "$id": "#/properties/message",
+        "type": "string",
+        "enum": ["MISSING_PARAMETER", "INVALID_REQUEST_FORMAT", "EXCESS_DATA_LIMIT", "NOT_AUTHORIZED", "Please check your request body"]
+      }
+    }
+  },
+  "responsePartialReject": {
+    "type": "object",
+    "required": [
+      "vendor_id",
+      "products"
+    ],
+    "properties": {
+      "vendor_id": {
+        "type": "number"
+      },
+      "products": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": [
+            "status",
+            "message"
+          ],
+          "properties": {
+            "status": {
+              "type": "string",
+              "enum": ["NOT_OK"]
+            },
+            "message": {
+              "type": "string",
+              "enum": [
+                "SKU_NOT_FOUND", "EMPTY_PRODUCT_DATA", "INVALID_STOCK", "INVALID_MIN_QTY", "INVALID_TIER", "INVALID_PRICE", "EMPTY_SKU"
+              ]
+            },
+            "product_sku": {
+              "type": ["string", "null"]
+            },
+            "vendor_sku": {
+              "type": ["string", "null"]
+            },
+            "manufacturing_no": {
+              "type": ["string", "null"]
+            },
+            "updated_timestamp": {
+              "type": "number"
+            },
+            "stock": {
+              "type": ["number", "null"]
+            },
+            "wholesales": {
+              "type": "array",
+              "items": {
+                "type": ["null", "object"],
+                "required": [
+                  "tier",
+                  "min",
+                  "unit_price"
+                ],
+                "properties": {
+                  "tier": {
+                    "type": "number"
+                  },
+                  "min": {
+                    "type": "number"
+                  },
+                  "unit_price": {
+                    "type": "number"
+                  }
+                }
+              }
+            },
+            "product_status": {
+              "type": ["number", "null"]
+            }
+          }
+        }
+      }
+    }    
+  }
+}

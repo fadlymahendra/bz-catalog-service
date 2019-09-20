@@ -1,0 +1,13 @@
+{
+	"query": {
+		"search": "azz",
+		"c0": "",
+		"c1": "",
+		"c2": "",
+		"c3": "",
+		"visibility":"1",
+		"page": 1,
+		"limit": 20,
+		"sort":"created_at_asc"
+	}
+}

@@ -1,0 +1,14 @@
+{
+    "body": {
+        "product": [
+            {
+                "sku": "WBQH1BWFAN",
+                "vendor_id": 2
+            },
+            {
+                "sku": "NL729T50H2",
+                "vendor_id": 4
+            }
+        ]
+    }
+}

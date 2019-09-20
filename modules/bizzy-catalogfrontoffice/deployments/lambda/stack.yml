@@ -1,0 +1,324 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: Bizzy Lambda Cloudformation Stack
+Resources:
+  BizzyCatalogFrontoffice:
+    Type: AWS::Lambda::Function
+    Properties:
+      Code:
+        S3Bucket: "bizzy-sams"
+        S3Key: "stack/src/index.zip"
+      Description: API to handle catalog request from frontoffice
+      FunctionName: bizzy-catalogfrontoffice
+      Handler: index.handler
+      Role: arn:aws:iam::159880201964:role/lambda_VPC
+      VpcConfig:
+        SubnetIds:
+          - 'subnet-8139e1c8'
+          - 'subnet-7d43e91a'
+        SecurityGroupIds:
+          - 'sg-9e047ff8'
+      Tags:
+        - Key: Cost
+          Value: phoenix-nonprod
+      Runtime: nodejs8.10
+      MemorySize: 1024
+      Timeout: 30
+
+  BizzyCatalogFrontofficeProduction:
+    Type: AWS::Lambda::Function
+    Properties:
+      Code:
+        S3Bucket: "bizzy-sams"
+        S3Key: "stack/src/index.zip"
+      Description: API to handle catalog request from frontoffice
+      FunctionName: bizzy-catalogfrontoffice-production
+      Handler: index.handler
+      Role: arn:aws:iam::159880201964:role/profile-bizzyx-lambda
+      VpcConfig:
+        SubnetIds:
+          - 'subnet-d5e991b2'
+          - 'subnet-48b5dd01'
+          - 'subnet-5e1d1118'
+        SecurityGroupIds:
+          - 'sg-11de0268'
+      Tags:
+        - Key: Cost
+          Value: phoenix
+      Runtime: nodejs8.10
+      MemorySize: 1024
+      Timeout: 30
+
+#Aliases
+  BizzyCatalogFrontofficeDevAlias:
+    Type: AWS::Lambda::Alias
+    Properties:
+      FunctionName:
+        Ref: BizzyCatalogFrontoffice
+      FunctionVersion: "$LATEST"
+      Name: DEV
+  BizzyCatalogFrontofficeTestAlias:
+    Type: AWS::Lambda::Alias
+    Properties:
+      FunctionName:
+        Ref: BizzyCatalogFrontoffice
+      FunctionVersion: "$LATEST"
+      Name: TEST
+  BizzyCatalogFrontofficeUatAlias:
+    Type: AWS::Lambda::Alias
+    Properties:
+      FunctionName:
+        Ref: BizzyCatalogFrontoffice
+      FunctionVersion: "$LATEST"
+      Name: UAT
+  BizzyCatalogFrontofficeProdAlias:
+    Type: AWS::Lambda::Alias
+    Properties:
+      FunctionName:
+        Ref: BizzyCatalogFrontoffice
+      FunctionVersion: "$LATEST"
+      Name: PROD
+  BizzyCatalogFrontofficeDemoAlias:
+    Type: AWS::Lambda::Alias
+    Properties:
+      FunctionName:
+        Ref: BizzyCatalogFrontoffice
+      FunctionVersion: "$LATEST"
+      Name: DEMO
+  BizzyCatalogFrontofficeProductionAlias:
+    Type: AWS::Lambda::Alias
+    Properties:
+      FunctionName:
+        Ref: BizzyCatalogFrontofficeProduction
+      FunctionVersion: "$LATEST"
+      Name: PROD
+
+#Permissions
+  BizzyCatalogFrontofficeDevPermission:
+    Type: AWS::Lambda::Permission
+    Properties:
+      Action: lambda:invokeFunction
+      FunctionName:
+        Ref: BizzyCatalogFrontofficeDevAlias
+      Principal: apigateway.amazonaws.com
+      SourceArn:
+        Fn::Join:
+        - ''
+        - - 'arn:aws:execute-api:'
+          - Ref: AWS::Region
+          - ":"
+          - Ref: AWS::AccountId
+          - ":cr7z0wr042/DEV/*/*"
+  BizzyCatalogFrontofficeTestPermission:
+    Type: AWS::Lambda::Permission
+    Properties:
+      Action: lambda:invokeFunction
+      FunctionName:
+        Ref: BizzyCatalogFrontofficeTestAlias
+      Principal: apigateway.amazonaws.com
+      SourceArn:
+        Fn::Join:
+        - ''
+        - - 'arn:aws:execute-api:'
+          - Ref: AWS::Region
+          - ":"
+          - Ref: AWS::AccountId
+          - ":cr7z0wr042/TEST/*/*"
+  BizzyCatalogFrontofficeUatPermission:
+    Type: AWS::Lambda::Permission
+    Properties:
+      Action: lambda:invokeFunction
+      FunctionName:
+        Ref: BizzyCatalogFrontofficeUatAlias
+      Principal: apigateway.amazonaws.com
+      SourceArn:
+        Fn::Join:
+        - ''
+        - - 'arn:aws:execute-api:'
+          - Ref: AWS::Region
+          - ":"
+          - Ref: AWS::AccountId
+          - ":cr7z0wr042/UAT/*/*"
+  BizzyCatalogFrontofficeDemoPermission:
+    Type: AWS::Lambda::Permission
+    Properties:
+      Action: lambda:invokeFunction
+      FunctionName:
+        Ref: BizzyCatalogFrontofficeDemoAlias
+      Principal: apigateway.amazonaws.com
+      SourceArn:
+        Fn::Join:
+        - ''
+        - - 'arn:aws:execute-api:'
+          - Ref: AWS::Region
+          - ":"
+          - Ref: AWS::AccountId
+          - ":cr7z0wr042/DEMO/*/*"
+  BizzyCatalogFrontofficeProdPermission:
+    Type: AWS::Lambda::Permission
+    Properties:
+      Action: lambda:invokeFunction
+      FunctionName:
+        Ref: BizzyCatalogFrontofficeProductionAlias
+      Principal: apigateway.amazonaws.com
+      SourceArn:
+        Fn::Join:
+        - ''
+        - - 'arn:aws:execute-api:'
+          - Ref: AWS::Region
+          - ":"
+          - Ref: AWS::AccountId
+          - ":cr7z0wr042/PROD/*/*"
+
+#Permissions BO
+  BizzyCatalogFrontofficeBODevPermission:
+    Type: AWS::Lambda::Permission
+    Properties:
+      Action: lambda:invokeFunction
+      FunctionName:
+        Ref: BizzyCatalogFrontofficeDevAlias
+      Principal: apigateway.amazonaws.com
+      SourceArn:
+        Fn::Join:
+        - ''
+        - - 'arn:aws:execute-api:'
+          - Ref: AWS::Region
+          - ":"
+          - Ref: AWS::AccountId
+          - ":dljvv74fme/DEV/*/*"
+  BizzyCatalogFrontofficeBOTestPermission:
+    Type: AWS::Lambda::Permission
+    Properties:
+      Action: lambda:invokeFunction
+      FunctionName:
+        Ref: BizzyCatalogFrontofficeTestAlias
+      Principal: apigateway.amazonaws.com
+      SourceArn:
+        Fn::Join:
+        - ''
+        - - 'arn:aws:execute-api:'
+          - Ref: AWS::Region
+          - ":"
+          - Ref: AWS::AccountId
+          - ":dljvv74fme/TEST/*/*"
+  BizzyCatalogFrontofficeBOUatPermission:
+    Type: AWS::Lambda::Permission
+    Properties:
+      Action: lambda:invokeFunction
+      FunctionName:
+        Ref: BizzyCatalogFrontofficeUatAlias
+      Principal: apigateway.amazonaws.com
+      SourceArn:
+        Fn::Join:
+        - ''
+        - - 'arn:aws:execute-api:'
+          - Ref: AWS::Region
+          - ":"
+          - Ref: AWS::AccountId
+          - ":dljvv74fme/UAT/*/*"
+  BizzyCatalogFrontofficeBODemoPermission:
+    Type: AWS::Lambda::Permission
+    Properties:
+      Action: lambda:invokeFunction
+      FunctionName:
+        Ref: BizzyCatalogFrontofficeDemoAlias
+      Principal: apigateway.amazonaws.com
+      SourceArn:
+        Fn::Join:
+        - ''
+        - - 'arn:aws:execute-api:'
+          - Ref: AWS::Region
+          - ":"
+          - Ref: AWS::AccountId
+          - ":dljvv74fme/DEMO/*/*"
+  BizzyCatalogFrontofficeBOProdPermission:
+    Type: AWS::Lambda::Permission
+    Properties:
+      Action: lambda:invokeFunction
+      FunctionName:
+        Ref: BizzyCatalogFrontofficeProductionAlias
+      Principal: apigateway.amazonaws.com
+      SourceArn:
+        Fn::Join:
+        - ''
+        - - 'arn:aws:execute-api:'
+          - Ref: AWS::Region
+          - ":"
+          - Ref: AWS::AccountId
+          - ":dljvv74fme/PROD/*/*"
+
+#Permissions Tools
+  BizzyCatalogFrontofficeToolsDevPermission:
+    Type: AWS::Lambda::Permission
+    Properties:
+      Action: lambda:invokeFunction
+      FunctionName:
+        Ref: BizzyCatalogFrontofficeDevAlias
+      Principal: apigateway.amazonaws.com
+      SourceArn:
+        Fn::Join:
+        - ''
+        - - 'arn:aws:execute-api:'
+          - Ref: AWS::Region
+          - ":"
+          - Ref: AWS::AccountId
+          - ":kkhnm0cjj2/DEV/*/*"
+  BizzyCatalogFrontofficeToolsTestPermission:
+    Type: AWS::Lambda::Permission
+    Properties:
+      Action: lambda:invokeFunction
+      FunctionName:
+        Ref: BizzyCatalogFrontofficeTestAlias
+      Principal: apigateway.amazonaws.com
+      SourceArn:
+        Fn::Join:
+        - ''
+        - - 'arn:aws:execute-api:'
+          - Ref: AWS::Region
+          - ":"
+          - Ref: AWS::AccountId
+          - ":kkhnm0cjj2/TEST/*/*"
+  BizzyCatalogFrontofficeToolsUatPermission:
+    Type: AWS::Lambda::Permission
+    Properties:
+      Action: lambda:invokeFunction
+      FunctionName:
+        Ref: BizzyCatalogFrontofficeUatAlias
+      Principal: apigateway.amazonaws.com
+      SourceArn:
+        Fn::Join:
+        - ''
+        - - 'arn:aws:execute-api:'
+          - Ref: AWS::Region
+          - ":"
+          - Ref: AWS::AccountId
+          - ":kkhnm0cjj2/UAT/*/*"
+  BizzyCatalogFrontofficeToolsDemoPermission:
+    Type: AWS::Lambda::Permission
+    Properties:
+      Action: lambda:invokeFunction
+      FunctionName:
+        Ref: BizzyCatalogFrontofficeDemoAlias
+      Principal: apigateway.amazonaws.com
+      SourceArn:
+        Fn::Join:
+        - ''
+        - - 'arn:aws:execute-api:'
+          - Ref: AWS::Region
+          - ":"
+          - Ref: AWS::AccountId
+          - ":kkhnm0cjj2/DEMO/*/*"
+  BizzyCatalogFrontofficeToolsProdPermission:
+    Type: AWS::Lambda::Permission
+    Properties:
+      Action: lambda:invokeFunction
+      FunctionName:
+        Ref: BizzyCatalogFrontofficeProductionAlias
+      Principal: apigateway.amazonaws.com
+      SourceArn:
+        Fn::Join:
+        - ''
+        - - 'arn:aws:execute-api:'
+          - Ref: AWS::Region
+          - ":"
+          - Ref: AWS::AccountId
+          - ":kkhnm0cjj2/PROD/*/*"

@@ -1,0 +1,955 @@
+{
+  "getResponseValidPunchout": {
+    "type": "object",
+    "required": [
+      "data"
+    ],
+    "properties": {
+      "data": {
+        "$id": "#/properties/data",
+        "type": "object",
+        "required": [
+          "company_seller_id",
+          "pr_number",
+          "hub_id",
+          "warehouse_id",
+          "shipping_cost_estimation",
+          "shipping_address_id",
+          "added_price",
+          "discount",
+          "deducted_price",
+          "qty",
+          "channel_type",
+          "is_punchout",
+          "check_mapping",
+          "sku",
+          "vendors",
+          "pricing",
+          "total_price"
+        ],
+        "properties": {
+          "company_seller_id": {
+            "$id": "#/properties/data/properties/company_seller_id",
+            "type": "integer"
+          },
+          "pr_number": {
+            "$id": "#/properties/data/properties/pr_number",
+            "type": "string",
+            "pattern": "^(.*)$"
+          },
+          "hub_id": {
+            "$id": "#/properties/data/properties/hub_id",
+            "type": "integer"
+          },
+          "warehouse_id": {
+            "$id": "#/properties/data/properties/warehouse_id",
+            "type": "integer"
+          },
+          "shipping_cost_estimation": {
+            "$id": "#/properties/data/properties/shipping_cost_estimation",
+            "type": "integer"
+          },
+          "shipping_address_id": {
+            "$id": "#/properties/data/properties/shipping_address_id",
+            "type": "integer"
+          },
+          "added_price": {
+            "$id": "#/properties/data/properties/added_price",
+            "type": "integer"
+          },
+          "discount": {
+            "$id": "#/properties/data/properties/discount",
+            "type": "integer"
+          },
+          "deducted_price": {
+            "$id": "#/properties/data/properties/deducted_price",
+            "type": "integer"
+          },
+          "qty": {
+            "$id": "#/properties/data/properties/qty",
+            "type": "integer"
+          },
+          "channel_type": {
+            "$id": "#/properties/data/properties/channel_type",
+            "type": "string",
+            "pattern": "^(.*)$"
+          },
+          "is_punchout": {
+            "$id": "#/properties/data/properties/is_punchout",
+            "type": "integer"
+          },
+          "check_mapping": {
+            "$id": "#/properties/data/properties/check_mapping",
+            "type": [ "array", "object" ]
+          },
+          "sku": {
+            "$id": "#/properties/data/properties/sku",
+            "type": "object",
+            "required": [
+              "type",
+              "id",
+              "sku",
+              "name",
+              "brand",
+              "uom",
+              "stocking_uom",
+              "quantity_stocking_uom",
+              "categories",
+              "barcode",
+              "manufacturing_number",
+              "package_weight",
+              "package_length",
+              "package_width",
+              "package_height",
+              "package_content",
+              "primary_image",
+              "additional_image",
+              "description",
+              "product_group",
+              "specifications",
+              "variants",
+              "variant_count",
+              "variant_matrix",
+              "variant_value"
+            ],
+            "properties": {
+              "type": {
+                "$id": "#/properties/data/properties/sku/properties/type",
+                "type": "string",
+                "pattern": "^(.*)$"
+              },
+              "id": {
+                "$id": "#/properties/data/properties/sku/properties/id",
+                "type": "integer"
+              },
+              "sku": {
+                "$id": "#/properties/data/properties/sku/properties/sku",
+                "type": "string",
+                "pattern": "^(.*)$"
+              },
+              "name": {
+                "$id": "#/properties/data/properties/sku/properties/name",
+                "type": "string",
+                "pattern": "^(.*)$"
+              },
+              "brand": {
+                "$id": "#/properties/data/properties/sku/properties/brand",
+                "type": "object",
+                "required": [
+                  "id",
+                  "name",
+                  "url_key"
+                ],
+                "properties": {
+                  "id": {
+                    "$id": "#/properties/data/properties/sku/properties/brand/properties/id",
+                    "type": "integer"
+                  },
+                  "name": {
+                    "$id": "#/properties/data/properties/sku/properties/brand/properties/name",
+                    "type": "string",
+                    "pattern": "^(.*)$"
+                  },
+                  "url_key": {
+                    "$id": "#/properties/data/properties/sku/properties/brand/properties/url_key",
+                    "type": "string",
+                    "pattern": "^(.*)$"
+                  }
+                }
+              },
+              "uom": {
+                "$id": "#/properties/data/properties/sku/properties/uom",
+                "type": "object",
+                "required": [
+                  "id",
+                  "name"
+                ],
+                "properties": {
+                  "id": {
+                    "$id": "#/properties/data/properties/sku/properties/uom/properties/id",
+                    "type": "integer"
+                  },
+                  "name": {
+                    "$id": "#/properties/data/properties/sku/properties/uom/properties/name",
+                    "type": "string",
+                    "pattern": "^(.*)$"
+                  }
+                }
+              },
+              "stocking_uom": {
+                "$id": "#/properties/data/properties/sku/properties/stocking_uom",
+                "type": "object",
+                "required": [
+                  "id",
+                  "name"
+                ],
+                "properties": {
+                  "id": {
+                    "$id": "#/properties/data/properties/sku/properties/stocking_uom/properties/id",
+                    "type": "integer"
+                  },
+                  "name": {
+                    "$id": "#/properties/data/properties/sku/properties/stocking_uom/properties/name",
+                    "type": "string",
+                    "pattern": "^(.*)$"
+                  }
+                }
+              },
+              "quantity_stocking_uom": {
+                "$id": "#/properties/data/properties/sku/properties/quantity_stocking_uom",
+                "type": "integer"
+              },
+              "categories": {
+                "$id": "#/properties/data/properties/sku/properties/categories",
+                "type": "object",
+                "required": [
+                  "c0",
+                  "c1",
+                  "c2",
+                  "c3"
+                ],
+                "properties": {
+                  "c0": {
+                    "$id": "#/properties/data/properties/sku/properties/categories/properties/c0",
+                    "type": "object",
+                    "required": [
+                      "id",
+                      "name",
+                      "url_key",
+                      "unspsc"
+                    ],
+                    "properties": {
+                      "id": {
+                        "$id": "#/properties/data/properties/sku/properties/categories/properties/c0/properties/id",
+                        "type": "integer"
+                      },
+                      "name": {
+                        "$id": "#/properties/data/properties/sku/properties/categories/properties/c0/properties/name",
+                        "type": "string",
+                        "pattern": "^(.*)$"
+                      },
+                      "url_key": {
+                        "$id": "#/properties/data/properties/sku/properties/categories/properties/c0/properties/url_key",
+                        "type": "string",
+                        "pattern": "^(.*)$"
+                      },
+                      "unspsc": {
+                        "$id": "#/properties/data/properties/sku/properties/categories/properties/c0/properties/unspsc",
+                        "type": "integer"
+                      }
+                    }
+                  },
+                  "c1": {
+                    "$id": "#/properties/data/properties/sku/properties/categories/properties/c1",
+                    "type": "object",
+                    "required": [
+                      "id",
+                      "name",
+                      "url_key",
+                      "unspsc"
+                    ],
+                    "properties": {
+                      "id": {
+                        "$id": "#/properties/data/properties/sku/properties/categories/properties/c1/properties/id",
+                        "type": "integer"
+                      },
+                      "name": {
+                        "$id": "#/properties/data/properties/sku/properties/categories/properties/c1/properties/name",
+                        "type": "string",
+                        "pattern": "^(.*)$"
+                      },
+                      "url_key": {
+                        "$id": "#/properties/data/properties/sku/properties/categories/properties/c1/properties/url_key",
+                        "type": "string",
+                        "pattern": "^(.*)$"
+                      },
+                      "unspsc": {
+                        "$id": "#/properties/data/properties/sku/properties/categories/properties/c1/properties/unspsc",
+                        "type": "integer"
+                      }
+                    }
+                  },
+                  "c2": {
+                    "$id": "#/properties/data/properties/sku/properties/categories/properties/c2",
+                    "type": "object",
+                    "required": [
+                      "id",
+                      "name",
+                      "url_key",
+                      "unspsc"
+                    ],
+                    "properties": {
+                      "id": {
+                        "$id": "#/properties/data/properties/sku/properties/categories/properties/c2/properties/id",
+                        "type": "integer"
+                      },
+                      "name": {
+                        "$id": "#/properties/data/properties/sku/properties/categories/properties/c2/properties/name",
+                        "type": "string",
+                        "pattern": "^(.*)$"
+                      },
+                      "url_key": {
+                        "$id": "#/properties/data/properties/sku/properties/categories/properties/c2/properties/url_key",
+                        "type": "string",
+                        "pattern": "^(.*)$"
+                      },
+                      "unspsc": {
+                        "$id": "#/properties/data/properties/sku/properties/categories/properties/c2/properties/unspsc",
+                        "type": "integer"
+                      }
+                    }
+                  },
+                  "c3": {
+                    "$id": "#/properties/data/properties/sku/properties/categories/properties/c3",
+                    "type": "object",
+                    "required": [
+                      "id",
+                      "name",
+                      "url_key",
+                      "unspsc"
+                    ],
+                    "properties": {
+                      "id": {
+                        "$id": "#/properties/data/properties/sku/properties/categories/properties/c3/properties/id",
+                        "type": "integer"
+                      },
+                      "name": {
+                        "$id": "#/properties/data/properties/sku/properties/categories/properties/c3/properties/name",
+                        "type": "string",
+                        "pattern": "^(.*)$"
+                      },
+                      "url_key": {
+                        "$id": "#/properties/data/properties/sku/properties/categories/properties/c3/properties/url_key",
+                        "type": "string",
+                        "pattern": "^(.*)$"
+                      },
+                      "unspsc": {
+                        "$id": "#/properties/data/properties/sku/properties/categories/properties/c3/properties/unspsc",
+                        "type": "integer"
+                      }
+                    }
+                  }
+                }
+              },
+              "barcode": {
+                "$id": "#/properties/data/properties/sku/properties/barcode",
+                "type": "string",
+                "pattern": "^(.*)$"
+              },
+              "manufacturing_number": {
+                "$id": "#/properties/data/properties/sku/properties/manufacturing_number",
+                "type": "string",
+                "pattern": "^(.*)$"
+              },
+              "package_weight": {
+                "$id": "#/properties/data/properties/sku/properties/package_weight",
+                "type": "integer"
+              },
+              "package_length": {
+                "$id": "#/properties/data/properties/sku/properties/package_length",
+                "type": "number"
+              },
+              "package_width": {
+                "$id": "#/properties/data/properties/sku/properties/package_width",
+                "type": "integer"
+              },
+              "package_height": {
+                "$id": "#/properties/data/properties/sku/properties/package_height",
+                "type": "integer"
+              },
+              "package_content": {
+                "$id": "#/properties/data/properties/sku/properties/package_content",
+                "type": "string",
+                "pattern": "^(.*)$"
+              },
+              "primary_image": {
+                "$id": "#/properties/data/properties/sku/properties/primary_image",
+                "type": "string",
+                "pattern": "^(.*)$"
+              },
+              "additional_image": {
+                "$id": "#/properties/data/properties/sku/properties/additional_image",
+                "type": "object",
+                "required": [
+                  "data"
+                ],
+                "properties": {
+                  "data": {
+                    "$id": "#/properties/data/properties/sku/properties/additional_image/properties/data",
+                    "type": "object",
+                    "required": [
+                      "id",
+                      "sku",
+                      "is_active",
+                      "c3",
+                      "tier_data",
+                      "vendor",
+                      "product_group"
+                    ],
+                    "properties": {
+                      "id": {
+                        "$id": "#/properties/data/properties/sku/properties/additional_image/properties/data/properties/id",
+                        "type": "integer"
+                      },
+                      "sku": {
+                        "$id": "#/properties/data/properties/sku/properties/additional_image/properties/data/properties/sku",
+                        "type": "string",
+                        "pattern": "^(.*)$"
+                      },
+                      "is_active": {
+                        "$id": "#/properties/data/properties/sku/properties/additional_image/properties/data/properties/is_active",
+                        "type": "integer"
+                      },
+                      "c3": {
+                        "$id": "#/properties/data/properties/sku/properties/additional_image/properties/data/properties/c3",
+                        "type": "object",
+                        "required": [
+                          "id",
+                          "name",
+                          "level"
+                        ],
+                        "properties": {
+                          "id": {
+                            "$id": "#/properties/data/properties/sku/properties/additional_image/properties/data/properties/c3/properties/id",
+                            "type": "integer"
+                          },
+                          "name": {
+                            "$id": "#/properties/data/properties/sku/properties/additional_image/properties/data/properties/c3/properties/name",
+                            "type": "string",
+                            "pattern": "^(.*)$"
+                          },
+                          "level": {
+                            "$id": "#/properties/data/properties/sku/properties/additional_image/properties/data/properties/c3/properties/level",
+                            "type": "string",
+                            "pattern": "^(.*)$"
+                          }
+                        }
+                      },
+                      "tier_data": {
+                        "$id": "#/properties/data/properties/sku/properties/additional_image/properties/data/properties/tier_data",
+                        "type": "array",
+                        "items": {
+                          "$id": "#/properties/data/properties/sku/properties/additional_image/properties/data/properties/tier_data/items",
+                          "type": "object"
+                        }
+                      },
+                      "vendor": {
+                        "$id": "#/properties/data/properties/sku/properties/additional_image/properties/data/properties/vendor",
+                        "type": "object",
+                        "required": [
+                          "id",
+                          "warehouse_id"
+                        ],
+                        "properties": {
+                          "id": {
+                            "$id": "#/properties/data/properties/sku/properties/additional_image/properties/data/properties/vendor/properties/id",
+                            "type": "integer"
+                          },
+                          "warehouse_id": {
+                            "$id": "#/properties/data/properties/sku/properties/additional_image/properties/data/properties/vendor/properties/warehouse_id",
+                            "type": "integer"
+                          }
+                        }
+                      },
+                      "product_group": {
+                        "$id": "#/properties/data/properties/sku/properties/additional_image/properties/data/properties/product_group",
+                        "type": "object",
+                        "required": [
+                          "quantity_stocking_uom",
+                          "stocking_uom"
+                        ],
+                        "properties": {
+                          "quantity_stocking_uom": {
+                            "$id": "#/properties/data/properties/sku/properties/additional_image/properties/data/properties/product_group/properties/quantity_stocking_uom",
+                            "type": "integer"
+                          },
+                          "stocking_uom": {
+                            "$id": "#/properties/data/properties/sku/properties/additional_image/properties/data/properties/product_group/properties/stocking_uom",
+                            "type": "object",
+                            "required": [
+                              "id",
+                              "name"
+                            ],
+                            "properties": {
+                              "id": {
+                                "$id": "#/properties/data/properties/sku/properties/additional_image/properties/data/properties/product_group/properties/stocking_uom/properties/id",
+                                "type": "integer"
+                              },
+                              "name": {
+                                "$id": "#/properties/data/properties/sku/properties/additional_image/properties/data/properties/product_group/properties/stocking_uom/properties/name",
+                                "type": "string",
+                                "pattern": "^(.*)$"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "description": {
+                "$id": "#/properties/data/properties/sku/properties/description",
+                "type": "string"
+              },
+              "product_group": {
+                "$id": "#/properties/data/properties/sku/properties/product_group",
+                "type": "object",
+                "required": [
+                  "id",
+                  "name"
+                ],
+                "properties": {
+                  "id": {
+                    "$id": "#/properties/data/properties/sku/properties/product_group/properties/id",
+                    "type": "integer"
+                  },
+                  "name": {
+                    "$id": "#/properties/data/properties/sku/properties/product_group/properties/name",
+                    "type": "string",
+                    "pattern": "^(.*)$"
+                  }
+                }
+              },
+              "specifications": {
+                "$id": "#/properties/data/properties/sku/properties/specifications",
+                "type": "array",
+                "items": {
+                  "$id": "#/properties/data/properties/sku/properties/specifications/items",
+                  "type": "object",
+                  "required": [
+                    "code",
+                    "label",
+                    "value"
+                  ],
+                  "properties": {
+                    "code": {
+                      "$id": "#/properties/data/properties/sku/properties/specifications/items/properties/code",
+                      "type": "string",
+                      "pattern": "^(.*)$"
+                    },
+                    "label": {
+                      "$id": "#/properties/data/properties/sku/properties/specifications/items/properties/label",
+                      "type": "string",
+                      "pattern": "^(.*)$"
+                    },
+                    "value": {
+                      "$id": "#/properties/data/properties/sku/properties/specifications/items/properties/value",
+                      "type": "string",
+                      "pattern": "^(.*)$"
+                    }
+                  }
+                }
+              },
+              "variants": {
+                "$id": "#/properties/data/properties/sku/properties/variants",
+                "type": "array",
+                "items": {
+                  "$id": "#/properties/data/properties/sku/properties/variants/items",
+                  "type": "object",
+                  "required": [
+                    "code",
+                    "label",
+                    "value"
+                  ],
+                  "properties": {
+                    "code": {
+                      "$id": "#/properties/data/properties/sku/properties/variants/items/properties/code",
+                      "type": "string",
+                      "pattern": "^(.*)$"
+                    },
+                    "label": {
+                      "$id": "#/properties/data/properties/sku/properties/variants/items/properties/label",
+                      "type": "string",
+                      "pattern": "^(.*)$"
+                    },
+                    "value": {
+                      "$id": "#/properties/data/properties/sku/properties/variants/items/properties/value",
+                      "type": "string",
+                      "pattern": "^(.*)$"
+                    }
+                  }
+                }
+              },
+              "variant_count": {
+                "$id": "#/properties/data/properties/sku/properties/variant_count",
+                "type": "integer"
+              },
+              "variant_matrix": {
+                "$id": "#/properties/data/properties/sku/properties/variant_matrix",
+                "type": "array",
+                "items": {
+                  "$id": "#/properties/data/properties/sku/properties/variant_matrix/items",
+                  "type": "string",
+                  "pattern": "^(.*)$"
+                }
+              },
+              "variant_value": {
+                "$id": "#/properties/data/properties/sku/properties/variant_value",
+                "type": ["object", "string"]
+              }
+            }
+          },
+          "vendors": {
+            "$id": "#/properties/data/properties/vendors",
+            "type": "array",
+            "items": {
+              "$id": "#/properties/data/properties/vendors/items",
+              "type": "object",
+              "required": [
+                "id",
+                "vendor_id",
+                "vendor_name",
+                "vendor_trademark",
+                "vendor_pkp",
+                "vendor_logo",
+                "warehouse_id",
+                "warehouse_name",
+                "warehouse_hub_id",
+                "warehouse_hub_shipper",
+                "warehouse_hub",
+                "stock_available",
+                "currency",
+                "warehouse_geograph",
+                "vendor_joined_at",
+                "sku_vendor"
+              ],
+              "properties": {
+                "id": {
+                  "$id": "#/properties/data/properties/vendors/items/properties/id",
+                  "type": "integer"
+                },
+                "vendor_id": {
+                  "$id": "#/properties/data/properties/vendors/items/properties/vendor_id",
+                  "type": "integer"
+                },
+                "vendor_name": {
+                  "$id": "#/properties/data/properties/vendors/items/properties/vendor_name",
+                  "type": "string",
+                  "pattern": "^(.*)$"
+                },
+                "vendor_trademark": {
+                  "$id": "#/properties/data/properties/vendors/items/properties/vendor_trademark",
+                  "type": "string",
+                  "pattern": "^(.*)$"
+                },
+                "vendor_pkp": {
+                  "$id": "#/properties/data/properties/vendors/items/properties/vendor_pkp",
+                  "type": "integer"
+                },
+                "vendor_logo": {
+                  "$id": "#/properties/data/properties/vendors/items/properties/vendor_logo",
+                  "type": "string",
+                  "pattern": "^(.*)$"
+                },
+                "warehouse_id": {
+                  "$id": "#/properties/data/properties/vendors/items/properties/warehouse_id",
+                  "type": "integer"
+                },
+                "warehouse_name": {
+                  "$id": "#/properties/data/properties/vendors/items/properties/warehouse_name",
+                  "type": "string",
+                  "pattern": "^(.*)$"
+                },
+                "warehouse_hub_id": {
+                  "$id": "#/properties/data/properties/vendors/items/properties/warehouse_hub_id",
+                  "type": "integer"
+                },
+                "warehouse_hub_shipper": {
+                  "$id": "#/properties/data/properties/vendors/items/properties/warehouse_hub_shipper",
+                  "type": "array"
+                },
+                "warehouse_hub": {
+                  "$id": "#/properties/data/properties/vendors/items/properties/warehouse_hub",
+                  "type": "object",
+                  "required": [
+                    "id",
+                    "name",
+                    "address",
+                    "phone",
+                    "geograph"
+                  ],
+                  "properties": {
+                    "id": {
+                      "$id": "#/properties/data/properties/vendors/items/properties/warehouse_hub/properties/id",
+                      "type": "integer"
+                    },
+                    "name": {
+                      "$id": "#/properties/data/properties/vendors/items/properties/warehouse_hub/properties/name",
+                      "type": "string",
+                      "pattern": "^(.*)$"
+                    },
+                    "address": {
+                      "$id": "#/properties/data/properties/vendors/items/properties/warehouse_hub/properties/address",
+                      "type": "string",
+                      "pattern": "^(.*)$"
+                    },
+                    "phone": {
+                      "$id": "#/properties/data/properties/vendors/items/properties/warehouse_hub/properties/phone",
+                      "type": "string",
+                      "pattern": "^(.*)$"
+                    },
+                    "geograph": {
+                      "$id": "#/properties/data/properties/vendors/items/properties/warehouse_hub/properties/geograph",
+                      "type": "object",
+                      "required": [
+                        "id",
+                        "province",
+                        "city",
+                        "district",
+                        "village",
+                        "zipcode",
+                        "geotag",
+                        "jnecitycode"
+                      ],
+                      "properties": {
+                        "id": {
+                          "$id": "#/properties/data/properties/vendors/items/properties/warehouse_hub/properties/geograph/properties/id",
+                          "type": "integer"
+                        },
+                        "province": {
+                          "$id": "#/properties/data/properties/vendors/items/properties/warehouse_hub/properties/geograph/properties/province",
+                          "type": "string",
+                          "pattern": "^(.*)$"
+                        },
+                        "city": {
+                          "$id": "#/properties/data/properties/vendors/items/properties/warehouse_hub/properties/geograph/properties/city",
+                          "type": "string",
+                          "pattern": "^(.*)$"
+                        },
+                        "district": {
+                          "$id": "#/properties/data/properties/vendors/items/properties/warehouse_hub/properties/geograph/properties/district",
+                          "type": "string",
+                          "pattern": "^(.*)$"
+                        },
+                        "village": {
+                          "$id": "#/properties/data/properties/vendors/items/properties/warehouse_hub/properties/geograph/properties/village",
+                          "type": "string",
+                          "pattern": "^(.*)$"
+                        },
+                        "zipcode": {
+                          "$id": "#/properties/data/properties/vendors/items/properties/warehouse_hub/properties/geograph/properties/zipcode",
+                          "type": "string",
+                          "pattern": "^(.*)$"
+                        },
+                        "geotag": {
+                          "$id": "#/properties/data/properties/vendors/items/properties/warehouse_hub/properties/geograph/properties/geotag",
+                          "type": "string",
+                          "pattern": "^(.*)$"
+                        },
+                        "jnecitycode": {
+                          "$id": "#/properties/data/properties/vendors/items/properties/warehouse_hub/properties/geograph/properties/jnecitycode",
+                          "type": "string",
+                          "pattern": "^(.*)$"
+                        }
+                      }
+                    }
+                  }
+                },
+                "stock_available": {
+                  "$id": "#/properties/data/properties/vendors/items/properties/stock_available",
+                  "type": "integer"
+                },
+                "currency": {
+                  "$id": "#/properties/data/properties/vendors/items/properties/currency",
+                  "type": "string",
+                  "pattern": "^(.*)$"
+                },
+                "warehouse_geograph": {
+                  "$id": "#/properties/data/properties/vendors/items/properties/warehouse_geograph",
+                  "type": "object",
+                  "required": [
+                    "id",
+                    "province",
+                    "city",
+                    "district",
+                    "village",
+                    "zipcode",
+                    "geotag",
+                    "jnecitycode"
+                  ],
+                  "properties": {
+                    "id": {
+                      "$id": "#/properties/data/properties/vendors/items/properties/warehouse_geograph/properties/id",
+                      "type": "integer"
+                    },
+                    "province": {
+                      "$id": "#/properties/data/properties/vendors/items/properties/warehouse_geograph/properties/province",
+                      "type": "string",
+                      "pattern": "^(.*)$"
+                    },
+                    "city": {
+                      "$id": "#/properties/data/properties/vendors/items/properties/warehouse_geograph/properties/city",
+                      "type": "string",
+                      "pattern": "^(.*)$"
+                    },
+                    "district": {
+                      "$id": "#/properties/data/properties/vendors/items/properties/warehouse_geograph/properties/district",
+                      "type": "string",
+                      "pattern": "^(.*)$"
+                    },
+                    "village": {
+                      "$id": "#/properties/data/properties/vendors/items/properties/warehouse_geograph/properties/village",
+                      "type": "string",
+                      "pattern": "^(.*)$"
+                    },
+                    "zipcode": {
+                      "$id": "#/properties/data/properties/vendors/items/properties/warehouse_geograph/properties/zipcode",
+                      "type": "string",
+                      "pattern": "^(.*)$"
+                    },
+                    "geotag": {
+                      "$id": "#/properties/data/properties/vendors/items/properties/warehouse_geograph/properties/geotag",
+                      "type": "string",
+                      "pattern": "^(.*)$"
+                    },
+                    "jnecitycode": {
+                      "$id": "#/properties/data/properties/vendors/items/properties/warehouse_geograph/properties/jnecitycode",
+                      "type": "string",
+                      "pattern": "^(.*)$"
+                    }
+                  }
+                },
+                "vendor_joined_at": {
+                  "$id": "#/properties/data/properties/vendors/items/properties/vendor_joined_at",
+                  "type": "string",
+                  "pattern": "^(.*)$"
+                },
+                "sku_vendor": {
+                  "$id": "#/properties/data/properties/vendors/items/properties/sku_vendor",
+                  "type": "string",
+                  "pattern": "^(.*)$"
+                }
+              }
+            }
+          },
+          "pricing": {
+            "$id": "#/properties/data/properties/pricing",
+            "type": "array",
+            "items": {
+              "$id": "#/properties/data/properties/pricing/items",
+              "type": "object",
+              "required": [
+                "id",
+                "sku",
+                "type",
+                "tier_data",
+                "cid",
+                "top_days",
+                "is_contract_price",
+                "is_franco",
+                "shipping",
+                "channel_type",
+                "is_contract",
+                "vendor_id"
+              ],
+              "properties": {
+                "id": {
+                  "$id": "#/properties/data/properties/pricing/items/properties/id",
+                  "type": "integer"
+                },
+                "sku": {
+                  "$id": "#/properties/data/properties/pricing/items/properties/sku",
+                  "type": "string",
+                  "pattern": "^(.*)$"
+                },
+                "type": {
+                  "$id": "#/properties/data/properties/pricing/items/properties/type"
+                },
+                "tier_data": {
+                  "$id": "#/properties/data/properties/pricing/items/properties/tier_data",
+                  "type": "object",
+                  "required": [
+                    "tier_min_qty_1",
+                    "tier_price_1"
+                  ],
+                  "properties": {
+                    "tier_min_qty_1": {
+                      "$id": "#/properties/data/properties/pricing/items/properties/tier_data/properties/tier_min_qty_1",
+                      "type": "integer"
+                    },
+                    "tier_price_1": {
+                      "$id": "#/properties/data/properties/pricing/items/properties/tier_data/properties/tier_price_1",
+                      "type": "integer"
+                    }
+                  }
+                },
+                "cid": {
+                  "$id": "#/properties/data/properties/pricing/items/properties/cid",
+                  "type": "string",
+                  "pattern": "^(.*)$"
+                },
+                "top_days": {
+                  "$id": "#/properties/data/properties/pricing/items/properties/top_days",
+                  "type": "integer"
+                },
+                "is_contract_price": {
+                  "$id": "#/properties/data/properties/pricing/items/properties/is_contract_price",
+                  "type": "boolean"
+                },
+                "is_franco": {
+                  "$id": "#/properties/data/properties/pricing/items/properties/is_franco",
+                  "type": "integer"
+                },
+                "shipping": {
+                  "$id": "#/properties/data/properties/pricing/items/properties/shipping",
+                  "type": "array"
+                },
+                "channel_type": {
+                  "$id": "#/properties/data/properties/pricing/items/properties/channel_type",
+                  "type": "string",
+                  "pattern": "^(.*)$"
+                },
+                "is_contract": {
+                  "$id": "#/properties/data/properties/pricing/items/properties/is_contract",
+                  "type": "integer"
+                },
+                "vendor_id": {
+                  "$id": "#/properties/data/properties/pricing/items/properties/vendor_id",
+                  "type": "string",
+                  "pattern": "^(.*)$"
+                }
+              }
+            }
+          },
+          "total_price": {
+            "$id": "#/properties/data/properties/total_price",
+            "type": ["integer", "number"]
+          }
+        }
+      }
+    }
+  },
+  "getResponseInvalidPunchout": {
+    "definitions": {},
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "http://example.com/root.json",
+    "type": "object",
+    "required": [
+      "code",
+      "message",
+      "stackTrace"
+    ],
+    "properties": {
+      "code": {
+        "$id": "#/properties/code",
+        "type": "string",
+        "pattern": "^(.*)$"
+      },
+      "message": {
+        "$id": "#/properties/message",
+        "type": "string",
+        "pattern": "^(.*)$"
+      },
+      "stackTrace": {
+        "$id": "#/properties/stackTrace",
+        "type": "array",
+        "items": {
+          "$id": "#/properties/stackTrace/items",
+          "type": "string",
+          "pattern": "^(.*)$"
+        }
+      }
+    }
+  }
+}

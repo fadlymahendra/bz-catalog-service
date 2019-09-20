@@ -1,0 +1,27 @@
+{
+    "body": {
+        "items": [
+            {
+                "sku": "XTYDFR008",
+                "payload": {
+                    "catalog_id": "3",
+                    "organization_id": 4
+                }
+            },
+            {
+                "sku": "XTYDFR008",
+                "payload": {
+                    "catalog_id": "8",
+                    "organization_id": 4
+                }
+            },
+            {
+                "sku": "ZYUR7876",
+                "payload": {
+                    "catalog_id": "3",
+                    "organization_id": 4
+                }
+            }
+        ]
+    }
+}

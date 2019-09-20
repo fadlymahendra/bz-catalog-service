@@ -1,0 +1,30 @@
+{
+  "validTemplateRequest": {
+    "page": 1,
+    "limit": 20,
+    "search": "Warna",
+    "category": 570,
+    "created_by": 2
+  },
+  "validDefaultPaginationReq": {
+    "page": 1,
+    "limit": 20
+  },
+  "searchByCategory": {
+    "category": 12479,
+    "expectedCategoryName": "Televisi"
+  },
+  "categoryPerangkatLunak": {
+    "search": "Tipe Package Windows",
+    "category": 8938,
+    "expectedCategoryName": "Perangkat lunak sistem operasi"
+  },
+  "searchByVariantIdWithTotalSku": {
+    "search": 20,
+    "total_sku": 16
+  },
+  "searchByVariantIdWithValues": {
+    "search": 20,
+    "values": [ "Basic", "Profesional", "Ultimate", "Torrent" ]
+  }
+}

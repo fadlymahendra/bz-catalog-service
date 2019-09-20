@@ -1,0 +1,15 @@
+{
+  "name": "catalog-models",
+  "version": "1.0.0",
+  "private": true,
+  "description": "API to handle catalog request from models",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'No Test'",
+    "bizzy-dbmigration": "bizzy-dbmigration"
+  },
+  "author": "Hafiz Arraja",
+  "dependencies": {
+    "bizzy-db-migration": "git+ssh://git@bitbucket.org/bizzyindonesia/bizzy-db-migration.git"
+  }
+}

@@ -1,0 +1,247 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: Bizzy Lambda Cloudformation Stack
+Resources:
+  BizzySearchEngine:
+    Type: AWS::Lambda::Function
+    Properties:
+      Code:
+        S3Bucket: "bizzy-sams"
+        S3Key: "stack/src/index.zip"
+      Description: API to handle catalog search engine
+      FunctionName: bizzy-searchengine
+      Handler: index.handler
+      Role: arn:aws:iam::159880201964:role/lambda_VPC
+      VpcConfig:
+        SubnetIds:
+          - 'subnet-8139e1c8'
+          - 'subnet-7d43e91a'
+        SecurityGroupIds:
+          - 'sg-9e047ff8'
+      Tags:
+        - Key: Cost
+          Value: phoenix-nonprod
+      Runtime: nodejs8.10
+      MemorySize: 512
+      Timeout: 30
+
+  BizzySearchEngineProduction:
+    Type: AWS::Lambda::Function
+    Properties:
+      Code:
+        S3Bucket: "bizzy-sams"
+        S3Key: "stack/src/index.zip"
+      Description: API to handle catalog search engine
+      FunctionName: bizzy-searchengine-production
+      Handler: index.handler
+      Role: arn:aws:iam::159880201964:role/profile-bizzyx-lambda
+      VpcConfig:
+        SubnetIds:
+          - 'subnet-d5e991b2'
+          - 'subnet-48b5dd01'
+          - 'subnet-5e1d1118'
+        SecurityGroupIds:
+          - 'sg-11de0268'
+      Tags:
+        - Key: Cost
+          Value: phoenix
+      Runtime: nodejs8.10
+      MemorySize: 512
+      Timeout: 30
+
+#Aliases
+  BizzySearchEngineDevAlias:
+    Type: AWS::Lambda::Alias
+    Properties:
+      FunctionName:
+        Ref: BizzySearchEngine
+      FunctionVersion: "$LATEST"
+      Name: DEV
+  BizzySearchEngineTestAlias:
+    Type: AWS::Lambda::Alias
+    Properties:
+      FunctionName:
+        Ref: BizzySearchEngine
+      FunctionVersion: "$LATEST"
+      Name: TEST
+  BizzySearchEngineUatAlias:
+    Type: AWS::Lambda::Alias
+    Properties:
+      FunctionName:
+        Ref: BizzySearchEngine
+      FunctionVersion: "$LATEST"
+      Name: UAT
+  BizzySearchEngineProdAlias:
+    Type: AWS::Lambda::Alias
+    Properties:
+      FunctionName:
+        Ref: BizzySearchEngine
+      FunctionVersion: "$LATEST"
+      Name: PROD
+  BizzySearchEngineDemoAlias:
+    Type: AWS::Lambda::Alias
+    Properties:
+      FunctionName:
+        Ref: BizzySearchEngine
+      FunctionVersion: "$LATEST"
+      Name: DEMO
+  BizzySearchEngineProductionAlias:
+    Type: AWS::Lambda::Alias
+    Properties:
+      FunctionName:
+        Ref: BizzySearchEngineProduction
+      FunctionVersion: "$LATEST"
+      Name: PROD
+
+#Permissions
+  BizzySearchEngineDevPermission:
+    Type: AWS::Lambda::Permission
+    Properties:
+      Action: lambda:invokeFunction
+      FunctionName:
+        Ref: BizzySearchEngineDevAlias
+      Principal: apigateway.amazonaws.com
+      SourceArn:
+        Fn::Join:
+        - ''
+        - - 'arn:aws:execute-api:'
+          - Ref: AWS::Region
+          - ":"
+          - Ref: AWS::AccountId
+          - ":4o4wu1hlea/DEV/*/*"
+  BizzySearchEngineTestPermission:
+    Type: AWS::Lambda::Permission
+    Properties:
+      Action: lambda:invokeFunction
+      FunctionName:
+        Ref: BizzySearchEngineTestAlias
+      Principal: apigateway.amazonaws.com
+      SourceArn:
+        Fn::Join:
+        - ''
+        - - 'arn:aws:execute-api:'
+          - Ref: AWS::Region
+          - ":"
+          - Ref: AWS::AccountId
+          - ":4o4wu1hlea/TEST/*/*"
+  BizzySearchEngineUatPermission:
+    Type: AWS::Lambda::Permission
+    Properties:
+      Action: lambda:invokeFunction
+      FunctionName:
+        Ref: BizzySearchEngineUatAlias
+      Principal: apigateway.amazonaws.com
+      SourceArn:
+        Fn::Join:
+        - ''
+        - - 'arn:aws:execute-api:'
+          - Ref: AWS::Region
+          - ":"
+          - Ref: AWS::AccountId
+          - ":4o4wu1hlea/UAT/*/*"
+  BizzySearchEngineDemoPermission:
+    Type: AWS::Lambda::Permission
+    Properties:
+      Action: lambda:invokeFunction
+      FunctionName:
+        Ref: BizzySearchEngineDemoAlias
+      Principal: apigateway.amazonaws.com
+      SourceArn:
+        Fn::Join:
+        - ''
+        - - 'arn:aws:execute-api:'
+          - Ref: AWS::Region
+          - ":"
+          - Ref: AWS::AccountId
+          - ":4o4wu1hlea/DEMO/*/*"
+  BizzySearchEngineProdPermission:
+    Type: AWS::Lambda::Permission
+    Properties:
+      Action: lambda:invokeFunction
+      FunctionName:
+        Ref: BizzySearchEngineProductionAlias
+      Principal: apigateway.amazonaws.com
+      SourceArn:
+        Fn::Join:
+        - ''
+        - - 'arn:aws:execute-api:'
+          - Ref: AWS::Region
+          - ":"
+          - Ref: AWS::AccountId
+          - ":4o4wu1hlea/PROD/*/*"
+
+#Permissions Web
+  BizzySearchEngineWebDevPermission:
+    Type: AWS::Lambda::Permission
+    Properties:
+      Action: lambda:invokeFunction
+      FunctionName:
+        Ref: BizzySearchEngineDevAlias
+      Principal: apigateway.amazonaws.com
+      SourceArn:
+        Fn::Join:
+        - ''
+        - - 'arn:aws:execute-api:'
+          - Ref: AWS::Region
+          - ":"
+          - Ref: AWS::AccountId
+          - ":cr7z0wr042/DEV/*/*"
+  BizzySearchEngineWebTestPermission:
+    Type: AWS::Lambda::Permission
+    Properties:
+      Action: lambda:invokeFunction
+      FunctionName:
+        Ref: BizzySearchEngineTestAlias
+      Principal: apigateway.amazonaws.com
+      SourceArn:
+        Fn::Join:
+        - ''
+        - - 'arn:aws:execute-api:'
+          - Ref: AWS::Region
+          - ":"
+          - Ref: AWS::AccountId
+          - ":cr7z0wr042/TEST/*/*"
+  BizzySearchEngineWebUatPermission:
+    Type: AWS::Lambda::Permission
+    Properties:
+      Action: lambda:invokeFunction
+      FunctionName:
+        Ref: BizzySearchEngineUatAlias
+      Principal: apigateway.amazonaws.com
+      SourceArn:
+        Fn::Join:
+        - ''
+        - - 'arn:aws:execute-api:'
+          - Ref: AWS::Region
+          - ":"
+          - Ref: AWS::AccountId
+          - ":cr7z0wr042/UAT/*/*"
+  BizzySearchEngineWebDemoPermission:
+    Type: AWS::Lambda::Permission
+    Properties:
+      Action: lambda:invokeFunction
+      FunctionName:
+        Ref: BizzySearchEngineDemoAlias
+      Principal: apigateway.amazonaws.com
+      SourceArn:
+        Fn::Join:
+        - ''
+        - - 'arn:aws:execute-api:'
+          - Ref: AWS::Region
+          - ":"
+          - Ref: AWS::AccountId
+          - ":cr7z0wr042/DEMO/*/*"
+  BizzySearchEngineWebProdPermission:
+    Type: AWS::Lambda::Permission
+    Properties:
+      Action: lambda:invokeFunction
+      FunctionName:
+        Ref: BizzySearchEngineProductionAlias
+      Principal: apigateway.amazonaws.com
+      SourceArn:
+        Fn::Join:
+        - ''
+        - - 'arn:aws:execute-api:'
+          - Ref: AWS::Region
+          - ":"
+          - Ref: AWS::AccountId
+          - ":cr7z0wr042/PROD/*/*"

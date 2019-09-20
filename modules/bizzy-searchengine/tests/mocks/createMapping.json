@@ -1,0 +1,19 @@
+{
+    "body": {
+        "type": "product_variant",
+        "id": ["WBQH1BWFAN", "TRG8QVK5SI"],
+        "data": {
+            "payload": [
+                {
+                    "sku": "93VN03AVNO"
+                },
+                {
+                    "sku": "QWEASDZXC"
+                },
+                {
+                    "sku": "N1VSFZBMU"
+                }
+            ]
+        }
+    }
+    }

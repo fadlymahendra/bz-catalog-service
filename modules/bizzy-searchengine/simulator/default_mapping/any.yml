@@ -1,0 +1,37 @@
+post:
+  produces:
+    - application/json
+  consumes:
+    - application/json
+  parameters:
+    - in: body
+      name: body param
+      required: true
+  x-amazon-apigateway-integration:
+    requestTemplates:
+      application/json: |-
+        {
+          "action": "$action",
+          "context": {
+              #set ($user = $util.parseJson($util.base64Decode($input.params().header.get('x-bizzy-user'))))
+              "user": {
+                #foreach($userField in $user.keySet())
+                "$userField": "$user.get($userField)" #if($foreach.hasNext),#end
+                #end
+              },
+              "encodedUser": "$input.params().header.get('x-bizzy-user')"
+            },
+          "data": {
+            "body": $input.json('$'),
+            "query": {
+              #foreach($param in $input.params().querystring.keySet())
+              "$param": "$util.escapeJavaScript($input.params().querystring.get($param))" #if($foreach.hasNext),#end
+              #end
+            },
+            "path": {},
+            "multipart": null
+          }
+        }
+    httpMethod: POST
+    contentHandling: CONVERT_TO_TEXT
+    type: aws

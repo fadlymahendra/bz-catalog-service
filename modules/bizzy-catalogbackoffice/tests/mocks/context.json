@@ -1,0 +1,21 @@
+{
+  "user":{
+      "username": "admin@bizzy.co.id",
+      "first_name": "Admin",
+      "last_name": "Bizzy",
+      "scope": "organization",
+      "employee": {
+        "id": 2,
+        "name": "Admin Bizzy",
+        "team": "Technology",
+        "roles": [
+          {
+            "id": 11,
+            "name": "Super Admin"
+          }
+        ]
+      },
+      "iat": 1514477786,
+      "exp": 1514479586
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "product": {
+    "iphone7White32Vendor22": {
+      "id": 2045624,
+      "sku_number": "KGRO0NF1BJ"
+    }
+  },
+  "vendor": {
+    "dj_pkp_2": {
+      "organization_id": 31
+    }
+  },
+  "bodyUpdatePriceIphone7White32": {
+    "tier_min_qty_1": "5",
+    "tier_min_qty_2": "16",
+    "tier_min_qty_3": "21",
+    "tier_cogs_price_1": "60001",
+    "tier_cogs_price_2": "50001",
+    "tier_cogs_price_3": "40001"
+  },
+  "bodyRestorePriceIphone7White32": {
+    "tier_min_qty_1": "1",
+    "tier_cogs_price_1": "2500000"
+  },
+  "bodyPutProductVendorStatusActive": {
+    "is_active": 1
+  },
+  "bodyPutProductVendorStatusNotActive": {
+    "is_active": 0
+  }
+}

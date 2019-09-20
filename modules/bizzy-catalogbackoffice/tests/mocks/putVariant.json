@@ -1,0 +1,14 @@
+{
+    "path": {
+        "id": "15"
+    },
+    "body": {
+        "category": "561",
+        "label": "This is Label Y",
+        "description": "this is variant s",
+        "value": [
+            "2Variant low2",
+            "2Variant Slow2"
+        ]
+    }
+}

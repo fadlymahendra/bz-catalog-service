@@ -1,0 +1,571 @@
+{ 
+  "nonBciDataList": [
+    {
+      "title": "@C9979 vendor success update product status, price, stock based on vendor sku id and bizzy product sku id",
+      "requestBody": {
+        "products": [{
+          "vendor_sku": "9751DCF24F",
+          "manufacturing_no": null,
+          "product_sku": "9751DCF24F",
+          "stock": 9999,
+          "wholesales": [
+            {
+              "tier": 1,
+              "min": 2,
+              "unit_price": 17954
+            },
+            {
+              "tier": 2,
+              "min": 146,
+              "unit_price": 17336
+            },
+            {
+              "tier": 3,
+              "min": 202,
+              "unit_price": 16632
+            }
+          ],
+          "product_status": 1
+        }]
+      },
+      "expectedBody": {
+        "product_group_id": 28436,
+        "product_vendor_id": 5400,
+        "sku": "9751DCF24F",
+        "product_sku": "9751DCF24F",
+        "manufacturing_number": null,
+        "product_value": {
+          "tier_min_qty_1": 2,
+          "tier_min_qty_2": 146,
+          "tier_min_qty_3": 202,
+          "tier_cogs_price_1": 17954,
+          "tier_cogs_price_2": 17336,
+          "tier_cogs_price_3": 16632,
+          "stock_available": 9999,
+          "is_active": 1
+        }
+      }
+    },
+    {
+      "title": "@C9980 vendor success verify product stock and product status based on webhook",
+      "requestBody": {
+        "products": [{
+          "vendor_sku": "5D17CB3F8E",
+          "manufacturing_no": null,
+          "product_sku": "5D17CB3F8E",
+          "stock": 2000,
+          "wholesales": [],
+          "product_status": 1
+          }
+        ]
+      },
+      "expectedBody": {
+        "product_group_id": 9469,
+        "product_vendor_id": 4048,
+        "sku": "5D17CB3F8E",
+        "product_sku": "5D17CB3F8E",
+        "manufacturing_number": null,
+        "product_value": {
+          "tier_min_qty_1": 1,
+          "tier_min_qty_2": 10,
+          "tier_min_qty_3": 30,
+          "tier_cogs_price_1": 75762496,
+          "tier_cogs_price_2": 74115600,
+          "tier_cogs_price_3": 72538600,
+          "stock_available": 2000,
+          "is_active": 1
+        }
+      }
+    },
+    {
+      "title": "@C9981 vendor success verify product stock, wholesales tier 1 and product status based on webhook",
+      "requestBody": {
+        "products": [{
+          "vendor_sku": "ECAD43575A",
+          "manufacturing_no": null,
+          "product_sku": "ECAD43575A",
+          "stock": 9889,
+          "wholesales": [
+            {
+              "tier": 1,
+              "min": 1,
+              "unit_price": 964800
+            }
+          ],
+          "product_status": 1
+        }
+      ]
+      },
+      "expectedBody": {
+        "product_group_id": 25950,
+        "product_vendor_id": 5481,
+        "sku": "ECAD43575A",
+        "product_sku": "ECAD43575A",
+        "manufacturing_number": null,
+        "product_value": {
+          "tier_min_qty_1": 1,
+          "tier_min_qty_2": 6,
+          "tier_min_qty_3": 11,
+          "tier_cogs_price_1": 964800,
+          "tier_cogs_price_2": 963800,
+          "tier_cogs_price_3": 963700,
+          "stock_available": 9889,
+          "is_active": 1
+        }
+      }
+    },
+    {
+      "title": "@C9982 vendor success verify product stock, wholesales tier 2 and product status based on webhook",
+      "requestBody": {
+          "products": [{
+            "vendor_sku": "95F10C12AC",
+            "manufacturing_no": null,
+            "product_sku": "95F10C12AC",
+            "stock": 2000,
+            "wholesales": [
+              {
+                "tier": 2,
+                "min": 6,
+                "unit_price": 963801
+              }
+            ],
+            "product_status": 1
+          }]
+      },
+      "expectedBody": {
+        "product_group_id": 27645,
+        "product_vendor_id": 5411,
+        "sku": "95F10C12AC",
+        "product_sku": "95F10C12AC",
+        "manufacturing_number": null,
+        "product_value": {
+          "tier_min_qty_1": 2,
+          "tier_min_qty_2": 6,
+          "tier_min_qty_3": 11,
+          "tier_cogs_price_1": 963900,
+          "tier_cogs_price_2": 963801,
+          "tier_cogs_price_3": 963700,
+          "stock_available": 2000,
+          "is_active": 1
+        }
+      }
+    },
+    {
+      "title": "@C9984 vendor success verify product stock, wholesales tier 3 and product status based on webhook",
+      "requestBody": {
+          "products": [{
+            "vendor_sku": "B9E5E2ACB5",
+            "manufacturing_no": null,
+            "product_sku": "B9E5E2ACB5",
+            "stock": 3000,
+            "wholesales": [
+              {
+                "tier": 3,
+                "min": 11,
+                "unit_price": 963701
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "expectedBody": {
+        "product_group_id": 27342,
+        "product_vendor_id": 1864,
+        "sku": "B9E5E2ACB5",
+        "product_sku": "B9E5E2ACB5",
+        "manufacturing_number": null,
+        "product_value": {
+          "tier_min_qty_1": 2,
+          "tier_min_qty_2": 6,
+          "tier_min_qty_3": 11,
+          "tier_cogs_price_1": 963900,
+          "tier_cogs_price_2": 963800,
+          "tier_cogs_price_3": 963701,
+          "stock_available": 3000,
+          "is_active": 1
+        }
+      }
+    },
+    {
+      "title": "@C9985 vendor success verify product stock, wholesales tier 1, tier 2 and product status based on webhook",
+      "requestBody": {
+          "products": [
+            {
+              "vendor_sku": "5D3DB23617",
+              "manufacturing_no": null,
+              "product_sku": "5D3DB23617",
+              "stock": 1000,
+              "wholesales": [
+                {
+                  "tier": 1,
+                  "min": 2,
+                  "unit_price": 963901
+                },
+                {
+                  "tier": 2,
+                  "min": 6,
+                  "unit_price": 963801
+                }
+              ],
+              "product_status": 1
+            }
+          ]
+      },
+      "expectedBody": {
+        "product_group_id": 41148,
+        "product_vendor_id": 5384,
+        "sku": "5D3DB23617",
+        "product_sku": "5D3DB23617",
+        "manufacturing_number": null,
+        "product_value": {
+          "tier_min_qty_1": 2,
+          "tier_min_qty_2": 6,
+          "tier_min_qty_3": 11,
+          "tier_cogs_price_1": 963901,
+          "tier_cogs_price_2": 963801,
+          "tier_cogs_price_3": 963700,
+          "stock_available": 1000,
+          "is_active": 1
+        }
+      }
+    },
+    {
+      "title": "@C9986 vendor success verify product stock, wholesales tier 1, tier 3 and product status based on webhook",
+      "requestBody": {
+          "products": [
+            {
+              "vendor_sku": "45DAB1FB2F",
+              "manufacturing_no": null,
+              "product_sku": "45DAB1FB2F",
+              "stock": 1000,
+              "wholesales": [
+                {
+                  "tier": 1,
+                  "min": 2,
+                  "unit_price": 963902
+                },
+                {
+                  "tier": 3,
+                  "min": 11,
+                  "unit_price": 963702
+                }
+              ],
+              "product_status": 1
+            }
+          ]
+      },
+      "expectedBody": {
+        "product_group_id": 4341,
+        "product_vendor_id": 1269,
+        "sku": "45DAB1FB2F",
+        "product_sku": "45DAB1FB2F",
+        "manufacturing_number": null,
+        "product_value": {
+          "tier_min_qty_1": 2,
+          "tier_min_qty_2": 6,
+          "tier_min_qty_3": 11,
+          "tier_cogs_price_1": 963902,
+          "tier_cogs_price_2": 963800,
+          "tier_cogs_price_3": 963702,
+          "stock_available": 1000,
+          "is_active": 1
+        }
+      }
+    },
+    {
+      "title": "@C10012 vendor success verify product stock, wholesales tier 2, tier 3 and product status based on webhook",
+      "requestBody": {
+          "products": [
+            {
+              "vendor_sku": "68FE0BC326",
+              "manufacturing_no": null,
+              "product_sku": "68FE0BC326",
+              "stock": 1000,
+              "wholesales": [
+                {
+                  "tier": 2,
+                  "min": 6,
+                  "unit_price": 963801
+                },
+                {
+                  "tier": 3,
+                  "min": 11,
+                  "unit_price": 963701
+                }
+              ],
+              "product_status": 1
+            }
+          ]
+      },
+      "expectedBody": {
+        "product_group_id": 12557,
+        "product_vendor_id": 4051,
+        "sku": "68FE0BC326",
+        "product_sku": "68FE0BC326",
+        "manufacturing_number": null,
+        "product_value": {
+          "tier_min_qty_1": 2,
+          "tier_min_qty_2": 6,
+          "tier_min_qty_3": 11,
+          "tier_cogs_price_1": 963900,
+          "tier_cogs_price_2": 963801,
+          "tier_cogs_price_3": 963701,
+          "stock_available": 1000,
+          "is_active": 1
+        }
+      }
+    },
+    {
+      "title": "@C10014 vendor success update product, and then see list of selected id via webhook",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "9751DCF24F",
+            "manufacturing_no": null,
+            "product_sku": "9751DCF24F",
+            "stock": 9999,
+            "wholesales": [
+              {
+                "tier": 1,
+                "min": 2,
+                "unit_price": 17954
+              },
+              {
+                "tier": 2,
+                "min": 146,
+                "unit_price": 17336
+              },
+              {
+                "tier": 3,
+                "min": 202,
+                "unit_price": 16632
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "expectedBody": {
+        "product_group_id": 28436,
+        "product_vendor_id": 5400,
+        "sku": "9751DCF24F",
+        "product_sku": "9751DCF24F",
+        "manufacturing_number": null,
+        "product_value": {
+          "tier_min_qty_1": 2,
+          "tier_min_qty_2": 146,
+          "tier_min_qty_3": 202,
+          "tier_cogs_price_1": 17954,
+          "tier_cogs_price_2": 17336,
+          "tier_cogs_price_3": 16632,
+          "stock_available": 9999,
+          "is_active": 1
+        }
+      }
+    }
+  ],
+  "updateProductBCI":
+  {
+    "title": "@C10013 vendor success verify BCI product it should not be added on webhook log",
+    "requestBody": {
+      "products": [
+        {
+          "vendor_sku": "SKUVEN09684909",
+          "manufacturing_no": null,
+          "product_sku": "IKJKKLN0ES",
+          "stock": 9999,
+          "wholesales": [
+            {
+              "tier": 3,
+              "min": 60,
+              "unit_price": 24151
+            },
+            {
+              "tier": 2,
+              "min": 24,
+              "unit_price": 24153
+            },
+            {
+              "tier": 1,
+              "min": 2,
+              "unit_price": 31800
+            }
+          ],
+          "product_status": 1
+        }
+      ]
+    },
+    "expectedBody": {
+      "product_group_id": 12555,
+      "product_vendor_id": 5390,
+      "sku": "1E94E91428",
+      "product_sku": "1E94E91428",
+      "manufacturing_number": null,
+      "product_value": {
+        "tier_min_qty_1": 1,
+        "tier_min_qty_2": 49,
+        "tier_min_qty_3": 99,
+        "tier_cogs_price_1": 2067580,
+        "tier_cogs_price_2": 2029960,
+        "tier_cogs_price_3": 1973620,
+        "stock_available": 9999,
+        "is_active": 1
+      }
+    }
+  },
+  "updateStockViaVendorTools":
+  {
+    "title": "@C10015 vendor success update product stock via vendor tools",
+    "requestBody": {
+        "stock_available": 1000
+    },
+    "expectedBody": {
+      "product_group_id": 8089,
+      "product_vendor_id": 1257,
+      "sku": "3CF1FAF488",
+      "product_sku": "3CF1FAF488",
+      "manufacturing_number": null,
+      "product_value": {
+        "tier_min_qty_1": 2,
+        "tier_min_qty_2": 6,
+        "tier_min_qty_3": 11,
+        "tier_cogs_price_1": 963900,
+        "tier_cogs_price_2": 963800,
+        "tier_cogs_price_3": 963700,
+        "stock_available": 1000,
+        "is_active": 1
+    }
+  },
+  "productVendorId": 1257,
+  "vendorSku": "3CF1FAF488"
+  },
+  "updateTierViaVendorTools": {
+    "title":"@C10019 vendor success update tier price via vendor tools",
+    "requestBody": {
+      "tier_min_qty_1": 1,
+      "tier_min_qty_2": 7,
+      "tier_min_qty_3": 13,
+      "tier_cogs_price_1": 96901,
+      "tier_cogs_price_2": 95950,
+      "tier_cogs_price_3": 95000
+    },
+    "expectedBody": {
+      "product_group_id": 7169,
+      "product_vendor_id": 4104,
+      "sku": "7A14C59989",
+      "product_sku": "7A14C59989",
+      "manufacturing_number": null,
+      "product_value": {
+        "tier_min_qty_1": 1,
+        "tier_min_qty_2": 7,
+        "tier_min_qty_3": 13,
+        "tier_cogs_price_1": 96901,
+        "tier_cogs_price_2": 95950,
+        "tier_cogs_price_3": 95000,
+        "stock_available": 5000,
+        "is_active": 1
+      }
+    },
+    "productVendorId": 4104,
+    "vendorSku": "7A14C59989"
+  },
+  "updateAllItemProductPageViaVendorTools": {
+    "title":"@C10021 vendor success update product data via vendor tools",
+    "requestBody": 
+    {
+      "products":[
+        {
+          "id":1875579,
+          "sku_vendor":"05858CC562",
+          "tier_min_qty_1":"1",
+          "tier_min_qty_2":"31",
+          "tier_min_qty_3":"",
+          "tier_cogs_price_1":"31001",
+          "tier_cogs_price_2":"27000",
+          "tier_cogs_price_3":"",
+          "stock_available":"9394",
+          "is_indent":0,
+          "is_bulk":0,
+          "indent_period":"",
+          "indent_limit":"",
+          "warranty_option":"no_warranty",
+          "warranty_period":"",
+          "warranty_limit":"",
+          "warranty_coverage":"",
+          "down_payment_type": 0,
+          "down_payment_value": 0,
+          "is_decimal": 0,
+          "is_private_sku":false,
+          "private_customers":[]
+        }
+      ]
+  },
+  "expectedBody": 
+  {
+    "product_group_id": 8479,
+    "product_vendor_id": 1875579,
+    "sku": "05858CC562",
+    "product_sku": "05858CC562",
+    "manufacturing_number": null,
+    "product_value": {
+      "tier_min_qty_1":1,
+      "tier_min_qty_2":31,
+      "tier_min_qty_3":null,
+      "tier_cogs_price_1":31001,
+      "tier_cogs_price_2":27000,
+      "tier_cogs_price_3":null,
+      "stock_available": 9394,
+      "is_active": 1
+    }
+  },
+  "productVendorId": 1875579,
+  "vendorSku": "05858CC562", 
+  "productGroupId": 8479   
+  },
+  "updateBCIViaVendorTools": 
+  {
+    "title": "@C10022 vendor BCI success update product stock via vendor tools but not showed in webhook log",
+    "requestBody": {
+        "stock_available": 9999
+    },
+    "expectedBody": {
+      "product_group_id": 85267,
+      "product_vendor_id": 1705680,
+      "sku": "SKUVEN09684909",
+      "product_sku": "IKJKKLN0ES",
+      "manufacturing_number": null,
+      "product_value": {
+        "tier_min_qty_1": 2,
+        "tier_min_qty_2": 24,
+        "tier_min_qty_3": 60,
+        "tier_cogs_price_1": 31800,
+        "tier_cogs_price_2": 24153,
+        "tier_cogs_price_3": 24151,
+        "stock_available": 9999,
+        "is_active": 1
+      }
+    },
+    "productVendorId": 1705680,
+    "vendorSku": "SKUVEN09684909"
+  },
+  "getLogQueryNonBciSubscriber": {
+    "query": {
+      "vendor_id": 93,
+      "page": 1,
+      "limit": 2000
+    }
+  },
+  "getLogQueryBciSubscriber": {
+    "query": {
+      "vendor_id": 96,
+      "page": 1,
+      "limit": 2000
+    }
+  },
+  "getLogDetailSubscriber": {
+    "path": {
+      "id": "5c0a4d1cb65ff57b4c134c45"
+    }
+  }
+}

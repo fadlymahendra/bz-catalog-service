@@ -1,0 +1,104 @@
+#!/usr/bin/env groovy
+def commons
+node("sdet-node-staging") {
+  timestamps {
+    wrap([$class: "AnsiColorBuildWrapper", "colorMapName": "XTerm", "defaultFg": 1, "defaultBg": 2]) {
+      def pipelines
+      def currentDir = pwd()
+      def VERSION
+
+      stage("Prepare the Repo") {
+        step([$class: 'WsCleanup'])
+        checkout scm
+        commons = load 'common.groovy'
+        pipelines = load "${currentDir}/pipeline.groovy"
+        def HEAD_REF = pipelines.getCommitHash()
+        VERSION = "$HEAD_REF"
+      }
+
+      stage("Labelling") {
+        currentBuild.displayName = "#$env.BUILD_NUMBER-git--$VERSION"
+      }
+
+      stage("Preparing Data") {
+        bitbucketStatusNotify(
+          buildState: 'INPROGRESS',
+          buildKey: 'data-seed',
+          buildName: 'data-seed'
+        )
+        try {
+          withEnv(["PATH+=/home/ubuntu/.local/bin:/home/ubuntu/.nvm/versions/node/v8.11.4/bin"]) {
+            sh "aws s3 cp s3://bizzy-sams/sdet/staging/seed_data/public-api sdet_test/data_seed --recursive"
+            sh "chmod +x -R sdet_test/data_seed"
+            
+            dir ('sdet_test/data_seed') {
+                sh "./public_api_prepare_catalog_data_rds.sh"
+                sh "./public_api_delete_external_log_mongo.sh"
+            }
+          }
+          bitbucketStatusNotify(
+            buildState: 'SUCCESSFUL',
+            buildKey: 'data-seed',
+            buildName: 'data-seed'
+          )
+        }catch(Exception e){
+          bitbucketStatusNotify(
+            buildState: 'FAILED',
+            buildKey: 'data-seed',
+            buildName: 'data-seed',
+            buildDescription: 'Something went wrong with Data Seed'
+          )
+        }
+      }
+
+      stage("Functional Automation Testing"){
+        bitbucketStatusNotify(
+          buildState: 'INPROGRESS',
+          buildKey: 'AT',
+          buildName: 'AT'
+        )
+        int x = 0
+        withEnv(["PATH+=/home/ubuntu/.local/bin:/home/ubuntu/.nvm/versions/node/v8.11.4/bin:/home/ubuntu/sonar-scanner-3.0/bin"]) {
+          dir ('sdet_test'){
+            sh "aws s3 cp s3://bizzy-sams/sdet/staging/bizzy-catalog.env ./.env"
+            sh "aws s3 cp s3://bizzy-sams/sdet/staging/file_expected/catalog/ ./tests/helper/frontoffice/catalog/bulk-sku/bulk-upload/excel --recursive"
+            sh "mkdir -p ./tests/helper/backoffice/catalog/bulk-sku"
+
+            docker.image('bizzy:sdet-test').inside {
+              sh 'npm install'
+
+              try{
+                sh "npm run test-api -- --grep '^((?!.*@publicApi)|@skip).*' --invert"
+              }catch(Exception error){
+                x=-1
+              }
+            }
+
+            sh 'npm run send-log-elk'
+            commons.publishHTMLReports("reports/mochawesome","mochawesome.html", "API Functional Test")
+          }
+
+          dir ('sdet_test/data_seed') {
+            sh "./public_api_clean_up_catalog_data_rds.sh"
+          }
+        }
+
+        if (x<0){
+          bitbucketStatusNotify(
+            buildState: 'FAILED',
+            buildKey: 'AT',
+            buildName: 'AT',
+            buildDescription: 'Something went wrong with Automation Testing!'
+          )
+          sh ('exit 1')
+        }else{
+          bitbucketStatusNotify(
+            buildState: 'SUCCESSFUL',
+            buildKey: 'AT',
+            buildName: 'AT'
+          )
+        }
+      }
+    }
+  }
+}

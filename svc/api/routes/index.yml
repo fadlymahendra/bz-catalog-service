@@ -1,0 +1,74 @@
+#BACKOFFICE SECTION--------------------------------------------------------------------
+
+/backoffice/categories:
+  $ref: ./backoffice/categories/list_and_create.yml
+
+/backoffice/categories/{id}:
+  $ref: ./backoffice/categories/detail_and_update_and_delete.yml
+
+/backoffice/brands:
+  $ref: ./backoffice/brands/list_and_create.yml
+
+/backoffice/brands/{id}:
+  $ref: ./backoffice/brands/detail_and_update_and_delete.yml
+
+/backoffice/uoms:
+  $ref: ./backoffice/uoms/list_and_create.yml
+
+/backoffice/uoms/{id}:
+  $ref: ./backoffice/uoms/detail_and_update_and_delete.yml
+  
+/backoffice/uoms/stockings:
+  $ref: ./backoffice/stocking-uoms/list_and_create.yml
+
+/backoffice/uoms/stockings/{id}:
+  $ref: ./backoffice/stocking-uoms/detail_and_update_and_delete.yml
+
+#FRONTOFFICE SECTION-------------------------------------------------------------------
+
+/frontoffice/categories:
+  $ref: ./frontoffice/category_list.yml
+
+/frontoffice/categories/{id}:
+  $ref: ./frontoffice/category_detail.yml
+
+/frontoffice/brands:
+  $ref: ./frontoffice/brand.yml
+
+/frontoffice/uoms:
+  $ref: ./frontoffice/uom.yml
+
+/frontoffice/uoms/stockings:
+  $ref: ./frontoffice/stocking_uom.yml
+
+/frontoffice/warranty/options:
+  $ref: ./frontoffice/warranty_option.yml
+
+/frontoffice/warranty/periods:
+  $ref: ./frontoffice/warranty_period.yml
+
+/frontoffice/indent/periods:
+  $ref: ./frontoffice/indent_period.yml
+
+/frontoffice/product-images:
+  $ref: ./frontoffice/upload_image.yml
+
+/frontoffice/product-groups:
+  $ref: ./frontoffice/product_group.yml
+
+/frontoffice/product-groups/{id}:
+  $ref: ./frontoffice/product_group_detail.yml
+
+/frontoffice/product-groups-categories:
+  $ref: ./frontoffice/product_group_category.yml
+
+/frontoffice/vendors/{id}/request-products:
+  $ref: ./frontoffice/request_product.yml
+
+/frontoffice/vendors/{id}/products:
+  $ref: ./frontoffice/product_create.yml
+
+#SEARCH ENGINE SECTION-----------------------------------------------------------------
+
+/search-engine/sample:
+  $ref: ./searchengine/sample.yml

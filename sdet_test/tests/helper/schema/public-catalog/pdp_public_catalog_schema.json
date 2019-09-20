@@ -1,0 +1,490 @@
+{
+  "getValidPDPPublicCatalog": {
+    "type": "object",
+    "required": ["data"],
+    "properties": {
+      "data": {
+        "type": "object",
+        "required": 
+          [
+            "type",
+            "id",
+            "sku",
+            "name",
+            "brand",
+            "uom",
+            "stocking_uom",
+            "quantity_stocking_uom",
+            "categories",
+            "barcode",
+            "manufacturing_number",
+            "package_weight",
+            "package_length",
+            "package_width",
+            "package_height",
+            "package_content",
+            "primary_image",
+            "additional_image",
+            "description",
+            "product_group",
+            "specifications",
+            "variants",
+            "variant_count",
+            "variant_matrix",
+            "variant_value",
+            "total_offer"
+          ],
+        "properties": {
+          "type": {
+            "type": "string"
+          },
+          "id": {
+            "type": "number"
+          },
+          "sku": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "brand": {
+            "type": "object",
+            "required": 
+              ["id",
+              "name",
+              "url_key"],
+            "properties": {
+              "id": {
+                "type": "number"
+              },
+              "name": {
+                "type": "string"
+              },
+              "url_key": {
+                "type": "string"
+              }
+            }
+          },
+          "uom": {
+            "type": "object",
+            "required": 
+              ["id",
+              "name"],
+            "properties": {
+              "id": {
+                "type": "number"
+              },
+              "name": {
+                "type": "string"
+              }
+            }
+          },
+          "stocking_uom": {
+            "type": "object",
+            "required": 
+              ["id",
+              "name"],
+            "properties": {
+              "id": {
+                "type": "number"
+              },
+              "name": {
+                "type": "string"
+              }
+            }
+          },
+          "quantity_stocking_uom": {
+            "type": "number"
+          },
+          "categories": {
+            "type": "object",
+            "required": 
+              ["c0",
+              "c1",
+              "c2",
+              "c3"],
+            "properties": {
+              "c0": {
+                "type": "object",
+                "required": 
+                  ["id",
+                    "name",
+                    "url_key",
+                    "unspsc"],
+                "properties": {
+                  "id": {
+                    "type": "number"
+                  },
+                  "name": {
+                    "type": "string"
+                  },
+                  "url_key": {
+                    "type": "string"
+                  },
+                  "unspsc": {
+                    "type": "number"
+                  }
+                }
+              },
+              "c1": {
+                "type": "object",
+                "required": 
+                  ["id",
+                  "name",
+                  "url_key",
+                  "unspsc"],
+                "properties": {
+                  "id": {
+                    "type": "number"
+                  },
+                  "name": {
+                    "type": "string"
+                  },
+                  "url_key": {
+                    "type": "string"
+                  },
+                  "unspsc": {
+                    "type": "number"
+                  }
+                }
+              },
+              "c2": {
+                "type": "object",
+                "required":
+                  ["id",
+                  "name",
+                  "url_key",
+                  "unspsc"],
+                "properties": {
+                  "id": {
+                    "type": "number"
+                  },
+                  "name": {
+                    "type": "string"
+                  },
+                  "url_key": {
+                    "type": "string"
+                  },
+                  "unspsc": {
+                    "type": "number"
+                  }
+                }
+              },
+              "c3": {
+                "type": "object",
+                "required":
+                  ["id",
+                  "name",
+                  "url_key",
+                  "unspsc"],
+                "properties": {
+                  "id": {
+                    "type": "number"
+                  },
+                  "name": {
+                    "type": "string"
+                  },
+                  "url_key": {
+                    "type": "string"
+                  },
+                  "unspsc": {
+                    "type": "number"
+                  }
+                }
+              }
+            }
+          },
+          "barcode": {
+            "type": ["string", "null"]
+          },
+          "manufacturing_number": {
+            "type": ["string", "null"]
+          },
+          "package_weight": {
+            "type": "number"
+          },
+          "package_length": {
+            "type": "number"
+          },
+          "package_width": {
+            "type": "number"
+          },
+          "package_height": {
+            "type": "number"
+          },
+          "package_content": {
+            "type": ["string", "null"]
+          },
+          "primary_image": {
+            "type": "string"
+          },
+          "additional_image": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "description": {
+            "type": "string"
+          },
+          "product_group": {
+            "type": "object",
+            "required": 
+              ["id",
+              "name"],
+            "properties": {
+              "id": {
+                "type": "number"
+              },
+              "name": {
+                "type": "string"
+              }
+            }
+          },
+          "specifications": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": 
+                ["code",
+                "label",
+                "value"],
+              "properties": {
+                "code": {
+                  "type": "string"
+                },
+                "label": {
+                  "type": "string"
+                },
+                "value": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "variants": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required":
+                ["code",
+                "label",
+                "value"],
+              "properties": {
+                "code": {
+                  "type": "string"
+                },
+                "label": {
+                  "type": "string"
+                },
+                "value": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "variant_count": {
+            "type": "number"
+          },
+          "variant_matrix": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "variant_value": {
+            "type": ["object", "string"],
+            "required": 
+              ["phone_color",
+              "phone_storage"],
+            "properties": {
+              "phone_color": {
+                "type": "number"
+              },
+              "phone_storage": {
+                "type": "number"
+              }
+            }
+          },
+          "total_offer": {
+            "type": "number"
+          }
+        }
+      }
+    }
+  },
+  "getValidCategory2AndCategory3": {
+    "type": "object",
+    "required": [
+      "data",
+      "others"
+    ],
+    "properties": {
+      "data": {
+        "$id": "#/properties/data",
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "url_key",
+          "parent_id",
+          "parent"
+        ],
+        "properties": {
+          "id": {
+            "$id": "#/properties/data/properties/id",
+            "type": "integer"
+          },
+          "name": {
+            "$id": "#/properties/data/properties/name",
+            "type": "string",
+            "pattern": "^(.*)$"
+          },
+          "url_key": {
+            "$id": "#/properties/data/properties/url_key",
+            "type": "string",
+            "pattern": "^(.*)$"
+          },
+          "parent_id": {
+            "$id": "#/properties/data/properties/parent_id",
+            "type": "integer"
+          },
+          "parent": {
+            "$id": "#/properties/data/properties/parent",
+            "type": "object",
+            "required": [
+              "C1",
+              "C0"
+            ],
+            "properties": {
+              "C2": {
+                "$id": "#/properties/data/properties/parent/properties/C2",
+                "type": "object",
+                "required": [
+                  "id",
+                  "name",
+                  "url_key",
+                  "parent_id"
+                ],
+                "properties": {
+                  "id": {
+                    "$id": "#/properties/data/properties/parent/properties/C2/properties/id",
+                    "type": "integer"
+                  },
+                  "name": {
+                    "$id": "#/properties/data/properties/parent/properties/C2/properties/name",
+                    "type": "string",
+                    "pattern": "^(.*)$"
+                  },
+                  "url_key": {
+                    "$id": "#/properties/data/properties/parent/properties/C2/properties/url_key",
+                    "type": "string",
+                    "pattern": "^(.*)$"
+                  },
+                  "parent_id": {
+                    "$id": "#/properties/data/properties/parent/properties/C2/properties/parent_id",
+                    "type": "integer"
+                  }
+                }
+              },
+              "C1": {
+                "$id": "#/properties/data/properties/parent/properties/C1",
+                "type": "object",
+                "required": [
+                  "id",
+                  "name",
+                  "url_key",
+                  "parent_id"
+                ],
+                "properties": {
+                  "id": {
+                    "$id": "#/properties/data/properties/parent/properties/C1/properties/id",
+                    "type": "integer"
+                  },
+                  "name": {
+                    "$id": "#/properties/data/properties/parent/properties/C1/properties/name",
+                    "type": "string",
+                    "pattern": "^(.*)$"
+                  },
+                  "url_key": {
+                    "$id": "#/properties/data/properties/parent/properties/C1/properties/url_key",
+                    "type": "string",
+                    "pattern": "^(.*)$"
+                  },
+                  "parent_id": {
+                    "$id": "#/properties/data/properties/parent/properties/C1/properties/parent_id",
+                    "type": "integer"
+                  }
+                }
+              },
+              "C0": {
+                "$id": "#/properties/data/properties/parent/properties/C0",
+                "type": "object",
+                "required": [
+                  "id",
+                  "name",
+                  "url_key",
+                  "parent_id"
+                ],
+                "properties": {
+                  "id": {
+                    "$id": "#/properties/data/properties/parent/properties/C0/properties/id",
+                    "type": "integer"
+                  },
+                  "name": {
+                    "$id": "#/properties/data/properties/parent/properties/C0/properties/name",
+                    "type": "string",
+                    "pattern": "^(.*)$"
+                  },
+                  "url_key": {
+                    "$id": "#/properties/data/properties/parent/properties/C0/properties/url_key",
+                    "type": "string",
+                    "pattern": "^(.*)$"
+                  },
+                  "parent_id": {
+                    "$id": "#/properties/data/properties/parent/properties/C0/properties/parent_id",
+                    "type": "null"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "others": {
+        "$id": "#/properties/others",
+        "type": "array",
+        "items": {
+          "$id": "#/properties/others/items",
+          "type": "object",
+          "required": [
+            "id",
+            "name",
+            "url_key",
+            "parent_id"
+          ],
+          "properties": {
+            "id": {
+              "$id": "#/properties/others/items/properties/id",
+              "type": "integer"
+            },
+            "name": {
+              "$id": "#/properties/others/items/properties/name",
+              "type": "string",
+              "pattern": "^(.*)$"
+            },
+            "url_key": {
+              "$id": "#/properties/others/items/properties/url_key",
+              "type": "string",
+              "pattern": "^(.*)$"
+            },
+            "parent_id": {
+              "$id": "#/properties/others/items/properties/parent_id",
+              "type": "integer"
+            }
+          }
+        }
+      }
+    }
+  }
+}

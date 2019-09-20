@@ -1,0 +1,44 @@
+{  
+    "updTierResponse": {
+        "type": "object",
+        "required": [],
+        "properties": {
+            "data": {
+                "type": "object",
+                "required": ["id","tier_min_qty_1","vendor_id","warehouse_id","tier_cogs_price_1"],
+                "properties": {
+                    "id": {
+                        "type": "number"
+                    },
+                    "tier_min_qty_1": {
+                        "type": "number"
+                    },
+                    "tier_min_qty_2": {
+                        "type": "number"
+                    },
+                    "tier_min_qty_3": {
+                        "type": "number"
+                    },
+                    "tier_cogs_price_1": {
+                        "type": "string"
+                    },
+                    "tier_cogs_price_2": {
+                        "type": "string"
+                    },
+                    "tier_cogs_price_3": {
+                        "type": "string"
+                    },
+                    "vendor_id": {
+                        "type": "number"
+                    },
+                    "warehouse_id": {
+                        "type": "number"
+                    }
+                }
+            },
+            "message": {
+                "type": "string"
+            }
+        }
+    }
+}

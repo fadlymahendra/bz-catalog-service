@@ -1,0 +1,93 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: Bizzy Lambda Cloudformation Stack
+Resources:
+  BizzyCatalogPubsub:
+    Type: AWS::Lambda::Function
+    Properties:
+      Code:
+        S3Bucket: "bizzy-sams"
+        S3Key: "stack/src/index.zip"
+      Description: API to handle catalog request from pubsub
+      FunctionName: bizzy-catalog-pubsub
+      Handler: index.handler
+      Role: arn:aws:iam::159880201964:role/lambda_VPC
+      VpcConfig:
+        SubnetIds:
+          - 'subnet-8139e1c8'
+          - 'subnet-7d43e91a'
+        SecurityGroupIds:
+          - 'sg-9e047ff8'
+      Tags:
+        - Key: Cost
+          Value: phoenix-nonprod
+      Runtime: nodejs8.10
+      MemorySize: 512
+      Timeout: 30
+
+  BizzyCatalogPubsubProduction:
+    Type: AWS::Lambda::Function
+    Properties:
+      Code:
+        S3Bucket: "bizzy-sams"
+        S3Key: "stack/src/index.zip"
+      Description: API to handle catalog request from pubsub
+      FunctionName: bizzy-catalog-pubsub-production
+      Handler: index.handler
+      Role: arn:aws:iam::159880201964:role/profile-bizzyx-lambda
+      VpcConfig:
+        SubnetIds:
+          - 'subnet-d5e991b2'
+          - 'subnet-48b5dd01'
+          - 'subnet-5e1d1118'
+        SecurityGroupIds:
+          - 'sg-11de0268'
+      Tags:
+        - Key: Cost
+          Value: phoenix
+      Runtime: nodejs8.10
+      MemorySize: 512
+      Timeout: 30
+
+#Aliases
+  BizzyCatalogPubsubDevAlias:
+    Type: AWS::Lambda::Alias
+    Properties:
+      FunctionName:
+        Ref: BizzyCatalogPubsub
+      FunctionVersion: "$LATEST"
+      Name: DEV
+  BizzyCatalogPubsubTestAlias:
+    Type: AWS::Lambda::Alias
+    Properties:
+      FunctionName:
+        Ref: BizzyCatalogPubsub
+      FunctionVersion: "$LATEST"
+      Name: TEST
+  BizzyCatalogPubsubUatAlias:
+    Type: AWS::Lambda::Alias
+    Properties:
+      FunctionName:
+        Ref: BizzyCatalogPubsub
+      FunctionVersion: "$LATEST"
+      Name: UAT
+  BizzyCatalogPubsubProdAlias:
+    Type: AWS::Lambda::Alias
+    Properties:
+      FunctionName:
+        Ref: BizzyCatalogPubsub
+      FunctionVersion: "$LATEST"
+      Name: PROD
+  BizzyCatalogPubsubDemoAlias:
+    Type: AWS::Lambda::Alias
+    Properties:
+      FunctionName:
+        Ref: BizzyCatalogPubsub
+      FunctionVersion: "$LATEST"
+      Name: DEMO
+  BizzyCatalogPubsubProductionAlias:
+    Type: AWS::Lambda::Alias
+    Properties:
+      FunctionName:
+        Ref: BizzyCatalogPubsubProduction
+      FunctionVersion: "$LATEST"
+      Name: PROD

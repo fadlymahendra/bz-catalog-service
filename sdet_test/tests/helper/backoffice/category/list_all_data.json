@@ -1,0 +1,37 @@
+{
+  "defaultPaginationReq": {
+    "page": 1,
+    "limit": 20
+  },
+  "allQueryParameter": {
+    "level": "",
+    "created_by": "",
+    "name": "",
+    "status": ""
+  },
+  "validSearchByCatId": {
+    "name": "6"
+  },
+  "validSeacrhByCompleteCatName": {
+    "name": "Kawat listrik, kabel dan tali pengaman"
+  },
+  "validSearchByNamePartial": {
+    "name": "Kursi"
+  },
+  "validSearchByNameAndStatus": {
+    "name": "Elektronik Industri",
+    "status": 1
+  },
+  "validSearchByPartialNameAndStatus": {
+    "name": "Kursi",
+    "status": 1
+  },
+  "validSearchByNameAndStatusInactive": {
+    "name": "Jasa Transportasi, Kargo dan Industri",
+    "status": 0
+  },
+  "validSearchByPartialNameAndStatusInactive": {
+    "name": "Pipa",
+    "status": 0
+  }
+}

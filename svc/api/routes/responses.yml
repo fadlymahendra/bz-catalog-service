@@ -1,0 +1,70 @@
+'200':
+  description: Ok
+  headers:
+    Access-Control-Allow-Origin:
+      type: "string"
+  schema:
+    $ref: '../definitions/empty.yml'
+'201':
+  description: Created
+  headers:
+    Access-Control-Allow-Origin:
+      type: "string"
+  schema:
+    $ref: '../definitions/empty.yml'
+'204':
+  description: Deleted
+  headers:
+    Access-Control-Allow-Origin:
+      type: "string"
+  schema:
+    $ref: '../definitions/empty.yml'
+'400':
+  description: Bad request
+  headers:
+    Access-Control-Allow-Origin:
+      type: "string"
+  schema:
+    $ref: '../definitions/empty.yml'
+'403':
+  description: Forbidden Resource Access
+  headers:
+    Access-Control-Allow-Origin:
+      type: "string"
+  schema:
+    $ref: '../definitions/empty.yml'
+'404':
+  description: Resource not found
+  headers:
+    Access-Control-Allow-Origin:
+      type: "string"
+  schema:
+    $ref: '../definitions/empty.yml'
+'422':
+  description: Unprocessable entity
+  headers:
+    Access-Control-Allow-Origin:
+      type: "string"
+  schema:
+    $ref: '../definitions/empty.yml'
+'500':
+  description: Internal server error
+  headers:
+    Access-Control-Allow-Origin:
+      type: "string"
+  schema:
+    $ref: '../definitions/empty.yml'
+'501':
+  description: Service under construction
+  headers:
+    Access-Control-Allow-Origin:
+      type: "string"
+  schema:
+    $ref: '../definitions/empty.yml'
+'503':
+  description: Service temporary unavailable
+  headers:
+    Access-Control-Allow-Origin:
+      type: "string"
+  schema:
+    $ref: '../definitions/empty.yml'

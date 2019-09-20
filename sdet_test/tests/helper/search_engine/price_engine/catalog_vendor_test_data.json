@@ -1,0 +1,104 @@
+{
+  "iphoneVendor22": {
+    "tier_min_qty_1": 1,
+    "tier_min_qty_2": 2,
+    "tier_min_qty_3": 3,
+    "tier_cogs_price_1": "10000000.00",
+    "tier_cogs_price_2": "9900000.00",
+    "tier_cogs_price_3": "9800000.00"
+  },
+  "iphoneVendor31": {
+    "tier_min_qty_1": 1,
+    "tier_min_qty_2": 12,
+    "tier_min_qty_3": 24,
+    "tier_cogs_price_1": "21225000.00",
+    "tier_cogs_price_2": "21200000.00",
+    "tier_cogs_price_3": "21000000.00"
+  },
+  "iphoneVendor93": {
+    "tier_min_qty_1": 1,
+    "tier_min_qty_2": 21,
+    "tier_min_qty_3": 41,
+    "tier_cogs_price_1": "10000000.00",
+    "tier_cogs_price_2": "9500000.00",
+    "tier_cogs_price_3": "8500000.00"
+  },
+  "berasVendor22": {
+    "tier_min_qty_1": 2,
+    "tier_min_qty_2": 12,
+    "tier_min_qty_3": 22,
+    "tier_cogs_price_1": "460000.00",
+    "tier_cogs_price_2": "430000.00",
+    "tier_cogs_price_3": "410000.00"
+  },
+  "berasVendor22AfterUpdate": {
+    "tier_min_qty_1": 10,
+    "tier_cogs_price_1": "10000001.00"
+  },
+  "berasVendor33": {
+    "tier_min_qty_1": 1,
+    "tier_min_qty_2": 2,
+    "tier_min_qty_3": 3,
+    "tier_cogs_price_1": "400000.00",
+    "tier_cogs_price_2": "350000.00",
+    "tier_cogs_price_3": "300000.00"
+  },
+  "product": {
+    "iphoneVendor22": {
+      "id": 2045784,
+      "sku_number": "KGRO0NF1BJ"
+    },
+    "iphoneVendor31": {
+      "id": 2045624
+    },
+    "berasVendor22": {
+      "id": 2045785,
+      "sku_number": "IFB7IAA5HU"
+    }
+  },
+  "queryGetProductVendorList": {
+    "brand": "",
+    "c0": "",
+    "limit": 10,
+    "page": 1,
+    "search": ""
+  },
+  "bodyPutProductVendorStatusActive": {
+    "is_active": 1
+  },
+  "bodyPutProductVendorStatusNotActive": {
+    "is_active": 0
+  },
+  "bodyUpdatePriceIphone": {
+    "tier_min_qty_1": "5",
+    "tier_min_qty_2": "16",
+    "tier_min_qty_3": "21",
+    "tier_cogs_price_1": "20000001",
+    "tier_cogs_price_2": "19000001",
+    "tier_cogs_price_3": "18000001"
+  },
+  "bodyUpdateTierBeras": {
+    "tier_min_qty_1": "10",
+    "tier_min_qty_2": "",
+    "tier_min_qty_3": "",
+    "tier_cogs_price_1": "10000001",
+    "tier_cogs_price_2": "",
+    "tier_cogs_price_3": ""
+  },
+  "bodyRestorePriceIphone": {
+    "tier_min_qty_1": "1",
+    "tier_min_qty_2": "2",
+    "tier_min_qty_3": "3",
+    "tier_cogs_price_1": "10000000",
+    "tier_cogs_price_2": "9900000",
+    "tier_cogs_price_3": "9800000"
+  },
+  "bodyRestoreTierBeras": {
+    "tier_min_qty_1": "2",
+    "tier_min_qty_2": "12",
+    "tier_min_qty_3": "22",
+    "tier_cogs_price_1": "460000",
+    "tier_cogs_price_2": "430000",
+    "tier_cogs_price_3": "410000"
+  }
+}

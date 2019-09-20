@@ -1,0 +1,14 @@
+{
+  "validPremodId": "SKU4HISTORY-1",
+  "invalidPremodId": "121331INVALIDID",
+  "validGetPremodHistoryRequestSortCreateDescending": {
+    "sort": "created_at_desc",
+    "page": 1,
+    "limit": 20
+  },
+  "validGetPremodHistoryRequestSortCreateAscending": {
+    "sort": "created_at_asc",
+    "page": 1,
+    "limit": 20
+  }
+}

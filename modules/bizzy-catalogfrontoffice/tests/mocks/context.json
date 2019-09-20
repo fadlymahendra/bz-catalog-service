@@ -1,0 +1,34 @@
+{
+  "user":{
+    "username": "vendor@tokoledia.com",
+    "first_name": "Vendor",
+    "last_name": "Tokoledia",
+    "scope": "organization",
+    "organization_id": 2,
+    "punchout": {
+      "is_punchout": false,
+      "is_user_punchout": false,
+      "sales_admin_id": 0,
+      "data": {}
+    },
+    "customer": {
+      "organization_name": "PT Vendor Jaya",
+      "organization_id": 3,
+      "person_id": 3,
+      "superadmin": 3,
+      "roles": [
+        {
+          "role_id": 3,
+          "name": "Super Admin"
+        }
+      ],
+      "is_vendor": 1,
+      "setup": 6,
+      "status": 3,
+      "has_agreement": 0,
+      "channel_type": "MP"
+    },
+    "iat": 1532577179,
+    "exp": 1532584379
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "getResponseValidBulkUpdate": {
+    "type": "object",
+    "properties": {
+      "success": {
+        "type": "boolean"
+      },
+      "contracts": {
+        "type": "object",
+        "properties": {
+          "message": {
+            "type": "string"
+          },
+          "data": {
+            "type": "object",
+            "properties": {
+              "success": {
+                "type": "integer"
+              },
+              "not_exist": {
+                "type": "array"
+              }
+            }
+          }
+        }
+      },
+      "message": {
+        "type": "string"
+      }
+    }
+  },
+  "getResponseInvalidBulkUpdate": {
+    "type": "object",
+    "required": ["code", "message", "stackTrace"],
+    "properties": {
+    "code": {
+      "type": "string"
+    },
+    "message": {
+      "type": "string"
+    },
+    "stackTrace": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}
+}

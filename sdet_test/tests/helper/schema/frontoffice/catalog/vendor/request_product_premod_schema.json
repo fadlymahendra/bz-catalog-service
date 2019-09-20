@@ -1,0 +1,25 @@
+{
+  "validReqProdPremodResponsePost": {
+    "type": "object",
+    "required": [ "data" ],
+    "properties": {
+      "data": {
+        "type": "object",
+        "required": [ "id", "premoderation_status", "type" ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "type": "new",
+          "premoderation_status": "need_revision",
+          "created_at": {
+            "type": "string"
+          },
+          "updated_at": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "successPostWithValidBody": {
+    "customer_id": 14,
+    "data":""
+  },
+  "successMessage" : "3 Sku berhasil ditambahkan",
+  "successMessageDefault": "1 Sku berhasil ditambahkan",
+  "errorMessage": {
+    "wrongVendorId": "Vendor tidak ditemukan",
+    "blankVendorId": "Vendor kosong",
+    "blankProductName": "Nama produk kosong",
+    "blankPrice": "Harga Tier 1 kosong",
+    "wrongPrice": "Harga Tier 1 harus berupa angka dan lebih dari 0",
+    "duplicateProduct": "Duplikasi Produk",
+    "noWarehouse": "Warehouse Vendor tidak ditemukan"
+  }
+}

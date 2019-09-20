@@ -1,0 +1,204 @@
+{
+    "getValidResponseProductVendor" : {
+        "uuid": "string",
+        "id": "integer",
+        "vendor_id": "integer",
+        "vendor_name": "string",
+        "vendor_trademark": "string",
+        "vendor_pkp": "integer",
+        "vendor_logo": "string",
+        "warehouse_id": "integer",
+        "warehouse_name": "string",
+        "warehouse_hub_id": "integer",
+        "warehouse_hub_shipper": "array",
+        "warehouse_hub": {
+            "type" : "object",
+            "required" : ["id", "name", "address", "phone", "geograph"],
+            "properties" : {
+                "id": "integer",
+                "name": "string",
+                "address": "string",
+                "phone": "string",
+                "geograph": {
+                    "required" : ["id", "province", "city", "district", "village", "zipcode", "geotag", "jnecitycode"],
+                    "properties" :{
+                        "id": "integer",
+                        "province": "string",
+                        "city": "string",
+                        "district": "string",
+                        "village": "string",
+                        "zipcode": "string",
+                        "geotag": "string",
+                        "jnecitycode": "string"
+                    }
+                }
+            },
+            "additionalProperties": false
+        },
+        "stock_available": "string",
+        "currency": "string",
+        "price": {
+            "type" : "object",
+            "required" : ["id", "sku", "type", "tier_data","cid","top_days","is_contract_price","channel_type","vendor_id"],
+            "properties" : {
+                "id": "integer",
+                "sku": "string",
+                "type": ["string", "null"],
+                "tier_data": {
+                    "type" : "object",
+                    "required" : ["tier_min_qty_1", "tier_price_1"],
+                    "properties" : {
+                        "tier_min_qty_1": "integer",
+                        "tier_price_1": "integer",
+                        "tier_min_qty_2": "integer",
+                        "tier_price_2": "integer",
+                        "tier_min_qty_3": "integer",
+                        "tier_price_3": "integer"
+                    }  
+                },
+                "cid": "string",
+                "top_days": "integer",
+                "is_contract_price": "string",
+                "from_franco": "integer",
+                "channel_type": "string",
+                "vendor_id": "string",
+                "date_expiry": "string",
+                "sla": "integer"
+            },
+            "additionalProperties": false
+        },
+        "warehouse_geograph": {
+            "type" : "object",
+            "required" : ["id", "province", "city", "district", "village", "zipcode", "geotag", "jnecitycode"],
+            "properties" : {
+                "id": "integer",
+                "province": "string",
+                "city": "string",
+                "district": "string",
+                "village": "string",
+                "zipcode": "string",
+                "geotag": "string",
+                "jnecitycode": "string"
+            },
+            "additionalProperties": false
+        },
+        "vendor_joined_at": "string",
+        "sku_vendor": "string",
+        "warranty_option": "string",
+        "warranty_period": "string",
+        "warranty_limit": "integer",
+        "warranty_coverage": "string",
+        "down_payment_type": "integer",
+        "down_payment_value": "integer",
+        "indent_period": "string",
+        "indent_limit": "integer",
+        "is_indent": "integer",
+        "is_decimal": "integer",
+        "rating_process_time": "null"
+    },
+    "getValidResponseProductVendorWithSLA" : {
+        "uuid": "string",
+        "id": "integer",
+        "vendor_id": "integer",
+        "vendor_name": "string",
+        "vendor_trademark": "string",
+        "vendor_pkp": "integer",
+        "vendor_logo": "string",
+        "warehouse_id": "integer",
+        "warehouse_name": "string",
+        "warehouse_hub_id": "integer",
+        "warehouse_hub_shipper": "array",
+        "warehouse_hub": {
+            "type" : "object",
+            "required" : ["id", "name", "address", "phone", "geograph"],
+            "properties" : {
+                "id": "integer",
+                "name": "string",
+                "address": "string",
+                "phone": "string",
+                "geograph": {
+                    "required" : ["id", "province", "city", "district", "village", "zipcode", "geotag", "jnecitycode"],
+                    "properties" :{
+                        "id": "integer",
+                        "province": "string",
+                        "city": "string",
+                        "district": "string",
+                        "village": "string",
+                        "zipcode": "string",
+                        "geotag": "string",
+                        "jnecitycode": "string"
+                    }
+                }
+            },
+            "additionalProperties": false
+        },
+        "stock_available": "integer",
+        "currency": "string",
+        "price": {
+            "type" : "object",
+            "required" : ["id", "sku", "type", "tier_data","cid","top_days","is_contract_price","channel_type","is_contract","vendor_id","sla"],
+            "properties" : {
+                "id": "integer",
+                "sku": "string",
+                "type": ["string", "null"],
+                "tier_data": {
+                    "type" : "object",
+                    "required" : ["tier_min_qty_1", "tier_price_1"],
+                    "properties" : {
+                        "tier_min_qty_1": "integer",
+                        "tier_price_1": "integer",
+                        "tier_min_qty_2": "integer",
+                        "tier_price_2": "integer",
+                        "tier_min_qty_3": "integer",
+                        "tier_price_3": "integer"
+                    }  
+                },
+                "cid": "string",
+                "top_days": "integer",
+                "is_contract_price": "string",
+                "from_franco": "integer",
+                "channel_type": "string",
+                "is_contract": "integer",
+                "vendor_id": "string",
+                "expiry_date": "string",
+                "sla": "integer"
+            },
+            "additionalProperties": false
+        },
+        "warehouse_geograph": {
+            "type" : "object",
+            "required" : ["id", "province", "city", "district", "village", "zipcode", "geotag", "jnecitycode"],
+            "properties" : {
+                "id": "integer",
+                "province": "string",
+                "city": "string",
+                "district": "string",
+                "village": "string",
+                "zipcode": "string",
+                "geotag": "string",
+                "jnecitycode": "string"
+            },
+            "additionalProperties": false
+        },
+        "vendor_joined_at": "string",
+        "sku_vendor": "string",
+        "warranty_option": "string",
+        "warranty_period": "string",
+        "warranty_limit": "integer",
+        "warranty_coverage": "string",
+        "down_payment_type": "integer",
+        "down_payment_value": "integer",
+        "indent_period": "string",
+        "indent_limit": "integer",
+        "is_indent": "integer",
+        "is_decimal": "integer",
+        "rating_process_time": {
+            "type": "object",
+            "required" : ["value", "unit"],
+            "properties" : {
+                "value": "number",
+                "unit": "string"
+            }
+        }
+    }
+}

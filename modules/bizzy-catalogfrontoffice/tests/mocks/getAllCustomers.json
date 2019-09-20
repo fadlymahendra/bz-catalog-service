@@ -1,0 +1,11 @@
+{
+    "path": {
+        "id": 3, "sku": "WBQH1BWFAN"
+    },
+    "query": {
+		"search": "dj",
+		"page": 1,
+        "limit": 20,
+        "sort": ""
+	}
+}

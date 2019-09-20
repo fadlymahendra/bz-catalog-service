@@ -1,0 +1,101 @@
+{
+  "type": "object",
+  "required": [ "data" ],
+  "properties": {
+    "data": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [ "premoderation_id", "product_name" ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "premoderation_id": {
+            "type": "string"
+          },
+          "product_name": {
+            "type": "string"
+          },
+          "reject_reasons": {
+            "type": "object",
+            "properties": {
+              "product_data": {
+                "type": "string"
+              },
+              "sku_list": {
+                "type": "string"
+              },
+              "product_specification": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              },
+              "product_details": {
+                "type": "string"
+              },
+              "package_dimension": {
+                "type": "string"
+              },
+              "warranty": {
+                "type": "string"
+              },
+              "totally_reject": {
+                "type": "string"
+              }
+            }
+          },
+          "last_status": {
+            "type": "string"
+          },
+          "current_status": {
+            "type": "string"
+          },
+          "user": {
+            "type": "object",
+            "required": [ "id", "name", "email", "type" ],
+            "properties": {
+              "id": {
+                "type": "number"
+              },
+              "name": {
+                "type": "string"
+              },
+              "email": {
+                "type": "string"
+              },
+              "type": {
+                "type": "string"
+              }
+            }
+          },
+          "created_at": {
+            "type": "string"
+          },
+          "updated_at": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "meta": {
+      "type": "object",
+      "required": [ "page", "limit", "total_data", "total_page" ],
+      "properties": {
+        "page": {
+          "type": "number"
+        },
+        "limit": {
+          "type": "number"
+        },
+        "total_data": {
+          "type": "number"
+        },
+        "total_page": {
+          "type": "number"
+        }
+      }
+    }
+  }
+}

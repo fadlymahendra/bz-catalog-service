@@ -1,0 +1,44 @@
+{
+    "path": {
+        "vendor_id": 2
+    },
+    "body": {
+        "shipping_origins": {
+            "shipping_hubs": [],
+            "shipping_geographs": [
+                {
+                    "geograph": 1899,
+                    "name": "Banyu Asin, Talang Kelapa"
+                },
+                {
+                    "geograph": 1829,
+                    "name": "Cirebon, Pabedilan"
+                }
+            ]
+        },
+        "shipping_destinations": {
+            "shipping_hubs": [],
+            "shipping_geographs": [
+                {
+                    "geograph": 1899,
+                    "name": "Banyu Asin, Talang Kelapa"
+                },
+                {
+                    "geograph": 1829,
+                    "name": "Cirebon, Pabedilan"
+                }
+            ]
+        },
+        "customer_id": 123,
+        "shipping_payment_type_id": 1,
+        "tier_type": "DEFAULT",
+        "is_vendor": true,
+        "category": {
+            "name": "Printing & writing paper",
+            "type": "C3",
+            "id": 561
+        },
+        "start_date": "12-11-2017",
+        "end_date": "30-12-2018"
+    }
+}

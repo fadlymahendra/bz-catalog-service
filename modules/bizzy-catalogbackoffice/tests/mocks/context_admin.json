@@ -1,0 +1,47 @@
+{
+    "user": {
+        "username": "admin@bizzy.co.id",
+        "first_name": "Admin Bizzy",
+        "last_name": null,
+        "scope": "employee",
+        "punchout": {
+        "is_punchout": false,
+        "is_user_punchout": false,
+        "sales_admin_id": 0,
+        "data": {}
+        },
+        "employee": {
+        "id": 2,
+        "name": "Admin",
+        "email": "admin@bizzy.co.id",
+        "hub_id": 0,
+        "team_id": 9,
+        "team_name": "Quality Engineering (Tech)",
+        "title_id": 78,
+        "title_name": "Software Development Engineer in Test",
+        "status": 1,
+        "roles": [
+            {
+            "role_id": 37,
+            "role_name": "Head of Engineering"
+            },
+            {
+            "role_id": 77,
+            "role_name": "Software Development Engineer"
+            },
+            {
+            "role_id": 78,
+            "role_name": "Software Development Engineer in Test"
+            }
+        ],
+        "permissions": [
+            {
+            "id": 59,
+            "code": "all_crud_all"
+            }
+        ]
+        },
+        "iat": 1530600589,
+        "exp": 1530607789
+    }
+  }

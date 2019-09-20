@@ -1,0 +1,14 @@
+{
+    "name": "bizzy-service-packager",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "deploy": "./scripts/deploy-stack.sh",
+        "recreate-0": "./scripts/recreate-0.sh",
+        "recreate-1": "./scripts/recreate-1.sh",
+        "recreate-2": "./scripts/recreate-2.sh",
+        "prepare": "sh ./scripts/prepare.sh",
+        "recreate-all": "npm run-script recreate-0 && node index.js recreate  && npm run-script recreate-1 && npm run-script recreate-2",
+        "new-service": "npm run-script prepare && node index.js new && npm run-script recreate-0 && node index.js recreate  && npm run-script recreate-1 && npm run-script recreate-2"
+    }
+}

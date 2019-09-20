@@ -1,0 +1,12 @@
+{
+  "successGetData": {
+    "include": "reject_reasons"
+  },
+  "premoderationId" : "SKU4GETDETAILPREMOD",
+  "premoderationIdWithoutUNSPSC": "SKUGETDETAILWOUNSPSC",
+  "premoderation" : {
+    "withDecimal": "DECIMALPROD",
+    "withIndent": "INDENTPROD",
+    "withDP": "DPPROD"
+  }
+}

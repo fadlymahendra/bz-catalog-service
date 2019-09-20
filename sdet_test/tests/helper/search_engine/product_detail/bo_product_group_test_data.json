@@ -1,0 +1,51 @@
+{
+  "productGroup": {
+    "iphoneXVendor22": {
+      "id": 48
+    }
+  },
+  "bodyUpdateRestorePgIphoneX": {
+    "name": "APPLE iPhone X",
+    "category_id": "7019",
+    "brand_id": "81",
+    "uom_id": "4",
+    "stocking_uom_id": "3",
+    "quantity_stocking_uom": "111",
+    "manufacturing_number": "ROGGOPNHT3",
+    "package_weight": "1000",
+    "package_length": "14.00",
+    "package_width": "10.00",
+    "package_height": "5.00",
+    "package_content": "1 unit iPhone X",
+    "barcode": "null",
+    "description": "\n<p><span style=\"color: rgb(67, 68, 68);\">Visi Apple sejak awal adalah menciptakan iPhone yang sepenuhnya\n berisi layar. Yang begitu menghanyutkan sehingga tak ada lagi batasan antara perangkat dan pengalaman\n. Dan begitu cerdas sehingga dapat merespons dengan sekali sentuh, atau bahkan sekali pandang. Dengan\n iPhone X, visi ini menjadi kenyataan. Selamat datang, masa depan.</span></p><p><br></p><p><span style\n=\"color: rgb(67, 68, 68);\">Di iPhone X, layarnya adalah perangkatnya. Layar Super Retina 5,8 inci yang\n baru sempurna dalam genggaman dan memukau pandangan. Layar dirancang dengan teknik dan teknologi baru\n untuk mengikuti lekukan desain dengan presisi, bahkan ke sudut-sudut melengkung yang begitu elegan.\n Desain yang sepenuhnya baru. Kaca terkuat yang pernah ada di ponsel pintar, baik depan maupun belakang\n. Baja tahan karat sekelas peralatan bedah. Pengisian daya nirkabel. Tahan air dan debu. Gerakan Intuitif\n, semua gerakan yang sudah tidak asing lagi membuat navigasi terasa natural dan intuitif. Tanpa menekan\n tombol, tapi cukup dengan sekali usap saja Anda akan kembali ke layar Home, dari mana pun. Kamera Ganda\n 12 MP. Seni fotografi jadi lebih sederhana dengan dukungan prosesor A11 Bionic. Chip yang paling andal\n dan cerdas di ponsel pintar, dengan mesin neural yang mampu menangani hingga 600 miliar operasi per\n detik. Empat core efisiensi di CPU yang baru lebih cepat hingga 70 persen dibandingkan Fusion A10.<\n/span></p>",
+    "primary_image": "https://catalogproducts-staging.s3.ap-southeast-1.amazonaws.com/2018/05\n/product_1527076759.png",
+    "visibility": "1",
+    "specifications": []
+  },
+  "bodyUpdatePgIphoneX": {
+    "name": "APPLE iPhone X",
+    "category_id": "7019",
+    "brand_id": "81",
+    "uom_id": "4",
+    "stocking_uom_id": "4",
+    "quantity_stocking_uom": "1",
+    "manufacturing_number": "ABC123",
+    "package_weight": "1001",
+    "package_length": "15.00",
+    "package_width": "11.00",
+    "package_height": "6.00",
+    "package_content": "1 unit iPhone X dan aksesoris",
+    "barcode": "12345678",
+    "description": "\n<p><span style=\"color: rgb(67, 68, 68);\">Yang begitu menghanyutkan sehingga tak ada lagi batasan antara perangkat dan pengalaman\n. Dan begitu cerdas sehingga dapat merespons dengan sekali sentuh, atau bahkan sekali pandang. Dengan\n iPhone X, visi ini menjadi kenyataan. Selamat datang, masa depan.</span></p><p><br></p><p><span style\n=\"color: rgb(67, 68, 68);\">Di iPhone X, layarnya adalah perangkatnya. Layar Super Retina 5,8 inci yang\n baru sempurna dalam genggaman dan memukau pandangan. Layar dirancang dengan teknik dan teknologi baru\n untuk mengikuti lekukan desain dengan presisi, bahkan ke sudut-sudut melengkung yang begitu elegan.\n Desain yang sepenuhnya baru. Kaca terkuat yang pernah ada di ponsel pintar, baik depan maupun belakang\n. Baja tahan karat sekelas peralatan bedah. Pengisian daya nirkabel. Tahan air dan debu. Gerakan Intuitif\n, semua gerakan yang sudah tidak asing lagi membuat navigasi terasa natural dan intuitif. Tanpa menekan\n tombol, tapi cukup dengan sekali usap saja Anda akan kembali ke layar Home, dari mana pun. Kamera Ganda\n 12 MP. Seni fotografi jadi lebih sederhana dengan dukungan prosesor A11 Bionic. Chip yang paling andal\n dan cerdas di ponsel pintar, dengan mesin neural yang mampu menangani hingga 600 miliar operasi per\n detik. Empat core efisiensi di CPU yang baru lebih cepat hingga 70 persen dibandingkan Fusion A10.<\n/span></p>",
+    "primary_image": "https://catalogproducts-staging.s3.ap-southeast-1.amazonaws.com/2018/05\n/product_1527076759.png",
+    "visibility": "1",
+    "specifications": []
+  },
+  "bodyUpdateVisibilty": {
+    "visibility": 0
+  },
+  "bodyRestoreVisibilty": {
+    "visibility": 1
+  }
+}

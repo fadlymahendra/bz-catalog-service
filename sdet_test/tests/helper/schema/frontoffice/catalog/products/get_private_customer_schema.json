@@ -1,0 +1,17 @@
+{
+"getResponseValidSchema" : {
+    "data" : {
+    "type" : "array",
+    "properties" : {
+        "id": "number",
+        "name": "string",
+        "address": "string",
+        "phone": "string",
+        "pic": "string",
+        "mobile_phone": "string",
+        "email": "string"
+    },
+    "additionalProperties": false 
+        }
+    }
+}

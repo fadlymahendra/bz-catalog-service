@@ -1,0 +1,11 @@
+    {
+    "body": {
+        "label": "This is Variant",
+        "category": 562,
+        "description": "",
+        "values": [
+            "Variant Medium",
+            "Variant Low"
+        ]
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "body": {
+        "items": [
+            {
+                "sku": "8NSQCXQYMW",
+                "payload": {
+                    "organization_id": 308,
+                    "material_code": "hom",
+                    "material_group": "pim",
+                    "manufacturer_code": "pa",
+                    "mapped": 1,
+                    "uom": "gambreng",
+                    "quantity_stocking_uom": 3
+                }
+            }
+        ]
+    }
+}

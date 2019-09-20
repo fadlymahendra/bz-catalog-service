@@ -1,0 +1,9 @@
+{
+    "path": {
+        "id": 3,
+        "pid": 2
+    },
+    "body": {
+        "stock_available": 10
+    }
+}

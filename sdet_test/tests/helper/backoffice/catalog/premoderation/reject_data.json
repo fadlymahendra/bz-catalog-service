@@ -1,0 +1,33 @@
+{
+  "validSkuIdFullReject": "SKU4REJECTFULLY",
+  "validSkuIdPartialReject": "SKU4REJECTPARTIAL-1",
+  "validSkuIdPartialRejectNoUNSPSC": "REJECTPARTIALNOUNSPSC001",
+  "validSkuIdFullyRejectNoUNSPSC": "FULLREJECTNOUNSPSC",
+  "skuNotFound": "SKUNOTFOUND",
+  "validFullyRejected": {
+    "status": "rejected",
+    "reject_reasons": {
+      "product_data": "",
+      "sku_list": "",
+      "product_specification": "",
+      "description": "",
+      "product_details": "",
+      "package_dimension": "",
+      "warranty": "",
+      "totally_reject": "Barang Ilegal"
+    }
+  },
+  "validPartialRejectProdDataReason": {
+    "status": "revision_inprogress",
+    "reject_reasons": {
+      "product_data": "data product kurang lengkap",
+      "sku_list": "",
+      "product_specification": "spesifikasi produk tidak lengkap",
+      "description": "deskripsi produk kosong",
+      "product_details": "",
+      "package_dimension": "",
+      "warranty": "",
+      "totally_reject": ""
+    }
+  }
+}

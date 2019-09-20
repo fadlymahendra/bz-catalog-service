@@ -1,0 +1,199 @@
+{
+  "getValidResponseProductVendor": {
+    "type": "object", 
+    "required": [
+      "data"
+    ], 
+    "properties": {
+      "data": {
+        "type": "array", 
+        "items": {
+          "type": "object", 
+          "required": [
+            "id", 
+            "vendor_id", 
+            "vendor_name", 
+            "vendor_trademark", 
+            "vendor_pkp", 
+            "vendor_logo", 
+            "warehouse_id", 
+            "warehouse_name", 
+            "warehouse_hub_id", 
+            "warehouse_hub_shipper", 
+            "warehouse_hub", 
+            "stock_available", 
+            "currency", 
+            "warehouse_geograph", 
+            "sku_vendor"
+          ], 
+          "properties": {
+            "id": {
+              "type": "integer"
+            }, 
+            "vendor_id": {
+              "type": "integer"
+            }, 
+            "vendor_name": {
+              "type": "string", 
+              "pattern": "^(.*)$"
+            }, 
+            "vendor_trademark": {
+              "type": "string", 
+              "pattern": "^(.*)$"
+            }, 
+            "vendor_pkp": {
+              "type": "integer"
+            }, 
+            "vendor_logo": {
+              "type": "string", 
+              "pattern": "^(.*)$"
+            }, 
+            "warehouse_id": {
+              "type": "integer"
+            }, 
+            "warehouse_name": {
+              "type": "string", 
+              "pattern": "^(.*)$"
+            }, 
+            "warehouse_hub_id": {
+              "type": "integer"
+            }, 
+            "warehouse_hub_shipper": {
+              "type": "array"
+            }, 
+            "warehouse_hub": {
+              "type": "object", 
+              "required": [
+                "id", 
+                "name", 
+                "address", 
+                "phone", 
+                "geograph"
+              ], 
+              "properties": {
+                "id": {
+                  "type": "integer"
+                }, 
+                "name": {
+                  "type": "string", 
+                  "pattern": "^(.*)$"
+                }, 
+                "address": {
+                  "type": "string", 
+                  "pattern": "^(.*)$"
+                }, 
+                "phone": {
+                  "type": "string", 
+                  "pattern": "^(.*)$"
+                }, 
+                "geograph": {
+                  "type": "object", 
+                  "required": [
+                    "id", 
+                    "province", 
+                    "city", 
+                    "district", 
+                    "village", 
+                    "zipcode", 
+                    "geotag", 
+                    "jnecitycode"
+                  ], 
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    }, 
+                    "province": {
+                      "type": "string", 
+                      "pattern": "^(.*)$"
+                    }, 
+                    "city": {
+                      "type": "string", 
+                      "pattern": "^(.*)$"
+                    }, 
+                    "district": {
+                      "type": "string", 
+                      "pattern": "^(.*)$"
+                    }, 
+                    "village": {
+                      "type": "string", 
+                      "pattern": "^(.*)$"
+                    }, 
+                    "zipcode": {
+                      "type": "string", 
+                      "pattern": "^(.*)$"
+                    }, 
+                    "geotag": {
+                      "type": "string", 
+                      "pattern": "^(.*)$"
+                    }, 
+                    "jnecitycode": {
+                      "type": "string", 
+                      "pattern": "^(.*)$"
+                    }
+                  }
+                }
+              }
+            }, 
+            "stock_available": {
+              "type": "integer"
+            }, 
+            "currency": {
+              "type": "string", 
+              "pattern": "^(.*)$"
+            }, 
+            "warehouse_geograph": {
+              "type": "object", 
+              "required": [
+                "id", 
+                "province", 
+                "city", 
+                "district", 
+                "village", 
+                "zipcode", 
+                "geotag", 
+                "jnecitycode"
+              ], 
+              "properties": {
+                "id": {
+                  "type": "integer"
+                }, 
+                "province": {
+                  "type": "string", 
+                  "pattern": "^(.*)$"
+                }, 
+                "city": {
+                  "type": "string", 
+                  "pattern": "^(.*)$"
+                }, 
+                "district": {
+                  "type": "string", 
+                  "pattern": "^(.*)$"
+                }, 
+                "village": {
+                  "type": "string", 
+                  "pattern": "^(.*)$"
+                }, 
+                "zipcode": {
+                  "type": "string", 
+                  "pattern": "^(.*)$"
+                }, 
+                "geotag": {
+                  "type": "string", 
+                  "pattern": "^(.*)$"
+                }, 
+                "jnecitycode": {
+                  "type": "string", 
+                  "pattern": "^(.*)$"
+                }
+              }
+            }, 
+            "sku_vendor": {
+              "type": "string", 
+              "pattern": "^(.*)$"
+            }
+          }
+        }
+      }
+    }
+  }
+}

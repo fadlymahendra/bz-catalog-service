@@ -1,0 +1,15 @@
+{
+    "query": {
+        "search": "",
+        "status": "",
+        "c0": "",
+        "c1": "",
+        "c2": "",
+        "c3": "",
+        "sort": "desc",
+        "vendor_id": "",
+        "assign_to": "",
+        "page": 1,
+        "limit": 10
+    }
+}

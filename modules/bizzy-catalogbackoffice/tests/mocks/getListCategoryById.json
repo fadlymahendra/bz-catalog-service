@@ -1,0 +1,6 @@
+{
+    "query" : {
+        "level": "C1",
+        "parent_id": 2
+    }
+}

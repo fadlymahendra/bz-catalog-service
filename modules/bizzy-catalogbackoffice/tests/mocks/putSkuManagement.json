@@ -1,0 +1,13 @@
+{
+	"path": {
+		"id": "3"
+	},
+	"body": {
+        "primary_image": "https://catalogproducts-staging.s3.ap-southeast-1.amazonaws.com/2018/01/product_1516886018.jpg",
+        "additional_image": [
+            "https://ecs7.tokopedia.net/img/cache/700/product-1/2017/8/9/5557816/5557816_01d7795d-8b3d-4bf2-9fd8-1d6f9039bc8e_380_380.jpg",
+            "https://catalogproducts-staging.s3.ap-southeast-1.amazonaws.com/2018/01/product_1516886029.jpg",
+            "https://catalogproducts-staging.s3.ap-southeast-1.amazonaws.com/2018/01/product_1516886035.jpg"
+        ]       
+	}
+}

@@ -1,0 +1,18 @@
+{
+  "extends": "airbnb-base",
+  "root": true,
+  "env": {
+    "mocha": true
+  },
+  "rules": {
+    "max-len": "off",
+    "linebreak-style": "off",
+    "object-curly-newline": "off",
+    "no-restricted-syntax": "off",
+    "no-loop-func": "off",
+    "no-unused-expressions": "off",
+    "prefer-destructuring": "off",
+    "no-await-in-loop": "off",
+    "camelcase": "on"
+  }
+}

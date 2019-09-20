@@ -1,0 +1,287 @@
+{
+  "bodyPostPeBerasVendor22": [
+    {
+      "vendor_id": "22",
+      "sku_number": "IFB7IAA5HU",
+      "category_id": "11444",
+      "brand_id": "1551"
+    }
+  ],
+  "bodyPostPeIphoneVendor22": [
+    {
+      "vendor_id": "22",
+      "sku_number": "KGRO0NF1BJ",
+      "category_id": "7019",
+      "brand_id": "81"
+    }
+  ],
+  "bodyPostPeIphoneVendor31": [
+    {
+      "vendor_id": "31",
+      "sku_number": "KGRO0NF1BJ",
+      "category_id": "7019",
+      "brand_id": "81"
+    }
+  ],
+  "bodyPostPeIphoneVendor93": [
+    {
+      "vendor_id": "93",
+      "sku_number": "WBQH1BWFAN",
+      "category_id": "7019",
+      "brand_id": "81"
+    }
+  ],
+  "bodyPostPeMacbookVendor31": [
+    {
+      "vendor_id": "31",
+      "sku_number": "NRKC0PC5DW",
+      "category_id": "5554",
+      "brand_id": "81"
+    }
+  ],
+  "bodyPostPeIphoneMultiVendor": [
+    {
+      "vendor_id": "22",
+      "sku_number": "KGRO0NF1BJ",
+      "category_id": "7019",
+      "brand_id": "81"
+    },
+    {
+      "vendor_id": "55",
+      "sku_number": "KGRO0NF1BJ",
+      "category_id": "7019",
+      "brand_id": "81"
+    },
+    {
+      "vendor_id": "31",
+      "sku_number": "KGRO0NF1BJ",
+      "category_id": "7019",
+      "brand_id": "81"
+    },
+    {
+      "vendor_id": "6",
+      "sku_number": "KGRO0NF1BJ",
+      "category_id": "7019",
+      "brand_id": "81"
+    },
+    {
+      "vendor_id": "63",
+      "sku_number": "KGRO0NF1BJ",
+      "category_id": "7019",
+      "brand_id": "81"
+    },
+    {
+      "vendor_id": "68",
+      "sku_number": "KGRO0NF1BJ",
+      "category_id": "7019",
+      "brand_id": "81"
+    },
+    {
+      "vendor_id": "73",
+      "sku_number": "KGRO0NF1BJ",
+      "category_id": "7019",
+      "brand_id": "81"
+    },
+    {
+      "vendor_id": "83",
+      "sku_number": "KGRO0NF1BJ",
+      "category_id": "7019",
+      "brand_id": "81"
+    },
+    {
+      "vendor_id": "85",
+      "sku_number": "KGRO0NF1BJ",
+      "category_id": "7019",
+      "brand_id": "81"
+    },
+    {
+      "vendor_id": "96",
+      "sku_number": "KGRO0NF1BJ",
+      "category_id": "7019",
+      "brand_id": "81"
+    },
+    {
+      "vendor_id": "3289",
+      "sku_number": "KGRO0NF1BJ",
+      "category_id": "7019",
+      "brand_id": "81"
+    },
+    {
+      "vendor_id": "5629",
+      "sku_number": "KGRO0NF1BJ",
+      "category_id": "7019",
+      "brand_id": "81"
+    }
+  ],
+  "bodyPostPeBerasMultiVendor": [
+    {
+      "vendor_id": "22",
+      "sku_number": "IFB7IAA5HU",
+      "category_id": "11444",
+      "brand_id": "1551"
+    },
+    {
+      "vendor_id": "31",
+      "sku_number": "IFB7IAA5HU",
+      "category_id": "11444",
+      "brand_id": "1551"
+    },
+    {
+      "vendor_id": "110",
+      "sku_number": "IFB7IAA5HU",
+      "category_id": "11444",
+      "brand_id": "1551"
+    },
+    {
+      "vendor_id": "109",
+      "sku_number": "IFB7IAA5HU",
+      "category_id": "11444",
+      "brand_id": "1551"
+    },
+    {
+      "vendor_id": "94",
+      "sku_number": "IFB7IAA5HU",
+      "category_id": "11444",
+      "brand_id": "1551"
+    },
+    {
+      "vendor_id": "95",
+      "sku_number": "IFB7IAA5HU",
+      "category_id": "11444",
+      "brand_id": "1551"
+    },
+    {
+      "vendor_id": "93",
+      "sku_number": "IFB7IAA5HU",
+      "category_id": "11444",
+      "brand_id": "1551"
+    },
+    {
+      "vendor_id": "5",
+      "sku_number": "IFB7IAA5HU",
+      "category_id": "11444",
+      "brand_id": "1551"
+    },
+    {
+      "vendor_id": "91",
+      "sku_number": "IFB7IAA5HU",
+      "category_id": "11444",
+      "brand_id": "1551"
+    },
+    {
+      "vendor_id": "57",
+      "sku_number": "IFB7IAA5HU",
+      "category_id": "11444",
+      "brand_id": "1551"
+    },
+    {
+      "vendor_id": "55",
+      "sku_number": "IFB7IAA5HU",
+      "category_id": "11444",
+      "brand_id": "1551"
+    },
+    {
+      "vendor_id": "169",
+      "sku_number": "IFB7IAA5HU",
+      "category_id": "11444",
+      "brand_id": "1551"
+    },
+    {
+      "vendor_id": "63",
+      "sku_number": "IFB7IAA5HU",
+      "category_id": "11444",
+      "brand_id": "1551"
+    },
+    {
+      "vendor_id": "43",
+      "sku_number": "IFB7IAA5HU",
+      "category_id": "11444",
+      "brand_id": "1551"
+    },
+    {
+      "vendor_id": "50",
+      "sku_number": "IFB7IAA5HU",
+      "category_id": "11444",
+      "brand_id": "1551"
+    },
+    {
+      "vendor_id": "73",
+      "sku_number": "IFB7IAA5HU",
+      "category_id": "11444",
+      "brand_id": "1551"
+    }
+  ],
+  "bodyPostPeMacbookMultiVendor": [
+      {
+        "vendor_id": "85",
+        "sku_number": "NRKC0PC5DW",
+        "category_id": "5554",
+        "brand_id": "81"
+      },
+      {
+        "vendor_id": "83",
+        "sku_number": "NRKC0PC5DW",
+        "category_id": "5554",
+        "brand_id": "81"
+      },
+      {
+        "vendor_id": "22",
+        "sku_number": "NRKC0PC5DW",
+        "category_id": "5554",
+        "brand_id": "81"
+      },
+      {
+        "vendor_id": "6",
+        "sku_number": "NRKC0PC5DW",
+        "category_id": "5554",
+        "brand_id": "81"
+      },
+      {
+        "vendor_id": "55",
+        "sku_number": "NRKC0PC5DW",
+        "category_id": "5554",
+        "brand_id": "81"
+      },
+      {
+        "vendor_id": "68",
+        "sku_number": "NRKC0PC5DW",
+        "category_id": "5554",
+        "brand_id": "81"
+      },
+      {
+        "vendor_id": "73",
+        "sku_number": "NRKC0PC5DW",
+        "category_id": "5554",
+        "brand_id": "81"
+      },
+      {
+        "vendor_id": "63",
+        "sku_number": "NRKC0PC5DW",
+        "category_id": "5554",
+        "brand_id": "81"
+      }
+    ],
+  "customer": {
+    "dj_qr": {
+      "organization_id": 14
+    }
+  },
+  "vendor": {
+    "dj_pkp_1": {
+      "organization_id": 22
+    },
+    "dj_pkp_2": {
+      "organization_id": 31
+    }
+  },
+  "priceEngineParams": {
+    "adjustment": {
+      "cof": "1.5",
+      "sub": "0"
+    },
+    "margin": {
+      "salesAdjustment": "0",
+      "fulfillmentFee": "0"
+    }
+  }
+}

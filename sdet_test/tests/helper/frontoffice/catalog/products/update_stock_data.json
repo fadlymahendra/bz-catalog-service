@@ -1,0 +1,13 @@
+{
+  "validProductVendorId": 24233,
+  "invalidProductVendorId": 12,
+  "updateStockRequestBody": {
+    "validStockUpdate": { 
+      "stock_available": "65700.00" 
+    },
+    "negativeStockUpdate": { 
+      "stock_available": -10000 
+    }
+  },
+  "successResponseMessage": "Ubah stok product berhasil"
+}

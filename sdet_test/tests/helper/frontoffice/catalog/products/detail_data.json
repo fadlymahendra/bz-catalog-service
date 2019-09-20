@@ -1,0 +1,13 @@
+{
+    "productGroup": {
+        "withPrivateCustomer": { "id": 541 },
+        "noPrivateCustomer": { "id": 683},
+        "invalidProductId": { "id": -11},
+        "autoLive": { "id":  88401},
+        "contract": { "id":  894},
+        "notFoundProductId": { "id": 99999}
+      },
+    "invalidVendorId": -13,
+    "invalidVendorOrgId": -11
+}
+  

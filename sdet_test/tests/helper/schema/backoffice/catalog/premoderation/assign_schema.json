@@ -1,0 +1,38 @@
+{
+  "validAssignPostResponse": {
+    "type": "object",
+    "required": [ "data" ],
+    "properties": {
+      "data": {
+        "type": "object",
+        "required": [ "id", "assign" ],
+        "properties": {
+          "id": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "assign": {
+            "type": "object",
+            "required": [ "id", "email", "name", "type" ],
+            "properties": {
+              "id": {
+                "type": "number"
+              },
+              "email": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "type": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

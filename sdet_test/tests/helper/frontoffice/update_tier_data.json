@@ -1,0 +1,322 @@
+{
+    "updateTierPrice" : {
+        "tier_min_qty_1" : 1,
+        "tier_min_qty_2" : 11,
+        "tier_min_qty_3" : 25,
+        "tier_cogs_price_1" : 10400000,
+        "tier_cogs_price_2" : 9500000,
+        "tier_cogs_price_3" : 8700000
+    },
+    "descPrice1Twice" : {
+        "tier_min_qty_1" : 1,
+        "tier_min_qty_2" : 11,
+        "tier_min_qty_3" : 25,
+        "tier_cogs_price_1" : 10300000,
+        "tier_cogs_price_2" : 9400000,
+        "tier_cogs_price_3" : 8600000
+    },
+    "updateInto1Tier" : {
+        "tier_min_qty_1" : 1,
+        "tier_min_qty_2" : "",
+        "tier_min_qty_3" : "",
+        "tier_cogs_price_1" : 10400000,
+        "tier_cogs_price_2" : "",
+        "tier_cogs_price_3" : ""
+    },
+    "updateInto2Tier" : {
+        "tier_min_qty_1" : 1,
+        "tier_min_qty_2" : 50,
+        "tier_min_qty_3" : "",
+        "tier_cogs_price_1" : 10400000,
+        "tier_cogs_price_2" : 9400000,
+        "tier_cogs_price_3" : ""
+    },
+    "descPrice2" : {
+        "tier_min_qty_1" : 1,
+        "tier_min_qty_2" : 50,
+        "tier_min_qty_3" : "",
+        "tier_cogs_price_1" : 10400000,
+        "tier_cogs_price_2" : 8900000,
+        "tier_cogs_price_3" : ""
+    },
+    "descPrice2Twice" : {
+        "tier_min_qty_1" : 1,
+        "tier_min_qty_2" : 50,
+        "tier_min_qty_3" : "",
+        "tier_cogs_price_1" : 10400000,
+        "tier_cogs_price_2" : 9800000,
+        "tier_cogs_price_3" : ""
+    },
+    "descPrice3" : {
+        "tier_min_qty_1" : 1,
+        "tier_min_qty_2" : 50,
+        "tier_min_qty_3" : 100,
+        "tier_cogs_price_1" : 10400000,
+        "tier_cogs_price_2" : 9800000,
+        "tier_cogs_price_3" : 8500000
+    },
+    "descPrice3Twice" : {
+        "tier_min_qty_1" : 1,
+        "tier_min_qty_2" : 50,
+        "tier_min_qty_3" : 100,
+        "tier_cogs_price_1" : 10400000,
+        "tier_cogs_price_2" : 9800000,
+        "tier_cogs_price_3" : 8900000
+    },
+    "descTier1" : {
+        "tier_min_qty_1" : 5,
+        "tier_min_qty_2" : 50,
+        "tier_min_qty_3" : 100,
+        "tier_cogs_price_1" : 10400000,
+        "tier_cogs_price_2" : 9800000,
+        "tier_cogs_price_3" : 8900000
+    },
+    "descTier1Twice" : {
+        "tier_min_qty_1" : 2,
+        "tier_min_qty_2" : 50,
+        "tier_min_qty_3" : 100,
+        "tier_cogs_price_1" : 10400000,
+        "tier_cogs_price_2" : 9800000,
+        "tier_cogs_price_3" : 8900000
+    },
+    "descTier2" : {
+        "tier_min_qty_1" : 5,
+        "tier_min_qty_2" : 35,
+        "tier_min_qty_3" : 100,
+        "tier_cogs_price_1" : 10400000,
+        "tier_cogs_price_2" : 9800000,
+        "tier_cogs_price_3" : 8900000
+    },
+    "descTier2Twice" : {
+        "tier_min_qty_1" : 5,
+        "tier_min_qty_2" : 25,
+        "tier_min_qty_3" : 100,
+        "tier_cogs_price_1" : 10400000,
+        "tier_cogs_price_2" : 9800000,
+        "tier_cogs_price_3" : 8900000
+    },
+    "descTier3" : {
+        "tier_min_qty_1" : 5,
+        "tier_min_qty_2" : 25,
+        "tier_min_qty_3" : 60,
+        "tier_cogs_price_1" : 10400000,
+        "tier_cogs_price_2" : 9800000,
+        "tier_cogs_price_3" : 8900000
+    },
+    "descTier3Twice" : {
+        "tier_min_qty_1" : 5,
+        "tier_min_qty_2" : 25,
+        "tier_min_qty_3" : 55,
+        "tier_cogs_price_1" : 10400000,
+        "tier_cogs_price_2" : 9800000,
+        "tier_cogs_price_3" : 8900000
+    },
+    "descTier2lessTier1" : {
+        "tier_min_qty_1" : 5,
+        "tier_min_qty_2" : 4,
+        "tier_min_qty_3" : 55,
+        "tier_cogs_price_1" : 10400000,
+        "tier_cogs_price_2" : 9800000,
+        "tier_cogs_price_3" : 8900000
+    },
+    "descTier3lessTier2" : {
+        "tier_min_qty_1" : 5,
+        "tier_min_qty_2" : 25,
+        "tier_min_qty_3" : 5,
+        "tier_cogs_price_1" : 10400000,
+        "tier_cogs_price_2" : 9800000,
+        "tier_cogs_price_3" : 8900000
+    },
+    "descTier2sameTier1" : {
+        "tier_min_qty_1" : 5,
+        "tier_min_qty_2" : 5,
+        "tier_min_qty_3" : 55,
+        "tier_cogs_price_1" : 10400000,
+        "tier_cogs_price_2" : 9800000,
+        "tier_cogs_price_3" : 8900000
+    },
+    "descTier3sameTier2" : {
+        "tier_min_qty_1" : 5,
+        "tier_min_qty_2" : 25,
+        "tier_min_qty_3" : 25,
+        "tier_cogs_price_1" : 10400000,
+        "tier_cogs_price_2" : 9800000,
+        "tier_cogs_price_3" : 8900000
+    },
+    "descPrice2morePrice1" : {
+        "tier_min_qty_1" : 5,
+        "tier_min_qty_2" : 25,
+        "tier_min_qty_3" : 55,
+        "tier_cogs_price_1" : 10400000,
+        "tier_cogs_price_2" : 10500000,
+        "tier_cogs_price_3" : 8900000
+    },
+    "descPrice3morePrice2" : {
+        "tier_min_qty_1" : 5,
+        "tier_min_qty_2" : 25,
+        "tier_min_qty_3" : 55,
+        "tier_cogs_price_1" : 10400000,
+        "tier_cogs_price_2" : 9800000,
+        "tier_cogs_price_3" : 9900000
+    },
+    "descPrice2samePrice1" : {
+        "tier_min_qty_1" : 5,
+        "tier_min_qty_2" : 25,
+        "tier_min_qty_3" : 55,
+        "tier_cogs_price_1" : 10400000,
+        "tier_cogs_price_2" : 10400000,
+        "tier_cogs_price_3" : 8900000
+    },
+    "descPrice3samePrice2" : {
+        "tier_min_qty_1" : 5,
+        "tier_min_qty_2" : 25,
+        "tier_min_qty_3" : 55,
+        "tier_cogs_price_1" : 10400000,
+        "tier_cogs_price_2" : 9800000,
+        "tier_cogs_price_3" : 9800000
+    },
+    "emptyTier1" : {
+        "tier_min_qty_1" : "",
+        "tier_min_qty_2" : 25,
+        "tier_min_qty_3" : 55,
+        "tier_cogs_price_1" : 10400000,
+        "tier_cogs_price_2" : 9800000,
+        "tier_cogs_price_3" : 8900000
+    },
+    "emptyTier2" : {
+        "tier_min_qty_1" : 5,
+        "tier_min_qty_2" : "",
+        "tier_min_qty_3" : 105,
+        "tier_cogs_price_1" : 10400000,
+        "tier_cogs_price_2" : 9800000,
+        "tier_cogs_price_3" : 8900000
+    },
+    "emptyTier3" : {
+        "tier_min_qty_1" : 5,
+        "tier_min_qty_2" : 25,
+        "tier_min_qty_3" : "",
+        "tier_cogs_price_1" : 10400000,
+        "tier_cogs_price_2" : 9800000,
+        "tier_cogs_price_3" : 8900000
+    },
+    "emptyPrice1" : {
+        "tier_min_qty_1" : 5,
+        "tier_min_qty_2" : 25,
+        "tier_min_qty_3" : 55,
+        "tier_cogs_price_1" : "",
+        "tier_cogs_price_2" : 9800000,
+        "tier_cogs_price_3" : 8900000
+    },
+    "emptyPrice2" : {
+        "tier_min_qty_1" : 5,
+        "tier_min_qty_2" : 25,
+        "tier_min_qty_3" : 55,
+        "tier_cogs_price_1" : 10400000,
+        "tier_cogs_price_2" : "",
+        "tier_cogs_price_3" : 8900000
+    },
+    "emptyPrice3" : {
+        "tier_min_qty_1" : 5,
+        "tier_min_qty_2" : 25,
+        "tier_min_qty_3" : 55,
+        "tier_cogs_price_1" : 10400000,
+        "tier_cogs_price_2" : 9800000,
+        "tier_cogs_price_3" : ""
+    },
+    "stringTier1" : {
+        "tier_min_qty_1" : "tier1",
+        "tier_min_qty_2" : 25,
+        "tier_min_qty_3" : 55,
+        "tier_cogs_price_1" : 10400000,
+        "tier_cogs_price_2" : 9800000,
+        "tier_cogs_price_3" : 8900000
+    },
+    "stringTier2" : {
+        "tier_min_qty_1" : 5,
+        "tier_min_qty_2" : "tier2",
+        "tier_min_qty_3" : 55,
+        "tier_cogs_price_1" : 10400000,
+        "tier_cogs_price_2" : 9800000,
+        "tier_cogs_price_3" : 8900000
+    },
+    "stringTier3" : {
+        "tier_min_qty_1" : 5,
+        "tier_min_qty_2" : 25,
+        "tier_min_qty_3" : "tier3",
+        "tier_cogs_price_1" : 10400000,
+        "tier_cogs_price_2" : 9800000,
+        "tier_cogs_price_3" : 8900000
+    },
+    "stringPrice1" : {
+        "tier_min_qty_1" : 5,
+        "tier_min_qty_2" : 25,
+        "tier_min_qty_3" : 55,
+        "tier_cogs_price_1" : "price1",
+        "tier_cogs_price_2" : 9800000,
+        "tier_cogs_price_3" : 8900000
+    },
+    "stringPrice2" : {
+        "tier_min_qty_1" : 5,
+        "tier_min_qty_2" : 25,
+        "tier_min_qty_3" : 55,
+        "tier_cogs_price_1" : 10400000,
+        "tier_cogs_price_2" : "price2",
+        "tier_cogs_price_3" : 8900000
+    },
+    "stringPrice3" : {
+        "tier_min_qty_1" : 5,
+        "tier_min_qty_2" : 25,
+        "tier_min_qty_3" : 55,
+        "tier_cogs_price_1" : 10400000,
+        "tier_cogs_price_2" : 9800000,
+        "tier_cogs_price_3" : "price3"
+    },
+    "tier1WithoutPrice1" : {
+        "tier_min_qty_1" : 5,
+        "tier_min_qty_2" : "",
+        "tier_min_qty_3" : "",
+        "tier_cogs_price_1" : "",
+        "tier_cogs_price_2" : "",
+        "tier_cogs_price_3" : ""
+    },
+    "tier2WithoutPrice2" : {
+        "tier_min_qty_1" : 5,
+        "tier_min_qty_2" : 25,
+        "tier_min_qty_3" : "",
+        "tier_cogs_price_1" : 10400000,
+        "tier_cogs_price_2" : "",
+        "tier_cogs_price_3" : ""
+    },
+    "tier3WithoutPrice3" : {
+        "tier_min_qty_1" : 5,
+        "tier_min_qty_2" : 50,
+        "tier_min_qty_3" : 100,
+        "tier_cogs_price_1" : 10400000,
+        "tier_cogs_price_2" : 9800000,
+        "tier_cogs_price_3" : ""
+    },
+    "price1WithoutTier1" : {
+        "tier_min_qty_1" : "",
+        "tier_min_qty_2" : "",
+        "tier_min_qty_3" : "",
+        "tier_cogs_price_1" : 10400000,
+        "tier_cogs_price_2" : "",
+        "tier_cogs_price_3" : ""
+    },
+    "price2WithoutTier2" : {
+        "tier_min_qty_1" : 5,
+        "tier_min_qty_2" : "",
+        "tier_min_qty_3" : "",
+        "tier_cogs_price_1" : 10400000,
+        "tier_cogs_price_2" : 9800000,
+        "tier_cogs_price_3" : ""
+    },
+    "price3WithoutTier3" : {
+        "tier_min_qty_1" : 5,
+        "tier_min_qty_2" : 25,
+        "tier_min_qty_3" : "",
+        "tier_cogs_price_1" : 10400000,
+        "tier_cogs_price_2" : 9800000,
+        "tier_cogs_price_3" : 8900000
+    }
+}

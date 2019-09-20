@@ -1,0 +1,56 @@
+{
+  "successGetListPg": {
+    "search": "Lenovo S1 Shoot"
+  },
+  "successGetDetailPg": {
+    "name": "Lenovo S1 Shoot",
+    "brand": "Lenovo",
+    "description": "Founded in Beijing in 1984, Lenovo acquired IBM's PC business in 2005, and first became the world's top PC maker in 2013. It entered the Android and Windows tablet market in 2011, began selling Android smartphones in 2012, and acquired Motorola Mobility from Google in 2014. The company has also launched an online-only sub-brand for smartphones called Zuk in China.",
+    "package_content": "1 Lenovo : Valid Body",
+    "detail": {
+      "uom_id": 7,
+      "stocking_uom": "Each / Buah",
+      "quantity_stocking_uom": "1"
+    },
+    "dimensions": {
+      "package_weight": 0,
+      "package_length": "0.00",
+      "package_width": "0.00",
+      "package_height": "0.00"
+    }
+  },
+  "successGetDetailPgAutoConvertTidakBergaransiInvalidPeriod": {
+    "name": "Lenovo S1 Shot Tidak bergaransi Karena Lama Garansi Tidak Valid",
+    "brand": "Lenovo",
+    "description": "Founded in Beijing in 1984, Lenovo acquired IBM's PC business in 2005, and first became the world's top PC maker in 2013. It entered the Android and Windows tablet market in 2011, began selling Android smartphones in 2012, and acquired Motorola Mobility from Google in 2014. The company has also launched an online-only sub-brand for smartphones called Zuk in China.",
+    "package_content": "1 unit HP, 1 unit Charger HP",
+    "detail": {
+      "uom": "Unit",
+      "stocking_uom": "Pack 100",
+      "quantity_stocking_uom": 10
+    },
+    "dimensions": {
+      "package_weight": 100,
+      "package_length": "20.00",
+      "package_width": "20.00",
+      "package_height": "10.00"
+    }
+  },
+  "successGetDetailPgAutoConvertTidakBergaransiBlankPeriod": {
+    "name": "Lenovo S1 Shot Tidak bergaransi Karena Lama Garansi Kosong",
+    "brand": "Lenovo",
+    "description": "Founded in Beijing in 1984, Lenovo acquired IBM's PC business in 2005, and first became the world's top PC maker in 2013. It entered the Android and Windows tablet market in 2011, began selling Android smartphones in 2012, and acquired Motorola Mobility from Google in 2014. The company has also launched an online-only sub-brand for smartphones called Zuk in China.",
+    "package_content": "1 unit HP, 1 unit Charger HP",
+    "detail": {
+      "uom": "Unit",
+      "stocking_uom": "Pack 100",
+      "quantity_stocking_uom": 10
+    },
+    "dimensions": {
+      "package_weight": 100,
+      "package_length": "20.00",
+      "package_width": "20.00",
+      "package_height": "10.00"
+    }
+  }
+}

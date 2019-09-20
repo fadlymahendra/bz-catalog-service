@@ -1,0 +1,1542 @@
+{
+  "getSinglePremodDetail": {
+    "type": "object",
+    "required": [ "data" ],
+    "properties": {
+      "data": {
+        "type": "object",
+        "required": [ "id" ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string"
+          },
+          "product_group_id": {
+            "type": [ "string", "null" ]
+          },
+          "product_name": {
+            "type": "string"
+          },
+          "category": {
+            "type": "object",
+            "required": [],
+            "properties": {
+              "c0": {
+                "type": "object",
+                "required": [ "id", "name", "level", "unspc" ],
+                "properties": {
+                  "id": {
+                    "type": "number"
+                  },
+                  "name": {
+                    "type": "string"
+                  },
+                  "level": {
+                    "type": "string"
+                  },
+                  "unspc": {
+                    "type": "number"
+                  }
+                }
+              },
+              "c1": {
+                "type": "object",
+                "required": [ "id", "name", "level", "unspc" ],
+                "properties": {
+                  "id": {
+                    "type": "number"
+                  },
+                  "name": {
+                    "type": "string"
+                  },
+                  "level": {
+                    "type": "string"
+                  },
+                  "unspc": {
+                    "type": "number"
+                  }
+                }
+              },
+              "c2": {
+                "type": "object",
+                "required": [ "id", "name", "level", "unspc" ],
+                "properties": {
+                  "id": {
+                    "type": "number"
+                  },
+                  "name": {
+                    "type": "string"
+                  },
+                  "level": {
+                    "type": "string"
+                  },
+                  "unspc": {
+                    "type": "number"
+                  }
+                }
+              },
+              "c3": {
+                "type": "object",
+                "required": [ "id", "name", "level", "unspc" ],
+                "properties": {
+                  "id": {
+                    "type": "number"
+                  },
+                  "name": {
+                    "type": "string"
+                  },
+                  "level": {
+                    "type": "string"
+                  },
+                  "unspc": {
+                    "type": "number"
+                  }
+                }
+              }
+            }
+          },
+          "brand": {
+            "type": "object",
+            "required": [ "id" ],
+            "properties": {
+              "id": {
+                "type": "number"
+              },
+              "status": {
+                "type": "string"
+              }
+            }
+          },
+          "variant_matrix": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "variant_detail": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "index": {
+                  "type": "string"
+                },
+                "variants": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "required": [ "attribute_id", "attribute_code", "attribute_code_label", "attribute_value_name", "attribute_value_id", "attribute_status" ],
+                    "properties": {
+                      "attribute_id": {
+                        "type": "number"
+                      },
+                      "attribute_code": {
+                        "type": "string"
+                      },
+                      "attribute_code_label": {
+                        "type": "string"
+                      },
+                      "attribute_value_name": {
+                        "type": "string"
+                      },
+                      "attribute_value_id": {
+                        "type": [ "number", "null" ]
+                      },
+                      "attribute_status": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                },
+                "variant_value": {
+                  "type": ["object", "string"]
+                },
+                "sku_vendor": {
+                  "type": "string"
+                },
+                "tier_min_qty_1": {
+                  "type": "string"
+                },
+                "tier_min_qty_2": {
+                  "type": "string"
+                },
+                "tier_min_qty_3": {
+                  "type": "string"
+                },
+                "tier_cogs_price_1": {
+                  "type": "string"
+                },
+                "tier_cogs_price_2": {
+                  "type": "string"
+                },
+                "tier_cogs_price_3": {
+                  "type": "string"
+                },
+                "stock": {
+                  "type": "number"
+                },
+                "primary_image": {
+                  "type": "string"
+                },
+                "additional_image": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "warehouse_id": {
+                  "type": "number"
+                },
+                "location_label": {
+                  "type": "string"
+                },
+                "reference_link": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "warranty_option": {
+                  "type": "string"
+                },
+                "warranty_period": {
+                  "type": ["string", "null"]
+                },
+                "warranty_limit": {
+                  "type": ["number", "null"]
+                },
+                "warranty_coverage": {
+                  "type": ["string", "null"]
+                },
+                "is_indent": {
+                  "type": "number"
+                },
+                "indent_period": {
+                  "type": "string"
+                },
+                "indent_limit": {
+                  "type": "number"
+                },
+                "variant_status": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "specifications": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "attribute_id": {
+                  "type": "number"
+                },
+                "attribute_code": {
+                  "type": "string"
+                },
+                "attribute_code_label": {
+                  "type": "string"
+                },
+                "attribute_type": {
+                  "type": "string"
+                },
+                "attribute_value_id": {
+                  "type": [ "number", "null" ]
+                },
+                "attribute_value_label": {
+                  "type": "string"
+                },
+                "attribute_status": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "package_weight": {
+            "type": "string"
+          },
+          "package_length": {
+            "type": "string"
+          },
+          "package_width": {
+            "type": "string"
+          },
+          "package_height": {
+            "type": "string"
+          },
+          "package_content": {
+            "type": "string"
+          },
+          "uom": {
+            "type": "object",
+            "required": [ "id", "name" ],
+            "properties": {
+              "id": {
+                "type": "number"
+              },
+              "name": {
+                "type": "string"
+              }
+            }
+          },
+          "stocking_uom": {
+            "type": "object",
+            "required": [ "id", "name" ],
+            "properties": {
+              "id": {
+                "type": "number"
+              },
+              "name": {
+                "type": "string"
+              }
+            }
+          },
+          "quantity_stocking_uom": {
+            "type": "number"
+          },
+          "description": {
+            "type": "string"
+          },
+          "premoderation_status": {
+            "type": "string"
+          },
+          "barcode": {
+            "type": "string"
+          },
+          "manufacturing_number": {
+            "type": "string"
+          },
+          "total_history": {
+            "type": "number"
+          }
+        }
+      }
+    }
+  },
+  "getManyPremodDetail": {
+    "type": "object",
+    "required": [ "data" ],
+    "properties": {
+      "data": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": [ "id", "name", "vendor_id", "status" ],
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "product_group_id": {
+              "type": [ "string", "null" ]
+            },
+            "name": {
+              "type": "string"
+            },
+            "curations": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "vendor_id": {
+              "type": "number"
+            },
+            "assign_to": {
+              "type": [ "number", "null" ]
+            },
+            "status": {
+              "type": "string"
+            },
+            "total_history": {
+              "type": "number"
+            },
+            "created_at": {
+              "type": "string"
+            },
+            "updated_at": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "meta": {
+        "type": "object",
+        "required": [ "page", "limit", "total_data", "total_page" ],
+        "properties": {
+          "page": {
+            "type": "number"
+          },
+          "limit": {
+            "type": "number"
+          },
+          "total_data": {
+            "type": "number"
+          },
+          "total_page": {
+            "type": "number"
+          },
+          "total_need_revision": {
+            "type": "number"
+          },
+          "total_revision_complete": {
+            "type": "number"
+          },
+          "total_rejected": {
+            "type": "number"
+          },
+          "total_revision_inprogress": {
+            "type": "number"
+          }
+        }
+      }
+    }
+  },
+  "getPremodDetailNonMandatory": {
+    "type": "object", 
+    "required": [
+      "id", 
+      "type", 
+      "product_group_id", 
+      "product_name", 
+      "category", 
+      "brand", 
+      "variant_matrix", 
+      "variant_detail", 
+      "specifications", 
+      "package_weight", 
+      "package_length", 
+      "package_width", 
+      "package_height", 
+      "package_content", 
+      "uom", 
+      "stocking_uom", 
+      "quantity_stocking_uom", 
+      "description", 
+      "premoderation_status", 
+      "barcode", 
+      "manufacturing_number", 
+      "total_history"
+    ], 
+    "properties": {
+      "id": {
+        "type": "string", 
+        "pattern": "^(.*)$"
+      }, 
+      "type": {
+        "type": "string", 
+        "pattern": "^(.*)$"
+      }, 
+      "product_group_id": {
+        "type": "null"
+      }, 
+      "product_name": {
+        "type": "string", 
+        "pattern": "^(.*)$"
+      }, 
+      "category": {
+        "type": "object", 
+        "required": [
+          "c0", 
+          "c1", 
+          "c2", 
+          "c3"
+        ], 
+        "properties": {
+          "c0": {
+            "type": "object", 
+            "required": [
+              "id", 
+              "name", 
+              "level", 
+              "unspc"
+            ], 
+            "properties": {
+              "id": {
+                "type": "integer"
+              }, 
+              "name": {
+                "type": "string", 
+                "pattern": "^(.*)$"
+              }, 
+              "level": {
+                "type": "string", 
+                "pattern": "^(.*)$"
+              }, 
+              "unspc": { 
+                "type": "integer"
+              }
+            }
+          }, 
+          "c1": {
+            "type": "object", 
+            "required": [
+              "id", 
+              "name", 
+              "level", 
+              "unspc"
+            ], 
+            "properties": {
+              "id": {
+                "type": "integer"
+              }, 
+              "name": {
+                "type": "string", 
+                "pattern": "^(.*)$"
+              }, 
+              "level": {
+                "type": "string", 
+                "pattern": "^(.*)$"
+              }, 
+              "unspc": {
+                "type": "integer"
+              }
+            }
+          }, 
+          "c2": {
+            "type": "object", 
+            "required": [
+              "id", 
+              "name", 
+              "level", 
+              "unspc"
+            ], 
+            "properties": {
+              "id": {
+                "type": "integer"
+              }, 
+              "name": {
+                "type": "string", 
+                "pattern": "^(.*)$"
+              }, 
+              "level": {
+                "type": "string", 
+                "pattern": "^(.*)$"
+              }, 
+              "unspc": {
+                "type": "integer"
+              }
+            }
+          }, 
+          "c3": {
+            "type": "object", 
+            "required": [
+              "id", 
+              "name", 
+              "level", 
+              "unspc"
+            ], 
+            "properties": {
+              "id": {
+                "type": "integer"
+              }, 
+              "name": {
+                "type": "string", 
+                "pattern": "^(.*)$"
+              }, 
+              "level": {
+                "type": "string", 
+                "pattern": "^(.*)$"
+              }, 
+              "unspc": {
+                "type": "integer"
+              }
+            }
+          }
+        }
+      }, 
+      "brand": {
+        "type": "object", 
+        "required": [
+          "id", 
+          "name", 
+          "status", 
+          "image"
+        ], 
+        "properties": {
+          "id": {
+            "type": "number", 
+            "pattern": "^(.*)$"
+          }, 
+          "name": {
+            "type": "string", 
+            "pattern": "^(.*)$"
+          }, 
+          "status": {
+            "type": "string", 
+            "pattern": "^(.*)$"
+          }, 
+          "image": {
+            "type": ["string", "null"], 
+            "pattern": "^(.*)$"
+          }
+        }
+      }, 
+      "variant_matrix": {
+        "type": "array"
+      }, 
+      "variant_detail": {
+        "type": "array", 
+        "items": {
+          "type": "object", 
+          "required": [
+            "index", 
+            "variants", 
+            "variant_value", 
+            "sku_vendor", 
+            "tier_min_qty_1", 
+            "tier_min_qty_2", 
+            "tier_min_qty_3", 
+            "tier_cogs_price_1", 
+            "tier_cogs_price_2", 
+            "tier_cogs_price_3", 
+            "stock", 
+            "primary_image", 
+            "additional_image", 
+            "warehouse_id", 
+            "location_label", 
+            "reference_link", 
+            "warranty_option", 
+            "warranty_period", 
+            "warranty_limit", 
+            "warranty_coverage", 
+            "is_indent", 
+            "indent_period", 
+            "indent_limit", 
+            "variant_status"
+          ], 
+          "properties": {
+            "index": {
+              "type": "string", 
+              "pattern": "^(.*)$"
+            }, 
+            "variants": {
+              "type": "array"
+            }, 
+            "variant_value": {
+              "type": "string", 
+              "pattern": "^(.*)$"
+            }, 
+            "sku_vendor": {
+              "type": "string", 
+              "pattern": "^(.*)$"
+            }, 
+            "tier_min_qty_1": {
+              "type": "string", 
+              "pattern": "^(.*)$"
+            }, 
+            "tier_min_qty_2": {
+              "type": "string", 
+              "pattern": "^(.*)$"
+            }, 
+            "tier_min_qty_3": {
+              "type": "string", 
+              "pattern": "^(.*)$"
+            }, 
+            "tier_cogs_price_1": {
+              "type": "string", 
+              "pattern": "^(.*)$"
+            }, 
+            "tier_cogs_price_2": {
+              "type": "string", 
+              "pattern": "^(.*)$"
+            }, 
+            "tier_cogs_price_3": {
+              "type": "string", 
+              "pattern": "^(.*)$"
+            }, 
+            "stock": {
+              "type": "integer"
+            }, 
+            "primary_image": {
+              "type": "string", 
+              "pattern": "^(.*)$"
+            }, 
+            "additional_image": {
+              "type": "array"
+            }, 
+            "warehouse_id": { 
+              "type": "integer"
+            }, 
+            "location_label": {
+              "type": "string", 
+              "pattern": "^(.*)$"
+            }, 
+            "reference_link": {
+              "type": "array"
+            }, 
+            "warranty_option": {
+              "type": "string", 
+              "pattern": "^(.*)$"
+            }, 
+            "warranty_period": {
+              "type": "null"
+            }, 
+            "warranty_limit": {
+              "type": "null"
+            }, 
+            "warranty_coverage": {
+              "type": "null"
+            }, 
+            "is_indent": {
+              "type": "integer"
+            }, 
+            "indent_period": {
+              "type": "string", 
+              "pattern": "^(.*)$"
+            }, 
+            "indent_limit": {
+              "type": "string", 
+              "pattern": "^(.*)$"
+            }, 
+            "variant_status": {
+              "type": "string", 
+              "pattern": "^(.*)$"
+            }
+          }
+        }
+      }, 
+      "specifications": {
+        "type": "array"
+      }, 
+      "package_weight": {
+        "type": "string", 
+        "pattern": "^(.*)$"
+      }, 
+      "package_length": {
+        "type": "string", 
+        "pattern": "^(.*)$"
+      }, 
+      "package_width": {
+        "type": "string", 
+        "pattern": "^(.*)$"
+      }, 
+      "package_height": {
+        "type": "string", 
+        "pattern": "^(.*)$"
+      }, 
+      "package_content": {
+        "type": "string", 
+        "pattern": "^(.*)$"
+      }, 
+      "uom": {
+        "type": "object", 
+        "required": [
+          "id", 
+          "name"
+        ], 
+        "properties": {
+          "id": {
+            "type": "integer"
+          }, 
+          "name": {
+            "type": "string", 
+            "pattern": "^(.*)$"
+          }
+        }
+      }, 
+      "stocking_uom": {
+        "type": "object", 
+        "required": [
+          "id", 
+          "name"
+        ], 
+        "properties": {
+          "id": {
+            "type": "integer"
+          }, 
+          "name": {
+            "type": "string", 
+            "pattern": "^(.*)$"
+          }
+        }
+      }, 
+      "quantity_stocking_uom": {
+        "type": "integer"
+      }, 
+      "description": {
+        "type": "string"
+      }, 
+      "premoderation_status": {
+        "type": "string", 
+        "pattern": "^(.*)$"
+      }, 
+      "barcode": {
+        "type": "string", 
+        "pattern": "^(.*)$"
+      }, 
+      "manufacturing_number": {
+        "type": "string", 
+        "pattern": "^(.*)$"
+      }, 
+      "total_history": {
+        "type": "integer"
+      }
+    }
+  },
+  "getPremodDetailNewBrand": {
+    "type": "object", 
+    "required": [
+      "id", 
+      "type", 
+      "product_group_id", 
+      "product_name", 
+      "category", 
+      "brand", 
+      "variant_matrix", 
+      "variant_detail", 
+      "specifications", 
+      "package_weight", 
+      "package_length", 
+      "package_width", 
+      "package_height", 
+      "package_content", 
+      "uom", 
+      "stocking_uom", 
+      "quantity_stocking_uom", 
+      "description", 
+      "premoderation_status", 
+      "barcode", 
+      "manufacturing_number", 
+      "total_history"
+    ], 
+    "properties": {
+      "id": {
+        "type": "string", 
+        "pattern": "^(.*)$"
+      }, 
+      "type": {
+        "type": "string", 
+        "pattern": "^(.*)$"
+      }, 
+      "product_group_id": {
+        "type": "null"
+      }, 
+      "product_name": {
+        "type": "string", 
+        "pattern": "^(.*)$"
+      }, 
+      "category": {
+        "type": "object", 
+        "required": [
+          "c0", 
+          "c1", 
+          "c2", 
+          "c3"
+        ], 
+        "properties": {
+          "c0": {
+            "type": "object", 
+            "required": [
+              "id", 
+              "name", 
+              "level", 
+              "unspc"
+            ], 
+            "properties": {
+              "id": {
+                "type": "integer"
+              }, 
+              "name": {
+                "type": "string", 
+                "pattern": "^(.*)$"
+              }, 
+              "level": {
+                "type": "string", 
+                "pattern": "^(.*)$"
+              }, 
+              "unspc": { 
+                "type": "integer"
+              }
+            }
+          }, 
+          "c1": {
+            "type": "object", 
+            "required": [
+              "id", 
+              "name", 
+              "level", 
+              "unspc"
+            ], 
+            "properties": {
+              "id": {
+                "type": "integer"
+              }, 
+              "name": {
+                "type": "string", 
+                "pattern": "^(.*)$"
+              }, 
+              "level": {
+                "type": "string", 
+                "pattern": "^(.*)$"
+              }, 
+              "unspc": {
+                "type": "integer"
+              }
+            }
+          }, 
+          "c2": {
+            "type": "object", 
+            "required": [
+              "id", 
+              "name", 
+              "level", 
+              "unspc"
+            ], 
+            "properties": {
+              "id": {
+                "type": "integer"
+              }, 
+              "name": {
+                "type": "string", 
+                "pattern": "^(.*)$"
+              }, 
+              "level": {
+                "type": "string", 
+                "pattern": "^(.*)$"
+              }, 
+              "unspc": {
+                "type": "integer"
+              }
+            }
+          }, 
+          "c3": {
+            "type": "object", 
+            "required": [
+              "id", 
+              "name", 
+              "level", 
+              "unspc"
+            ], 
+            "properties": {
+              "id": {
+                "type": "integer"
+              }, 
+              "name": {
+                "type": "string", 
+                "pattern": "^(.*)$"
+              }, 
+              "level": {
+                "type": "string", 
+                "pattern": "^(.*)$"
+              }, 
+              "unspc": {
+                "type": "integer"
+              }
+            }
+          }
+        }
+      }, 
+      "brand": {
+        "type": "object", 
+        "required": [
+          "id", 
+          "name", 
+          "status", 
+          "image"
+        ], 
+        "properties": {
+          "id": {
+            "type": "integer", 
+            "pattern": "^(.*)$"
+          }, 
+          "name": {
+            "type": "string", 
+            "pattern": "^(.*)$"
+          }, 
+          "status": {
+            "type": "string", 
+            "pattern": "^(.*)$"
+          }, 
+          "image": {
+            "type": ["string", "null"], 
+            "pattern": "^(.*)$"
+          }
+        }
+      }, 
+      "variant_matrix": {
+        "type": "array"
+      }, 
+      "variant_detail": {
+        "type": "array", 
+        "items": {
+          "type": "object", 
+          "required": [
+            "index", 
+            "variants", 
+            "variant_value", 
+            "sku_vendor", 
+            "tier_min_qty_1", 
+            "tier_min_qty_2", 
+            "tier_min_qty_3", 
+            "tier_cogs_price_1", 
+            "tier_cogs_price_2", 
+            "tier_cogs_price_3", 
+            "stock", 
+            "primary_image", 
+            "additional_image", 
+            "warehouse_id", 
+            "location_label", 
+            "reference_link", 
+            "warranty_option", 
+            "warranty_period", 
+            "warranty_limit", 
+            "warranty_coverage", 
+            "is_indent", 
+            "indent_period", 
+            "indent_limit", 
+            "variant_status"
+          ], 
+          "properties": {
+            "index": {
+              "type": "string", 
+              "pattern": "^(.*)$"
+            }, 
+            "variants": {
+              "type": "array"
+            }, 
+            "variant_value": {
+              "type": "string", 
+              "pattern": "^(.*)$"
+            }, 
+            "sku_vendor": {
+              "type": "string", 
+              "pattern": "^(.*)$"
+            }, 
+            "tier_min_qty_1": {
+              "type": "string", 
+              "pattern": "^(.*)$"
+            }, 
+            "tier_min_qty_2": {
+              "type": "string", 
+              "pattern": "^(.*)$"
+            }, 
+            "tier_min_qty_3": {
+              "type": "string", 
+              "pattern": "^(.*)$"
+            }, 
+            "tier_cogs_price_1": {
+              "type": "string", 
+              "pattern": "^(.*)$"
+            }, 
+            "tier_cogs_price_2": {
+              "type": "string", 
+              "pattern": "^(.*)$"
+            }, 
+            "tier_cogs_price_3": {
+              "type": "string", 
+              "pattern": "^(.*)$"
+            }, 
+            "stock": {
+              "type": "integer"
+            }, 
+            "primary_image": {
+              "type": "string", 
+              "pattern": "^(.*)$"
+            }, 
+            "additional_image": {
+              "type": "array"
+            }, 
+            "warehouse_id": { 
+              "type": "integer"
+            }, 
+            "location_label": {
+              "type": "string", 
+              "pattern": "^(.*)$"
+            }, 
+            "reference_link": {
+              "type": "array"
+            }, 
+            "warranty_option": {
+              "type": "string", 
+              "pattern": "^(.*)$"
+            }, 
+            "warranty_period": {
+              "type": "null"
+            }, 
+            "warranty_limit": {
+              "type": "null"
+            }, 
+            "warranty_coverage": {
+              "type": "null"
+            }, 
+            "is_indent": {
+              "type": "integer"
+            }, 
+            "indent_period": {
+              "type": "string", 
+              "pattern": "^(.*)$"
+            }, 
+            "indent_limit": {
+              "type": "string", 
+              "pattern": "^(.*)$"
+            }, 
+            "variant_status": {
+              "type": "string", 
+              "pattern": "^(.*)$"
+            }
+          }
+        }
+      }, 
+      "specifications": {
+        "type": "array"
+      }, 
+      "package_weight": {
+        "type": "string", 
+        "pattern": "^(.*)$"
+      }, 
+      "package_length": {
+        "type": "string", 
+        "pattern": "^(.*)$"
+      }, 
+      "package_width": {
+        "type": "string", 
+        "pattern": "^(.*)$"
+      }, 
+      "package_height": {
+        "type": "string", 
+        "pattern": "^(.*)$"
+      }, 
+      "package_content": {
+        "type": "string", 
+        "pattern": "^(.*)$"
+      }, 
+      "uom": {
+        "type": "object", 
+        "required": [
+          "id", 
+          "name"
+        ], 
+        "properties": {
+          "id": {
+            "type": "integer"
+          }, 
+          "name": {
+            "type": "string", 
+            "pattern": "^(.*)$"
+          }
+        }
+      }, 
+      "stocking_uom": {
+        "type": "object", 
+        "required": [
+          "id", 
+          "name"
+        ], 
+        "properties": {
+          "id": {
+            "type": "integer"
+          }, 
+          "name": {
+            "type": "string", 
+            "pattern": "^(.*)$"
+          }
+        }
+      }, 
+      "quantity_stocking_uom": {
+        "type": "integer"
+      }, 
+      "description": {
+        "type": "string"
+      }, 
+      "premoderation_status": {
+        "type": "string", 
+        "pattern": "^(.*)$"
+      }, 
+      "barcode": {
+        "type": "string", 
+        "pattern": "^(.*)$"
+      }, 
+      "manufacturing_number": {
+        "type": "string", 
+        "pattern": "^(.*)$"
+      }, 
+      "total_history": {
+        "type": "integer"
+      }
+    }
+  },
+  "getPremodDetailWithoutUNSPSC": {
+    "type": "object", 
+    "required": [
+      "id", 
+      "type", 
+      "product_group_id", 
+      "product_name", 
+      "category", 
+      "brand", 
+      "variant_matrix", 
+      "variant_detail", 
+      "specifications", 
+      "package_weight", 
+      "package_length", 
+      "package_width", 
+      "package_height", 
+      "package_content", 
+      "uom", 
+      "stocking_uom", 
+      "quantity_stocking_uom", 
+      "description", 
+      "premoderation_status", 
+      "barcode", 
+      "manufacturing_number", 
+      "total_history"
+    ], 
+    "properties": {
+      "id": {
+        "type": "string", 
+        "pattern": "^(.*)$"
+      }, 
+      "type": {
+        "type": "string", 
+        "pattern": "^(.*)$"
+      }, 
+      "product_group_id": {
+        "type": "null"
+      }, 
+      "product_name": {
+        "type": "string", 
+        "pattern": "^(.*)$"
+      }, 
+      "category": {
+        "type": "object", 
+        "required": [
+          "c0", 
+          "c1", 
+          "c2", 
+          "c3"
+        ], 
+        "properties": {
+          "c0": {
+            "type": "object", 
+            "required": [
+              "id", 
+              "name", 
+              "level", 
+              "unspc"
+            ], 
+            "properties": {
+              "id": {
+                "type": "integer"
+              }, 
+              "name": {
+                "type": "string", 
+                "pattern": "^(.*)$"
+              }, 
+              "level": {
+                "type": "string", 
+                "pattern": "^(.*)$"
+              }, 
+              "unspc": { 
+                "type": "integer"
+              }
+            }
+          }, 
+          "c1": {
+            "type": "object", 
+            "required": [
+              "id", 
+              "name", 
+              "level", 
+              "unspc"
+            ], 
+            "properties": {
+              "id": {
+                "type": "integer"
+              }, 
+              "name": {
+                "type": "string", 
+                "pattern": "^(.*)$"
+              }, 
+              "level": {
+                "type": "string", 
+                "pattern": "^(.*)$"
+              }, 
+              "unspc": {
+                "type": "integer"
+              }
+            }
+          }, 
+          "c2": {
+            "type": "object", 
+            "required": [
+              "id", 
+              "name", 
+              "level", 
+              "unspc"
+            ], 
+            "properties": {
+              "id": {
+                "type": "integer"
+              }, 
+              "name": {
+                "type": "string", 
+                "pattern": "^(.*)$"
+              }, 
+              "level": {
+                "type": "string", 
+                "pattern": "^(.*)$"
+              }, 
+              "unspc": {
+                "type": "integer"
+              }
+            }
+          }, 
+          "c3": {
+            "type": "object", 
+            "required": [
+              "id", 
+              "name", 
+              "level", 
+              "unspc"
+            ], 
+            "properties": {
+              "id": {
+                "type": "integer"
+              }, 
+              "name": {
+                "type": "string", 
+                "pattern": "^(.*)$"
+              }, 
+              "level": {
+                "type": "string", 
+                "pattern": "^(.*)$"
+              }, 
+              "unspc": {
+                "type": "integer"
+              }
+            }
+          }
+        }
+      }, 
+      "brand": {
+        "type": "object", 
+        "required": [
+          "id", 
+          "name", 
+          "status", 
+          "image"
+        ], 
+        "properties": {
+          "id": {
+            "type": "integer", 
+            "pattern": "^(.*)$"
+          }, 
+          "name": {
+            "type": "string", 
+            "pattern": "^(.*)$"
+          }, 
+          "status": {
+            "type": "string", 
+            "pattern": "^(.*)$"
+          }, 
+          "image": {
+            "type": ["string", "null"], 
+            "pattern": "^(.*)$"
+          }
+        }
+      }, 
+      "variant_matrix": {
+        "type": "array"
+      }, 
+      "variant_detail": {
+        "type": "array", 
+        "items": {
+          "type": "object", 
+          "required": [
+            "index", 
+            "variants", 
+            "variant_value", 
+            "sku_vendor", 
+            "tier_min_qty_1", 
+            "tier_min_qty_2", 
+            "tier_min_qty_3", 
+            "tier_cogs_price_1", 
+            "tier_cogs_price_2", 
+            "tier_cogs_price_3", 
+            "stock", 
+            "primary_image", 
+            "additional_image", 
+            "warehouse_id", 
+            "location_label", 
+            "reference_link", 
+            "warranty_option", 
+            "warranty_period", 
+            "warranty_limit", 
+            "warranty_coverage", 
+            "is_indent", 
+            "indent_period", 
+            "indent_limit", 
+            "variant_status"
+          ], 
+          "properties": {
+            "index": {
+              "type": "string", 
+              "pattern": "^(.*)$"
+            }, 
+            "variants": {
+              "type": "array"
+            }, 
+            "variant_value": {
+              "type": "string", 
+              "pattern": "^(.*)$"
+            }, 
+            "sku_vendor": {
+              "type": "string", 
+              "pattern": "^(.*)$"
+            }, 
+            "tier_min_qty_1": {
+              "type": "string", 
+              "pattern": "^(.*)$"
+            }, 
+            "tier_min_qty_2": {
+              "type": "string", 
+              "pattern": "^(.*)$"
+            }, 
+            "tier_min_qty_3": {
+              "type": "string", 
+              "pattern": "^(.*)$"
+            }, 
+            "tier_cogs_price_1": {
+              "type": "string", 
+              "pattern": "^(.*)$"
+            }, 
+            "tier_cogs_price_2": {
+              "type": "string", 
+              "pattern": "^(.*)$"
+            }, 
+            "tier_cogs_price_3": {
+              "type": "string", 
+              "pattern": "^(.*)$"
+            }, 
+            "stock": {
+              "type": "integer"
+            }, 
+            "primary_image": {
+              "type": "string", 
+              "pattern": "^(.*)$"
+            }, 
+            "additional_image": {
+              "type": "array"
+            }, 
+            "warehouse_id": { 
+              "type": "integer"
+            }, 
+            "location_label": {
+              "type": "string", 
+              "pattern": "^(.*)$"
+            }, 
+            "reference_link": {
+              "type": "array"
+            }, 
+            "warranty_option": {
+              "type": "string", 
+              "pattern": "^(.*)$"
+            }, 
+            "warranty_period": {
+              "type": "null"
+            }, 
+            "warranty_limit": {
+              "type": "null"
+            }, 
+            "warranty_coverage": {
+              "type": "null"
+            }, 
+            "is_indent": {
+              "type": "integer"
+            }, 
+            "indent_period": {
+              "type": "string", 
+              "pattern": "^(.*)$"
+            }, 
+            "indent_limit": {
+              "type": "string", 
+              "pattern": "^(.*)$"
+            }, 
+            "variant_status": {
+              "type": "string", 
+              "pattern": "^(.*)$"
+            }
+          }
+        }
+      }, 
+      "specifications": {
+        "type": "array"
+      }, 
+      "package_weight": {
+        "type": "string", 
+        "pattern": "^(.*)$"
+      }, 
+      "package_length": {
+        "type": "string", 
+        "pattern": "^(.*)$"
+      }, 
+      "package_width": {
+        "type": "string", 
+        "pattern": "^(.*)$"
+      }, 
+      "package_height": {
+        "type": "string", 
+        "pattern": "^(.*)$"
+      }, 
+      "package_content": {
+        "type": "string", 
+        "pattern": "^(.*)$"
+      }, 
+      "uom": {
+        "type": "object", 
+        "required": [
+          "id", 
+          "name"
+        ], 
+        "properties": {
+          "id": {
+            "type": "integer"
+          }, 
+          "name": {
+            "type": "string", 
+            "pattern": "^(.*)$"
+          }
+        }
+      }, 
+      "stocking_uom": {
+        "type": "object", 
+        "required": [
+          "id", 
+          "name"
+        ], 
+        "properties": {
+          "id": {
+            "type": "integer"
+          }, 
+          "name": {
+            "type": "string", 
+            "pattern": "^(.*)$"
+          }
+        }
+      }, 
+      "quantity_stocking_uom": {
+        "type": "integer"
+      }, 
+      "description": {
+        "type": "string"
+      }, 
+      "premoderation_status": {
+        "type": "string", 
+        "pattern": "^(.*)$"
+      }, 
+      "barcode": {
+        "type": "string", 
+        "pattern": "^(.*)$"
+      }, 
+      "manufacturing_number": {
+        "type": "string", 
+        "pattern": "^(.*)$"
+      }, 
+      "total_history": {
+        "type": "integer"
+      }
+    }
+  }
+}

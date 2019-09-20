@@ -1,0 +1,6 @@
+projectKey=bizzy-searchengine-
+serverUrl=http://52.76.48.239:9007
+serverVersion=6.7.0.33306
+dashboardUrl=http://52.76.48.239:9007/dashboard/index/bizzy-searchengine-
+ceTaskId=AWDKWQvPIjuE9pJmHI6D
+ceTaskUrl=http://52.76.48.239:9007/api/ce/task?id=AWDKWQvPIjuE9pJmHI6D

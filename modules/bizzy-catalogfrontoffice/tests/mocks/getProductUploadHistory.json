@@ -1,0 +1,12 @@
+{
+    "path": {
+        "id": "3"
+    },
+    "query":{
+        "page": "1",
+        "limit": "40",
+        "start_date": "2018-01-01",
+        "end_date": "2018-10-01",
+        "search": "bambang"
+    }
+}

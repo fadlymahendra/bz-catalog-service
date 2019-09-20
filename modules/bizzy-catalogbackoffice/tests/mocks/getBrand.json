@@ -1,0 +1,8 @@
+{
+	"query": {
+		"search": "AB",
+		"page": 1,
+		"limit": 10,
+		"is_active": 1
+	}
+}

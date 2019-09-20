@@ -1,0 +1,150 @@
+{
+  "getResponseValidSchema" : {
+    "data" : {
+      "id": "string",
+      "payload": {
+        "type" : "object",
+        "required" : ["name", "uom", "barcode"],
+        "properties" : {
+          "barcode": "string",
+          "brand": {
+            "type" : "object",
+            "required" : ["id", "name", "status", "image"],
+            "properties" : {
+              "id": "number", 
+              "name": "string", 
+              "status": "string", 
+              "image": ["null", "string"]
+            },
+            "additionalProperties": false
+          },
+          "categories": {
+            "type" : "object",
+            "required" : ["c0", "c1", "c2", "c3"],
+            "properties" : {
+              "c0": {
+                "type" : "object",
+                "required" : ["id", "name", "level", "unspc"],
+                "properties" : {
+                  "id": "number",
+                  "name": "string", 
+                  "level": "string", 
+                  "unspc": "number"
+                },
+                "additionalProperties": false
+              },
+              "c1": {
+                "type" : "object",
+                "required" : ["id", "name", "level", "unspc"],
+                "properties" : {
+                  "id": "number",
+                  "name": "string", 
+                  "level": "string", 
+                  "unspc": "number"
+                },
+                "additionalProperties": false
+              },
+              "c2": {
+                "type" : "object",
+                "required" : ["id", "name", "level", "unspc"],
+                "properties" : {
+                  "id": "number",
+                  "name": "string", 
+                  "level": "string", 
+                  "unspc": "number"
+                },
+                "additionalProperties": false
+              },
+              "c3": {
+                "type" : "object",
+                "required" : ["id", "name", "level", "unspc"],
+                "properties" : {
+                  "id": "number",
+                  "name": "string", 
+                  "level": "string", 
+                  "unspc": "number"
+                },
+                "additionalProperties": false
+              }  
+            },
+            "additionalProperties": false
+          },
+          "category_id" : "number",
+          "description": "string",
+          "dimensions": {
+            "type" : "object",
+            "required" : ["package_height", "package_length", "package_weight", "package_width"],
+            "properties" : {
+              "package_height": "string",
+              "package_length": "string",
+              "package_weight": "string",
+              "package_width": "string"
+            },
+            "additionalProperties": false
+          },
+          "manufacturing_number": "string",
+          "name" : "string",
+          "package_content": "string",
+          "products" : {
+            "type" : "array",
+            "properties" : {
+              "additional_image": "array",
+              "indent_limit": "string",
+              "indent_period": "string",
+              "index": "string",
+              "is_contract": "number",
+              "is_indent": "number",
+              "location_label": "string",
+              "primary_image": "string",
+              "reference_link": "array",
+              "sku_vendor": "string",
+              "stock": "number",
+              "tier_cogs_price_1": "string",
+              "tier_cogs_price_2": "string",
+              "tier_cogs_price_3": "string",
+              "tier_min_qty_1": "string",
+              "tier_min_qty_2": "string",
+              "tier_min_qty_3": "string",
+              "variant_status": "string",
+              "variant_value": "string",
+              "variants": "array",
+              "warehouse_id": "number",
+              "warranty_coverage": "string",
+              "warranty_limit": "string",
+              "warranty_option": "string",
+              "warranty_period": "string"
+            },
+            "additionalProperties": false
+          },
+          "quantity_stocking_uom": "number",
+          "specifications": "array",
+          "stocking_uom": {
+            "type" : "object",
+            "required" : ["id", "name"],
+            "properties" : {
+              "id": "number",
+              "name": "string"
+            },
+            "additionalProperties": false
+          },
+          "uom": {
+            "type" : "object",
+            "required" : ["id", "name"],
+            "properties" : {
+              "id": "number",
+              "name": "string"
+            },
+            "additionalProperties": false
+          },
+          "variant_count": "number",
+          "variant_matrix": "array"
+          },
+          "additionalProperties": false
+      },
+      "premoderation_status": "string",
+      "product_group_id": ["number", "null"],
+      "reject_reasons": "string",
+      "type": "string"
+    }
+  }
+}

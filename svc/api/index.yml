@@ -1,0 +1,13 @@
+swagger: '2.0'
+info:
+  version: '2017-09-01T06:28:22Z'
+  title: BizzyCatalogSvc
+  description: Catalog service api
+  contact:
+    email: tech@bizzy.co.id
+schemes:
+  - https
+paths:
+  $ref: "./routes/index.yml"
+definitions:
+  $ref: "./definitions/index.yml"

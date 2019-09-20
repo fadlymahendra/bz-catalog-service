@@ -1,0 +1,21 @@
+{
+  "validData": {
+    "products":[
+      {
+        "id": 1620585,
+        "is_indent": 0,
+        "indent_limit": "",
+        "indent_period": "",
+        "down_payment_type": 0,
+        "down_payment_value": 0,
+        "is_decimal": 0,
+        "sku_vendor": "ADLBCHSKL4334",
+        "stock_available": "21",
+        "tier_cogs_price_1": "110000",
+        "tier_min_qty_1": "5",
+        "warranty_option": "no_warranty"
+      }
+   ]
+  },
+  "productGroupId": 43293
+}

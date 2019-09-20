@@ -1,0 +1,33 @@
+{   
+    "path": {
+        "id": 2
+    },
+    "body": {
+        "products": [
+            {
+                "product_sku": "93VN03AVNO",
+                "vendor_sku": "XA44SFKFKV",
+                "manufacturing_no": "D9DG82WS7K",
+                "stock": 8000,
+                "product_status": 1,
+                "wholesales":[
+                    {
+                        "tier": 1,
+                        "min": 1,
+                        "unit_price": 3140000
+                    },
+                    {
+                        "tier": 2,
+                        "min": 15,
+                        "unit_price": 3010000
+                    },
+                    {
+                        "tier": 3,
+                        "min": 100,
+                        "unit_price": 2700000
+                    }
+                ]
+            }
+        ]
+    }
+}

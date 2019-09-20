@@ -1,0 +1,71 @@
+{
+    "user": {
+      "username": "customer@purchase.com",
+      "first_name": "Customer",
+      "last_name": "Purchase",
+      "scope": "organization",
+      "punchout": {
+        "is_punchout": false,
+        "is_user_punchout": false,
+        "sales_admin_id": 0,
+        "data": {}
+      },
+      "customer": {
+        "organization_name": "PT Customer Purchase Tbk",
+        "organization_id": 5,
+        "person_id": 8,
+        "superadmin": 8,
+        "roles": [
+          {
+            "role_id": 1,
+            "name": "Super Admin"
+          },
+          {
+            "role_id": 10,
+            "name": "Requestor"
+          },
+          {
+            "role_id": 9,
+            "name": "Group Admin"
+          }
+        ],
+        "is_vendor": 0,
+        "setup": 5,
+        "status": 3,
+        "has_agreement": 1,
+        "channel_type": "MIX",
+        "top_days": 7
+      },
+      "addons": [
+        {
+          "prefix": "group-management",
+          "name": "Manajemen Grup",
+          "uuid": "ceaa5200-e709-11e7-ad3b-2905c8a0a093"
+        },
+        {
+          "prefix": "approval-management",
+          "name": "Alur Persetujuan",
+          "uuid": "22120d20-e714-11e7-a3bc-dbdc8cb4d0a8"
+        },
+        {
+          "prefix": "catalog-management",
+          "name": "Katalog Manajemen",
+          "uuid": ""
+        },
+        {
+          "prefix": "integration",
+          "name": "Punchout",
+          "uuid": ""
+        },
+        {
+          "prefix": "contract-management",
+          "name": "Manajemen Kontrak",
+          "uuid": ""
+        }
+      ],
+      "groups": "H4sIAAAAAAAAA6WOOw7CMBBEr4K2ThE7sR3nCNDQRyk2thdF5Idj0yDujiUCghbKmbfaec0Negs1z8A6wjgEqIOPLoMJRwc1HHAKs98d44oBMvDuEt2amtcZ2rGf3mFZ/Hx1CRIOayoMBhzm0wp1AwKJFcRyErKUxExXlUikXfqaEMdSaySnOEkjSNmOFfyJRFdJnTNVEHIujCo7lhfQ3rNNnakP+W34236PZ/QB//b/QbJ9AIT8w+thAQAA",
+      "version": "2.0",
+      "iat": 1527993288,
+      "exp": 1528000488
+    }
+  }

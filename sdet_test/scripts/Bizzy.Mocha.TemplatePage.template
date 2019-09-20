@@ -1,0 +1,54 @@
+/* eslint no-unused-vars: off */
+/* global env */
+const supertest = require('supertest');
+const env = require('dotenv').config();
+
+const api = supertest(process.env.API_BASE_URL);
+const path = '/your/api/path';// replace this LINE with your api path
+
+/* SET YOUR API spec below add or remove as necessary */
+function post__APINAME__(query, token, callback) {
+  api.post(path)
+    .send(query)
+    .set('Accept', 'application/json')
+    .set('Authorization', token)
+    .end((err, result) => {
+      callback(err, result);
+    });
+}
+
+function get__APINAME__(query, token, callback) {
+  api.get(path)
+    .query(query)
+    .set('Accept', 'application/json')
+    .set('Authorization', token)
+    .end((err, result) => {
+      callback(err, result);
+    });
+}
+
+function put__APINAME__(query, token, callback) {
+  api.put(path)
+    .send(query)
+    .set('Accept', 'application/json')
+    .set('Authorization', token)
+    .end((err, result) => {
+      callback(err, result);
+    });
+}
+
+function delete__APINAME__(query, token, callback) {
+  api.delete(`${path}/${query}`)
+    .set('Accept', 'application/json')
+    .set('Authorization', token)
+    .end((err, result) => {
+      callback(err, result);
+    });
+}
+
+module.exports = {
+  get__APINAME__,
+  post__APINAME__,
+  put__APINAME__,
+  delete__APINAME__,
+};

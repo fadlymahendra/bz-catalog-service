@@ -1,0 +1,74 @@
+/* eslint-env mocha */
+/* eslint prefer-destructuring: off */
+
+const { expect } = require('chai');
+const chai = require('chai');
+chai.use(require('chai-json-schema'));
+const __APINAMECAMEL__Api = require('../../page-objects/api/__APIPAGENAME__/__APINAME__.js');
+const responseMessageCode = require('../../helper/responseMessageAndCode.json');
+const userCredential = require('../../helper/userCredential.json');
+const common = require('../../helper/common.js');
+const testData = require('../../helper/__APIPAGENAME__/__APINAME___data.json');
+const schemaAssertion = require('../../helper/schema/__APINAME___schema.json');
+
+const testScenario = {// Edit this variable content with proper value
+  describe: 'Create Read Update Delete __APINAMECAMEL__Api Test', // Edit this line with descriptive value
+  successPostWithValidBody: 'should success post data with valid request data', // Edit this line with descriptive value
+  successGetData: 'should success get data with valid request parameter', // Edit this line with descriptive value
+  successPutData: 'should success put data with valid request parameter', // Edit this line with descriptive value
+  successDeleteData: 'should success delete data with valid request parameter', // Edit this line with descriptive value
+};
+
+describe(testScenario.describe, () => {
+  let token;
+
+  before((done) => {
+    const userToLogin = userCredential.customer.mp1Invoice;
+    common.getAuth(userToLogin.userName, userToLogin.password, (resp) => {
+      expect(resp.status).to.equal(responseMessageCode.successOk);
+      token = resp.body.token;
+      done();
+    });
+  });
+
+  // Copy and paste the test below as many time as you need
+  // Post Test
+  it(`@happy ${testScenario.successPostWithValidBody}`, (done) => {
+    __APINAMECAMEL__Api.post__APINAMEPASCAL__(testData.successPostWithValidBody, token, (error, resp) => {
+      expect(resp.status).to.equal(responseMessageCode.successCreated);// assert your response code
+      expect(resp.body).to.be.jsonSchema(schemaAssertion.postResponseValidSchema);// assert your schema as necessary
+      expect(resp.body).to.be.equal(expected.body.value);// assert your body value as necessary
+      done();
+    });
+  });
+
+  // Get Test
+  it(`@happy ${testScenario.successGetData}`, (done) => {
+    __APINAMECAMEL__Api.get__APINAMEPASCAL__(testData.successGetData, token, (error, resp) => {
+      expect(resp.status).to.equal(responseMessageCode.successOk);// assert your response code
+      expect(resp.body).to.be.jsonSchema(schemaAssertion.getResponseValidSchema);// assert your schema as necessary
+      expect(resp.body).to.be.equal(expected.body.value);// assert your body value as necessary
+      done();
+    });
+  });
+
+  // Put Test
+  it(`@happy ${testScenario.successPutData}`, (done) => {
+    __APINAMECAMEL__Api.put__APINAMEPASCAL__(testData.successPutData, token, (error, resp) => {
+      expect(resp.status).to.equal(responseMessageCode.successOk);// assert your response code
+      expect(resp.body).to.be.jsonSchema(schemaAssertion.putResponseValidSchema);// assert your schema as necessary
+      expect(resp.body).to.be.equal(expected.body.value);// assert your body value as necessary
+      done();
+    });
+  });
+
+  // Delete Test
+  it(`@happy ${testScenario.successDeleteData}`, (done) => {
+    __APINAMECAMEL__Api.delete__APINAMEPASCAL__(testData.successDeleteData, token, (error, resp) => {
+      expect(resp.status).to.equal(responseMessageCode.successNoContent);// assert your response code
+      expect(resp.body).to.be.jsonSchema(schemaAssertion.deleteResponseValidSchema);// assert your schema as necessary
+      expect(resp.body).to.be.equal(expected.body.value);// assert your body value as necessary
+      done();
+    });
+  });
+});

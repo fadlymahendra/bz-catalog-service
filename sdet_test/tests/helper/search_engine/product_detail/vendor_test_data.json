@@ -1,0 +1,110 @@
+{
+  "tokenData": {
+    "incorrect": "abcd"
+  },
+  "bodyProductDetailVendorIphone7White64": {
+    "sku": "KGRO0NF1BJ",
+    "variant_id": 30,
+    "product_group_id": 2
+  },
+  "bodyProductDetailVendorIncorrectVariant": {
+    "sku": "KGRO0NF1BJ",
+    "variant_id": 0,
+    "product_group_id": 2
+  },
+  "bodyUpdateStockIphone": {
+    "stock_available":"0"
+  },
+  "bodyRestoreStockIphone": {
+    "stock_available":"100"
+  },
+  "bodyUpdateDisableSku": {
+    "is_active": 0
+  },
+  "bodyUpdateEnableSku": {
+    "is_active": 1
+  },
+  "productDetailVendor22": {
+    "id": 69,
+    "vendor_id": 22,
+    "vendor_name": "Bizzy Indonesia",
+    "vendor_trademark": "",
+    "vendor_pkp": 1,
+    "vendor_logo": "",
+    "warehouse_id": 6,
+    "warehouse_name": "Warehouse Bizzy",
+    "warehouse_hub_id": 2,
+    "warehouse_hub_shipper": [],
+    "warehouse_hub": {
+      "id": 2,
+      "name": "Palembang-TUJ",
+      "address": "Jl. Pangeran Ayin No. 333 Kenten Laut, Kec. Talang Kelapa, Kab. Banyu Asin, Palembang 30961",
+      "phone": "-",
+      "geograph": {
+        "id": 27027,
+        "province": "Sumatera Selatan",
+        "city": "Banyu Asin",
+        "district": "Talang Kelapa",
+        "village": "Kenten Laut",
+        "zipcode": "30961",
+        "geotag": "1006133271",
+        "jnecitycode": "PLM21015"
+      }
+    },
+    "currency": "IDR",
+    "warehouse_geograph": {
+      "id": 1372,
+      "province": "Sumatera Selatan",
+      "city": "Palembang",
+      "district": "Plaju",
+      "village": "Plaju Ilir",
+      "zipcode": "30268",
+      "geotag": "1006132372",
+      "jnecitycode": "PLM10001"
+    },
+    "sku_vendor": "SKUdj.vendor.pkp.1@yopmail.com-1"
+  },
+  "productDetailsVendor31":{
+    "id": 70,
+    "vendor_id": 31,
+    "vendor_name": "Bizzy Indonesia",
+    "vendor_trademark": "",
+    "vendor_pkp": 1,
+    "vendor_logo": "",
+    "warehouse_id": 9,
+    "warehouse_name": "Warehouse Bizzy",
+    "warehouse_hub_id": 1,
+    "warehouse_hub_shipper": [],
+    "warehouse_hub": {
+      "id": 1,
+      "name": "Jakarta-aCommerce",
+      "address": "Intirub Business Park Warehouse Phase 1 Ground Floor Kav 47-48, Jalan Cililitan Besar No.454, RT.7/RW.11, Kebon Pala, Makasar, Jakarta Timur 13570",
+      "phone": "-",
+      "geograph": {
+        "id": 69093,
+        "province": "Jakarta",
+        "city": "Jakarta Timur",
+        "district": "Makasar",
+        "village": "Makasar",
+        "zipcode": "13570",
+        "geotag": "1006115174",
+        "jnecitycode": "CGK10507"
+      }
+    }
+  },
+  "vendor": {
+    "dj_pkp_1": {
+      "organization_id": 22
+    },
+    "dj_pkp_2": {
+      "organization_id": 31
+    }
+  },
+  "product": {
+    "iphone":{
+      "sku_number": "KGRO0NF1BJ",
+      "vendor22_id": 69,
+      "vendor31_id": 2751
+    }
+  }
+}

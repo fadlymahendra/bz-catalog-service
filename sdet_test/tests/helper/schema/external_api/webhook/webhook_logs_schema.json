@@ -1,0 +1,435 @@
+{
+  "responseValidWebhookList": {
+    "type": "array",
+    "items": {
+      "$id": "#/items",
+      "type": "object",
+      "required": [
+        "id",
+        "name",
+        "payload"
+      ],
+      "properties": {
+        "id": {
+          "$id": "#/items/properties/id",
+          "type": "string",
+          "pattern": "^(.*)$"
+        },
+        "name": {
+          "$id": "#/items/properties/name",
+          "type": "string",
+          "pattern": "^(.*)$"
+        },
+        "payload": {
+          "$id": "#/items/properties/payload",
+          "type": "object",
+          "required": [
+            "id",
+            "vendor_id",
+            "stock_available",
+            "stock_used",
+            "stock_reserved",
+            "currency",
+            "tier_min_qty_1",
+            "tier_min_qty_2",
+            "tier_min_qty_3",
+            "tier_cogs_price_1",
+            "tier_cogs_price_2",
+            "tier_cogs_price_3",
+            "indent_period",
+            "indent_limit",
+            "sku_vendor",
+            "is_indent",
+            "is_active",
+            "created_at",
+            "updated_at"
+          ],
+          "properties": {
+            "id": {
+              "$id": "#/items/properties/payload/properties/id",
+              "type": "integer"
+            },
+            "vendor_id": {
+              "$id": "#/items/properties/payload/properties/vendor_id",
+              "type": "integer"
+            },
+            "stock_available": {
+              "$id": "#/items/properties/payload/properties/stock_available",
+              "type": "integer"
+            },
+            "stock_used": {
+              "$id": "#/items/properties/payload/properties/stock_used",
+              "type": "integer"
+            },
+            "stock_reserved": {
+              "$id": "#/items/properties/payload/properties/stock_reserved",
+              "type": "integer"
+            },
+            "currency": {
+              "$id": "#/items/properties/payload/properties/currency",
+              "type": "string",
+              "pattern": "^(.*)$"
+            },
+            "tier_min_qty_1": {
+              "$id": "#/items/properties/payload/properties/tier_min_qty_1",
+              "type": ["number"]
+            },
+            "tier_min_qty_2": {
+              "$id": "#/items/properties/payload/properties/tier_min_qty_2",
+              "type": ["number", "null"]
+            },
+            "tier_min_qty_3": {
+              "$id": "#/items/properties/payload/properties/tier_min_qty_3",
+              "type": ["number", "null"]
+            },
+            "tier_cogs_price_1": {
+              "$id": "#/items/properties/payload/properties/tier_cogs_price_1",
+              "type": ["number"]
+            },
+            "tier_cogs_price_2": {
+              "$id": "#/items/properties/payload/properties/tier_cogs_price_2",
+              "type": ["number", "null"]
+            },
+            "tier_cogs_price_3": {
+              "$id": "#/items/properties/payload/properties/tier_cogs_price_3",
+              "type": ["number", "null"]
+            },
+            "indent_period": {
+              "$id": "#/items/properties/payload/properties/indent_period",
+              "type": "null"
+            },
+            "indent_limit": {
+              "$id": "#/items/properties/payload/properties/indent_limit",
+              "type": "null"
+            },
+            "sku_vendor": {
+              "$id": "#/items/properties/payload/properties/sku_vendor",
+              "type": ["string", "null"],
+              "pattern": "^(.*)$"
+            },
+            "is_indent": {
+              "$id": "#/items/properties/payload/properties/is_indent",
+              "type": "integer"
+            },
+            "is_active": {
+              "$id": "#/items/properties/payload/properties/is_active",
+              "type": "integer"
+            },
+            "created_at": {
+              "$id": "#/items/properties/payload/properties/created_at",
+              "type": "string",
+              "pattern": "^(.*)$"
+            },
+            "updated_at": {
+              "$id": "#/items/properties/payload/properties/updated_at",
+              "type": "string",
+              "pattern": "^(.*)$"
+            }
+          }
+        }
+      }
+    }
+  },
+  "responseValidWebhookDetails": {
+    "type": "object",
+    "required": [
+      "_id",
+      "event_name",
+      "payload"
+    ],
+    "properties": {
+      "_id": {
+        "$id": "#/properties/_id",
+        "type": "string",
+        "pattern": "^(.*)$"
+      },
+      "event_name": {
+        "$id": "#/properties/event_name",
+        "type": "string",
+        "pattern": "^(.*)$"
+      },
+      "payload": {
+        "$id": "#/properties/payload",
+        "type": "object",
+        "required": [
+          "id",
+          "vendor_id",
+          "stock_available",
+          "stock_used",
+          "stock_reserved",
+          "currency",
+          "tier_min_qty_1",
+          "tier_min_qty_2",
+          "tier_min_qty_3",
+          "tier_cogs_price_1",
+          "tier_cogs_price_2",
+          "tier_cogs_price_3",
+          "indent_period",
+          "indent_limit",
+          "sku_vendor",
+          "is_indent",
+          "is_active",
+          "created_at",
+          "updated_at",
+          "product_variant"
+        ],
+        "properties": {
+          "id": {
+            "$id": "#/properties/payload/properties/id",
+            "type": "integer"
+          },
+          "vendor_id": {
+            "$id": "#/properties/payload/properties/vendor_id",
+            "type": "integer"
+          },
+          "stock_available": {
+            "$id": "#/properties/payload/properties/stock_available",
+            "type": "integer"
+          },
+          "stock_used": {
+            "$id": "#/properties/payload/properties/stock_used",
+            "type": "integer"
+          },
+          "stock_reserved": {
+            "$id": "#/properties/payload/properties/stock_reserved",
+            "type": "integer"
+          },
+          "currency": {
+            "$id": "#/properties/payload/properties/currency",
+            "type": "string",
+            "pattern": "^(.*)$"
+          },
+          "tier_min_qty_1": {
+            "$id": "#/properties/payload/properties/tier_min_qty_1",
+            "type": "integer"
+          },
+          "tier_min_qty_2": {
+            "$id": "#/properties/payload/properties/tier_min_qty_2",
+            "type": "integer"
+          },
+          "tier_min_qty_3": {
+            "$id": "#/properties/payload/properties/tier_min_qty_3",
+            "type": "integer"
+          },
+          "tier_cogs_price_1": {
+            "$id": "#/properties/payload/properties/tier_cogs_price_1",
+            "type": "integer"
+          },
+          "tier_cogs_price_2": {
+            "$id": "#/properties/payload/properties/tier_cogs_price_2",
+            "type": "integer"
+          },
+          "tier_cogs_price_3": {
+            "$id": "#/properties/payload/properties/tier_cogs_price_3",
+            "type": "integer"
+          },
+          "indent_period": {
+            "$id": "#/properties/payload/properties/indent_period",
+            "type": "null"
+          },
+          "indent_limit": {
+            "$id": "#/properties/payload/properties/indent_limit",
+            "type": "null"
+          },
+          "sku_vendor": {
+            "$id": "#/properties/payload/properties/sku_vendor",
+            "type": "string",
+            "pattern": "^(.*)$"
+          },
+          "is_indent": {
+            "$id": "#/properties/payload/properties/is_indent",
+            "type": "integer"
+          },
+          "is_active": {
+            "$id": "#/properties/payload/properties/is_active",
+            "type": "integer"
+          },
+          "created_at": {
+            "$id": "#/properties/payload/properties/created_at",
+            "type": "string",
+            "pattern": "^(.*)$"
+          },
+          "updated_at": {
+            "$id": "#/properties/payload/properties/updated_at",
+            "type": "string",
+            "pattern": "^(.*)$"
+          },
+          "product_variant": {
+            "$id": "#/properties/payload/properties/product_variant",
+            "type": "object",
+            "required": [
+              "id",
+              "sku",
+              "variant_value",
+              "is_primary",
+              "is_discontinue",
+              "is_active",
+              "updated_at",
+              "created_at",
+              "product_group"
+            ],
+            "properties": {
+              "id": {
+                "$id": "#/properties/payload/properties/product_variant/properties/id",
+                "type": "integer"
+              },
+              "sku": {
+                "$id": "#/properties/payload/properties/product_variant/properties/sku",
+                "type": "string",
+                "pattern": "^(.*)$"
+              },
+              "variant_value": {
+                "$id": "#/properties/payload/properties/product_variant/properties/variant_value",
+                "type": "string",
+                "pattern": "^(.*)$"
+              },
+              "is_primary": {
+                "$id": "#/properties/payload/properties/product_variant/properties/is_primary",
+                "type": "integer"
+              },
+              "is_discontinue": {
+                "$id": "#/properties/payload/properties/product_variant/properties/is_discontinue",
+                "type": "integer"
+              },
+              "is_active": {
+                "$id": "#/properties/payload/properties/product_variant/properties/is_active",
+                "type": "integer"
+              },
+              "updated_at": {
+                "$id": "#/properties/payload/properties/product_variant/properties/updated_at",
+                "type": "string",
+                "pattern": "^(.*)$"
+              },
+              "created_at": {
+                "$id": "#/properties/payload/properties/product_variant/properties/created_at",
+                "type": "string",
+                "pattern": "^(.*)$"
+              },
+              "product_group": {
+                "$id": "#/properties/payload/properties/product_variant/properties/product_group",
+                "type": "object",
+                "required": [
+                  "id",
+                  "name",
+                  "variant_count",
+                  "variant_matrix",
+                  "status",
+                  "visibility",
+                  "created_at",
+                  "updated_at",
+                  "category"
+                ],
+                "properties": {
+                  "id": {
+                    "$id": "#/properties/payload/properties/product_variant/properties/product_group/properties/id",
+                    "type": "integer"
+                  },
+                  "name": {
+                    "$id": "#/properties/payload/properties/product_variant/properties/product_group/properties/name",
+                    "type": "string",
+                    "pattern": "^(.*)$"
+                  },
+                  "variant_count": {
+                    "$id": "#/properties/payload/properties/product_variant/properties/product_group/properties/variant_count",
+                    "type": "integer"
+                  },
+                  "variant_matrix": {
+                    "$id": "#/properties/payload/properties/product_variant/properties/product_group/properties/variant_matrix",
+                    "type": "string",
+                    "pattern": "^(.*)$"
+                  },
+                  "status": {
+                    "$id": "#/properties/payload/properties/product_variant/properties/product_group/properties/status",
+                    "type": "integer"
+                  },
+                  "visibility": {
+                    "$id": "#/properties/payload/properties/product_variant/properties/product_group/properties/visibility",
+                    "type": "integer"
+                  },
+                  "created_at": {
+                    "$id": "#/properties/payload/properties/product_variant/properties/product_group/properties/created_at",
+                    "type": "string",
+                    "pattern": "^(.*)$"
+                  },
+                  "updated_at": {
+                    "$id": "#/properties/payload/properties/product_variant/properties/product_group/properties/updated_at",
+                    "type": "string",
+                    "pattern": "^(.*)$"
+                  },
+                  "category": {
+                    "$id": "#/properties/payload/properties/product_variant/properties/product_group/properties/category",
+                    "type": "object",
+                    "required": [
+                      "id",
+                      "name",
+                      "level",
+                      "base_margin",
+                      "unspsc",
+                      "sequence",
+                      "parent_id",
+                      "is_active",
+                      "is_deleted",
+                      "created_at",
+                      "updated_at"
+                    ],
+                    "properties": {
+                      "id": {
+                        "$id": "#/properties/payload/properties/product_variant/properties/product_group/properties/category/properties/id",
+                        "type": "integer"
+                      },
+                      "name": {
+                        "$id": "#/properties/payload/properties/product_variant/properties/product_group/properties/category/properties/name",
+                        "type": "string",
+                        "pattern": "^(.*)$"
+                      },
+                      "level": {
+                        "$id": "#/properties/payload/properties/product_variant/properties/product_group/properties/category/properties/level",
+                        "type": "string",
+                        "pattern": "^(.*)$"
+                      },
+                      "base_margin": {
+                        "$id": "#/properties/payload/properties/product_variant/properties/product_group/properties/category/properties/base_margin",
+                        "type": "string",
+                        "pattern": "^(.*)$"
+                      },
+                      "unspsc": {
+                        "$id": "#/properties/payload/properties/product_variant/properties/product_group/properties/category/properties/unspsc",
+                        "type": "integer"
+                      },
+                      "sequence": {
+                        "$id": "#/properties/payload/properties/product_variant/properties/product_group/properties/category/properties/sequence",
+                        "type": "integer"
+                      },
+                      "parent_id": {
+                        "$id": "#/properties/payload/properties/product_variant/properties/product_group/properties/category/properties/parent_id",
+                        "type": "integer"
+                      },
+                      "is_active": {
+                        "$id": "#/properties/payload/properties/product_variant/properties/product_group/properties/category/properties/is_active",
+                        "type": "integer"
+                      },
+                      "is_deleted": {
+                        "$id": "#/properties/payload/properties/product_variant/properties/product_group/properties/category/properties/is_deleted",
+                        "type": "integer"
+                      },
+                      "created_at": {
+                        "$id": "#/properties/payload/properties/product_variant/properties/product_group/properties/category/properties/created_at",
+                        "type": "string",
+                        "pattern": "^(.*)$"
+                      },
+                      "updated_at": {
+                        "$id": "#/properties/payload/properties/product_variant/properties/product_group/properties/category/properties/updated_at",
+                        "type": "string",
+                        "pattern": "^(.*)$"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}  

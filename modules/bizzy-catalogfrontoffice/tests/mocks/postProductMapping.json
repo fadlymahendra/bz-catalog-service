@@ -1,0 +1,40 @@
+{
+    "body": {
+        "payload": [
+            {
+                "sku": "LKJHGFDS",
+                "items": [
+                    {
+                        "catalog_id": "3",
+                        "organization_id": 4,
+                        "material_code": "10",
+                        "material_group": "12",
+                        "mapped": 0,
+                        "uom": "testing",
+                        "quantity_stocking_uom": 1
+                    },
+                    {
+                        "catalog_id": "8",
+                        "organization_id": 4,
+                        "material_code": "10",
+                        "material_group": "12",
+                        "mapped": 1,
+                        "uom": "hello"
+                    }
+                ]
+            },
+            {
+                "sku": "BNMJKLIOP",
+                "items": [
+                    {
+                        "catalog_id": "5b150bfa24f585901d76a01e",
+                        "organization_id": 312,
+                        "material_code": "93VN03AVNO",
+                        "material_group": "93VN03AVNO",
+                        "mapped": 1
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "body": {        
+        "quotation_item_id": "111",
+        "hub_id": 22,
+        "warehouse_id": 33,
+        "shipping_cost_estimation": "140000",
+        "shipping_address_id": 1,
+        "added_price": "15000",
+        "discount": "100000",
+        "deducted_price": "100000",
+        "total_price": "100000",
+        "products": [
+            {
+                "sku": "1Q1SIL2Y9R",
+                "company_seller_id": 1,
+                "qty": 1
+            }
+        ]
+    }
+}

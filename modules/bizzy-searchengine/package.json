@@ -1,0 +1,91 @@
+{
+  "name": "bizzy-searchengine",
+  "version": "1.0.1",
+  "description": "API to handle catalog request from backoffice",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "node --nolazy --inspect=9229 tests",
+    "sync-env": "node deployments/lambda/scripts/sync-env.js",
+    "simulator": "nodemon simulator",
+    "unit-test": "npm run unit-test-without-coverage && npm run report-coverage; npm run report-test",
+    "unit-test-with-coverage": "npm run unit-test-without-coverage && npm run report-coverage",
+    "unit-test-without-coverage": "NODE_ENV=test nyc --reporter=text ava --verbose",
+    "report-coverage": "NODE_ENV=test nyc report",
+    "check-coverage": "NODE_ENV=test nyc check-coverage",
+    "report-test": "NODE_ENV=test ava --tap | bizzy-tap-html > coverage/report.html",
+    "clean-install": "rm -rf node_modules/bizzy-* && rm -rf node_modules/authentication-models && npm install",
+    "setup": "./deployments/lambda/scripts/0-setup.sh",
+    "update": "./deployments/lambda/scripts/0-update.sh",
+    "deploy-dev": "./deployments/lambda/scripts/build-and-deploy-to-dev.sh",
+    "deploy-staging": "./deployments/lambda/scripts/build-and-deploy-to-staging.sh",
+    "deploy-prod": "./deployments/lambda/scripts/build-and-deploy-to-prod.sh",
+    "deploy-manual": "./deployments/lambda/scripts/build-and-deploy-to-test.sh $(uuidgen) bizzy-searchengine",
+    "deploy-uat": "./deployments/lambda/scripts/build-and-deploy-to-uat.sh $(uuidgen) bizzy-searchengine",
+    "lint": "eslint src/**"
+  },
+  "script-examples": {
+    "unit-test": "NODE_ENV=test nyc --reporter=text ava --verbose",
+    "report-coverage": "NODE_ENV=test nyc report",
+    "check-coverage": "NODE_ENV=test nyc check-coverage"
+  },
+  "keywords": [
+    "catalog-service",
+    "bizzy"
+  ],
+  "author": "Hafiz Arraja",
+  "license": "ISC",
+  "dependencies": {
+    "algoliasearch": "^3.27.0",
+    "aws-sdk": "^2.225.1",
+    "bizzy-common": "git+ssh://git@bitbucket.org/bizzyindonesia/bizzy-common.git#feature/node8",
+    "bizzy-tap-html": "git+ssh://git@bitbucket.org/bizzyindonesia/bizzy-tap-html.git",
+    "bluebird": "^3.5.1",
+    "catalog-models": "../catalog-models",
+    "joi": "^11.4.0",
+    "jwt-decode": "^2.2.0",
+    "lodash": "^4.17.4",
+    "sanitize-html": "^1.17.0"
+  },
+  "devDependencies": {
+    "ava": "^0.23.0",
+    "chai": "^4.1.2",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.6.1",
+    "express": "^4.16.2",
+    "js-yaml": "^3.10.0",
+    "jsonpath-plus": "^0.16.0",
+    "nodemon": "^1.17.3",
+    "nyc": "^11.7.1",
+    "sinon": "^4.5.0",
+    "velocityjs": "^0.10.1"
+  },
+  "nyc": {
+    "per-file": false,
+    "lines": 65,
+    "statements": 65,
+    "functions": 65,
+    "branches": 65,
+    "reporter": [
+      "lcov"
+    ],
+    "exclude": [
+      "**/src/repositories/*/*.js",
+      "**/src/repositories/*.js",
+      "**/tests/**"
+    ]
+  },
+  "ava": {
+    "files": [
+      "**/tests/unit/**/*.test.js"
+    ],
+    "failFast": false,
+    "failWithoutAssertions": false,
+    "tap": false,
+    "powerAssert": true
+  }
+}

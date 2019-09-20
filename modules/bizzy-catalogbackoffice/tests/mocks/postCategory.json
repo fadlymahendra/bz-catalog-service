@@ -1,0 +1,29 @@
+{
+    "body": {
+        "C0": {
+            "id": 12,
+            "name": "this is c0",
+            "unspsc": 52000000
+        },
+        "C1": {
+            "id": 75,
+            "name": "this is c1",
+            "unspsc": 52150000
+        },
+        "C2": {
+            "id": 140,
+            "name": "this is c2",
+            "unspsc": 52151700
+        },
+        "C3" : [
+            {
+                "name": "this is c3 onex",
+                "unspsc": 52151715
+            },
+            {
+                "name": "this is c3 twox",
+                "unspsc": 52151716
+            }
+        ]
+    }
+}

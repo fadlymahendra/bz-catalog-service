@@ -1,0 +1,64 @@
+{
+  "defaultQuery": {
+    "page": 1,
+    "limit": 10,
+    "search": "",
+    "brand": "",
+    "c0": ""
+  },
+  "invalidVendorId": -13,
+  "searchBy": {
+    "validProductName": { 
+      "search": "tissue" 
+    },
+    "notFoundProductName": { 
+      "search": "martabak" 
+    },
+    "productWithPrivateCustomer": {
+      "search": "PANASONIC Cordless Phone KX-TGD222"
+    },
+    "productNoPrivateCustomer": {
+      "search": "JOYKO Gel Pen King Jeller JK-100 Dus Isi 12 Pcs"
+    },
+    "indentProductName": {
+      "search": "Lenovo"
+    }
+  },
+  "productStatus": {
+    "active": { 
+      "is_active": 1 
+    },
+    "inactive": { 
+      "is_active": 0 
+    }
+  },
+  "stockAvailability": {
+    "available": {
+      "stock": 1
+    },
+    "unavailable": { 
+      "stock": "0.00" 
+    }
+  },
+  "sortBy": {
+    "priceAscending": { 
+      "sort": "tier_cogs_price_1_asc"
+    },
+    "priceDescending": { 
+      "sort": "tier_cogs_price_1_desc"
+    },
+    "stockAscending": { 
+      "sort": "stock_available_asc"
+    },
+    "stockDescending": { 
+      "sort": "stock_available_desc"
+    }
+  },
+  "invalidVendorOrgId": -11,
+  "privateCustomer": {
+    "total": 5
+  },
+  "noPrivateCustomer": {
+    "total": 0
+  }
+}

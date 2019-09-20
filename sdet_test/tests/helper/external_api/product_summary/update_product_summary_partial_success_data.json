@@ -1,0 +1,3554 @@
+{
+  "dataSkuNotFound": [
+    {
+      "title": "@skuNotFound @C9764 vendor failed update product with vendor sku not found",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI",
+            "product_sku": null,
+            "manufacturing_no": null,
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 1,
+                "min": 2,
+                "unit_price": 10400001
+              },
+              {
+                "tier": 2,
+                "min": 6,
+                "unit_price": 10000001
+              },
+              {
+                "tier": 3,
+                "min": 10,
+                "unit_price": 9800001
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 77094,
+          "product_group_id": 85290
+        }
+      ]
+    },
+    {
+      "title": "@skuNotFound @C9765 vendor failed update product with vendor sku not found and others param found",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI",
+            "product_sku": "E16JTQF7YX",
+            "manufacturing_no": "MPN7PK1781",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 1,
+                "min": 2,
+                "unit_price": 10400001
+              },
+              {
+                "tier": 2,
+                "min": 6,
+                "unit_price": 10000001
+              },
+              {
+                "tier": 3,
+                "min": 10,
+                "unit_price": 9800001
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 77094,
+          "product_group_id": 85290
+        }
+      ]
+    },
+    {
+      "title": "@skuNotFound @C9766 vendor failed update product with product sku not found and wholesales null",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI",
+            "product_sku": "123",
+            "manufacturing_no": "MPN7PK1781",
+            "stock": 5000,
+            "wholesales": [],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 77094,
+          "product_group_id": 85290
+        }
+      ]
+    },
+    {
+      "title": "@skuNotFound @C9767 vendor failed update product with product sku not found",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": null,
+            "product_sku": "E16JTQF7Y",
+            "manufacturing_no": null,
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 1,
+                "min": 2,
+                "unit_price": 10400001
+              },
+              {
+                "tier": 2,
+                "min": 6,
+                "unit_price": 10000001
+              },
+              {
+                "tier": 3,
+                "min": 10,
+                "unit_price": 9800001
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 77094,
+          "product_group_id": 85290
+        }
+      ]
+    },
+    {
+      "title": "@skuNotFound @C9768 vendor failed update product with product sku not found and other param found",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI",
+            "product_sku": "E16JTQF7Y",
+            "manufacturing_no": "MPN7PK1781",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 1,
+                "min": 2,
+                "unit_price": 10400001
+              },
+              {
+                "tier": 2,
+                "min": 6,
+                "unit_price": 10000001
+              },
+              {
+                "tier": 3,
+                "min": 10,
+                "unit_price": 9800001
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 77094,
+          "product_group_id": 85290
+        }
+      ]
+    },
+    {
+      "title": "@skuNotFound @C9769 vendor failed update product with manufacturing number not found",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": null,
+            "product_sku": null,
+            "manufacturing_no": "MPN7PK178",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 1,
+                "min": 2,
+                "unit_price": 10400001
+              },
+              {
+                "tier": 2,
+                "min": 6,
+                "unit_price": 10000001
+              },
+              {
+                "tier": 3,
+                "min": 10,
+                "unit_price": 9800001
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 77094,
+          "product_group_id": 85290
+        }
+      ]
+    },
+    {
+      "title": "@skuNotFound @C9770 vendor failed update product with manufacturing number not found and others param found",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI",
+            "product_sku": "E16JTQF7YX",
+            "manufacturing_no": "MPN7PK178",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 1,
+                "min": 2,
+                "unit_price": 10400001
+              },
+              {
+                "tier": 2,
+                "min": 6,
+                "unit_price": 10000001
+              },
+              {
+                "tier": 3,
+                "min": 10,
+                "unit_price": 9800001
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 77094,
+          "product_group_id": 85290
+        }
+      ]
+    }
+  ],
+  "dataMissingSelector": [
+    {
+      "title": "@missingSelector @C9771 vendor failed update product stock, status and price with missing selector SKU",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": null,
+            "product_sku": null,
+            "manufacturing_no": null,
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 1,
+                "min": 2,
+                "unit_price": 10400001
+              },
+              {
+                "tier": 2,
+                "min": 6,
+                "unit_price": 10000001
+              },
+              {
+                "tier": 3,
+                "min": 10,
+                "unit_price": 9800001
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 77094,
+          "product_group_id": 85290
+        }
+      ]
+    },
+    {
+      "title": "@missingSelector @C9772 vendor failed update stock product with missing selector SKU",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": null,
+            "product_sku": null,
+            "manufacturing_no": null,
+            "stock": 5000,
+            "wholesales": [],
+            "product_status": null
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 77094,
+          "product_group_id": 85290
+        }
+      ]
+    },
+    {
+      "title": "@missingSelector @C9773 vendor failed update status with missing selector SKU",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": null,
+            "product_sku": null,
+            "manufacturing_no": null,
+            "stock": null,
+            "wholesales": [],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 77094,
+          "product_group_id": 85290
+        }
+      ]
+    },
+    {
+      "title": "@missingSelector @C9774 vendor failed update price product with missing selector SKU",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": null,
+            "product_sku": null,
+            "manufacturing_no": null,
+            "stock": null,
+            "wholesales": [
+              {
+                "tier": 1,
+                "min": 2,
+                "unit_price": 10400001
+              },
+              {
+                "tier": 2,
+                "min": 6,
+                "unit_price": 10000001
+              },
+              {
+                "tier": 3,
+                "min": 10,
+                "unit_price": 9800001
+              }
+            ],
+            "product_status": null
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 77094,
+          "product_group_id": 85290
+        }
+      ]
+    }
+  ],
+  "dataInvalidStock": [
+    {
+      "title": "@invalidStock @C9775 vendor failed update product with invalid stock",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI1",
+            "product_sku": "E16JTQF7YX",
+            "manufacturing_no": "MPN7PK1781",
+            "stock": -5000,
+            "wholesales": [
+              {
+                "tier": 1,
+                "min": 2,
+                "unit_price": 10400001
+              },
+              {
+                "tier": 2,
+                "min": 6,
+                "unit_price": 10000001
+              },
+              {
+                "tier": 3,
+                "min": 10,
+                "unit_price": 9800001
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 77094,
+          "product_group_id": 85290
+        }
+      ]
+    }
+  ],
+  "dataInvalidMinQty": [
+    {
+      "title": "@invalidMinQty @C9776 vendor failed update product with same min value each tier",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI1",
+            "product_sku": "E16JTQF7YX",
+            "manufacturing_no": "MPN7PK1781",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 1,
+                "min": 5,
+                "unit_price": 10400001
+              },
+              {
+                "tier": 2,
+                "min": 5,
+                "unit_price": 10000001
+              },
+              {
+                "tier": 3,
+                "min": 5,
+                "unit_price": 9800001
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 77094,
+          "product_group_id": 85290
+        }
+      ]
+    },
+    {
+      "title": "@invalidMinQty @C9777 vendor failed update product with first min value next tier lower than min value in previous tier",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI1",
+            "product_sku": "E16JTQF7YX",
+            "manufacturing_no": "MPN7PK1781",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 1,
+                "min": 5,
+                "unit_price": 10400001
+              },
+              {
+                "tier": 2,
+                "min": 3,
+                "unit_price": 10000001
+              },
+              {
+                "tier": 3,
+                "min": 2,
+                "unit_price": 9800001
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 77094,
+          "product_group_id": 85290
+        }
+      ]
+    },
+    {
+      "title": "@invalidMinQty @C9778 vendor failed update product with min wholesales 1 = 0",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI1",
+            "product_sku": "E16JTQF7YX",
+            "manufacturing_no": "MPN7PK1781",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 1,
+                "min": 0,
+                "unit_price": 10400001
+              },
+              {
+                "tier": 2,
+                "min": 6,
+                "unit_price": 10000001
+              },
+              {
+                "tier": 3,
+                "min": 10,
+                "unit_price": 9800001
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 77094,
+          "product_group_id": 85290
+        }
+      ]
+    },
+    {
+      "title": "@invalidMinQty @C9779 vendor failed update product with min wholesales 2 = 0",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI1",
+            "product_sku": "E16JTQF7YX",
+            "manufacturing_no": "MPN7PK1781",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 1,
+                "min": 2,
+                "unit_price": 10400001
+              },
+              {
+                "tier": 2,
+                "min": 0,
+                "unit_price": 10000001
+              },
+              {
+                "tier": 3,
+                "min": 10,
+                "unit_price": 9800001
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 77094,
+          "product_group_id": 85290
+        }
+      ]
+    },
+    {
+      "title": "@invalidMinQty @C9780 vendor failed update product with min wholesales 3 = 0",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI1",
+            "product_sku": "E16JTQF7YX",
+            "manufacturing_no": "MPN7PK1781",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 1,
+                "min": 2,
+                "unit_price": 10400001
+              },
+              {
+                "tier": 2,
+                "min": 6,
+                "unit_price": 10000001
+              },
+              {
+                "tier": 3,
+                "min": 0,
+                "unit_price": 9800001
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 77094,
+          "product_group_id": 85290
+        }
+      ]
+    },
+    {
+      "title": "@invalidMinQty @C9781 vendor failed update product with min wholesales 1, and 2 = 0",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI1",
+            "product_sku": "E16JTQF7YX",
+            "manufacturing_no": "MPN7PK1781",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 1,
+                "min": 0,
+                "unit_price": 10400001
+              },
+              {
+                "tier": 2,
+                "min": 0,
+                "unit_price": 10000001
+              },
+              {
+                "tier": 3,
+                "min": 10,
+                "unit_price": 9800001
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 77094,
+          "product_group_id": 85290
+        }
+      ]
+    },
+    {
+      "title": "@invalidMinQty @C9782 vendor failed update product with min wholesales 1, and 3 = 0",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI1",
+            "product_sku": "E16JTQF7YX",
+            "manufacturing_no": "MPN7PK1781",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 1,
+                "min": 0,
+                "unit_price": 10400001
+              },
+              {
+                "tier": 2,
+                "min": 6,
+                "unit_price": 10000001
+              },
+              {
+                "tier": 3,
+                "min": 0,
+                "unit_price": 9800001
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 77094,
+          "product_group_id": 85290
+        }
+      ]
+    },
+    {
+      "title": "@invalidMinQty @C9783 vendor failed update product with min wholesales 2, and 3 = 0",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI1",
+            "product_sku": "E16JTQF7YX",
+            "manufacturing_no": "MPN7PK1781",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 1,
+                "min": 2,
+                "unit_price": 10400001
+              },
+              {
+                "tier": 2,
+                "min": 0,
+                "unit_price": 10000001
+              },
+              {
+                "tier": 3,
+                "min": 0,
+                "unit_price": 9800001
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 77094,
+          "product_group_id": 85290
+        }
+      ]
+    },
+    {
+      "title": "@invalidMinQty @C9784 vendor failed update product with min wholesales 1, 2, and 3 = 0",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI1",
+            "product_sku": "E16JTQF7YX",
+            "manufacturing_no": "MPN7PK1781",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 1,
+                "min": 0,
+                "unit_price": 10400001
+              },
+              {
+                "tier": 2,
+                "min": 0,
+                "unit_price": 10000001
+              },
+              {
+                "tier": 3,
+                "min": 0,
+                "unit_price": 9800001
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 77094,
+          "product_group_id": 85290
+        }
+      ]
+    },
+    {
+      "title": "@invalidMinQty @C9785 vendor failed update product with invalid min wholesales 1",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI1",
+            "product_sku": "E16JTQF7YX",
+            "manufacturing_no": "MPN7PK1781",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 1,
+                "min": -2,
+                "unit_price": 10400001
+              },
+              {
+                "tier": 2,
+                "min": 6,
+                "unit_price": 10000001
+              },
+              {
+                "tier": 3,
+                "min": 10,
+                "unit_price": 9800001
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 77094,
+          "product_group_id": 85290
+        }
+      ]
+    },
+    {
+      "title": "@invalidMinQty @C9786 vendor failed update product with invalid min wholesales 2",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI1",
+            "product_sku": "E16JTQF7YX",
+            "manufacturing_no": "MPN7PK1781",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 1,
+                "min": 2,
+                "unit_price": 10400001
+              },
+              {
+                "tier": 2,
+                "min": -6,
+                "unit_price": 10000001
+              },
+              {
+                "tier": 3,
+                "min": 10,
+                "unit_price": 9800001
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 77094,
+          "product_group_id": 85290
+        }
+      ]
+    },
+    {
+      "title": "@invalidMinQty @C9787 vendor failed update product with invalid min wholesales 3",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI1",
+            "product_sku": "E16JTQF7YX",
+            "manufacturing_no": "MPN7PK1781",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 1,
+                "min": 2,
+                "unit_price": 10400001
+              },
+              {
+                "tier": 2,
+                "min": 6,
+                "unit_price": 10000001
+              },
+              {
+                "tier": 3,
+                "min": -10,
+                "unit_price": 9800001
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 77094,
+          "product_group_id": 85290
+        }
+      ]
+    },
+    {
+      "title": "@invalidMinQty @C9788 vendor failed update product with invalid min wholesales 1 and 2",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI1",
+            "product_sku": "E16JTQF7YX",
+            "manufacturing_no": "MPN7PK1781",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 1,
+                "min": -2,
+                "unit_price": 10400001
+              },
+              {
+                "tier": 2,
+                "min": -6,
+                "unit_price": 10000001
+              },
+              {
+                "tier": 3,
+                "min": 10,
+                "unit_price": 9800001
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 77094,
+          "product_group_id": 85290
+        }
+      ]
+    },
+    {
+      "title": "@invalidMinQty @C9789 vendor failed update product with invalid min wholesales 1 and 3",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI1",
+            "product_sku": "E16JTQF7YX",
+            "manufacturing_no": "MPN7PK1781",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 1,
+                "min": -2,
+                "unit_price": 10400001
+              },
+              {
+                "tier": 2,
+                "min": 6,
+                "unit_price": 10000001
+              },
+              {
+                "tier": 3,
+                "min": -10,
+                "unit_price": 9800001
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 77094,
+          "product_group_id": 85290
+        }
+      ]
+    },
+    {
+      "title": "@invalidMinQty @C9790 vendor failed update product with invalid min wholesales 2 and 3",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI1",
+            "product_sku": "E16JTQF7YX",
+            "manufacturing_no": "MPN7PK1781",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 1,
+                "min": 2,
+                "unit_price": 10400001
+              },
+              {
+                "tier": 2,
+                "min": -6,
+                "unit_price": 10000001
+              },
+              {
+                "tier": 3,
+                "min": -10,
+                "unit_price": 9800001
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 77094,
+          "product_group_id": 85290
+        }
+      ]
+    },
+    {
+      "title": "@invalidMinQty @C9791 vendor failed update product with invalid min wholesales 1, 2, and 3",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI1",
+            "product_sku": "E16JTQF7YX",
+            "manufacturing_no": "MPN7PK1781",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 1,
+                "min": -2,
+                "unit_price": 10400001
+              },
+              {
+                "tier": 2,
+                "min": -6,
+                "unit_price": 10000001
+              },
+              {
+                "tier": 3,
+                "min": -10,
+                "unit_price": 9800001
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 77094,
+          "product_group_id": 85290
+        }
+      ]
+    },
+    {
+      "title": "@invalidMinQty @C9801 vendor failed update single tier with invalid min qty tier 2: less than qty in prev tier in database",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI6",
+            "product_sku": "CZ7NJ24AN9",
+            "manufacturing_no": "AI0001",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 2,
+                "min": 1,
+                "unit_price": 26200
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 37749,
+          "product_group_id": 47760
+        }
+      ]
+    },
+    {
+      "title": "@invalidMinQty @C9802 vendor failed update single tier with invalid min qty tier 2: equal with qty in prev tier in database",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI6",
+            "product_sku": "CZ7NJ24AN9",
+            "manufacturing_no": "AI0001",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 2,
+                "min": 2,
+                "unit_price": 26200
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 37749,
+          "product_group_id": 47760
+        }
+      ]
+    },
+    {
+      "title": "@invalidMinQty @C9799 vendor failed update dual tier with invalid min qty tier 3: less than qty in prev tier in database",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI7",
+            "product_sku": "LC9RSDT58A",
+            "manufacturing_no": "AI0002",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 3,
+                "min": 5,
+                "unit_price": 963700
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 37751,
+          "product_group_id": 47764
+        }
+      ]
+    },
+    {
+      "title": "@invalidMinQty @C9800 vendor failed update dual tier with invalid min qty tier 3: equal qty in prev tier in database",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI7",
+            "product_sku": "LC9RSDT58A",
+            "manufacturing_no": "AI0002",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 3,
+                "min": 6,
+                "unit_price": 963700
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 37751,
+          "product_group_id": 47764
+        }
+      ]
+    },
+    {
+      "title": "@invalidMinQty @C9792 vendor failed update multiple tier with invalid min qty tier 1: same with qty in next tier in database",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI8",
+            "manufacturing_no": "AI0003",
+            "product_sku": "AQEAQZGCJ6",
+            "stock": 10000,
+            "wholesales": [
+              {
+                "tier": 1,
+                "min": 6,
+                "unit_price": 963900
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 38005,
+          "product_group_id": 48018
+        }
+      ]
+    },
+    {
+      "title": "@invalidMinQty @C9793 vendor failed update multiple tier with invalid min qty tier 1: greater than qty in next tier in database",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI8",
+            "manufacturing_no": "AI0003",
+            "product_sku": "AQEAQZGCJ6",
+            "stock": 10000,
+            "wholesales": [
+              {
+                "tier": 1,
+                "min": 7,
+                "unit_price": 963900
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 38005,
+          "product_group_id": 48018
+        }
+      ]
+    },
+    {
+      "title": "@invalidMinQty @C9794 vendor failed update multiple tier with invalid min qty tier 2: same with qty in next tier in database",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI8",
+            "manufacturing_no": "AI0003",
+            "product_sku": "AQEAQZGCJ6",
+            "stock": 10000,
+            "wholesales": [
+              {
+                "tier": 2,
+                "min": 11,
+                "unit_price": 963800
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 38005,
+          "product_group_id": 48018
+        }
+      ]
+    },
+    {
+      "title": "@invalidMinQty @C9795 vendor failed update multiple tier with invalid min qty tier 2: greater than qty in next tier in database",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI8",
+            "manufacturing_no": "AI0003",
+            "product_sku": "AQEAQZGCJ6",
+            "stock": 10000,
+            "wholesales": [
+              {
+                "tier": 2,
+                "min": 12,
+                "unit_price": 963800
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 38005,
+          "product_group_id": 48018
+        }
+      ]
+    },
+    {
+      "title": "@invalidMinQty @C9796 vendor failed update multiple tier with invalid min qty tier 2: less than qty in prev tier in database",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI8",
+            "manufacturing_no": "AI0003",
+            "product_sku": "AQEAQZGCJ6",
+            "stock": 10000,
+            "wholesales": [
+              {
+                "tier": 2,
+                "min": 1,
+                "unit_price": 963800
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 38005,
+          "product_group_id": 48018
+        }
+      ]
+    },
+    {
+      "title": "@invalidMinQty @C9797 vendor failed update multiple tier with invalid min qty tier 3: same with qty in prev tier in database",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI8",
+            "manufacturing_no": "AI0003",
+            "product_sku": "AQEAQZGCJ6",
+            "stock": 10000,
+            "wholesales": [
+              {
+                "tier": 3,
+                "min": 6,
+                "unit_price": 963700
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 38005,
+          "product_group_id": 48018
+        }
+      ]
+    },
+    {
+      "title": "@invalidMinQty @C9798 vendor failed update multiple tier with invalid min qty tier 3: less than qty in prev tier in database",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI8",
+            "manufacturing_no": "AI0003",
+            "product_sku": "AQEAQZGCJ6",
+            "stock": 10000,
+            "wholesales": [
+              {
+                "tier": 3,
+                "min": 5,
+                "unit_price": 963700
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 38005,
+          "product_group_id": 48018
+        }
+      ]
+    }
+  ],
+  "dataInvalidTier": [
+    {
+      "title": "@invalidTier @C9804 vendor failed update product with invalid tier wholesales 1",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI1",
+            "product_sku": "E16JTQF7YX",
+            "manufacturing_no": "MPN7PK1781",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": -1,
+                "min": 2,
+                "unit_price": 10400001
+              },
+              {
+                "tier": 2,
+                "min": 6,
+                "unit_price": 10000001
+              },
+              {
+                "tier": 3,
+                "min": 10,
+                "unit_price": 9800001
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 77094,
+          "product_group_id": 85290
+        }
+      ]
+    },
+    {
+      "title": "@invalidTier @C9805 vendor failed update product with invalid tier wholesales 2",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI1",
+            "product_sku": "E16JTQF7YX",
+            "manufacturing_no": "MPN7PK1781",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 1,
+                "min": 2,
+                "unit_price": 10400001
+              },
+              {
+                "tier": -2,
+                "min": 6,
+                "unit_price": 10000001
+              },
+              {
+                "tier": 3,
+                "min": 10,
+                "unit_price": 9800001
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 77094,
+          "product_group_id": 85290
+        }
+      ]
+    },
+    {
+      "title": "@invalidTier @C9806 vendor failed update product with invalid tier wholesales 3",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI1",
+            "product_sku": "E16JTQF7YX",
+            "manufacturing_no": "MPN7PK1781",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 1,
+                "min": 2,
+                "unit_price": 10400001
+              },
+              {
+                "tier": 2,
+                "min": 6,
+                "unit_price": 10000001
+              },
+              {
+                "tier": -3,
+                "min": 10,
+                "unit_price": 9800001
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 77094,
+          "product_group_id": 85290
+        }
+      ]
+    },
+    {
+      "title": "@invalidTier @C9807 vendor failed update product with invalid tier wholesales 1 and 2",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI1",
+            "product_sku": "E16JTQF7YX",
+            "manufacturing_no": "MPN7PK1781",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": -1,
+                "min": 2,
+                "unit_price": 10400001
+              },
+              {
+                "tier": -2,
+                "min": 6,
+                "unit_price": 10000001
+              },
+              {
+                "tier": 3,
+                "min": 10,
+                "unit_price": 9800001
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 77094,
+          "product_group_id": 85290
+        }
+      ]
+    },
+    {
+      "title": "@invalidTier @C9808 vendor failed update product with invalid tier wholesales 1 and 3",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI1",
+            "product_sku": "E16JTQF7YX",
+            "manufacturing_no": "MPN7PK1781",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": -1,
+                "min": 2,
+                "unit_price": 10400001
+              },
+              {
+                "tier": 2,
+                "min": 6,
+                "unit_price": 10000001
+              },
+              {
+                "tier": -3,
+                "min": 10,
+                "unit_price": 9800001
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 77094,
+          "product_group_id": 85290
+        }
+      ]
+    },
+    {
+      "title": "@invalidTier @C9809 vendor failed update product with invalid tier wholesales 2 and 3",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI1",
+            "product_sku": "E16JTQF7YX",
+            "manufacturing_no": "MPN7PK1781",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 1,
+                "min": 2,
+                "unit_price": 10400001
+              },
+              {
+                "tier": -2,
+                "min": 6,
+                "unit_price": 10000001
+              },
+              {
+                "tier": -3,
+                "min": 10,
+                "unit_price": 9800001
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 77094,
+          "product_group_id": 85290
+        }
+      ]
+    },
+    {
+      "title": "@invalidTier @C9810 vendor failed update product with invalid tier wholesales 1, 2, and 3",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI1",
+            "product_sku": "E16JTQF7YX",
+            "manufacturing_no": "MPN7PK1781",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": -1,
+                "min": 2,
+                "unit_price": 10400001
+              },
+              {
+                "tier": -2,
+                "min": 6,
+                "unit_price": 10000001
+              },
+              {
+                "tier": -3,
+                "min": 10,
+                "unit_price": 9800001
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 77094,
+          "product_group_id": 85290
+        }
+      ]
+    },
+    {
+      "title": "@invalidTier @C9803 vendor failed when update product with tier 1 and directly add invalid to tier 3",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI6",
+            "manufacturing_no": "AI0001",
+            "product_sku": "CZ7NJ24AN9",
+            "stock": 10000,
+            "wholesales": [
+              {
+                "tier": 3,
+                "min": 11,
+                "unit_price": 963700
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 37749,
+          "product_group_id": 47760
+        }
+      ]
+    }
+  ],
+  "dataInvalidUnitPrice": [
+    {
+      "title": "@invalidUnitPrice @C9811 vendor failed update product with invalid unit price wholesales 1 = 0",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI1",
+            "product_sku": "E16JTQF7YX",
+            "manufacturing_no": "MPN7PK1781",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 1,
+                "min": 2,
+                "unit_price": 0
+              },
+              {
+                "tier": 2,
+                "min": 6,
+                "unit_price": 10000001
+              },
+              {
+                "tier": 3,
+                "min": 10,
+                "unit_price": 9800001
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 77094,
+          "product_group_id": 85290
+        }
+      ]
+    },
+    {
+      "title": "@invalidUnitPrice @C9812 vendor failed update product with invalid unit price wholesales 2 = 0",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI1",
+            "product_sku": "E16JTQF7YX",
+            "manufacturing_no": "MPN7PK1781",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 1,
+                "min": 2,
+                "unit_price": 10400001
+              },
+              {
+                "tier": 2,
+                "min": 6,
+                "unit_price": 0
+              },
+              {
+                "tier": 3,
+                "min": 10,
+                "unit_price": 9800001
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 77094,
+          "product_group_id": 85290
+        }
+      ]
+    },
+    {
+      "title": "@invalidUnitPrice @C9813 vendor failed update product with invalid unit price wholesales 3 = 0",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI1",
+            "product_sku": "E16JTQF7YX",
+            "manufacturing_no": "MPN7PK1781",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 1,
+                "min": 2,
+                "unit_price": 10400001
+              },
+              {
+                "tier": 2,
+                "min": 6,
+                "unit_price": 10000001
+              },
+              {
+                "tier": 3,
+                "min": 10,
+                "unit_price": 0
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 77094,
+          "product_group_id": 85290
+        }
+      ]
+    },
+    {
+      "title": "@invalidUnitPrice @C9814 vendor failed update product with invalid unit price wholesales 1 and 2 = 0",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI1",
+            "product_sku": "E16JTQF7YX",
+            "manufacturing_no": "MPN7PK1781",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 1,
+                "min": 2,
+                "unit_price": 0
+              },
+              {
+                "tier": 2,
+                "min": 6,
+                "unit_price": 0
+              },
+              {
+                "tier": 3,
+                "min": 10,
+                "unit_price": 9800001
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 77094,
+          "product_group_id": 85290
+        }
+      ]
+    },
+    {
+      "title": "@invalidUnitPrice @C9815 vendor failed update product with invalid unit price wholesales 1 and 3 = 0",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI1",
+            "product_sku": "E16JTQF7YX",
+            "manufacturing_no": "MPN7PK1781",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 1,
+                "min": 2,
+                "unit_price": 0
+              },
+              {
+                "tier": 2,
+                "min": 6,
+                "unit_price": 10000001
+              },
+              {
+                "tier": 3,
+                "min": 10,
+                "unit_price": 0
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 77094,
+          "product_group_id": 85290
+        }
+      ]
+    },
+    {
+      "title": "@invalidUnitPrice @C9816 vendor failed update product with invalid unit price wholesales 2 and 3 = 0",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI1",
+            "product_sku": "E16JTQF7YX",
+            "manufacturing_no": "MPN7PK1781",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 1,
+                "min": 2,
+                "unit_price": 10400001
+              },
+              {
+                "tier": 2,
+                "min": 6,
+                "unit_price": 0
+              },
+              {
+                "tier": 3,
+                "min": 10,
+                "unit_price": 0
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 77094,
+          "product_group_id": 85290
+        }
+      ]
+    },
+    {
+      "title": "@invalidUnitPrice @C9817 vendor failed update product with invalid unit price wholesales 1, 2, and 3 = 0",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI1",
+            "product_sku": "E16JTQF7YX",
+            "manufacturing_no": "MPN7PK1781",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 1,
+                "min": 2,
+                "unit_price": 0
+              },
+              {
+                "tier": 2,
+                "min": 6,
+                "unit_price": 0
+              },
+              {
+                "tier": 3,
+                "min": 10,
+                "unit_price": 0
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 77094,
+          "product_group_id": 85290
+        }
+      ]
+    },
+    {
+      "title": "@invalidUnitPrice @C9818 vendor failed update product with invalid unit price wholesales 1",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI1",
+            "product_sku": "E16JTQF7YX",
+            "manufacturing_no": "MPN7PK1781",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 1,
+                "min": 2,
+                "unit_price": -10400001
+              },
+              {
+                "tier": 2,
+                "min": 6,
+                "unit_price": 10000001
+              },
+              {
+                "tier": 3,
+                "min": 10,
+                "unit_price": 9800001
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 77094,
+          "product_group_id": 85290
+        }
+      ]
+    },
+    {
+      "title": "@invalidUnitPrice @C9819 vendor failed update product with invalid unit price wholesales 2",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI1",
+            "product_sku": "E16JTQF7YX",
+            "manufacturing_no": "MPN7PK1781",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 1,
+                "min": 2,
+                "unit_price": 10400001
+              },
+              {
+                "tier": 2,
+                "min": 6,
+                "unit_price": -10000001
+              },
+              {
+                "tier": 3,
+                "min": 10,
+                "unit_price": 9800001
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 77094,
+          "product_group_id": 85290
+        }
+      ]
+    },
+    {
+      "title": "@invalidUnitPrice @C9820 vendor failed update product with invalid unit price wholesales 3",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI1",
+            "product_sku": "E16JTQF7YX",
+            "manufacturing_no": "MPN7PK1781",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 1,
+                "min": 2,
+                "unit_price": 10400001
+              },
+              {
+                "tier": 2,
+                "min": 6,
+                "unit_price": 10000001
+              },
+              {
+                "tier": 3,
+                "min": 10,
+                "unit_price": -9800001
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 77094,
+          "product_group_id": 85290
+        }
+      ]
+    },
+    {
+      "title": "@invalidUnitPrice @C9821 vendor failed update product with invalid unit price wholesales 1 and 2",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI1",
+            "product_sku": "E16JTQF7YX",
+            "manufacturing_no": "MPN7PK1781",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 1,
+                "min": 2,
+                "unit_price": -10400001
+              },
+              {
+                "tier": 2,
+                "min": 6,
+                "unit_price": -10000001
+              },
+              {
+                "tier": 3,
+                "min": 10,
+                "unit_price": 9800001
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 77094,
+          "product_group_id": 85290
+        }
+      ]
+    },
+    {
+      "title": "@invalidUnitPrice @C9822 vendor failed update product with invalid unit price wholesales 1 and 3",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI1",
+            "product_sku": "E16JTQF7YX",
+            "manufacturing_no": "MPN7PK1781",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 1,
+                "min": 2,
+                "unit_price": -10400001
+              },
+              {
+                "tier": 2,
+                "min": 6,
+                "unit_price": 10000001
+              },
+              {
+                "tier": 3,
+                "min": 10,
+                "unit_price": -9800001
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 77094,
+          "product_group_id": 85290
+        }
+      ]
+    },
+    {
+      "title": "@invalidUnitPrice @C10045 vendor failed update product with invalid unit price wholesales 2 and 3",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI1",
+            "product_sku": "E16JTQF7YX",
+            "manufacturing_no": "MPN7PK1781",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 1,
+                "min": 2,
+                "unit_price": 10400001
+              },
+              {
+                "tier": 2,
+                "min": 6,
+                "unit_price": -10000001
+              },
+              {
+                "tier": 3,
+                "min": 10,
+                "unit_price": -9800001
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 77094,
+          "product_group_id": 85290
+        }
+      ]
+    },
+    {
+      "title": "@invalidUnitPrice @C9823 vendor failed update product with invalid unit price wholesales 1, 2, and 3",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI1",
+            "product_sku": "E16JTQF7YX",
+            "manufacturing_no": "MPN7PK1781",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 1,
+                "min": 2,
+                "unit_price": -10400001
+              },
+              {
+                "tier": 2,
+                "min": 6,
+                "unit_price": -10000001
+              },
+              {
+                "tier": 3,
+                "min": 10,
+                "unit_price": -9800001
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 77094,
+          "product_group_id": 85290
+        }
+      ]
+    },
+    {
+      "title": "@invalidUnitPriceEnhc @C10046 vendor failed update multiple tier with invalid unit price tier 1: same with unit price in next tier in database",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI8",
+            "manufacturing_no": "AI0003",
+            "product_sku": "AQEAQZGCJ6",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 1,
+                "min": 2,
+                "unit_price": 963800
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 38005,
+          "product_group_id": 48018
+        }
+      ]
+    },
+    {
+      "title": "@invalidUnitPriceEnhc @C10047 vendor failed update multiple tier with invalid unit price tier 1: less than unit price in next tier in database",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI8",
+            "manufacturing_no": "AI0003",
+            "product_sku": "AQEAQZGCJ6",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 1,
+                "min": 2,
+                "unit_price": 963750
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 38005,
+          "product_group_id": 48018
+        }
+      ]
+    },
+    {
+      "title": "@invalidUnitPriceEnhc @C10048 vendor failed update multiple tier with invalid unit price tier 2: same with unit price in next tier in database",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI8",
+            "manufacturing_no": "AI0003",
+            "product_sku": "AQEAQZGCJ6",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 2,
+                "min": 6,
+                "unit_price": 963700
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 38005,
+          "product_group_id": 48018
+        }
+      ]
+    },
+    {
+      "title": "@invalidUnitPriceEnhc @C10049 vendor failed update multiple tier with invalid unit price tier 2: less than unit price in next tier in database",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI8",
+            "manufacturing_no": "AI0003",
+            "product_sku": "AQEAQZGCJ6",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 2,
+                "min": 6,
+                "unit_price": 963650
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 38005,
+          "product_group_id": 48018
+        }
+      ]
+    },
+    {
+      "title": "@invalidUnitPriceEnhc @C10050 vendor failed update multiple tier with invalid unit price tier 2: same with unit price in prev tier in database",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI8",
+            "manufacturing_no": "AI0003",
+            "product_sku": "AQEAQZGCJ6",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 2,
+                "min": 6,
+                "unit_price": 963900
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 38005,
+          "product_group_id": 48018
+        }
+      ]
+    },
+    {
+      "title": "@invalidUnitPriceEnhc @C10051 vendor failed update multiple tier with invalid unit price tier 2: greater than unit price in prev tier in database",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI8",
+            "manufacturing_no": "AI0003",
+            "product_sku": "AQEAQZGCJ6",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 2,
+                "min": 6,
+                "unit_price": 963950
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 38005,
+          "product_group_id": 48018
+        }
+      ]
+    },
+    {
+      "title": "@invalidUnitPriceEnhc @C10052 vendor failed update multiple tier with invalid unit price tier 3: same with unit price in prev tier in database",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI8",
+            "manufacturing_no": "AI0003",
+            "product_sku": "AQEAQZGCJ6",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 3,
+                "min": 10,
+                "unit_price": 963800
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 38005,
+          "product_group_id": 48018
+        }
+      ]
+    },
+    {
+      "title": "@invalidUnitPriceEnhc @C10053 vendor failed update multiple tier with invalid unit price tier 3: greater than unit price in prev tier in database",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI8",
+            "manufacturing_no": "AI0003",
+            "product_sku": "AQEAQZGCJ6",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 3,
+                "min": 10,
+                "unit_price": 963850
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 38005,
+          "product_group_id": 48018
+        }
+      ]
+    },
+    {
+      "title": "@invalidUnitPriceEnhc @C10054 vendor failed update single tier with add tier 2: same with previous tier",
+      "requestBody": {
+        "products": [
+        {
+          "vendor_sku": "SKUOPENAPI6",
+          "product_sku": "CZ7NJ24AN9",
+          "manufacturing_no": "AI0001",
+          "stock": 5000,
+          "wholesales": [
+            {
+              "tier": 2,
+              "min": 6,
+              "unit_price": 26300
+            }
+          ],
+          "product_status": 1
+        }
+      ]
+    },
+    "productVendors": [
+      {
+        "id": 37749,
+        "product_group_id": 47760
+      }
+    ]
+    },
+    {
+      "title": "@invalidUnitPriceEnhc @C10055 vendor failed update single tier with add tier 2: greater than with previous tier",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI6",
+            "product_sku": "CZ7NJ24AN9",
+            "manufacturing_no": "AI0001",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 2,
+                "min": 6,
+                "unit_price": 26350
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 37749,
+          "product_group_id": 47760
+        }
+      ]
+    },
+    {
+      "title": "@invalidUnitPriceEnhc @C10056 vendor failed update dual tier with add tier 3: equal unit price on previous tier",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI7",
+            "product_sku": "LC9RSDT58A",
+            "manufacturing_no": "AI0002",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 3,
+                "min": 10,
+                "unit_price": 10000001
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 37751,
+          "product_group_id": 47764
+        }
+      ]
+    },
+    {
+      "title": "@invalidUnitPriceEnhc @C10057 vendor failed update dual tier with add tier 3: greater than unit price on previous tier",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI7",
+            "product_sku": "LC9RSDT58A",
+            "manufacturing_no": "AI0002",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 3,
+                "min": 10,
+                "unit_price": 10000002
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 37751,
+          "product_group_id": 47764
+        }
+      ]
+    },
+    {
+      "title": "@invalidUnitPriceEnhc @C10058 vendor failed update dual tier with update tier 2 only: greater than unit price on previous tier",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI7",
+            "product_sku": "LC9RSDT58A",
+            "manufacturing_no": "AI0002",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 1,
+                "min": 2,
+                "unit_price": 10400001
+              },
+              {
+                "tier": 2,
+                "min": 6,
+                "unit_price": 10400002
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 37751,
+          "product_group_id": 47764
+        }
+      ]
+    },
+    {
+      "title": "@invalidUnitPriceEnhc @C10059 vendor failed update dual tier with update tier 2 only: equal unit price on previous tier",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI7",
+            "product_sku": "LC9RSDT58A",
+            "manufacturing_no": "AI0002",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 1,
+                "min": 2,
+                "unit_price": 10000001
+              },
+              {
+                "tier": 2,
+                "min": 6,
+                "unit_price": 10000001
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 37751,
+          "product_group_id": 47764
+        }
+      ]
+    },
+    {
+      "title": "@invalidUnitPriceEnhc @C10060 vendor failed update dual tier with update tier 1 only: less than unit price on next tier",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI7",
+            "product_sku": "LC9RSDT58A",
+            "manufacturing_no": "AI0002",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 1,
+                "min": 2,
+                "unit_price": 10000000
+              },
+              {
+                "tier": 2,
+                "min": 6,
+                "unit_price": 10000001
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 37751,
+          "product_group_id": 47764
+        }
+      ]
+    },
+    {
+      "title": "@invalidUnitPriceEnhc @C10061 vendor failed update dual tier with update tier 1 only: equal unit price on next tier",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI7",
+            "product_sku": "LC9RSDT58A",
+            "manufacturing_no": "AI0002",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 1,
+                "min": 2,
+                "unit_price": 10400001
+              },
+              {
+                "tier": 2,
+                "min": 6,
+                "unit_price": 10400001
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 37751,
+          "product_group_id": 47764
+        }
+      ]
+    },
+    {
+      "title": "@invalidUnitPriceEnhc @C10062 vendor failed update multiple tier with update tier 3 only: greater than unit price on previous tier",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI8",
+            "manufacturing_no": "AI0003",
+            "product_sku": "AQEAQZGCJ6",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 1,
+                "min": 2,
+                "unit_price": 963900
+              },
+              {
+                "tier": 2,
+                "min": 6,
+                "unit_price": 963800
+              },
+              {
+                "tier": 3,
+                "min": 10,
+                "unit_price": 963850
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 38005,
+          "product_group_id": 48018
+        }
+      ]
+    },
+    {
+      "title": "@invalidUnitPriceEnhc @C10063 vendor failed update multiple tier with update tier 3 only: equal unit price on previous tier",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI8",
+            "manufacturing_no": "AI0003",
+            "product_sku": "AQEAQZGCJ6",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 1,
+                "min": 2,
+                "unit_price": 963900
+              },
+              {
+                "tier": 2,
+                "min": 6,
+                "unit_price": 963800
+              },
+              {
+                "tier": 3,
+                "min": 10,
+                "unit_price": 963800
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 38005,
+          "product_group_id": 48018
+        }
+      ]
+    },
+    {
+      "title": "@invalidUnitPriceEnhc @C10064 vendor failed update multiple tier with update all tier with tier 3: equal unit price on previous tier",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI8",
+            "manufacturing_no": "AI0003",
+            "product_sku": "AQEAQZGCJ6",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 1,
+                "min": 2,
+                "unit_price": 1963900
+              },
+              {
+                "tier": 2,
+                "min": 6,
+                "unit_price": 1963800
+              },
+              {
+                "tier": 3,
+                "min": 10,
+                "unit_price": 1963800
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 38005,
+          "product_group_id": 48018
+        }
+      ]
+    },
+    {
+      "title": "@invalidUnitPriceEnhc @C10065 vendor failed update multiple tier with update all tier with tier 3: grater unit price on previous tier",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI8",
+            "manufacturing_no": "AI0003",
+            "product_sku": "AQEAQZGCJ6",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 1,
+                "min": 2,
+                "unit_price": 1963900
+              },
+              {
+                "tier": 2,
+                "min": 6,
+                "unit_price": 1963800
+              },
+              {
+                "tier": 3,
+                "min": 10,
+                "unit_price": 1963801
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 38005,
+          "product_group_id": 48018
+        }
+      ]
+    },
+    {
+      "title": "@invalidUnitPriceEnhc @C10066 vendor failed update multiple tier with update all tier with tier 2: equal unit price on previous tier",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI8",
+            "manufacturing_no": "AI0003",
+            "product_sku": "AQEAQZGCJ6",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 1,
+                "min": 2,
+                "unit_price": 1963900
+              },
+              {
+                "tier": 2,
+                "min": 6,
+                "unit_price": 1963900
+              },
+              {
+                "tier": 3,
+                "min": 10,
+                "unit_price": 1963700
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 38005,
+          "product_group_id": 48018
+        }
+      ]
+    },
+    {
+      "title": "@invalidUnitPriceEnhc @C10067 vendor failed update multiple tier with update all tier with tier 2: grater unit price on previous tier",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI8",
+            "manufacturing_no": "AI0003",
+            "product_sku": "AQEAQZGCJ6",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 1,
+                "min": 2,
+                "unit_price": 1963900
+              },
+              {
+                "tier": 2,
+                "min": 6,
+                "unit_price": 1963901
+              },
+              {
+                "tier": 3,
+                "min": 10,
+                "unit_price": 1963700
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 38005,
+          "product_group_id": 48018
+        }
+      ]
+    },
+    {
+      "title": "@invalidUnitPriceEnhc @C10068 vendor failed update multiple tier with update all tier with tier 2: equal unit price on next tier",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI8",
+            "manufacturing_no": "AI0003",
+            "product_sku": "AQEAQZGCJ6",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 1,
+                "min": 2,
+                "unit_price": 1963900
+              },
+              {
+                "tier": 2,
+                "min": 6,
+                "unit_price": 1963700
+              },
+              {
+                "tier": 3,
+                "min": 10,
+                "unit_price": 1963700
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 38005,
+          "product_group_id": 48018
+        }
+      ]
+    },
+    {
+      "title": "@invalidUnitPriceEnhc @C10069 vendor failed update multiple tier with update all tier with tier 2: less unit price on next tier",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI8",
+            "manufacturing_no": "AI0003",
+            "product_sku": "AQEAQZGCJ6",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 1,
+                "min": 2,
+                "unit_price": 1963900
+              },
+              {
+                "tier": 2,
+                "min": 6,
+                "unit_price": 1963600
+              },
+              {
+                "tier": 3,
+                "min": 10,
+                "unit_price": 1963700
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 38005,
+          "product_group_id": 48018
+        }
+      ]
+    },
+    {
+      "title": "@invalidUnitPriceEnhc @C10070 vendor failed update multiple tier with mix tier, update all tier, tier 3: greater unit price on previous tier",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI8",
+            "manufacturing_no": "AI0003",
+            "product_sku": "AQEAQZGCJ6",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 1,
+                "min": 2,
+                "unit_price": 2963900
+              },
+              {
+                "tier": 3,
+                "min": 10,
+                "unit_price": 2963801
+              },
+              {
+                "tier": 2,
+                "min": 6,
+                "unit_price": 2963800
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 38005,
+          "product_group_id": 48018
+        }
+      ]
+    },
+    {
+      "title": "@invalidUnitPriceEnhc @C10071 vendor failed update multiple tier with mix tier, update all tier, tier 3: equal unit price on previous tier",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI8",
+            "manufacturing_no": "AI0003",
+            "product_sku": "AQEAQZGCJ6",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 1,
+                "min": 2,
+                "unit_price": 3963900
+              },
+              {
+                "tier": 3,
+                "min": 10,
+                "unit_price": 3963800
+              },
+              {
+                "tier": 2,
+                "min": 6,
+                "unit_price": 3963800
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 38005,
+          "product_group_id": 48018
+        }
+      ]
+    },
+    {
+      "title": "@invalidUnitPriceEnhc @C10072 vendor failed update multiple tier with mix tier, update all tier, tier 2: greater unit price on previous tier",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI8",
+            "manufacturing_no": "AI0003",
+            "product_sku": "AQEAQZGCJ6",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 2,
+                "min": 6,
+                "unit_price": 4963901
+              },
+              {
+                "tier": 1,
+                "min": 2,
+                "unit_price": 4963900
+              },
+              {
+                "tier": 3,
+                "min": 10,
+                "unit_price": 4963700
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 38005,
+          "product_group_id": 48018
+        }
+      ]
+    },
+    {
+      "title": "@invalidUnitPriceEnhc @C10073 vendor failed update multiple tier with mix tier, update all tier, tier 2: equal unit price on previous tier",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI8",
+            "manufacturing_no": "AI0003",
+            "product_sku": "AQEAQZGCJ6",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 2,
+                "min": 6,
+                "unit_price": 5963900
+              },
+              {
+                "tier": 1,
+                "min": 2,
+                "unit_price": 5963900
+              },
+              {
+                "tier": 3,
+                "min": 10,
+                "unit_price": 5963700
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 38005,
+          "product_group_id": 48018
+        }
+      ]
+    },
+    {
+      "title": "@invalidUnitPriceEnhc @C10074 vendor failed update multiple tier with mix tier, update all tier, tier 1: less unit price on next tier",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI8",
+            "manufacturing_no": "AI0003",
+            "product_sku": "AQEAQZGCJ6",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 2,
+                "min": 6,
+                "unit_price": 6963800
+              },
+              {
+                "tier": 1,
+                "min": 2,
+                "unit_price": 6963799
+              },
+              {
+                "tier": 3,
+                "min": 10,
+                "unit_price": 6963700
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 38005,
+          "product_group_id": 48018
+        }
+      ]
+    }
+  ],
+  "dataEmptyProduct": [
+    {
+      "title": "@dataEmptyProduct @C9824 vendor update with the value : status is empty, stock, wholesales has empty array of object",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI1",
+            "product_sku": "E16JTQF7YX",
+            "manufacturing_no": "MPN7PK1781",
+            "stock": null,
+            "wholesales": [],
+            "product_status": null
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 77094,
+          "product_group_id": 85290
+        }
+      ]
+    },
+    {
+      "title": "@dataEmptyProduct @C9825 vendor update based on vendor_sku with the value : status, stock, wholesales has empty array of object",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI1",
+            "product_sku": null,
+            "manufacturing_no": null,
+            "stock": null,
+            "wholesales": [],
+            "product_status": null
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 77094,
+          "product_group_id": 85290
+        }
+      ]
+    }
+  ],
+  "dataMultiplePartialSuccess": [
+    {
+      "title": "@partialSuccess @skuNotFound @C9826 vendor failed update with multiple product: product 1 SKU not found",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI",
+            "product_sku": null,
+            "manufacturing_no": null,
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 1,
+                "min": 2,
+                "unit_price": 10400001
+              },
+              {
+                "tier": 2,
+                "min": 6,
+                "unit_price": 10000001
+              },
+              {
+                "tier": 3,
+                "min": 10,
+                "unit_price": 9800001
+              }
+            ],
+            "product_status": 1
+          },
+          {
+            "vendor_sku": "SKUOPENAPI1",
+            "product_sku": "E16JTQF7YX",
+            "manufacturing_no": "MPN7PK1781",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 2,
+                "min": 6,
+                "unit_price": 10000001
+              },
+              {
+                "tier": 1,
+                "min": 2,
+                "unit_price": 10400001
+              },
+              {
+                "tier": 3,
+                "min": 10,
+                "unit_price": 9800001
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 77094,
+          "product_group_id": 85290
+        }
+      ]
+    },
+    {
+      "title": "@partialSuccess @skuNotFound @C9827 vendor failed update with multiple product: product 1 SKU not found but product_sku and manucactoring_no was founded",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI",
+            "product_sku": "E16JTQF7YX",
+            "manufacturing_no": "MPN7PK1781",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 1,
+                "min": 2,
+                "unit_price": 10400001
+              },
+              {
+                "tier": 2,
+                "min": 6,
+                "unit_price": 10000001
+              },
+              {
+                "tier": 3,
+                "min": 10,
+                "unit_price": 9800001
+              }
+            ],
+            "product_status": 1
+          },
+          {
+            "vendor_sku": "SKUOPENAPI1",
+            "product_sku": "E16JTQF7YX",
+            "manufacturing_no": "MPN7PK1781",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 2,
+                "min": 6,
+                "unit_price": 10000001
+              },
+              {
+                "tier": 1,
+                "min": 2,
+                "unit_price": 10400001
+              },
+              {
+                "tier": 3,
+                "min": 10,
+                "unit_price": 9800001
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 77094,
+          "product_group_id": 85290
+        }
+      ]
+    },
+    {
+      "title": "@partialSuccess @skuNotFound @C9828 vendor failed update with multiple product: product 1 product_sku not found",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": null,
+            "product_sku": "E16JTQF7Y",
+            "manufacturing_no": null,
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 1,
+                "min": 2,
+                "unit_price": 10400001
+              },
+              {
+                "tier": 2,
+                "min": 6,
+                "unit_price": 10000001
+              },
+              {
+                "tier": 3,
+                "min": 10,
+                "unit_price": 9800001
+              }
+            ],
+            "product_status": 1
+          },
+          {
+            "vendor_sku": "SKUOPENAPI1",
+            "product_sku": "E16JTQF7YX",
+            "manufacturing_no": "MPN7PK1781",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 2,
+                "min": 6,
+                "unit_price": 10000001
+              },
+              {
+                "tier": 1,
+                "min": 2,
+                "unit_price": 10400001
+              },
+              {
+                "tier": 3,
+                "min": 10,
+                "unit_price": 9800001
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 77094,
+          "product_group_id": 85290
+        }
+      ]
+    },
+    {
+      "title": "@partialSuccess @skuNotFound @C9829 vendor failed update with multiple product : product 1 product_sku not found and other param found",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI",
+            "product_sku": "E16JTQF7Y",
+            "manufacturing_no": "MPN7PK1781",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 1,
+                "min": 2,
+                "unit_price": 10400001
+              },
+              {
+                "tier": 2,
+                "min": 6,
+                "unit_price": 10000001
+              },
+              {
+                "tier": 3,
+                "min": 10,
+                "unit_price": 9800001
+              }
+            ],
+            "product_status": 1
+          },
+          {
+            "vendor_sku": "SKUOPENAPI1",
+            "product_sku": "E16JTQF7YX",
+            "manufacturing_no": "MPN7PK1781",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 2,
+                "min": 6,
+                "unit_price": 10000001
+              },
+              {
+                "tier": 1,
+                "min": 2,
+                "unit_price": 10400001
+              },
+              {
+                "tier": 3,
+                "min": 10,
+                "unit_price": 9800001
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 77094,
+          "product_group_id": 85290
+        }
+      ]
+    },
+    {
+      "title": "@partialSuccess @skuNotFound @C9830 vendor failed update with multiple product : product 1 manufacturing_no not found",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": null,
+            "product_sku": null,
+            "manufacturing_no": "MPN7PK178",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 1,
+                "min": 2,
+                "unit_price": 10400001
+              },
+              {
+                "tier": 2,
+                "min": 6,
+                "unit_price": 10000001
+              },
+              {
+                "tier": 3,
+                "min": 10,
+                "unit_price": 9800001
+              }
+            ],
+            "product_status": 1
+          },
+          {
+            "vendor_sku": "SKUOPENAPI1",
+            "product_sku": "E16JTQF7YX",
+            "manufacturing_no": "MPN7PK1781",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 2,
+                "min": 6,
+                "unit_price": 10000001
+              },
+              {
+                "tier": 1,
+                "min": 2,
+                "unit_price": 10400001
+              },
+              {
+                "tier": 3,
+                "min": 10,
+                "unit_price": 9800001
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 77094,
+          "product_group_id": 85290
+        }
+      ]
+    },
+    {
+      "title": "@partialSuccess @skuNotFound @C9831 vendor failed update with multiple product : product 1 manufacturing number not found and others param found",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI1",
+            "product_sku": "E16JTQF7YX",
+            "manufacturing_no": "MPN7PKAAA",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 1,
+                "min": 2,
+                "unit_price": 10400001
+              },
+              {
+                "tier": 2,
+                "min": 6,
+                "unit_price": 10000001
+              },
+              {
+                "tier": 3,
+                "min": 10,
+                "unit_price": 9800001
+              }
+            ],
+            "product_status": 1
+          },
+          {
+            "vendor_sku": "SKUOPENAPI1",
+            "product_sku": "E16JTQF7YX",
+            "manufacturing_no": "MPN7PK1781",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 2,
+                "min": 6,
+                "unit_price": 10000001
+              },
+              {
+                "tier": 1,
+                "min": 2,
+                "unit_price": 10400001
+              },
+              {
+                "tier": 3,
+                "min": 10,
+                "unit_price": 9800001
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 77094,
+          "product_group_id": 85290
+        }
+      ]
+    },
+    {
+      "title": "@partialSuccess @dataEmptyProduct @C9832 vendor failed update with multiple product : product 1 stock is empty (null), and field wholesales has empty array of object",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI1",
+            "product_sku": "E16JTQF7YX",
+            "manufacturing_no": "MPN7PK1781",
+            "stock": null,
+            "wholesales": [],
+            "product_status": null
+          },
+          {
+            "vendor_sku": "SKUOPENAPI1",
+            "product_sku": "E16JTQF7YX",
+            "manufacturing_no": "MPN7PK1781",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 2,
+                "min": 6,
+                "unit_price": 10000001
+              },
+              {
+                "tier": 1,
+                "min": 2,
+                "unit_price": 10400001
+              },
+              {
+                "tier": 3,
+                "min": 10,
+                "unit_price": 9800001
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 77094,
+          "product_group_id": 85290
+        }
+      ]
+    },
+    {
+      "title": "@partialsuccess @invalidStock @invalidMinQty @C9833 Product 1 : vendor failed update product with invalid stock | Product 2 : vendor failed update product with same min value each tier",
+      "requestBody": {
+        "products": [
+          {
+            "vendor_sku": "SKUOPENAPI1",
+            "product_sku": "E16JTQF7YX",
+            "manufacturing_no": "MPN7PK1781",
+            "stock": -5000,
+            "wholesales": [
+              {
+                "tier": 1,
+                "min": 2,
+                "unit_price": 10400001
+              },
+              {
+                "tier": 2,
+                "min": 6,
+                "unit_price": 10000001
+              },
+              {
+                "tier": 3,
+                "min": 10,
+                "unit_price": 9800001
+              }
+            ],
+            "product_status": 1
+          },
+          {
+            "vendor_sku": "SKUOPENAPI2",
+            "product_sku": "JZ5DIB3VNT",
+            "manufacturing_no": "MPN7PK1781",
+            "stock": 5000,
+            "wholesales": [
+              {
+                "tier": 1,
+                "min": 2,
+                "unit_price": 10400001
+              },
+              {
+                "tier": 2,
+                "min": 6,
+                "unit_price": 10000001
+              },
+              {
+                "tier": 3,
+                "min": 10,
+                "unit_price": 9800001
+              }
+            ],
+            "product_status": 1
+          }
+        ]
+      },
+      "productVendors": [
+        {
+          "id": 38518,
+          "product_group_id": 85290
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+    "path": {
+        "id": "3",
+        "pid": 2
+    },
+    "body": {
+        "tier_min_qty_1": 12,
+        "tier_min_qty_2": "15",
+        "tier_min_qty_3": "20",
+        "tier_cogs_price_1": 21000000,
+        "tier_cogs_price_2": "20000000",
+        "tier_cogs_price_3": "19000000"
+    }
+}

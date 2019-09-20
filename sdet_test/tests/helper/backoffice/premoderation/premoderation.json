@@ -1,0 +1,199 @@
+{
+  "successGetListPremoderation": {
+    "assign_to": "",
+    "c0": "",	
+    "c1": "",	
+    "c2": "",	
+    "c3": "",	
+    "limit": 10,
+    "page": 1,
+    "search": "",	
+    "sort": "created_at_desc",	
+    "status":	"need_revision",
+    "vendor_id": ""
+  },
+  "successGetDetailsPremoderation": {
+    "product_name": "Test 2: Fill Mandatory Only",
+    "brand": {
+      "id": 1,
+      "name": "2 Tang",
+      "status": "clear",
+      "image": ""
+    },
+    "category": {
+      "c0": {
+        "id": 5,
+        "name": "IT & Teknologi",
+        "level": "C0",
+        "unspc": 81000000
+      },
+      "c1": {
+        "id": 210,
+        "name": "Perangkat komunikasi dan aksesoris",
+        "level": "C1",
+        "unspc": 43190000
+      },
+      "c2": {
+        "id": 1301,
+        "name": "Perangkat komunikasi pribadi",
+        "level": "C2",
+        "unspc": 43191500
+      },
+      "c3": {
+        "id": 7019,
+        "name": "Mobile phones",
+        "level": "C3",
+        "unspc": 43191501
+      }
+    },
+    "package_weight": "100",
+    "package_length": "200",
+    "package_width": "200",
+    "package_height": "200",
+    "package_content": "A pair of filters are also included.",
+    "uom": {
+      "id": 1,
+        "name": "Unit"
+    },
+    "stocking_uom": {
+      "id": 4,
+        "name": "Each / Buah"
+    },
+    "quantity_stocking_uom": 1,
+    "description": "YAXI has introduced a new ear in earpads with the use of Alcantara®, a synthetic suede originating from automotive upholstery designed to be both comfortable and hard-wearing, a perfect material for earpads due to its supple feel and sweat repellent properties.\n\nThe contact surfaces and inner diameters are lined with Alcantara. The outer diameters  are lined with protein leather, which are beautifully plush and impeccably constructed; flawless stitched and smooth all around. HD650 Earpads offer a hybrid Alcantara construction, considerably expanded internal dimensions and a more coherent sound with greater bass extension.It achieves a new level of balance between comfort and sound and caters to the discerning music listener and audiophile. A pair of filters are also included.\n\nCompatible Headphone Models: \n\nSennhaiser Headphone HD545/565/580/600/650/660S",
+    "barcode": "",
+    "manufacturing_number": ""
+  },
+  "successGetDetailsPremoderationSkuVendorId": {
+    "sku_vendor": "ABC123456XYZ"
+  },
+  "successGetDetailsPremoderationZeroStock": {
+    "stock": 0
+  },
+  "successGetDetailsPremoderationNewBrand": {
+    "product_name": "Test 3: Product With New Brand",
+    "category": {
+      "c0": {
+        "id": 5,
+        "name": "IT & Teknologi",
+        "level": "C0",
+        "unspc": 81000000
+      },
+      "c1": {
+        "id": 210,
+        "name": "Perangkat komunikasi dan aksesoris",
+        "level": "C1",
+        "unspc": 43190000
+      },
+      "c2": {
+        "id": 1301,
+        "name": "Perangkat komunikasi pribadi",
+        "level": "C2",
+        "unspc": 43191500
+      },
+      "c3": {
+        "id": 7019,
+        "name": "Mobile phones",
+        "level": "C3",
+        "unspc": 43191501
+      }
+    },
+    "brand": {
+      "id": 0,
+      "image": "https://assets.bizzy.co.id/image-placeholder-thumb.jpg",
+      "name": "YAXI NG",
+      "status": "new"
+    },
+    "package_weight": "100",
+    "package_length": "200",
+    "package_width": "200",
+    "package_height": "200",
+    "package_content": "A pair of filters are also included.",
+    "uom": {
+      "id": 1,
+      "name": "Unit"
+    },
+    "stocking_uom": {
+      "id": 4,
+      "name": "Each / Buah"
+    },
+    "quantity_stocking_uom": 1,
+    "description": "YAXI has introduced a new ear in earpads with the use of Alcantara®, a synthetic suede originating from automotive upholstery designed to be both comfortable and hard-wearing, a perfect material for earpads due to its supple feel and sweat repellent properties.\n\nThe contact surfaces and inner diameters are lined with Alcantara. The outer diameters  are lined with protein leather, which are beautifully plush and impeccably constructed; flawless stitched and smooth all around. HD650 Earpads offer a hybrid Alcantara construction, considerably expanded internal dimensions and a more coherent sound with greater bass extension.It achieves a new level of balance between comfort and sound and caters to the discerning music listener and audiophile. A pair of filters are also included.\n\nCompatible Headphone Models: \n\nSennhaiser Headphone HD545/565/580/600/650/660S",
+    "barcode": "",
+    "manufacturing_number": ""
+  },
+  "successGetDetailsPremoderationWithoutUNSPSC": {
+    "product_name": "Test 4: Optional UNSPSC",
+    "category": {
+      "c0": {
+        "id": 0,
+        "level": "",
+        "name": "",
+        "unspc": 0
+      },
+      "c1": {
+        "id": 0,
+        "level": "",
+        "name": "",
+        "unspc": 0
+      },
+      "c2": {
+        "id": 0,
+        "level": "",
+        "name": "",
+        "unspc": 0
+      },
+      "c3": {
+        "id": 0,
+        "level": "",
+        "name": "",
+        "unspc": 0
+      }
+    },
+    "brand": {
+      "id": 1,
+      "name": "2 Tang",
+      "image": "",
+      "status": "clear"
+    },
+    "description" : "TH610 Headphone with Leather Earpads. Still natural and realistic sound for monitoring. but upgraded to be clearer and brighter.. Compatible Headphone Models. FOSTEX TH900/TH610/TH900MKⅱ/TH600/TH500RP/TH-X00\nHIFIMAN\nSUNDORA/HE560/HE350/HE300/HE400/HE4/HE5/HE6/HE5LE\nMrSpeakers ETHER FLOW/ETHER C\nDENON AT-D7000/AH-D5000/AH-D2000",
+    "package_weight": "200",
+    "package_length": "100",
+    "package_width": "100",
+    "package_height": "100",
+    "package_content": "A pair of filters are also included.",
+    "uom": {
+      "id": 1,
+      "name": "Unit"
+    },
+    "stocking_uom": {
+      "id": 4,
+      "name": "Each / Buah"
+    },
+    "quantity_stocking_uom": 1,
+    "barcode": "",
+    "manufacturing_number": ""
+  },
+  "successGetDetailsPremoderationAutoLive": {
+    "name": "Lenovo S1 Shot",
+    "category": {
+      "c3": {
+        "unspc": 0
+      }
+    },
+    "package_weight": 100,
+    "package_length": 20,
+    "package_width": 20,
+    "package_height": 10,
+    "package_content": "1 unit HP, 1 unit Charger HP",
+    "uom": {
+        "name": "Unit"
+    },
+    "stocking_uom": {
+        "name": "Pack 100"
+    },
+    "quantity_stocking_uom": 10,
+    "description": "Founded in Beijing in 1984, Lenovo acquired IBM's PC business in 2005, and first became the world's top PC maker in 2013. It entered the Android and Windows tablet market in 2011, began selling Android smartphones in 2012, and acquired Motorola Mobility from Google in 2014. The company has also launched an online-only sub-brand for smartphones called Zuk in China.",
+    "barcode": ""
+  }
+}

@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: 'AWS::Serverless-2016-10-31'
+Description: Bizzy api gateway cloudformation template
+Resources:
+#The only stage needed for development phase, please name it appropriately
+  BizzySvcDEV:
+    Type: 'AWS::Serverless::Api'
+    Properties:
+      DefinitionUri: ./build/index.json
+      StageName: DEV
+      Variables:
+        LAMBDA_ALIAS: DEV

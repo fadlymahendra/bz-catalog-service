@@ -1,0 +1,78 @@
+{
+  "successGetPDPValidSKU": {
+    "sku": "80EWDAZB1C",
+    "name": "XIAOMI Redmi 5 (3/32GB) - Black",
+    "brand": {
+      "id": 1763,
+      "name": "Xiaomi"
+    },
+    "categories": {
+      "c0": {
+        "id": 5,
+        "name": "IT & Teknologi"
+      },
+      "c1": {
+        "id": 210,
+        "name": "Perangkat komunikasi dan aksesoris"
+      },
+      "c2": {
+        "id": 1301,
+        "name": "Perangkat komunikasi pribadi"
+      },
+      "c3": {
+        "id": 7019,
+        "name": "Mobile phones"
+      }
+    }
+  },
+  "successGetCategoriC2PublicCatalog": {
+    "id": 1301,
+    "name": "Perangkat komunikasi pribadi",
+    "parent": {
+      "C1": {
+          "id": 210,
+          "name": "Perangkat komunikasi dan aksesoris",
+          "url_key": "perangkat-komunikasi-dan-aksesoris_c1.210",
+          "parent_id": 5
+      },
+      "C0": {
+          "id": 5,
+          "name": "IT & Teknologi",
+          "url_key": "it-teknologi_c0.5",
+          "parent_id": null
+      }
+    }
+  },
+  "successGetCategoryC3PublicCatalog": {
+    "id": 7019,
+    "name": "Mobile phones",
+    "parent": {
+      "C2": {
+          "id": 1301,
+          "name": "Perangkat komunikasi pribadi",
+          "url_key": "perangkat-komunikasi-pribadi_c2.1301",
+          "parent_id": 210
+      },
+      "C1": {
+          "id": 210,
+          "name": "Perangkat komunikasi dan aksesoris",
+          "url_key": "perangkat-komunikasi-dan-aksesoris_c1.210",
+          "parent_id": 5
+      },
+      "C0": {
+          "id": 5,
+          "name": "IT & Teknologi",
+          "url_key": "it-teknologi_c0.5",
+          "parent_id": null
+      }
+    }
+  },
+  "failedGetPDPInvalidSKU": {
+    "sku": "abcdefg"
+  },
+  "failedGetPDPInactiveSKU": {
+    "sku": "KGJM31ARCH001"
+  },
+  "invalidKey": "a",
+  "failedGetCategoryWithInvalidId": 10000000
+}

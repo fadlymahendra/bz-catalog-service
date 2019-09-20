@@ -1,0 +1,4 @@
+Empty:
+  $ref: ./empty.yml
+Error:
+  $ref: ./error.yml

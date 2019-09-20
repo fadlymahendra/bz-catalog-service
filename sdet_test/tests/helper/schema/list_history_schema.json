@@ -1,0 +1,45 @@
+{
+  "getResponseValidSchema" : {
+    "data" : {
+      "type" : "array",
+      "properties" : {
+        "id" : "string",
+        "title" : "string",
+        "user" : {
+          "type" : "object",
+          "required" : ["id", "name", "email", "type"],
+          "properties" : {
+            "id" : "number",
+            "name" : "string",
+            "email" : "string",
+            "type" : "string"
+          },
+        "additionalProperties": false 
+        },
+      "payload" : {
+        "type" : "object",
+        "required" : ["url", "file_name"],
+        "properties" : {
+          "url" : ["string", "null"],
+          "file_name" : "string"
+        },
+        "additionalProperties": false 
+      },
+      "created_at" : "string",
+      "updated_at" : "string"
+      },
+      "additionalProperties": false 
+    },
+    "meta" : {
+      "type" : "object",
+      "required" : ["page", "limit", "total_data", "total_page"],
+      "properties" : {
+        "page" : "string",
+        "limit" : "string",
+        "total_data" : "number",
+        "total_page" : "number"
+      },
+      "additionalProperties": false
+    }
+  }
+}

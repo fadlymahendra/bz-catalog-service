@@ -1,0 +1,39 @@
+{
+    "path": {
+        "id": "10"
+    },
+    "body": {
+        "name": "Dunlop SP Sport 011",
+		"category_id":"297",
+		"brand_id":"429",
+		"uom_id":"5",
+		"stocking_uom_id":"13",
+		"quantity_stocking_uom":"3000",
+		"manufacturing_number":"DLP34DDLL",
+		"package_weight":"2500",
+		"package_length":"200.00",
+		"package_width":"200.00",
+		"package_height":"200.00",
+		"package_content":"4 pasang ban",
+		"barcode":"WEQ78059",
+		"description":"<p><span style='color: rgb(85, 85, 85);'>SP Sport 01 memiliki dua alur longitudinal memastikan transmisi yang efisien, dan pola tapak yang juga mengurangi tingkat kebisingan. Hasilnya adalah pengendalian yang baik dengan tingkat kenyamanan berkendara yang tinggi.</span></p>",
+		"primary_image":"https://catalogproducts-staging.s3.ap-southeast-1.amazonaws.com/2018/02/product_1519387404.jpg",
+		"visibility":"0",
+		"specifications":[
+			{
+				"id":"3",
+				"type":"dropdown",
+				"attribute_code_id":"3",
+				"attribute_value_id":"5",
+				"text_input":""
+			},
+			{
+				"id":"4",
+				"type":"textinput",
+				"attribute_code_id":"4",
+				"attribute_value_id":"",
+				"text_input":"Dapat box saja"
+			}		
+		]
+    }
+}

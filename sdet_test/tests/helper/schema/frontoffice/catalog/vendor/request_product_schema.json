@@ -1,0 +1,47 @@
+{
+  "validReqProdResponsePost": {
+    "type": "object",
+    "required": [ "data" ],
+    "properties": {
+      "data": {
+        "type": "object",
+        "required": [ "product_group_id", "product_variant", "product_vendor" ],
+        "properties": {
+          "product_group_id": {
+            "type": "number"
+          },
+          "product_variant": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [ "id" ],
+              "properties": {
+                "id": {
+                  "type": "number"
+                },
+                "sku": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "product_vendor": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [ "id" ],
+              "properties": {
+                "id": {
+                  "type": "number"
+                },
+                "vendor_id": {
+                  "type": "number"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

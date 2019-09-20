@@ -1,0 +1,46 @@
+default:
+  statusCode: '200'
+  responseParameters:
+    method.response.header.Access-Control-Allow-Origin: "'*'"
+.*"BadRequest".*:
+  statusCode: '400'
+  responseParameters:
+    method.response.header.Access-Control-Allow-Origin: "'*'"
+  responseTemplates:
+    $ref: './default-error.yml'
+.*"Forbidden".*:
+  statusCode: '403'
+  responseParameters:
+    method.response.header.Access-Control-Allow-Origin: "'*'"
+  responseTemplates:
+    $ref: './default-error.yml'
+.*"NotFound".*:
+  statusCode: '404'
+  responseParameters:
+    method.response.header.Access-Control-Allow-Origin: "'*'"
+  responseTemplates:
+    $ref: './default-error.yml'
+.*"UnprocessableEntity".*:
+  statusCode: '422'
+  responseParameters:
+    method.response.header.Access-Control-Allow-Origin: "'*'"
+  responseTemplates:
+    $ref: './default-error.yml'
+.*"InternalServerError".*:
+  statusCode: '500'
+  responseParameters:
+    method.response.header.Access-Control-Allow-Origin: "'*'"
+  responseTemplates:
+    $ref: './default-error.yml'
+.*"NotImplemented".*:
+  statusCode: '501'
+  responseParameters:
+    method.response.header.Access-Control-Allow-Origin: "'*'"
+  responseTemplates:
+    $ref: './default-error.yml'
+.*"ServiceUnavailable".*:
+  statusCode: '503'
+  responseParameters:
+    method.response.header.Access-Control-Allow-Origin: "'*'"
+  responseTemplates:
+    $ref: './default-error.yml'

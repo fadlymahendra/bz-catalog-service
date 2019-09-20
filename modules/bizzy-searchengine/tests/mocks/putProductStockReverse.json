@@ -1,0 +1,12 @@
+{
+    "body": {
+        "payload": [
+            {
+                "sku": "WBQH1BWFAN",
+                "vendor_id": 4,
+                "warehouse_id": 4,
+                "stock": 0.1
+            }
+        ]
+    }
+}

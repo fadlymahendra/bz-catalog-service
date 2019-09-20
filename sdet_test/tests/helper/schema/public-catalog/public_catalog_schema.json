@@ -1,0 +1,53 @@
+{
+  "validGetCategory": {
+    "type": "array",
+    "items": {
+      "type": "object",
+      "required": 
+        ["id",
+        "name",
+        "url_key",
+        "parent_id",
+        "child"],
+      "properties": {
+        "id": {
+          "type": "number"
+        },
+        "name": {
+          "type": "string"
+        },
+        "url_key": {
+          "type": "string"
+        },
+        "parent_id": {
+          "type": ["number", "null"]
+        },
+        "child": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": 
+              ["id",
+              "name",
+              "url_key",
+              "parent_id"],
+            "properties": {
+              "id": {
+                "type": "number"
+              },
+              "name": {
+                "type": "string"
+              },
+              "url_key": {
+                "type": "string"
+              },
+              "parent_id": {
+                "type": "number"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

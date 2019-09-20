@@ -1,0 +1,11 @@
+{
+    "searchByProduct": {
+        "withPrivateCustomer": { "id": 3082 },
+        "noPrivateCustomer": { "id": 3084},
+        "invalidProductId": { "id": -11},
+        "autoLive": { "id":  2386551}
+      },
+    "invalidVendorId": -13,
+    "invalidVendorOrgId": -11
+}
+  

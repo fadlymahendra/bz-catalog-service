@@ -1,0 +1,78 @@
+{
+    "getResponseValidSchema" : {
+        "type": "object",
+    "required": [
+      "data"
+    ],
+    "properties": {
+      "data": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": [
+            "id",
+            "name",
+            "level",
+            "base_margin",
+            "commission",
+            "unspsc",
+            "sequence",
+            "parent",
+            "breadcrumb",
+            "is_active"
+          ],
+          "properties": {
+            "id": {
+              "type": "number"
+            },
+            "name": {
+              "type": "string"
+            },
+            "level": {
+              "type": "string"
+            },
+            "base_margin": {
+              "type": [ "string", "null" ]
+            },
+            "commission": {
+              "type": [ "string", "null" ]
+            },
+            "unspsc": {
+              "type": "number"
+            },
+            "sequence": {
+              "type": "number"
+            },
+            "parent": {
+              "type": [ "object", "null" ],
+              "required": [],
+              "properties": {
+                "id": {
+                  "type": "number"
+                },
+                "name": {
+                  "type": "string"
+                }
+              }
+            },
+            "breadcrumb": {
+              "type": [ "string", "null" ]
+            },
+            "is_active": {
+              "type": "number"
+            },
+            "created_by": {
+              "type": [ "number", "null" ]
+            },
+            "created_at": {
+              "type": [ "string", "null" ]
+            },
+            "updated_at": {
+              "type": [ "string", "null" ]
+            }
+          }
+        }
+      }
+    }
+    }
+  }

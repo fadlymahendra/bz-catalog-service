@@ -1,0 +1,72 @@
+{
+  "validUpdateProductData": {
+    "product_group_id": null,
+    "type": "new",
+    "payload": {
+      "name": "Soft Case Macbook Miniso New Generation",
+      "category_id": 9036,
+      "category": {
+        "c0": 5,
+        "c1": 177,
+        "c2": 333,
+        "c3": 9036
+      },
+      "brand_id": 3315,
+      "brand_name": "MINIFLEX",
+      "brand_status": "clear",
+      "brand_image": "",
+      "uom_id": 7,
+      "stocking_uom_id": 4,
+      "quantity_stocking_uom": 2222,
+      "manufacturing_number": "NoManufaktur1",
+      "package_weight": "300",
+      "package_width": "37",
+      "package_height": "2.8",
+      "package_length": "57",
+      "description": "<p>Miniso Pelindung tas laptop 14 Inch</p><p>Busa tebal dengan resleting ganda yang akan memudahkan anda.</p>",
+      "package_content": "1 unit softcase Laptop",
+      "barcode": "noBarcode1",
+      "variant_count": 0,
+      "variant_matrix": [],
+      "specifications": [],
+      "specification_status": "clear",
+      "products": [
+        {
+          "index": "YNYHJA",
+          "variants": [],
+          "variant_value": "NO_VARIANT",
+          "sku_vendor": "SKUVEN1232",
+          "tier_min_qty_1": "1",
+          "tier_min_qty_2": "7",
+          "tier_min_qty_3": "",
+          "tier_cogs_price_1": "99000",
+          "tier_cogs_price_2": "79000",
+          "tier_cogs_price_3": "",
+          "stock": 2222,
+          "primary_image": "https://catalogproducts-staging.s3.ap-southeast-1.amazonaws.com/2018/09/product_1537176799.jpg",
+          "additional_image": [
+            "https://catalogproducts-staging.s3.ap-southeast-1.amazonaws.com/2018/09/product_1537176804.jpg",
+            "https://catalogproducts-staging.s3.ap-southeast-1.amazonaws.com/2018/09/product_1537176804.jpg",
+            "https://catalogproducts-staging.s3.ap-southeast-1.amazonaws.com/2018/09/product_1537176810.jpg"
+          ],
+          "warehouse_id": 24,
+          "location_label": "Jawa Barat",
+          "warranty_option": "no_warranty",
+          "warranty_period": "year",
+          "warranty_limit": 2020,
+          "warranty_coverage": "",
+          "is_indent": 0,
+          "indent_period": "",
+          "indent_limit": 0,
+          "variant_status": "complete",
+          "is_contract": 0
+        }
+      ]
+    }
+  },
+  "skuId": "UPD-Premod-1537177472465",
+  "skuIdUpdateSKUVen": "SKU4UPDATESKUVEN-1",
+  "skuIdSuccessUpdateSKUVen": "SKU4UPDATESKUVEN-2",
+  "invalidSku": 202020,
+  "updateWoUNSPSC": "SKU4VENUPDATEWOUNSPSC"
+}

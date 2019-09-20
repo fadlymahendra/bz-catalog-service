@@ -1,0 +1,51 @@
+{
+  "getResponseValidBulkUpdate": {
+    "headers": {
+      "type": "object",
+      "required": [
+        "no",
+        "vendor_id",
+        "product_name",
+        "brand",
+        "description",
+        "package_content",
+        "uom",
+        "stocking_uom",
+        "quantity_stocking_uom",
+        "package_weight",
+        "package_width",
+        "package_length",
+        "package_height",
+        "tier_min_qty_1",
+        "tier_cogs_price_1",
+        "warranty_type",
+        "warranty_period",
+        "warranty_limit"
+      ],
+      "properties": {
+        "no": "string",
+        "vendor_id": "string",
+        "product_name": "string",
+        "brand": "string",
+        "description": "string",
+        "package_content": "string",
+        "uom": "string",
+        "stocking_uom": "string",
+        "quantity_stocking_uom": "string",
+        "package_weight": "string",
+        "package_width": "string",
+        "package_length": "string",
+        "package_height": "string",
+        "tier_min_qty_1": "string",
+        "tier_cogs_price_1": "string",
+        "warranty_type": "string",
+        "warranty_period": "string",
+        "warranty_limit": "string"
+      },
+      "additionalProperties": false
+    },
+    "total_unprocess": "number",
+    "total_process": "number",
+    "message": "string"
+  }
+}

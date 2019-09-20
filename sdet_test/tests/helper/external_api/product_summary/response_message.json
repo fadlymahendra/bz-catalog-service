@@ -1,0 +1,28 @@
+{
+  "status":
+    {
+      "OK": "OK",
+      "NOT_OK": "NOT_OK"
+    },
+  "message":
+    {
+      "dataLevel": {
+        "UPDATE_SUCCESS": "UPDATE_SUCCESS",
+        "SKU_NOT_FOUND": "SKU_NOT_FOUND",
+        "EMPTY_PRODUCT_DATA": "EMPTY_PRODUCT_DATA",
+        "INVALID_STOCK": "INVALID_STOCK",
+        "INVALID_MIN_QTY": "INVALID_MIN_QTY",
+        "INVALID_TIER": "INVALID_TIER",
+        "INVALID_PRICE": "INVALID_PRICE",
+        "EMPTY_SKU": "EMPTY_SKU"
+      },
+      "httpLevel": {
+        "MISSING_PARAMETER": "MISSING_PARAMETER",
+        "INVALID_REQUEST_FORMAT": "INVALID_REQUEST_FORMAT",
+        "EXCESS_DATA_LIMIT": "EXCESS_DATA_LIMIT",
+        "MISSING_TOKEN": "MISSING_TOKEN",
+        "INVALID_TOKEN": "INVALID_TOKEN",
+        "INTERNAL_SERVER_ERROR": "INTERNAL_SERVER_ERROR"
+      }
+    }
+}

@@ -1,0 +1,81 @@
+{
+  "product_77094": {
+    "product_group_id": 85290,
+    "product_vendor_id": 77094,
+    "sku_vendor": "SKUOPENAPI1",
+    "sku": "E16JTQF7YX",
+    "manufacturing_number": "MPN7PK1781",
+    "data": {
+      "tier_min_qty_1": 2,
+      "tier_min_qty_2": 6,
+      "tier_min_qty_3": 10,
+      "tier_cogs_price_1": "10400001.00",
+      "tier_cogs_price_2": "10000001.00",
+      "tier_cogs_price_3": "9800001.00",
+      "stock_available": "5000.00",
+      "is_active": 1
+    }
+  },
+  "product_38518": {
+    "product_group_id": 85290,
+    "product_vendor_id": 38518,
+    "sku_vendor": "SKUOPENAPI2",
+    "sku": "JZ5DIB3VNT",
+    "manufacturing_number": "MPN7PK1781",
+    "data": {
+      "tier_min_qty_1": 2,
+      "tier_min_qty_2": 6,
+      "tier_min_qty_3": 10,
+      "tier_cogs_price_1": "10400001.00",
+      "tier_cogs_price_2": "10000001.00",
+      "tier_cogs_price_3": "9800001.00",
+      "stock_available": "5000.00",
+      "is_active": 1
+    }
+  },
+  "product_37749": {
+    "product_group_id": 47760,
+    "product_vendor_id": 37749,
+    "sku_vendor": "SKUOPENAPI6",
+    "sku": "CZ7NJ24AN9",
+    "manufacturing_number": "AI0001",
+    "data": {
+      "tier_min_qty_1": 2,
+      "tier_cogs_price_1": "26300.00",
+      "stock_available": "5000.00",
+      "is_active": 1
+    }
+  },
+  "product_37751": {
+    "product_group_id": 47764,
+    "product_vendor_id": 37751,
+    "sku_vendor": "SKUOPENAPI7",
+    "sku": "LC9RSDT58A",
+    "manufacturing_number": "AI0002",
+    "data": {
+      "tier_min_qty_1": 2,
+      "tier_min_qty_2": 6,
+      "tier_cogs_price_1": "10400001.00",
+      "tier_cogs_price_2": "10000001.00",
+      "stock_available": "5000.00",
+      "is_active": 1
+    }
+  },
+  "product_38005": {
+    "product_group_id": 48018,
+    "product_vendor_id": 38005,
+    "sku_vendor": "SKUOPENAPI8",
+    "sku": "AQEAQZGCJ6",
+    "manufacturing_number": "AI0003",
+    "data": {
+      "tier_min_qty_1": 2,
+      "tier_min_qty_2": 6,
+      "tier_min_qty_3": 11,
+      "tier_cogs_price_1": "963900.00",
+      "tier_cogs_price_2": "963800.00",
+      "tier_cogs_price_3": "963700.00",
+      "stock_available": "5000.00",
+      "is_active": 1
+    }
+  }
+}

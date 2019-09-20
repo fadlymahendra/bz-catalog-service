@@ -1,0 +1,35 @@
+{
+    "path": {
+        "id": "3",
+        "pid": "67"
+    },
+    "body": {
+        "products" :[
+            {
+                "id": 2,
+                "sku_vendor": "X152KT2GKF",
+                "tier_min_qty_1": "5",
+                "tier_min_qty_2": "10",
+                "tier_min_qty_3": "15",
+                "tier_cogs_price_1": "20000000",
+                "tier_cogs_price_2": "19500000",
+                "tier_cogs_price_3": "19000000",
+                "stock_available": 8,
+                "is_indent": 0,
+                "indent_period": "month",
+                "indent_limit": 1,
+                "is_decimal": 1,
+                "down_payment_type": 0,
+                "down_payment_value": 0,
+                "warranty_option": "official_warranty",
+                "warranty_period": "year",
+                "warranty_limit": 1,
+                "warranty_coverage": "Every iPhone comes with one year of hardware repair coverage through its limited warranty and up to 90 days of complimentary support.",
+                "reference_link": [],
+                "is_bulk": 0,
+                "is_private_sku": true,
+                "private_customers": [{"id":20}, {"id": 730}]
+            }
+        ]        
+    }
+}

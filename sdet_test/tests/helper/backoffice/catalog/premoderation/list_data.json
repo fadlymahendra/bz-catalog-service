@@ -1,0 +1,21 @@
+{
+  "vendorOrganizationId": 31,
+  "defaultQuery": {
+    "search": "",
+    "page": 1,
+    "limit": 20
+  },
+  "employeeAssigneeInfo": {
+    "id" : 73,
+    "email" : "fatkhurozaq.budi@bizzy.co.id",
+    "type" : "employee"
+  },
+  "premodStatus": {
+    "need_revision": "need_revision",
+    "revision_inprogress": "revision_inprogress",
+    "rejected": "rejected",
+    "revision_complete": "revision_complete"
+  },
+  "invalidAssigneeId": -73,
+  "invalidVendorId": -31
+}

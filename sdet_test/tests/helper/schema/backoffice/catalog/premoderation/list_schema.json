@@ -1,0 +1,78 @@
+{
+  "type": "object",
+  "required": [ "data" ],
+  "properties": {
+    "data": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [ "id", "name", "vendor_id", "status", "created_at", "updated_at" ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "product_group_id": {
+            "type": [ "string", "null" ]
+          },
+          "name": {
+            "type": "string"
+          },
+          "curations": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "vendor_id": {
+            "type": "number"
+          },
+          "assign_to": {
+            "type": [ "number", "null" ]
+          },
+          "status": {
+            "type": "string"
+          },
+          "total_history": {
+            "type": "number"
+          },
+          "created_at": {
+            "type": "string"
+          },
+          "updated_at": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "meta": {
+      "type": "object",
+      "required": [ "page", "limit", "total_data", "total_page" ],
+      "properties": {
+        "page": {
+          "type": "number"
+        },
+        "limit": {
+          "type": "number"
+        },
+        "total_data": {
+          "type": "number"
+        },
+        "total_page": {
+          "type": "number"
+        },
+        "total_need_revision": {
+          "type": "number"
+        },
+        "total_revision_complete": {
+          "type": "number"
+        },
+        "total_rejected": {
+          "type": "number"
+        },
+        "total_revision_inprogress": {
+          "type": "number"
+        }
+      }
+    }
+  }
+}

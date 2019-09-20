@@ -1,0 +1,66 @@
+{
+    "getResponseValidSchema" : {
+      "data" : {
+        "type" : "array",
+        "properties" : {
+            "categories" : {
+                "type" : "object",
+                "required" : ["C0"],
+                "properties" : {
+                    "C0" : {
+                        "type" : "object",
+                        "required" : ["id", "name", "unspsc"],
+                        "properties" : {
+                            "id" : "number",
+                            "name" : "string",
+                            "unspsc" : ["number", "null"]
+                        },
+                        "additionalProperties": false 
+                    }
+                
+                },
+                "additionalProperties": false 
+            },
+            "created_at" : "string",
+            "created_by" : "number",
+            "id" : "string",
+            "name" : "string",
+            "product_group_id" : ["number", "null"],
+            "rejected_at" : ["string", "null"],
+            "status" : "string",
+            "updated_at" : "string",
+            "variants" : "array"
+        },
+        "additionalProperties": false 
+    },
+      "meta" : {
+        "type" : "object",
+        "required" : ["page", "limit", "total_data", "total_page"],
+        "properties" : {
+            "brands" : {
+                "type" : "array",
+                "properties" : {
+                    "id" : "number",
+                    "name" : "string"
+                }
+            },
+            "categories0" : {
+                "type" : "array",
+                "properties" : {
+                    "id" : "number",
+                    "name" : "string"
+                }
+            },
+          "limit" : "string",
+          "page" : "string",
+          "total_data" : "number",
+          "total_need_revision" : "number",
+          "total_page" : "number",
+          "total_rejected" : "number",
+          "total_revision_complete" : "number",
+          "total_revision_inprogress" : "number"
+        },
+        "additionalProperties": false
+      }
+    }
+  }
